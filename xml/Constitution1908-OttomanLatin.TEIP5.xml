@@ -1,0 +1,1690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/TeiJaraid.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ota-Latn-x-ijmes">Ḳānūn-i Esāsī</title>
+            <title type="sub">Digital Edition</title>
+            <respStmt>
+               <resp>TEI version</resp>
+               <persName>Till Grallert</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>The digital text was downloaded from <ref target="http://anayasametinleri.blogspot.com/2010/09/1876-kanun-i-esasi-orijinal-metin_15.html">http://anayasametinleri.blogspot.com/2010/09/1876-kanun-i-esasi-orijinal-metin_15.html</ref>. The transcription produced by Yrd. Doç. <persName>Dr. Abdullah SEZER</persName> of <orgName><orgName>Marmara Üniversitesi</orgName> <orgName>Hukuk Fakültesi</orgName></orgName> - Anayasa Hukuku Öğretim Üyesi. </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:lang="ota-Latn-TR">
+      <body>
+         <div corresp="#law-ottoman-constitution-1876" type="bill" xml:lang="ota-Latn-TR">
+            <head>KANÛN-I ESÂSÎ</head>
+
+            <div n="1" type="section">
+               <head>MEMÂLİK-İ DEVLET-İ OSMANİYE</head>
+
+               <div n="1" type="article">
+                  <head>MADDE 1.</head>
+                  <p>Devlet-i Osmaniye, memâlik ve kıtaat-ı hâzırayı ve eyalât-ı mümtâzeyi muhtevi
+                     ve yek-vücud olmakla, hiçbir zamanda hiçbir sebeble tefrik kabûl etmez. </p>
+               </div>
+               <div n="2" type="article">
+                  <head>MADDE 2.</head>
+                  <p>Devlet-i Osmaniye’nin pây-ı tahtı İstanbul şehridir ve şehr-i mezkûrun, sair
+                     bilâd-ı Osmaniye’den ayrı olarak bir gûne imtiyaz ve muafiyeti yoktur. </p>
+               </div>
+               <div n="3" type="article">
+                  <head>MADDE 3.</head>
+                  <p>Saltanat-ı Seniye-i Osmaniye Hilâfet-i Kübrâ-yı İslâmiye’yi hâiz olarak
+                     Sülâle-i Âl-i Osman’dan usûl-i kadîmesi vechile ekber evlâda aittir. </p>
+               </div>
+               <div n="4" type="article">
+                  <head>MADDE 4.</head>
+                  <p>Zât-ı Hazret-i Pâdişâhî, hasbel-hilâfe Dîn-i İslâm’ın hâmisi ve bil-cümle
+                     tebaa-i Osmaniye’nin hükümdar ve pâdişâhıdır. </p>
+               </div>
+               <div n="5" type="article">
+                  <head>MADDE 5.</head>
+                  <p>Zât-ı Hazret-i Pâdişâhî’nin nefs-i hümâyûnu, mukaddes ve gayr-i mes’ûldür. </p>
+               </div>
+               <div n="6" type="article">
+                  <head>MADDE 6.</head>
+                  <p>Sülâle-i Âl-i Osman’ın hukuk-ı hürriye ve emval ve emlâk-i zâtiye ve
+                     madâmel-hayat tahsisât-ı mâliyeleri, tekâfül-i umûmî tahtındadır. </p>
+               </div>
+               <div n="7" type="article">
+                  <head>MADDE 7.</head>
+                  <p>Vükelânın azil ve nasbı ve rütbe ve menasıp tevcihi ve nişân itâsı ve eyalât-ı
+                     mümtâzenin şerait-i imtiyaziyelerine tevfikan icrâ-yı tevcihâtı ve meskûkat
+                     darbı ve hutbelerde nâmının zikri ve düvel-i ecnebiyye ile muahedat akdi ve
+                     harb ve sulh ilânı ve kuvve-i berriyye ve bahriyyenin kumandası ve harekât-ı
+                     askeriyye ve ahkâm-ı şer’iyye ve kanûniyenin icrâsı ve devâir-i idârenin
+                     muamelâtına müteallik nizâmnâmelerin tanzîmi ve mücazaât-ı kanûniyenin tahfifi
+                     veya affı ve Meclis-i Umûmî’nin akd ve tatili ve lede-l-iktiza Hey’et-i
+                     Meb’ûsân’ın âzâsı yeniden intihâb olunmak şartile feshi, hukuk-ı mukaddese-i
+                     Pâdişâhî cümlesindendir. </p>
+               </div>
+            </div>
+            <div type="section" n="2">
+               <head>TEBAA-İ DEVLET-İ OSMANİYE’NİN HUKUK-I UMÛMÎYESİ</head>
+            <div n="8" type="article">
+               <head>MADDE 8.</head>
+               <p>Devlet-i Osmaniye tâbiiyyetinde bulunan efradın cümlesine her hangi din ve
+                  mezhepten olur ise olsun bilâ-istisna Osmanlı tâbir olunur ve Osmanlı sıfatı
+                  kanûnen muayyen olan ahvale göre istihsal ve izae edilir. </p>
+            </div>
+            <div n="9" type="article">
+               <head>MADDE 9.</head>
+               <p>Osmanlıların kâffesi, hürriyet-i şahsiyelerine mâlik ve aharın hukuk-ı hürriyetine
+                  tecavüz etmemekle mükelleftir. </p>
+            </div>
+            <div n="10" type="article">
+               <head>MADDE 10.</head>
+               <p>Hürriyet-i şahsiye her türlü taarruzdan masûndur. Hiç kimse kanûnun tâyin ettiği
+                  sebeb ve sûretten maada bir bahane ile mücazaât olunamaz. </p>
+            </div>
+            <div n="11" type="article">
+               <head>MADDE 11.</head>
+               <p>Devlet-i Osmaniye’nin dîni, Dîn-i İslâm’dır. Bu esası vikâye ile beraber, asayiş-i
+                  halkı ve âdâb-ı umûmîyeyi ihlâl etmemek şartile memâlik-i Osmaniye’de marûf olan
+                  bil-cümle edyânın serbesti-i icrâsı ve cemaat-ı muhtelifeye verilmiş olan
+                  imtiyazât-ı mezhebiyenin kemâkân cereyanı, Devlet’in taht-ı himayetindedir. </p>
+            </div>
+            <div n="12" type="article">
+               <head>MADDE 12.</head>
+               <p>Matbuat kanûn dairesinde serbesttir. </p>
+            </div>
+            <div n="13" type="article">
+               <head>MADDE 13.</head>
+               <p>Tebaa-i Osmaniye nizâm ve kanûn dairesinde ticaret ve san’at ve felâhat için her
+                  nev’i şirketler teşkiline mezûndur. </p>
+            </div>
+            <div n="14" type="article">
+               <head>MADDE 14.</head>
+               <p>Tebaa-i Osmaniye’den bir veya bir kaç kişinin gerek şahıslarına ve gerek umûma
+                  müteallik olan kavânîn ve nizâmâta muhalif gördükleri bir maddeden dolayı işin
+                  merciine arzuhal verdikleri gibi Meclis-i Umûmî’ye dahi müddeî sıfatile imzalı
+                  arzuhal vermeğe ve memurînin ef’âlinden iştikâya salâhiyetleri vardır. </p>
+            </div>
+            <div n="15" type="article">
+               <head>MADDE 15.</head>
+               <p>Emr-i tedris serbesttir. Muayyen olan kanûna tebaiyet şartile her Osmanlı umûmî ve
+                  husûsî tedrise mezûndur. </p>
+            </div>
+            <div n="16" type="article">
+               <head>MADDE 16.</head>
+               <p>Bil-cümle mektepler Devlet’in taht-ı nezaretindedir. Tebaa-i Osmaniye’nin
+                  terbiyesi bir siyak-ı ittihâd ve intizâm üzere olmak için iktiza eden esbâba
+                  teşebbüs olunacak ve milel-i muhtelifenin umûr-ı itikadiyelerine müteallik olan
+                  usûl-i talimiyeye halel getirilmeyecektir. </p>
+            </div>
+            <div n="17" type="article">
+               <head>MADDE 17.</head>
+               <p>Osmanlıların kâffesi huzur-ı kanûnda ve ahval-i dîniye ve mezhebiyeden maada
+                  memleketin hukuk ve vazaifinde mütesâvidir. </p>
+            </div>
+            <div n="18" type="article">
+               <head>MADDE 18.</head>
+               <p>Tebaa-i Osmaniye’nin hidemât-ı Devlette istihdam olunmak için Devlet’in lisan-ı
+                  resmîsi olan Türkçe’yi bilmeleri şarttır. </p>
+            </div>
+            <div n="19" type="article">
+               <head>MADDE 19.</head>
+               <p>Devlet memuriyetinde umûm tebaa ehliyet ve kabiliyetlerine göre münasip olan
+                  memuriyetlere kabûl olunurlar. </p>
+            </div>
+            <div n="20" type="article">
+               <head>MADDE 20.</head>
+               <p>Tekâlif-i mukarrere nizâmât-ı mahsûsasına tevfikan kâffe-i tebaa beyninde herkesin
+                  kudreti nisbetince tarh ve tevzi olunur. </p>
+            </div>
+            <div n="21" type="article">
+               <head>MADDE 21.</head>
+               <p>Herkes usûlen mutasarrıf olduğu mal ve mülkten emindir. Menafi-i umûmîye için
+                  lüzumu sabit olmadıkça ve kanûnu mûcibince değer bahası peşin verilmedikçe
+                  kimsenin tasarrufunda olan mülk alınamaz. </p>
+            </div>
+            <div n="22" type="article">
+               <head>MADDE 22.</head>
+               <p>Memalik-i Osmaniye’de herkesin mesken ve menzili taarruzdan masûndur. Kanûnun
+                  tâyin eylediği ahvalden maada bir sebeble Hükûmet tarafından cebren hiç kimsenin
+                  mesken ve menziline girilemez. </p>
+            </div>
+            <div n="23" type="article">
+               <head>MADDE 23.</head>
+               <p>Yapılacak Usûl-i Muhakeme Kanûnu hükmünce hiç kimse kanûnen mensup olduğu
+                  mahkemeden başka bir mahkemeye gitmeye icbar olunamaz. </p>
+            </div>
+            <div n="24" type="article">
+               <head>MADDE 24.</head>
+               <p>Müsadere ve angarya ve cerîme memnûdur. Fakat muharebe esnasında usûlen tâyin
+                  olunacak tekâlif ve ahval bundan müstesnadır. </p>
+            </div>
+            <div n="25" type="article">
+               <head>MADDE 25.</head>
+               <p>Bir kanûna müstenit olmadıkça vergi ve rüsumât nâmı ile ve nâm-ı aharla hiç
+                  kimseden bir akçe alınamaz. </p>
+            </div>
+            <div n="26" type="article">
+               <head>MADDE 26.</head>
+               <p>İşkence ve sair her nev’i eziyet kat’iyyen ve külliyyen memnûdur.
+               </p>
+            </div>
+            </div>
+            <div type="section" n="3">
+               <head>VÜKELÂ-YI DEVLET</head>
+            <div n="27" type="article">
+               <head>MADDE 27.</head>
+               <p>Mesned-i Sadâret ve Meşihât-ı İslâmiye Taraf-ı Pâdişâhî’den emniyet buyurulan
+                  zâtlara ihale buyurulduğu missillû sair vükelânın memuriyetleri dahi bâ-irade-i
+                  Şâhâne icrâ olunur. </p>
+            </div>
+            <div n="28" type="article">
+               <head>MADDE 28.</head>
+               <p>Meclis-i Vükelâ Sadr-ı A’zam’ın riyaseti tahtında olarak akdolunup dahilî ve
+                  haricî umûr-ı mühimmenin merciidir. Müzakerâtından mühtac-ı istîzan olanların
+                  kararları irade-i seniye ile icrâ olunur. </p>
+            </div>
+            <div n="29" type="article">
+               <head>MADDE 29.</head>
+               <p>Vükelâdan herbiri dairesine ait olan umûrdan, icrâsı mezûniyeti tahtında
+                  bulunanları usûlüne tevfikan icrâ ve icrâsı mezûniyeti tahtında olmayanları Sadr-ı
+                  A’zam’a arzeder. Sadr-ı A’zam dahi o makûle mevâddan müzakereye muhtaç
+                  olmayanların muktezasını icrâ veyahut Taraf-ı Hazret-i Pâdişâhî’den istîzan ederek
+                  ve muhtac-ı müzakere bulunanları Meclis-i Vükelâ’nın müzakeresine arzeyleyerek
+                  müteallik buyurulacak irade-i seniye mûcibince iktizasını ifa eyler. Bu mesalihin
+                  envağ ve derecâtı nizâm-ı mahsûs ile tâyin olunacaktır. </p>
+            </div>
+            <div n="30" type="article">
+               <head>MADDE 30.</head>
+               <p>Vükelâ-yı Devlet memuriyetlerine müteallik ahval ve icrââttan mes’ûldür. </p>
+            </div>
+            <div n="31" type="article">
+               <head>MADDE 31.</head>
+               <p>Meb’ûsân âzâsından biri veyahut birkaçı Hey’et-i Meb’ûsân’ın dâhil-i dâire-i
+                  vazifesi olan ahvaldan dolayı Vükelâ-yı Devlet’ten bir zât hakkında mes’ûliyeti
+                  mûcip şikâyet beyan ettiği halde evvelâ Hey’et-i Meb’ûsân’ın nizâm-ı dahilîsi
+                  mûcibince bu misillû mevâddın Hey’et’e havalesi lâzım gelip gelmeyeceğini
+                  müzakereye memur olan şubede tetkik olunmak üzere şikâyeti müş’ir Hey’et-i
+                  Meb’ûsân Reîsi’ne verilecek takrir, Reîs tarafından nihayet üç gün zarfında o
+                  şubeye gönderilir ve bu şube tarafından tahkikat-ı lâzime icrâ ve iştikâ olunan
+                  zât tarafından izahât-ı kâfiye istihsal olunduktan sonra şikâyetin şayan-ı
+                  müzakere olduğuna dair ekseriyetle terkip olunacak kararnâme Hey’et-i Meb’ûsân’da
+                  kırâat olunarak ve lede-l-iktiza şikâyet olunan zât da’vetle bizzat veya
+                  bi-l-vasıta vereceği izahât istima’ kılınarak âzâ-yı mevcûdedin sülüsân-ı
+                  ekseriyeti mutlakasile kabûl olunur ise muhakeme talebini müş’ir mazbatası Makam-ı
+                  Sadâret’e takdim ile lede-l-arz müteallik olacak irade-i seniye üzerine keyfiyet
+                  Dîvân-ı Âlî’ye havale olunur. </p>
+            </div>
+            <div n="32" type="article">
+               <head>MADDE 32.</head>
+               <p>Vükelâ’dan itham olunanların usûl-i muhakemeleri, kanûn-ı mahsûs ile tâyin
+                  edilecektir. </p>
+            </div>
+            <div n="33" type="article">
+               <head>MADDE 33.</head>
+               <p>Memuriyetlerinden hariç ve sırf zâtlarına ait her nev’i deâvîde vükelânın sair
+                  efrad-ı Osmaniye’den aslâ farkı yoktur. Bu misillû husûsâtın muhakemesi ait olduğu
+                  mehâkim-i umûmîyede icrâ olunur. </p>
+            </div>
+            <div n="34" type="article">
+               <head>MADDE 34.</head>
+               <p>Dîvân-ı Âlî’nin Dâire-i İtham’ı tarafından müttehem olduğuna karar verilen Vükelâ
+                  tebriye-i zimmet edinceye kadar vekâletten sâkıt olur. </p>
+            </div>
+            <div n="35" type="article">
+               <head>MADDE 35.</head>
+               <p>Vükelâ ile Hey’et-i Meb’ûsân arasında ihtilâf olunan maddelerden birinin kabûlünde
+                  Vükelâ tarafından israr olunup da Meb’ûsân cânibinden ekseriyet-i ârâ ile tafsilen
+                  esbâb-ı mûcibe beyanile kat’iyyen ve mükerreren reddedildiği halde Vükelâ’nın
+                  tebdîli veyahut müceddeden müddet-i kanûniyesinde intihâb olunmak üzere Hey’et-i
+                  Meb’ûsân’ın feshi münhasıran yed-i iktidar-ı Hazret-i Pâdişâhî’dedir. </p>
+            </div>
+            <div n="36" type="article">
+               <head>MADDE 36.</head>
+               <p>Meclis-i Umûmî mün’akid olmadığı zamanlarda Devlet’i bir muhataradan veyahut
+                  emniyet-i umûmîyeyi halelden vikâye için bir zaruret-i mübreme zuhur ettiği ve bu
+                  bâbda vaz’ına lüzûm görülecek kanûnun müzakeresi için Meclis’in celp ve cem’ine
+                  vakit müsait olmadığı halde Kanûn-ı Esâsî ahkâmına mugayir olmamak üzere Hey’et-i
+                  Vükelâ tarafından verilen kararlar, Hey’et-i Meb’ûsân’ın içtimaile verilecek
+                  karara kadar bâ-irade-i seniye, muvakkaten kanûn hüküm ve kuvvetindedir. </p>
+            </div>
+            <div n="37" type="article">
+               <head>MADDE 37.</head>
+               <p>Vükelâdan her biri her ne zaman murad eder ise, Hey’et’lerin ikisinde dahi
+                  bulunmak veyahut maiyetindeki rüesa-yı memurînden birini tarafından vekâleten
+                  bulundurmak ve irad-ı nutukta âzâya takaddüm etmek hakkını hâizdir. </p>
+            </div>
+            <div n="38" type="article">
+               <head>MADDE 38.</head>
+               <p>İstîzah-ı madde için Vükelâdan birinin huzuruna Meclis-i Meb’ûsân’da ekseriyetle
+                  karar verilerek da’vet olundukta ya bizzat bulunarak veyahut maiyetindeki rüesa-yı
+                  memurînden birini göndererek irad olunacak suallere cevap verecek veyahut lüzum
+                  görür ise mes’ûliyetini üzerine alarak cevabını tehir etmek salâhiyetini hâiz
+                  olacaktır. </p>
+            </div>
+            </div>
+            <div type="section" n="4">
+               <head>MEMURÎN</head>
+            <div n="39" type="article">
+               <head>MADDE 39.</head>
+               <p>Bil-cümle memurîn nizâmen tâyin olunacak şerait üzere ehil ve müstahak oldukları
+                  memuriyetlere intihâb olunacaktır ve bu vechile intihâb olunan memurlar kanûnen
+                  mûcib-i azil hareketi tahakkuk etmedikçe veya kendisi istifa eylemedikçe veyahut
+                  Devlet’çe bir sebeb-i zarûrî görülmedikçe azl ve tebdîl olunamaz ve hüsn-i hareket
+                  ve istikamet eshabından olanlar ve Devlet’çe bir sebeb-i zarûrîye mebni infisal
+                  edenler nizâm-ı mahsûsunda tâyin olunacağı vechile terakkiyata ve tekaüt ve
+                  mazuliyet maaşlarına nâil olacaklardır. </p>
+            </div>
+            <div n="40" type="article">
+               <head>MADDE 40.</head>
+               <p>Her memuriyetin vezayifi nizâm-ı mahsûs ile tâyin olunacağından her memur kendi
+                  vazifesi dairesinde mes’ûldür. </p>
+            </div>
+            <div n="41" type="article">
+               <head>MADDE 41.</head>
+               <p>Memurun âmirine hürmet ve riayeti lâzimeden ise de itaati kanûnun tâyin ettiği
+                  daireye mahsûstur. Hilâf-ı kanûn olan umûrda âmire itaat mes’ûliyetten kurtulmağa
+                  medâr olamaz. </p>
+            </div>
+            </div>
+            <div type="section" n="5">
+               <head>MECLİS-İ UMÛMÎ</head>
+            <div n="42" type="article">
+               <head>MADDE 42.</head>
+               <p>Meclis-i Umûmî Hey’et-i Â’yân ve Hey’et-i Meb’ûsân nâmlarile başka başka iki
+                  hey’eti muhtevidir. </p>
+            </div>
+            <div n="43" type="article">
+               <head>MADDE 43.</head>
+               <p>Meclis-i Umûmî’nin iki hey’eti beher sene Teşrin-i sânî iptidâsında tecemmu eder
+                  ve bâ-irade-i seniye açılır ve mart iptidâsında yine bâ-irade-i seniye kapanır ve
+                  bu hey’etlerden biri diğerinin müçtemi bulunmadığı zamanda mün’akid olamaz. </p>
+            </div>
+            <div n="44" type="article">
+               <head>MADDE 44.</head>
+               <p>Zât-ı Hazret-i Pâdişâhî, Devlet’çe görülecek lüzum üzerine Meclis-i Umûmî’yi
+                  vaktinden evvel dahi açar ve müddet-i muayyene-i içtimaını da tenkis veya temdit
+                  eder. </p>
+            </div>
+            <div n="45" type="article">
+               <head>MADDE 45.</head>
+               <p>Meclis-i Umûmî’nin yevm-i küşadında Zât-ı Hazret-i Pâdişâhî veyahut taraflarından
+                  bi-l-vekâle Sadr-ı A’zam hazır olduğu ve Vükelâ-yı Devlet’le iki hey’etin âzâ-yı
+                  mevcûdesi birlikte bulundukları halde resmî küşad icrâ olunup sene-i câriye
+                  zarfında Devlet’in ahval-i dahiliye ve münasebât-ı hariciyesine ve sene-i âtiyyede
+                  ittihazına lüzum görülecek tedabir ve teşebbüsâta dair bir nutk-ı hümâyûn kırâat
+                  olunur. </p>
+            </div>
+            <div n="46" type="article">
+               <head>MADDE 46.</head>
+               <p>Meclis-i Umûmî âzâlığına intihâb veya nasbolunan zevât Meclis’in yevm-i küşadında
+                  Sadr-ı A’zam huzurunda ve o gün hazır bulunmayan olur ise mensup olduğu Hey’et
+                  müçtemi olduğu halde Reîsleri huzurunda Zât-ı Hazret-i Pâdişâhî’ye ve vatanına
+                  sadakat ve Kanûn-ı Esâsî ahkâmına ve uhdesine tevdi olunan vazifeye riayetle
+                  hilâfından mücanebet eyleyeceğine tahlif edilür. </p>
+            </div>
+            <div n="47" type="article">
+               <head>MADDE 47.</head>
+               <p>Meclis-i Umûmî âzâsı rey ve mütalâa beyanında muhtar olarak bunlardan hiçbiri bir
+                  gûna va’d-u vaîd ve talimat kaydı altında bulunamaz ve gerek verdiği reylerden ve
+                  gerek Meclis’in müzakerâtı esnasında beyan ettiği mütalâalardan dolayı bir vechile
+                  itham olunamaz; meğer ki Meclis’in Nizâmnâme-i Dahilî’si hilâfında hareket etmiş
+                  ola. Bu takdirde nizâmnâme-i mezkûr hükmünce muamele görür. </p>
+            </div>
+            <div n="48" type="article">
+               <head>MADDE 48.</head>
+               <p>Meclis-i Umûmî âzâsından birinin hıyanet ve Kanûn-ı Esâsî’yi nakz ve ilgaya
+                  tasaddi ve irtikâp töhmetlerinden biri ile müttehem olduğuna mensub olduğu Hey’et
+                  âzâ-yı mevcûdesinin sülüsân-ı ekseriyet-i mutlakasile karar verilir veyahut
+                  kanûnen hapis ve nefyi mûcib bir ceza ile mahkûm olur ise âzâlık sıfatı zâil olur
+                  ve bu ef’âlin muhakemesile mücazaâtı ait olduğu mahkeme tarafından rü’yet ve
+                  hükmolunur. </p>
+            </div>
+            <div n="49" type="article">
+               <head>MADDE 49.</head>
+               <p>Meclis-i Umûmî âzâsından herbiri reyini bizzat itâ eder ve herbirinin müzakerede
+                  bulunan bir maddenin red ve kabûlüne dair rey vermekten içtinaba hakkı vardır.
+               </p>
+            </div>
+            <div n="50" type="article">
+               <head>MADDE 50.</head>
+               <p>Bir kimse zikrolunan iki Hey’et’in ikisine birden âzâ olamaz. </p>
+            </div>
+            <div n="51" type="article">
+               <head>MADDE 51.</head>
+               <p>Meclis-i Umûmî Hey’etlerinden ikisinde dahi mürettep olan âzânın nısfından bir
+                  ziyade hazır bulunmadıkça müzakereye mubaderet olunamaz ve kâffe-i müzakerât
+                  sülüsân-ı ekseriyetile meşrut olmayan husûsâtta hazır bulunan âzânın ekseriyet-i
+                  mutlakasile karargîr olur ve tesavi-i ârâ vukuunda Reîs’in reyi iki addedilir.
+               </p>
+            </div>
+            <div n="52" type="article">
+               <head>MADDE 52.</head>
+               <p>Bir kimse şahsına müteallik da’vâsından dolayı Meclis-i Umûmî’nin iki Hey’etinden
+                  birine arzuhal verdiği halde eğer evvelâ ait olduğu memurîn-i Devlete veyahut o
+                  memurların tâbi bulundukları mercie müracaat etmediği tebeyyün ederse arzuhali
+                  reddolunur. </p>
+            </div>
+            <div n="53" type="article">
+               <head>MADDE 53.</head>
+               <p>Müceddeden kanûn tanzîmi veya kavânîn-i mevcûdeden birinin ta’dîli teklifi
+                  Hey’et-i Vükelâ’ya ait olduğu gibi, Hey’et-i Â’yân ve Hey’et-i Meb’ûsân’ın dahi
+                  kendi vazife-i muayyeneleri dairesinde bulunan mevâd için kanûn tanzîmini veyahut
+                  kavânîn-i mevcûdeden birinin ta’dîlini istidaya salâhiyetleri olmağla evvelce
+                  Makam-ı Sadâret vasıtası ile Taraf-ı Şâhâne’den istîzan olunarak irade-i seniye
+                  müteallik buyurulur ise ait olduğu dairelerden verilecek izahât ve tafsilât
+                  üzerine lâyıhalarının tanzîmi Şûrâ-yı Devlet’e havale olunur. </p>
+            </div>
+            <div n="54" type="article">
+               <head>MADDE 54.</head>
+               <p>Şûrâ-yı Devlet’te bi-l-müzakere tanzîm olunacak kavânîn lâyıhaları Hey’et-i
+                  Meb’ûsân’da ba’dehû Hey’et-i Â’yân’da tetkik ve kabûl olunduktan sonra icrâ-yı
+                  ahkâmına irade-i seniye-i Hazret-i Pâdişâhî müteallik buyurulur ise düstûr-ül-amel
+                  olur ve işbu hey’etlerin birinde kat’iyyen reddolunan kanûn lâyıhası o senenin
+                  müddet-i içtimaiyesinde tekrar mevki-i müzakereye konulamaz. </p>
+            </div>
+            <div n="55" type="article">
+               <head>MADDE 55.</head>
+               <p>Bir kanûn lâyıhası evvelâ Hey’et-i Meb’ûsân’da ba’dehû Hey’et-i Â’yân’da bend bend
+                  okunup ve her bendine rey verilüp ekseriyet-i ârâ ile karar verilmedikçe ve
+                  ba’de-l-karar hey’et-i mecmuası için dahi be-tekrar ekseriyetle karar hâsıl
+                  olmadıkça kabûl olunmuş olmaz. </p>
+            </div>
+            <div n="56" type="article">
+               <head>MADDE 56.</head>
+               <p>Bu Hey’etler Vükelâ’dan veya onların göndereceği vekillerden veya kendi
+                  âzâlarından olmayan veyahut resmen da’vet olunmuş memurînden bulunmayan hiç
+                  kimseyi gerek asaleten ve gerek bir cemaat tarafından vekâleten bir madde ifadesi
+                  için gelmiş olduğu halde aslâ kabûl edemez ve ifadelerini istima’ eyleyemez. </p>
+            </div>
+            <div n="57" type="article">
+               <head>MADDE 57.</head>
+               <p>Hey’et’lerin müzakerâtı lisan-ı Türkî üzere cereyan eder ve müzakere olunacak
+                  lâyıhaların sûretleri tab’ ile yevm-i müzakereden evvel âzâya tevzi olunur. </p>
+            </div>
+            <div n="58" type="article">
+               <head>MADDE 58.</head>
+               <p>Hey’et’lerde verilecek reyler ya tâyin-i esamî veyahut işarât-ı mahsûsa veyahut
+                  rey-i hafî ile olur. Rey-i hafî usûlünün icrâsı âzâ-yı mevcûdenin ekseriyet-i
+                  ârâsı ile karar verilmeğe mütevakkıftır. </p>
+            </div>
+            <div n="59" type="article">
+               <head>MADDE 59.</head>
+               <p>Her Hey’et’in inzibât-ı dahilîsini münhasıran kendi Reîsi icrâ eder. </p>
+            </div>
+            </div>
+            <div type="section" n="6">
+               <head>HEY’ET-İ Â’YÂN</head>
+            <div n="60" type="article">
+               <head>MADDE 60.</head>
+               <p>Hey’et-i Â’yân’ın Reîsi ve âzâsı nihayet mikdarı Hey’et-i Meb’ûsân âzâsının sülüsî
+                  mikdarını tecavüz etmemek üzere doğrudan doğruya Taraf-ı Hazret-i Pâdişâhî’den
+                  nasbolunur. </p>
+            </div>
+            <div n="61" type="article">
+               <head>MADDE 61.</head>
+               <p>Hey’et-i Â’yân’a âzâ tâyin olunabilmek için âsâr ve ef’âli umûmun vüsûk ve
+                  itimadına şayan ve umûr-ı Devlet’te hidemât-ı memdûhesi mesbûk ve mütearif
+                  zevâttan olmak ve kırk yaşından aşağı bulunmamak lâzımdır. </p>
+            </div>
+            <div n="62" type="article">
+               <head>MADDE 62.</head>
+               <p>Hey’et-i Â’yân âzâlığı kayd-ı hayat iledir. Bu memuriyetlere vükelâlık ve valilik
+                  ve ordu müşîrliği ve kadı-askerlik ve elçilik ve patriklik ve hahambaşılık
+                  memuriyetinde bulunmuş olan mazulînden ve berrî ve bahrî ferikândan ve sıfat-ı
+                  lâzimeyi cami’ sair zevâttan münasipleri tâyin olunur. Kendü taleplerile Devlet’çe
+                  sair memuriyete tâyin olunanlar âzâlık memuriyetinden sâkıt olur. </p>
+            </div>
+            <div n="63" type="article">
+               <head>MADDE 63.</head>
+               <p>Hey’et-i Â’yân’ın âzâlık maaşı şehriye on bin kuruştur. Başka bir nâm ile
+                  Hazine’den muvazzaf olan âzânın maaş ve tâyini eğer on bin kuruştan dûn ise ol
+                  mikdara iblâğ olunur ve eğer on bin kuruş veya ziyade ise ibka olunur. </p>
+            </div>
+            <div n="64" type="article">
+               <head>MADDE 64.</head>
+               <p>Hey’et-i Â’yân Hey’et-i Meb’ûsân’dan verilen kavânîn ve muvazene lâyıhalarını
+                  tetkik ile eğer bunlarda esasen umûr-ı dinîyeye ve Zât-ı Hazret-i Pâdişâhî’nin
+                  hukuk-ı seniyesine ve hürriyete ve Kanûn-ı Esâsî ahkâmına ve Devlet’in tamamiyet-i
+                  mülkiyesine ve memleketin emniyet-i dahiliyesine ve vatanın esbâb-ı müdafaa ve
+                  muhafazasına ve âdâb-ı umûmîyeye halel verir bir şey görür ise mütalâasının
+                  ilâvesile ya kat’iyyen red veyahut ta’dîl ve tashih olunmak üzere Hey’et-i
+                  Meb’ûsân’a iade eder ve kabûl ettiği lâyıhaları tasdik ile Makam-ı Sadâret’e
+                  arzeyler ve Hey’et’e takdim olunan arzuhalları bittetkik lüzum görür ise ilâve-i
+                  mütalâa ile beraber Makam-ı Sadâret’e takdim eder.  </p>
+            </div>
+            </div>
+            <div type="section" n="7">
+               <head>HEY’ET-İ MEB’ÛSÂN</head>
+            <div n="65" type="article">
+               <head>MADDE 65.</head>
+               <p>Hey’et-i Meb’ûsân’ın mikdar-ı âzâsı tebaa-i Osmaniye’den her elli bin nüfus-ı
+                  zükûrda bir nefer olmak itibariyle tertip olunur. </p>
+            </div>
+            <div n="66" type="article">
+               <head>MADDE 66.</head>
+               <p>Emr-i intihâb rey-i hafî kaidesi üzerine müessestir. Sûret-i icrâsı Kanûn-ı mahsûs
+                  ile tâyin olunacaktır. </p>
+            </div>
+            <div n="67" type="article">
+               <head>MADDE 67.</head>
+               <p>Hey’et-i Meb’ûsân âzâlığı ile Hükûmet memuriyeti bir zât uhdesinde içtima’ edemez.
+                  Fakat Vükelâ’dan intihâb olunanların âzâlığı mücazdır ve sair memurînden biri
+                  meb’ûsluğa intihâb olunur ise kabûl edip etmemek yed-i ihtiyarındadır. Fakat kabûl
+                  ettiği halde memuriyetinden infisal eder. </p>
+            </div>
+            <div n="68" type="article">
+               <head>MADDE 68.</head>
+               <p>Hey’et-i Meb’ûsân için âzâlığa intihâbı câiz olmayanlar şunlardır: Evvelâ, tebaa-i
+                  Devlet-i Âliye’den olmayan; sâniyen, nizâm-ı mahsûsu mûcibince muvakkaten hizmet-i
+                  ecnebiye imtiyazını hâiz olan; salisen, Türkçe bilmeyen; râbian, otuz yaşını ikmal
+                  etmeyen; hâmisen, hîn-i intihâbda bir kimsenin hizmetkârlığında bulunan; sâdisen,
+                  iflâs ile mahkûm olup da iade-i itibar etmemiş olan; sâbian, sû-i ahvâl ile
+                  müştehir olan; sâminen, mahcûriyetine hüküm lâhik olup da fekk-i hacir edilmeyen;
+                  tâsian, hukuk-ı medeniyeden sâkıt olmuş olan; âşiren, tâbiiyet-i ecnebiye
+                  iddiasında bulunan kimselerdir. Bunlar meb’ûs olamaz. Dört seneden sonra icrâ
+                  olunacak iltihaplarda meb’ûs olmak için Türkçe okumak ve mümkün mertebe yazmak
+                  dahi şart olacaktır. </p>
+            </div>
+            <div n="69" type="article">
+               <head>MADDE 69.</head>
+               <p>Meb’ûsân intihâb-ı umûmîsi dört senede bir kerre icrâ olunur ve her meb’ûsun
+                  müddet-i memuriyeti dört seneden ibaret olup fakat tekrar intihâb olunmak câizdir.
+               </p>
+            </div>
+            <div n="70" type="article">
+               <head>MADDE 70.</head>
+               <p>Meb’ûsların intihâb-ı umûmîsine Hey’et’in mebde-i içtimaı olan Teşrin-i sânîden
+                  lâ-akall dört mah mukaddem başlanılır. </p>
+            </div>
+            <div n="71" type="article">
+               <head>MADDE 71.</head>
+               <p>Hey’et-i Meb’ûsân âzâsının her biri kendini intihâb eden dairenin ayrıca vekili
+                  olmayıp umûm Osmanlı’ların vekili hükmündedir. </p>
+            </div>
+            <div n="72" type="article">
+               <head>MADDE 72.</head>
+               <p>Müntehibler intihâb edecekleri meb’ûsları mensup oldukları dâire-i vilâyet
+                  ahalisinden intihâb etmeğe mecbûrdur. </p>
+            </div>
+            <div n="73" type="article">
+               <head>MADDE 73.</head>
+               <p>Bâ-irade-i seniye Hey’et-i Meb’ûsân feshile dağıldığı halde nihayet altı ayda
+                  müçtemi olmak üzere umûm meb’ûsânın müceddeden intihâbına başlanılacaktır.
+               </p>
+            </div>
+            <div n="74" type="article">
+               <head>MADDE 74.</head>
+               <p>Hey’et-i Meb’ûsân âzâsından biri vefat eder veya esbâb-ı hacriye-i meşrûadan
+                  birine dûçar olur veya bir uzun müddette Meclis’e devam etmez veyahut istifa eder
+                  veya mahkûmiyet veya kabûl-i memuriyet cihetile âzâlıktan sâkıt olursa yerine
+                  nihayet gelecek içtimaa yetişmek üzere usûlü vechile diğeri tâyin olunur. </p>
+            </div>
+            <div n="75" type="article">
+               <head>MADDE 75.</head>
+               <p>Münhal olan meb’ûsluk makamlarına intihâb olunacak âzânın memuriyeti gelecek
+                  intihâb-ı umûmî zamanına kadardır. </p>
+            </div>
+            <div n="76" type="article">
+               <head>MADDE 76.</head>
+               <p>Meb’ûslardan her birine beher sene içtimaı için Hazine’den yirmi bin kuruş
+                  verilecek ve şehriye beş bin kuruş maaş itibarile memurin-i mülkiye nizâmına
+                  tevfikan azimet ve avdet harcırahı itâ kılınacaktır. </p>
+            </div>
+            <div n="77" type="article">
+               <head>MADDE 77.</head>
+               <p>Hey’et-i Meb’ûsân Riyaseti’ne Hey’et tarafından ekseriyetle üç ve ikinci ve üçüncü
+                  riyasetlere üçer nefer ki cem’an dokuz zât intihâb olunarak Huzur-ı Şâhâne’ye
+                  arzile bunlardan birisi riyasete ve ikisi reîs vekâletlerine bâ-irade-i seniye
+                  tercih ve memuriyetleri icrâ kılınır. </p>
+            </div>
+            <div n="78" type="article">
+               <head>MADDE 78.</head>
+               <p>Hey’et-i Meb’ûsân’ın müzakerâtı alenîdir. Fakat bir madde-i mühimmeden dolayı
+                  müzakerâtı hafî tutulmak Vükelâ cânibinden veyahut Hey’et-i Meb’ûsân’ın âzâsından
+                  onbeş zât tarafından teklif olundukta, Hey’etin içtima’ ettiği mahal âzânın
+                  maadasından tahliye edilerek teklifin red veya kabûlü için ekseriyet-i ârâya
+                  müracaat edilür. </p>
+            </div>
+            <div n="79" type="article">
+               <head>MADDE 79.</head>
+               <p>Hey’et-i Meb’ûsân’ın müddet-i içtimaiyesinde âzâdan hiç biri Hey’et tarafından
+                  ithama sebeb-i kâfi bulunduğuna ekseriyetle karar verilmedikçe veyahut bir cünha
+                  veya cinayet icrâ eder iken veya icrâyı müteakip tutulmadıkça, tevkif ve muhakeme
+                  olunamaz. </p>
+            </div>
+            <div n="80" type="article">
+               <head>MADDE 80.</head>
+               <p>Hey’et-i Meb’ûsân kendisine havale olunacak kavânîn lâyıhalarını müzakere ile
+                  bunlardan umûr-ı mâliyeye ve Kanûn-ı Esâsî’ye taallûk eder maddeleri red veya
+                  kabûl veyahut ta’dîl eder ve mesarif-i umûmiye muvazene kanûnunda gösterildiği
+                  vechile Hey’et-i Meb’ûsân’da tafsilâtile tetkik olunduktan sonra mikdarına Vükelâ
+                  ile birlikte karar verilür ve buna karşılık olacak vâridâtın keyfiyeti ve
+                  kemmiyeti ve sûret-i tevzi ve tedariki kezalik Vükelâ ile birlikte tâyin edilir.
+                   </p>
+            </div>
+            </div>
+            <div type="section" n="8">
+               <head>MEHÂKİM</head>
+            <div n="81" type="article">
+               <head>MADDE 81.</head>
+               <p>Kanûn-ı mahsûsuna tevfikan taraf-ı Devlet’ten nasbolunan ve yedlerine berât-ı
+                  şerif verilen hâkimler lâ-yen-azldir. Fakat istifaları kabûl olunur. Hâkimlerin
+                  terekkiyatı ve meslekleri ve tebdîl-i memuriyetleri ve tekaüdleri ve bir cürüm ile
+                  mahkûmiyet üzerine azil olunmaları dahi kanûn-ı mahsûsu hükmüne tâbidir ve
+                  hâkimlerin ve mehâkim memurlarının matlûb olan evsafını işbu kanûn irae eder. </p>
+            </div>
+            <div n="82" type="article">
+               <head>MADDE 82.</head>
+               <p>Mahkemelerde her nev’i muhakeme alenen cereyan eder ve ilâmâtın neşrine mezûniyet
+                  vardır. Ancak kanûnda musarrah esbâba mebni mahkeme muhakemeyi hafî tutabilir.
+               </p>
+            </div>
+            <div n="83" type="article">
+               <head>MADDE 83.</head>
+               <p>Herkes huzur-ı mahkemede hukukunu muhafaza için lüzum gördüğü vesait-i meşruayı
+                  istimal edebilir. </p>
+            </div>
+            <div n="84" type="article">
+               <head>MADDE 84.</head>
+               <p>Bir mahkeme vazifesi dahilinde olan dâvânın her ne vesile ile olursa olsun
+                  rü’yetinden imtina edemez ve bir kerre rü’yetine veyahut rü’yeti için iktiza eden
+                  tahkikat-ı evveliyeye başlandıktan sonra tatil veya tâviki dahi câiz olamaz; meğer
+                  ki müddeî dâvâdan keff-i yed etmiş ola. Şu kadar ki cezaya müteallik deâvîde
+                  Hükûmet’e ait olan hukuk nizâmı vechile yine icrâ olunur. </p>
+            </div>
+            <div n="85" type="article">
+               <head>MADDE 85.</head>
+               <p>Her dâvâ ait olduğu mahkemede rü’yet olunur. Eşhas ile Hükûmet beynindeki dâvâlar
+                  dahi mehâkim-i umûmîyeye aittir. </p>
+            </div>
+            <div n="86" type="article">
+               <head>MADDE 86.</head>
+               <p>Mahkemeler her türlü müdehelâttan âzâdedir. </p>
+            </div>
+            <div n="87" type="article">
+               <head>MADDE 87.</head>
+               <p>Deâvî-i şer’iyye mehâkim-i şer’iyyede ve deâvî-i nizâmiyye mehâkim-i nizâmiyyede
+                  rü’yet olunur. </p>
+            </div>
+            <div n="88" type="article">
+               <head>MADDE 88.</head>
+               <p>Mahkemelerin sunûf ve vezaif ve salâhiyetinin derecât ve taksimâtı ve hükkâmın
+                  tavzifi kavânîne müstenittir. </p>
+            </div>
+            <div n="89" type="article">
+               <head>MADDE 89.</head>
+               <p>Her ne nâm ile olur ise olsun, bazı mevâdd-ı mahsûsayı rü’yet ve hükmetmek için
+                  mehâkim-i muayene haricinde fevk-al-âde bir mahkeme veyahut hüküm vermek
+                  salâhiyetini hâiz komisyon teşkili kat’iyyen câiz değildir. Fakat kanûnen muayyen
+                  olduğu vechile tâyin-i mevla ve tahkim câizdir. </p>
+            </div>
+            <div n="90" type="article">
+               <head>MADDE 90.</head>
+               <p>Hiçbir hâkim hâkimlik sıfatiyle Devlet’in maaşlı bir başka memuriyetini uhdesinde
+                  cem’edemez. </p>
+            </div>
+            <div n="91" type="article">
+               <head>MADDE 91.</head>
+               <p>Umûr-ı cezaiyede hukuk-ı âmmeyi vikâyeye memur müddeîumûmîler bulunacak ve
+                  bunların vezaif ve derecâtı kanûn ile tâyin kılınacaktır.  </p>
+            </div>
+            </div>
+            <div type="section" n="9">
+               <head>DÎVÂN-I ÂLÎ</head>
+            <div n="92" type="article">
+               <head>MADDE 92.</head>
+               <p>Dîvân-ı Âlî otuz âzâdan mürekkeptir. Bunların onu Hey’et-i Â’yân ve onu Şûrâ-yı
+                  Devlet ve onu Mahkeme-i Temyiz ve İstinaf rüesa ve âzâsından kur’a ile tefrik ve
+                  tâyin olunarak Hey’et-i Â’yân dairesinde lüzum göründükçe bâ-irade-i seniye
+                  akdolunur. Vazifesi Vükelâ ile Mahkeme-i Temyiz rüesa ve âzâsının ve zât ve
+                  hukuk-ı Şâhâne aleyhinde harekete ve Devlet’i bir hal-i muhataraya ilkâya tasaddi
+                  eyleyenlerin muhakemesidir. </p>
+            </div>
+            <div n="93" type="article">
+               <head>MADDE 93.</head>
+               <p>Dîvân-ı Âlî ikiye münkasem olup biri Dâire-i İthamiye ve biri Divân-ı Hüküm’dür.
+                  Dâire-i İthamiye dokuz âzâdan ibaret olup bunun üçü Hey’et-i Â’yân ve üçü Divân-ı
+                  Temyiz ve İstinaf ve üçü Şûrâ-yı Devlet âzâsından Dîvân-ı Âlî’ye alınacak âzâ
+                  içinden kur’a ile intihâb olunur. </p>
+            </div>
+            <div n="94" type="article">
+               <head>MADDE 94.</head>
+               <p>Bu Daire şikâyet olunan zevâtın müttehem olup olmadığına sülüsân-ı ekseriyetile
+                  karar verir ve Dâire-i İthamiye’de bulunanlar Divân-ı Hüküm’de bulunamaz. </p>
+            </div>
+            <div n="95" type="article">
+               <head>MADDE 95.</head>
+               <p>Divân-ı Hüküm, yedisi Hey’et-i Â’yân ve yedisi Divân-ı Temyiz ve İstinaf ve yedisi
+                  Şûrâ-yı Devlet rüesa ve âzâsından olmak üzere Dîvân-ı Âlî âzâsının yirmibir
+                  neferinden mürekkep olarak Dâire-i İthamiyye tarafından muhakemesi lâzım olduğuna
+                  karar verilmiş dâvâlar hakkında âzâ-yı mürettebenin sülüsân-ı ekseriyetile
+                  kat’iyyen ve kavânîn-i mevzuasına tatbikan hükmeder ve hükümleri kabil-i istinaf
+                  ve temyiz değildir.  </p>
+            </div>
+            </div>
+            <div type="section" n="10">
+               <head>UMÛR-I MÂLİYE</head>
+            <div n="96" type="article">
+               <head>MADDE 96.</head>
+               <p>Tekâlif-i Devletin hiçbiri bir kanûn ile tâyin olunmadıkça vaz’ ve tevzi ve
+                  istihsal olunamaz. </p>
+            </div>
+            <div n="97" type="article">
+               <head>MADDE 97.</head>
+               <p>Devlet’in bütçesi vâridât ve mesarifât-ı takribiyesini mübeyyin kanûndur.
+                  Tekâlif-i Devletin vaz’ ve tevzi ve tahsil emrinde müstenit olacağı kanûn budur.
+               </p>
+            </div>
+            <div n="98" type="article">
+               <head>MADDE 98.</head>
+               <p>Bütçe yani Muvazene-i Umûmîye Kanûnu Meclis-i Umûmî’de madde be madde tetkik ve
+                  kabûl olunur. Vâridât ve mesarifât-ı muhammeninin müfredâtını câmi’ olmak üzere
+                  ana merbut olan cedveller nizâmen tâyin olunan numûnesine tevfikan aksam ve fusûl
+                  ve mevâdd-ı müteaddideye münkasem olarak bunların müzakeresi dahi fasıl fasıl icrâ
+                  edilir. </p>
+            </div>
+            <div n="99" type="article">
+               <head>MADDE 99.</head>
+               <p>Muvazene-i Umûmîye Kanûnu müteallik olduğu senenin duhûlünde mevki-i icrâya
+                  konulabilmek için lâyıhası Hey’et-i Meb’ûsân’a Meclis-i Umûmî’nin küşadı akabinde
+                  itâ olunur. </p>
+            </div>
+            <div n="100" type="article">
+               <head>MADDE 100.</head>
+               <p>Bir kanûn-ı mahsûs ile muayyen olmadıkça emvâl-i Devletten muvazene haricinde
+                  sarfiyat câiz olamaz. </p>
+            </div>
+            <div n="101" type="article">
+               <head>MADDE 101.</head>
+               <p>Meclis-i Umûmî’nin mün’akid bulunmadığı esnada esbâb-ı mücbire-yi fevk-al-âdeden
+                  dolayı muvazene haricinde masraf ihtiyarına lüzum-ı kavi tahakkuk eder ise
+                  mes’ûliyeti Hey’et-i Vükelâ’ya ait olmak ve Meclis-i Umûmî’nin küşadı akabinde ona
+                  dair kanûn lâyıhası Meclis-i Umûmî’ye verilmek üzere o masrafın tesviyesi için
+                  iktiza eden mebaliğin Taraf-ı Hazret-i Pâdişâhî’ye arz ve istîzân ile sâdır olacak
+                  irade-i seniye üzerine tedarik ve sarfı câiz olur. </p>
+            </div>
+            <div n="102" type="article">
+               <head>MADDE 102.</head>
+               <p>Muvazene Kanûnunun hükmü bir seneye mahsûstur. O senenin haricinde hükmü câri
+                  olamaz ancak bazı ahval-i fevk-al-âdeden dolayı Meclis-i Meb’ûsân muvazeneyi
+                  kararlaştırmaksızın fesholunduğu halde hükmü bir seneyi tecavüz etmemek üzere bir
+                  kararnâme ile Vükelâ-yı Devlet bâ-irade-i seniye sene-i sâbıka muvazenesinin
+                  cereyan-ı ahkâmını Meclis-i Meb’ûsân’ın gelecek içtimaına kadar temdit ederler.
+               </p>
+            </div>
+            <div n="103" type="article">
+               <head>MADDE 103.</head>
+               <p>Muhasebe-i Kat’iyye Kanûnu müteallik olduğu senenin vâridâtından istihsal olunan
+                  mebaliğ ile yine o senenin mesarifâtına vukûbulan sarfiyatın mikdar-ı hakikîsini
+                  mübeyyin olarak bunun şekil ve taksimâtı dahi Muvazene-i Umûmîye Kanûnuna tamamile
+                  mutabık olacaktır. </p>
+            </div>
+            <div n="104" type="article">
+               <head>MADDE 104.</head>
+               <p>Muhasebe-i Kat’iyye Kanûnunun lâyıhası müteallik olduğu senenin hitamından
+                  itibaren nihayet dört sene sonra Meclis-i Umûmî’ye itâ olunur. </p>
+            </div>
+            <div n="105" type="article">
+               <head>MADDE 105.</head>
+               <p>Emval-i Devlet’in kabz ve sarfına memur olanların muhasebelerini rü’yet ve
+                  devairden tanzîm olunan sâl muhasebelerini tetkik ederek hulâsa-i tetkikat ve
+                  netice-i mütalâatını her sene bir takrir-i mahsûs ile Hey’et-i Meb’ûsân’a
+                  arzeylemek üzere bir Divân-ı Muhasebât teşkil olunacaktır. Bu Divân her üç ayda
+                  bir kerre ahval-i mâliyeyi Riyaset-i Vükelâ vasıtasile bâ-takrir Taraf-ı Hazret-i
+                  Pâdişâhî’ye dahi arzeder. </p>
+            </div>
+            <div n="106" type="article">
+               <head>MADDE 106.</head>
+               <p>Divân-ı Muhasebât’ın âzâsı oniki kişiden mürettep olacak ve herbiri Hey’et-i
+                  Meb’ûsân’dan ekseriyetle azlinin lüzumu tasdik olunmadıkça memuriyetinde kayd-ı
+                  hayat ile kalmak üzere bâ-irade-i seniye nasbolunacaktır. </p>
+            </div>
+            <div n="107" type="article">
+               <head>MADDE 107.</head>
+               <p>Divân-ı Muhasebât âzâsının evsaf ve vezayifinin tafsilâtı ve sûret-i istifa ve
+                  tebdîl ve terakki ve tekaüdü ve ahkâmının keyfiyet-i teşkili bir nizâm-ı mahsûs
+                  ile tâyin olunacaktır.  </p>
+            </div>
+            </div>
+            <div type="section" n="11">
+               <head>VİLÂYÂT</head>
+            <div n="108" type="article">
+               <head>MADDE 108.</head>
+               <p>Vilâyâtın usûl-i idâresi, tevsi-i mezûniyet ve tefrik-i vezayif kaidesi üzerine
+                  müesses olup derecâtı nizâm-ı mahsûs ile tâyin kılınacaktır. </p>
+            </div>
+            <div n="109" type="article">
+               <head>MADDE 109.</head>
+               <p>Vilâyet ve livâ’ ve kazâ merkezlerinde olan idâre meclislerile senede bir defa
+                  merkezî vilâyette içtima eden Meclis-i Umûmî âzâsının sûret-i intihâbı bir kanûn-ı
+                  mahsûs ile tevsi olunacaktır. </p>
+            </div>
+            <div n="110" type="article">
+               <head>MADDE 110.</head>
+               <p>Vilâyât Mecâlis-i Umûmîyesinin vezayifi yapılacak kanûn-ı mahsûsunda beyan
+                  olunacağı vechile turuk u maâbir tanzîmi ve itibar sandıklarının teşkili ve sanayi
+                  ve ticaret ve felâhatın teshili gibi umûr-ı nafiaya müteallik mevâd hakkında ve
+                  umûma ait maârif ve terbiyenin intişarı yolunda müzakerâta şâmil olmakla beraber,
+                  tekâlif ve mürettebât-ı mirîyenin sûret-i tevzi ve istihsalinde ve muamelât-ı
+                  sairede kavânîn ve nizâmât-ı mevzua ahkâmına muhalif gördükleri ahvalin müteallik
+                  olduğu makam ve mevkilere tebliğ ile tashih ve ıslahı zımnında arz-ı iştikâ etmek
+                  salâhiyetini dahi muhtevi olacaktır. </p>
+            </div>
+            <div n="111" type="article">
+               <head>MADDE 111.</head>
+               <p>Müsakkafât ve müstagallât ve nukûd-ı mevkufe hâsılâtının şurût-ı vakfiyesi ve
+                  teamül-i kadîmi vechile meşrûtunlehine ve hayrât ve müberrâta sarfolunmak üzere
+                  vasiyet edilen emvalin vasiyetnâmelerde muharrer olduğu üzere mûsâlehine sarfına
+                  ve emval-i eytamın nizâmnâme-i mahsûsu vechile sûret-i idâresine nezaret etmek
+                  üzere her kazâda her milletin bir cemaat meclisi bulunacak ve bu meclisler tanzîm
+                  edilecek nizâmât-ı mahsûsası vechile her milletin müntehâb efradından mürekkep
+                  olacaktır. Ve mecâlis-i mezkûre mahalleri hükûmetlerini ve Vilâyât Mecâlis-i
+                  Umûmîyesini kendilerine merci bilecektir. </p>
+            </div>
+            <div n="112" type="article">
+               <head>MADDE 112.</head>
+               <p>Umûr-ı belediye Der-saâdet ve taşralarda bil-intihâb teşkil olunacak Devair-i
+                  Belediye Meclislerile idâre olunacak ve bu dairelerin sûret-i teşkili ve vezaifi
+                  ve âzâsının sûret-i intihâbı kanûn-ı mahsûs ile tâyin kılınacaktır. 
+               </p>
+            </div>
+            </div>
+            <div type="section" n="12">
+               <head>MEVÂDD-I ŞETTÂ</head>
+            <div n="113" type="article">
+               <head>MADDE 113.</head>
+               <p>Mülkün bir cihetinde ihtilâl zuhur edeceğini müeyyid âsâr ve emarât görüldüğü
+                  halde Hükûmet-i seniyenin o mahalle mahsûs olmak üzere muvakkaten (idâre-i örfiye)
+                  ilânına hakkı vardır. (idâre-i örfiye) kavânîn ve nizâmât-ı mülkiyenin muvakkaten
+                  tatilinden ibaret olup (idâre-i örfiye) tahtında bulunan mahallin sûret-i idâresi
+                  nizâm-ı mahsûs ile tâyin olunacaktır. Hükûmetin emniyetini ihlâl ettikleri idâre-i
+                  zâbıtanın tahkikat-ı mevsukası üzerine sabit olanları memâlik-i mahrusâ-i
+                  şâhâneden ihraç ve teb’îd etmek münhasıran Zât-ı Hazret-i Pâdişâhî’nin yed-i
+                  iktidarındadır[, ]. </p>
+            </div>
+            <div n="114" type="article">
+               <head>MADDE 114.</head>
+               <p>Osmanlı efradının kâffesince tahsil-i maârifin birinci mertebesi mecbûrî olacak ve
+                  bunun derecât ve teferrüâtı nizâm-ı mahsûs ile tâyin kılınacaktır. </p>
+            </div>
+            <div n="115" type="article">
+               <head>MADDE 115.</head>
+               <p>Kanûn-ı Esâsî’nin bir maddesi bile hiçbir sebeb ve bahane ile tatil veya icrâdan
+                  iskat edilemez. </p>
+            </div>
+            <div n="116" type="article">
+               <head>MADDE 116.</head>
+               <p>Kanûn-ı Esâsî’nin mevâdd-ı mündericesinden bazılarının icab-ı hale ve vakte göre
+                  tağyir ve ta’dîline lüzum-ı sahih ve kat’î göründüğü halde zikr-i âti şerait ile
+                  ta’dîli câiz olabilir. Şöyle ki, ya Hey’et-i Vükelâ veya Hey’et-i Â’yân veya
+                  Hey’et-i Meb’ûsân tarafından işbu ta’dîle dair bir teklif vukûbulduğu halde evvelâ
+                  Meclis-i Meb’ûsân’da âzâ-yı mürettebenin sülüsân-ı ekseriyetile kabûl olunur
+                  ve kabûl Meclis-i Â’yân’ın kezalik sülüsân-ı ekeriyetile tasdik edildikten
+                  sonra irade-i seniye dahi o merkezde sudûr eder ise ta’dîlât-ı meşrûha
+                  düstûr-ül-amel olur ve Kanûn-ı Esâsî’nin ta’dîli teklif olunan bir maddesi
+                  ber-vech-i meşrûh müzakerât-ı lâzimesinin icrâsile irade-i seniyesinin sudûruna
+                  kadar hüküm ve kuvvetini gaip etmeksizin mer’iyy-ül-icrâ tutulur. </p>
+            </div>
+            <div n="117" type="article">
+               <head>MADDE 117.</head>
+               <p>Bir madde-i kanûniyenin tefsiri lâzım geldikte umûr-ı adliyeye müteallik ise
+                  tâyin-i mânâsı Mahkeme-i Temyiz’e ve idâre-i mülkiyeye dair ise Şûrâ-yı Devlet’e
+                  ve işbu Kanûn-ı Esâsî’den ise Hey’et-i Â’yân’a aittir. </p>
+            </div>
+            <div n="118" type="article">
+               <head>MADDE 118.</head>
+               <p>Elyevm düstûr-ül-amel bulunan nizâmât ve teamül ve âdat ileride vaz’olunacak
+                  kavânîn ve nizâmât ile ta’dîl veya ilga olunmadıkça mer’iyy-ül-icrâ olacaktır.
+               </p>
+            </div>
+            <div n="119" type="article">
+               <head>MADDE 119.</head>
+               <p>Meclis-i Umûmî’ye dair olan fi 10 Şevval sene 93 tarihli Talimat-ı
+                  Muvakkate’nin cereyan-ı ahkâmı yalınız birinci defa içtima edecek Meclis-i
+                  Umûmî’nin müddet-i in’ikadiyesi hitâmına kadar olup ondan sonra hükmü câri
+                  değildir.</p>
+            </div>
+            </div>
+
+            <dateline>Fi <date>7 Zilhicce, sene 1293</date>.</dateline>
+         </div>
+         <!--<div corresp="#law-ottoman-constitution-1876" type="bill" xml:lang="ota-Latn-TR">
+            <head>Kanun-u Esasi</head>
+            <div n="1" type="section">
+               <head>Memaliki Devleti Osmaniye</head>
+               <div n="1" type="article">
+                  <head>Madde 1</head>
+                  <p>Osmanlı Devletinin malları ve hazır orduları ve eyalatı mümtazeyi içeren ve
+                     toptan olmakla hiçbir zamanda hiçbir sebeble ayrılık kabul etmez.</p>
+               </div>
+               <div n="2" type="article">
+                  <head>Madde 2</head>
+                  <p>Osmanlı Devletinin başkenti İstanbul şehridir ve şehri mezkurun sair bilâdı
+                     Osmaniyeden ayrı olarak bir gûne imtiyaz ve muafiyeti yoktur.</p>
+               </div>
+               <div n="3" type="article">
+                  <head>Madde 3</head>
+                  <p>Saltanatı Seniyei Osmaniye Hilâfeti Kübrayı İslâmiyeyi haiz olarak Sülaleî Âli
+                     Osmandan usulü kadimesi veçhile büyük evlada aittir.</p>
+               </div>
+               <div n="4" type="article">
+                  <head>Madde 4</head>
+                  <p>Zatı Hazreti Padişahi hasbelhilâfe İslam dininin koruyucusu ve topyekün olarak
+                     bilcümle Osmanlı Devleti halkının hükümdar ve padişahıdır.</p>
+               </div>
+               <div n="5" type="article">
+                  <head>Madde 5</head>
+                  <p>Zatı Hazreti Padişahinin nefsi hümayunu mukaddes ve gayri mesuldür.</p>
+               </div>
+               <div n="6" type="article">
+                  <head>Madde 6</head>
+                  <p>Sülalei Âli Osmanın hukuku hürriye ve emval ve emlâki zatiye ve madâmelhayat
+                     tahsisatı maliyeleri tekâfülü umumi tahdındadır.</p>
+               </div>
+               <div n="7" type="article">
+                  <head>Madde 7</head>
+                  <p>Vükelânın azil ve nasbı ve rütbe ve menasıp tevcihi ve nişan itası ve eyalâtı
+                     mümtazenin şeraiti imtiyazilerine tevfikan icrayı tevcihatı ve meskûkat darbı
+                     ve hutbelerde nâmının zikri ve düveli ecnebiye ile muahedat akdi ve harb ve
+                     sulh ilânı ve kuvvei berriye ve bahriyenin kumandası ve harekâtı askeriye ve
+                     ahkâmı şeriye ve kanuniyenin icrası ve devairi idarenin muamelâtına müteallik
+                     nizamnamelerin tanzimi ve mücazatı kanuniyenin tahfifi veya affı ve Meclisi
+                     Umuminin akt ve tatili ve ledeliktiza Heyeti Mebusanın azası yeniden intihap
+                     olunmak şartile feshî hukuku mukaddesi Padişahi cümlesindendir.</p>
+               </div>
+            </div>
+            <div n="2" type="section">
+               <head>Tebaai Devleti Osmaniyenin Hukuku Umumiyesi</head>
+               <div n="8" type="article">
+                  <head>Madde 8</head>
+                  <p> -Devleti Osmaniye tabîyetinde bulunan efradın cümlesine her hangi din ve
+                     mezhepten olur ise olsun bilâ istisna Osmanlı tabir olunur ve Osmanlı sıfatı
+                     kanunen muayyen olan ahvale göre istihsal ve izae edilir.</p>
+               </div>
+               <div n="9" type="article">
+                  <head>Madde 9</head>
+                  <p>Osmanlıların kâffesi hürriyeti şahsiyelerine malik ve aherin hukuku hürriyetine
+                     tecavüz etmemekle mükelleftir.</p>
+               </div>
+               <div n="10" type="article">
+                  <head>Madde 10</head>
+                  <p>Hürriyeti şahsiye her türlü taarruzdan masundur. Hiç kimse kanunun tayin ettiği
+                     sebeb ve suretten maada bir bahane ile mücazat olunamaz.</p>
+               </div>
+               <div n="11" type="article">
+                  <head>Madde 11</head>
+                  <p>Devleti Osmaniyenin dini İslâmdır. Bu esası vikaye ile beraber asayişi halkı ve
+                     adabı umumiyeyi ihlâl etmemek şartile memaliki Osmaniyede maruf olan bilcümle
+                     edyanın serbestii icrası ve cemaatı muhtelifiye verilmiş olan imtiyazatı
+                     mezhebiyenin kemakân cereyanı Devletin tahtı himayesindedir.</p>
+               </div>
+               <div n="12" type="article">
+                  <head>Madde 12</head>
+                  <p>Matbuat kanun dairesinde serbesttir.</p>
+               </div>
+               <div n="13" type="article">
+                  <head>Madde 13</head>
+                  <p>Tebaai Osmaniye nizam ve kanun dairesinde ticaret ve sanat ve felahet için her
+                     nevi şirketler teşkiline mezundur.</p>
+               </div>
+               <div n="14" type="article">
+                  <head>Madde 14</head>
+                  <p>Tebaai Osmaniyeden bir veya bir kaç kişinin gerek şahıslarına ve gerek umuma
+                     müteallik olan kavanin ve nizamata muhalif gördükleri bir maddeden dolayı işin
+                     merciine arzuhal verdikleri gibi Meclisi Umumiye dahi müddei sıfatile imzalı
+                     arzuhal vermeğe ve memurinin ef’alinden iştikâye selâhiyetleri vardır.</p>
+               </div>
+               <div n="15" type="article">
+                  <head>Madde 15</head>
+                  <p>Emri tedris serbesttir. Muayyen olan kanuna tebaiyet şartile her Osmanlı umumi
+                     ve hususi tedrise mezundur.</p>
+               </div>
+               <div n="16" type="article">
+                  <head>Madde 16</head>
+                  <p>Bilcümle mektepler Devletin tahtı nezaretindedir. Tebaai Osmaniye’nin terbiyesi
+                     bir sıyakı ittihat ve intizam üzere olmak için iktiza eden esbaba teşebbüs
+                     olunacak ve mileli muhtelifenin umuru itikadiyelerine müteallik olan usulü
+                     talimiyeye halel getirilmiyecektir.</p>
+               </div>
+               <div n="17" type="article">
+                  <head>Madde 17</head>
+                  <p>Osmanlıların kâffesi huzuru kanunda ve ahvali diniye ve mezhebiyeden maada
+                     memleketin hukuk ve vezaifinde mütevasidir.</p>
+               </div>
+               <div n="18" type="article">
+                  <head>Madde 18</head>
+                  <p>Tebaai Osmaniyenin hidematı Devlette istihdam olunmak için devletin lisanı
+                     resmisi olan Türkçeyi bilmeleri şarttır.</p>
+               </div>
+               <div n="19" type="article">
+                  <head>Madde 19</head>
+                  <p>Devlet memuriyetinde umum tebaa ehliyet ve kabiliyetlerine göre münasip olan
+                     memuriyetlere kabul olunurlar.</p>
+               </div>
+               <div n="20" type="article">
+                  <head>Madde 20</head>
+                  <p>Tekâlifi mukarrere nizamatı mahsusatına tevfikat kâffei tebaa beyninde herkesin
+                     kudreti nisbetinde tarh ve tevzi olunur.</p>
+               </div>
+               <div n="21" type="article">
+                  <head>Madde 21</head>
+                  <p>Herkes usulen mutasarrıf olduğu mal ve mülkten emindir. Menafii umumiye için
+                     lüzumu sabit olmadıkça ve kanunu mucibince değer bahası peşin verilmedikçe
+                     kimsenin tasarrufunda olan mülk alınamaz.</p>
+               </div>
+               <div n="22" type="article">
+                  <head>Madde 22</head>
+                  <p>Memaliki Osmaniyede herkesin mesken ve menzili taarruzdan masundur. Kanunun
+                     tâyin eylediği ahvalden maada bir sebeble Hükûmet tarafından cebren hiç
+                     kimsenin mesken ve menziline girilemez.</p>
+               </div>
+               <div n="23" type="article">
+                  <head>Madde 23</head>
+                  <p>Yapılacak usulü muhakeme hükmünce hiç kimse kanunen mensup olduğu mahkemeden
+                     başka bir mahkemeye gitmeye icbar olunamaz.</p>
+               </div>
+               <div n="24" type="article">
+                  <head>Madde 24</head>
+                  <p>Müsadere ve angarya ve cerime memnudur. Fakat muharebe esnasında usulen tâyin
+                     olunacak tekâlif ve ahval bundan müstesnadır.</p>
+               </div>
+               <div n="25" type="article">
+                  <head>Madde 25</head>
+                  <p>Bir kanuna müstenit olmadıkça vergi ve rüsumat nâmı ile ve nâmı aherle hiç
+                     kimseden bir akçe alınamaz.</p>
+               </div>
+               <div n="26" type="article">
+                  <head>Madde 26</head>
+                  <p>İşkence ve sair her nevi eziyet katiyen ve külliyen memnudur.</p>
+               </div>
+            </div>
+            <div n="3" type="section">
+               <head>Vükelâyı Devlet</head>
+               <div n="27" type="article">
+                  <head>Madde 27</head>
+                  <p>Mesnedi Sadaret ve Meşihatı İslâmiye tarafı Padişahiden emniyet buyurulan
+                     zatlara ihale buyurulduğu missullû sair vükelânın memuriyetleri dahi ba iradei
+                     şahâne icra olunur.</p>
+               </div>
+               <div n="28" type="article">
+                  <head>Madde 28</head>
+                  <p>Meclisi Vükelâ Sadrazamın riyaseti tahtında olarak aktolunup dahili ve harici
+                     umuru mühimmenin merciidir. Müzakeratından mühtacı istizan olanların kararları
+                     iradei seniye ile icra olunur.</p>
+               </div>
+               <div n="29" type="article">
+                  <head>Madde 29</head>
+                  <p>Vükelâdan herbiri dairesine ait olan umurdan, icrası mezuniyet tahtında,
+                     bulunanları usulüne tevfikan icra ve icrası mezuniyeti tahtında olmıyanların
+                     Sadrazama arzeder. Sadrıazam dahi o makule mevaddan müzakereye muhtaç
+                     olmıyanların muktezasını icra veyahut tarafı Hazreti Padişahiden istizan ederek
+                     ve muhtacı müzakere bulunanları Meclisi Vükelânın müzakeresine arzeyliyerek
+                     müteallik buyurulacak iradei seniye mucibince iktizasını ifa eyler. Bu
+                     mesalihin envağ ve derecatı nizamı mahsus ile tâyin olunacaktır.</p>
+               </div>
+               <div n="30" type="article">
+                  <head>Madde 30</head>
+                  <p>Vükelâyı Devlet memuriyetlerine müteallik ahval ve icraattan mesuldür.</p>
+               </div>
+               <div n="31" type="article">
+                  <head>Madde 31</head>
+                  <p> -Mebusan âzasından biri veyahut birkaçı Heyeti Mebusanın dahili dairei
+                     vazifesi olan ahvaldan dolayı Vükelâyı Devletten bir zat hakkında mes’uliyeti
+                     mucip şikâyet beyan ettiği halde evvelâ Mebusanın nizamı dahilisi mucibince bu
+                     misillu mevaddin Heyete havalesi lazım gelip gelmiyeceğini müzakereye memur
+                     olan şubede tetkik olunmak üzere şikâyeti müş’ir Heyeti Mebusan Reisine
+                     verilecek takrir, Reis tarafından nihayet üç gün zarfında o şubeye gönderilir
+                     ve bu şube tarafından tahkikatı lâzime icra ve iştikâ olunan zat tarafından
+                     izahatı kâfiye istihsal olunduktan sonra şikâyetin şayanı müzakere olduğuna
+                     dair ekseriyetle terkip olunacak kararname Heyeti Mebusanda kıraat olunarak ve
+                     ledeliktiza şikâyet olunan zat davetle bizzat veya bilvasıta vereceği izahat
+                     istima kılınarak âzayı mevcudedin sülüsan ekseriyeti mutlakasile kabul olunur
+                     ise muhakeme talebini müş’ir mazbatası Makamı Sadarete takdim ile ledelarz
+                     müteallik olacak iradei seniye üzerine keyfiyet Divanı Âliye havale olunur.</p>
+               </div>
+               <div n="32" type="article">
+                  <head>Madde 32</head>
+                  <p>Vükelâdan itham olunanların usulü muhakemeleri kanunu mahsus ile tâyin
+                     edilecektir.</p>
+               </div>
+               <div n="33" type="article">
+                  <head>Madde 33</head>
+                  <p>Memuriyetlerinden hariç ve sırf zatlarına ait her nevi deavide vükelânın sair
+                     efradı Osmaniyeden aslâ farkı yoktur. Bu misillu hususatın muhakemesi ait
+                     olduğu mehakimi umumiyede icra olunur.</p>
+               </div>
+               <div n="34" type="article">
+                  <head>Madde 34</head>
+                  <p>Divanı Âlinin dairei ithamı tarafından müttehem olduğuna karar verilen Vükelâ
+                     tebriyel zimmet edinceye kadar vekâletten sakıt olur.</p>
+               </div>
+               <div n="35" type="article">
+                  <head>Madde 35</head>
+                  <p>Vükelâ ile Heyeti Mebusan arasında ihtilâf olunan maddelerden birinin kabulünde
+                     Vükelâ tarafından israr olunup da mebusan canibinden ekseriyeti arâ ile
+                     tafsilen esbabı mucibe beyan ile katiyyen ve mükerreren reddedildiği halde
+                     Vükelânın tebdili veyahut müceddeden müddeti kanuniyesinde intihap olunmak
+                     üzere Heyeti Mebusanı feshi münhasıran yedi iktidarı Hazreti Padişahidedir.</p>
+               </div>
+               <div n="36" type="article">
+                  <head>Madde 36</head>
+                  <p>Meclisi Umumî mün’akit olmadığı zamanlarda Devleti bir muhataradan veya
+                     emniyeti umumiyeyi haleden vikaye için bir zarureti mübreme zuhur ettiği ve bu
+                     bapta vaz’ına lüzûm görülecek kanunun müzakeresi için Meclisin celp ve cem’ine
+                     vakit müsait olmadığı halde Kanunu Esasî ahkâmına mugayir olmamak üzere Heyeti
+                     Vükelâ tarafından verilen kararlar, Heyeti Mebusanın içtimaile verilecek karara
+                     kadar ba iradei seniye, muvakkaten kanun hüküm ve kuvvetindedir.</p>
+               </div>
+               <div n="37" type="article">
+                  <head>Madde 37</head>
+                  <p>Vükelâdan her biri her ne zaman murad eder ise, Heyetlerin ikisinde dahi
+                     bulunmak veyahut maiyetindeki rüesayı memurinden birini tarafından vekâleten
+                     bulundurmak ve iradı nutukta âzaya takaddüm etmek hakkını haizdir.</p>
+               </div>
+               <div n="38" type="article">
+                  <head>Madde 38</head>
+                  <p>İstizahı madde için Vükelâdan birinin huzuruna Meclisi Mebusanda ekseriyetle
+                     karar verilerek davet olundukta ya bizzat bulunarak veyahut maiyetindeki
+                     rüesayı memurinden birini göndererek irad olunacak suallere cevap verecek
+                     veyahut lüzum görür ise mes’uliyetini üzerine alarak cevabını tehir etmek
+                     selâhiyetini haiz olacaktır.</p>
+                  <p/>
+               </div>
+            </div>
+            <div n="4" type="section">
+               <head>Memurin</head>
+               <div n="39" type="article">
+                  <head>Madde 39</head>
+                  <p>Bilcümle memurin nizamen tâyin olunacak şerait üzere ehil ve müstahak oldukları
+                     memuriyetlere intihap olunacaktır ve bu veçhile intihap olunan memurlar kanunen
+                     mucibi azil hareketi tahakkuk etmedikçe veya kendisi istifa eylemedikçe veyahut
+                     Devletçe bir sebebi zaruri görülmedikçe azl ve tebdil olunamaz ve hüsnü hareket
+                     ve istikamet eshabından olanlar ve Devletçe bir sebebi zaruriye mebni infisal
+                     edenler nizamı mahsusunda tâyin olunacağı veçhile terakkiyata ve tekaüt ve
+                     mazuliyet maaşlarına nail olacaklardır.</p>
+               </div>
+               <div n="40" type="article">
+                  <head>Madde 40</head>
+                  <p>Her memuriyetin vezayifi nizamı mahsus ile tâyin olunacağından her memur kendi
+                     vazifesi dairesinde mes’uldür.</p>
+               </div>
+               <div n="41" type="article">
+                  <head>Madde 41</head>
+                  <p>Memurun âmirine hürmet ve riayeti lâzımeden ise de itaati kanunun tâyin ettiği
+                     daireye mahsustur. Hilâfı kanun olan umurda âmire itaat mes’uliyetten
+                     kurtulmağa medar olamaz.</p>
+                  <p/>
+               </div>
+            </div>
+            <div n="5" type="section">
+               <head>Meclis Umumî</head>
+               <div n="42" type="article">
+                  <head>Madde 42</head>
+                  <p>Meclisi Umumî Heyeti Âyan ve Heyeti Mebusan nâmlarile başka başka iki heyeti
+                     muhtevidir.</p>
+               </div>
+               <div n="43" type="article">
+                  <head>Madde 43</head>
+                  <p>Meclisi Umumînin iki heyeti beher sene teşrisani iptidasında tecemmu eder ve ba
+                     iradei seniye açılır ve mart iptidasında yine ba iradei seniye kapanır ve bu
+                     heyetlerden biri diğerinin müctemi bulunmadığı zamanda mün’akid olamaz.</p>
+               </div>
+               <div n="44" type="article">
+                  <head>Madde 44</head>
+                  <p>Zati Hazreti Padişahi, Devletçe görülecek lüzum üzerine Meclisi Umumîyi
+                     vaktinde dahi açar ve müddeti muayyenei içtimaını da tenkis veya temdit
+                     eder.</p>
+               </div>
+               <div n="45" type="article">
+                  <head>Madde 45</head>
+                  <p>Meclisi Umumînin yevmi küşadında Zatı Hazreti Padişahi veyahut taraflarından
+                     bilvekâle Sadrıazam hazır olduğu ve Vükelâyı Devlete iki heyetin âzayı
+                     mevcudesi birlikte bulundukları halde resmi küşat icra olunup seneî cariye
+                     zarfında Devletin ahvali dahiliye ve münasebatı hariciyesine ve senei atiyede
+                     ittihazına lüzum görülecek tedabir ve teşebbüsata dair bir nutku hümayun kıraat
+                     olunur.</p>
+               </div>
+               <div n="46" type="article">
+                  <head>Madde 46</head>
+                  <p>Meclisi Umumî âzalığına intihap veya nasbolunan zevat Meclisin yevmi küşadında
+                     Sadrazam huzurunda ve o gün hazır bulunmıyan olur ise mensup olduğu heyet
+                     müçtemi olduğu halde reisleri huzurunda Zatı Hazreti Padişahiye ve vatanına
+                     sadakat ve Kanunu Esasî ahkâmına ve uhdesine tevdi olunan vazifeye riayetle
+                     hilâfından mücanebet eyliyeceğine tahlif edilir.</p>
+               </div>
+               <div n="47" type="article">
+                  <head>Madde 47</head>
+                  <p>Meclisi Umumî âzası rey ve mütalea beyanında muhtar olarak bunlardan hiçbiri
+                     bir gûna vaad ve vaid ve talimat kaydı altında bulunamaz ve gerek verdiği
+                     reylerden ve gerek Meclisin müzakeratı esnasında beyan ettiği mütalealardan
+                     dolayı bir veçhile ithal olunamaz; meğer ki Meclisin Nizamnamei Dahilisi
+                     hilâfına hareket etmiş ola. Bu takdirde nizamnamei mezkûr hükmünce muamele
+                     görür.</p>
+               </div>
+               <div n="48" type="article">
+                  <head>Madde 48</head>
+                  <p>Meclisi Umumî âzasından birinin hiyanet ve Kanunu Esasiyi nakız ve ilgaya
+                     tasaddi ve irtikâp töhmetlerinden biri ile müttehem olduğuna mensup olduğu
+                     Heyet azayı mevcudesinin sülüsan ekseriyeti mutlakasile karar verilir veyahut
+                     kanunen hapis ve nefyi mucib bir ceza ile mahkûm olur ise azalık sıfatı zail
+                     olur ve bu ef’alin muhakemesile mücazatı ait olduğu mahkeme tarafından rüyet ve
+                     hükmolunur.</p>
+               </div>
+               <div n="49" type="article">
+                  <head>Madde 49</head>
+                  <p>Meclisi Umumî âzasından herbiri reyini bizzat ita eder ve herbirinin müzakerede
+                     bulunan bir maddenin red ve kabulüne dair rey vermekten içtinaba hakkı
+                     vardır.</p>
+               </div>
+               <div n="50" type="article">
+                  <head>Madde 50</head>
+                  <p>Bir kimse zikrolunan iki heyetin ikisine birden âza olamaz.</p>
+               </div>
+               <div n="51" type="article">
+                  <head>Madde 51</head>
+                  <p>Meclisi Umumî Heyetlerinden ikisinde dahi mürettep olan azânın nıfsından bir
+                     ziyade hazır bulunmadıkça müzakereye mubaderet olunamaz ve kâffei müzakerat
+                     sülüsan ekseriyetile meşrut olmayan hususatta hazır bulunan azanın ekseriyeti
+                     mutlakası ile karargir olur ve tesavii âra vukuunda reisin reyi iki
+                     addedilir.</p>
+               </div>
+               <div n="52" type="article">
+                  <head>Madde 52</head>
+                  <p>Bir kimse şahsına müteallik dâvasından dolayı Meclisi Umuminin iki Heyetinden
+                     birine arzuhal verdiği halde eğer evvelâ ait olduğu memurini Devlete veyahut o
+                     memurların tabi bulundukları mercie müracaat etmediği tebeyyün ederse arzuhali
+                     red olunur.</p>
+               </div>
+               <div n="53" type="article">
+                  <head>Madde 53</head>
+                  <p>Müceddeden kanun tanzimi veya kavanini mevcudeden birinin tadili teklifi
+                     Vükelâya ait olduğu gibi Heyeti Ayan ve Heyeti Mebusanın dahi kendi vazifei
+                     muayyeneleri dairesinde bulunan mevad için kanun tanzimini veyahut kavanini
+                     mevcudeden birinin tadilini istidaya salâhiyetleri olmakla evvelce Makamı
+                     Sadaret vasıtası ile tarafı Şahaneden istizan olunarak iradei seniye müteallik
+                     buyrulur ise ait olduğu dairelerden verilecek izahat ve tafsilat üzerine
+                     layihalarının tanzimi Şûrayı Devlete havale olunur.</p>
+               </div>
+               <div n="54" type="article">
+                  <head>Madde 54</head>
+                  <p>Şûrayı Devlette bilmüzakere tanzim olunacak kavanin layıhaları Heyeti Mebusanda
+                     badehu Heyeti yanda tetkik ve kabul olunduktan sonra icrayı ahkâmına iradei
+                     seniyei Hazreti Padişahi müteallik buyrulur ise düstürel amel olur ve işbu
+                     heyetlerin birinden katiyen reddolunan kanun layihası o senenin müddeti
+                     içtimaiyesinde tekrar mevkii müzakereye konulamaz.</p>
+               </div>
+               <div n="55" type="article">
+                  <head>Madde 55</head>
+                  <p>Bir kanun layıhası evvelâ Heyeti Mebusanda badehu Heyeti Ayanda bend bend
+                     okunup ve her bendine rey verilüp ekseriyeti ara ile karar verilmedikçe ve
+                     bedel karar heyeti mecmuası için dahi betekrar ekseriyetle karar hasıl
+                     olmadıkça kabul olunmuş olmaz.</p>
+               </div>
+               <div n="56" type="article">
+                  <head>Madde 56</head>
+                  <p>Bu Heyetler Vükelâdan veya onların göndereceği vekillerden veya kendi
+                     azalarından olmayan veyahut resmen davet olunmuş memurinden bulunmayan hiç
+                     kimseyi gerek asaleten ve gerek bir cemaat tarafından vekâleten bir madde
+                     ifadesi için gelmiş olduğu halde asla kabul edemez ve ifadelerini istima
+                     eyliyemez.</p>
+               </div>
+               <div n="57" type="article">
+                  <head>Madde 57</head>
+                  <p>Heyetlerin müzakeratı lisanı Türkî üzere cereyan eder ve müzakere olunacak
+                     layıhaların suretleri tab ile yevmi müzakereden evvel azaya tevzi olunur.</p>
+               </div>
+               <div n="58" type="article">
+                  <head>Madde 58</head>
+                  <p>Heyetlerde verilecek reyler ya tâyini esamî veyahut işaratı mahsusa veyahut
+                     reyi hafi ile olur. Reyi hafi usulünün icrası âzayı mevcudenin ekseriyeti ârâsı
+                     ile karar verilmeğe mütevakkıftır.</p>
+               </div>
+               <div n="59" type="article">
+                  <head>Madde 59</head>
+                  <p>Her Heyetin inzibatı dahilisini münhasıran kendi reisi icra eder.</p>
+                  <p/>
+               </div>
+            </div>
+            <div n="6" type="section">
+               <head>Heyeti Âyân</head>
+               <div n="60" type="article">
+                  <head>Madde 60</head>
+                  <p>Heyeti Âyanın reisi ve âzası nihayet miktarı Heyeti Mebusan âzasının sülüsü
+                     miktarını tecavüz etmemek üzere doğrudan doğruya tarafı Hazreti Padişahiden
+                     nasbolunur.</p>
+               </div>
+               <div n="61" type="article">
+                  <head>Madde 61</head>
+                  <p>Heyeti Âyana âza tâyin olunabilmek için asar ve efali umumun vüsuk ve itimadına
+                     şayan ve umuru Devlette hidematı memduhesi mesbuk ve mütearif zevattan olmak ve
+                     kırk yaşından aşağı bulunmamak lâzımdır.</p>
+               </div>
+               <div n="62" type="article">
+                  <head>Madde 62</head>
+                  <p>Heyeti Âyan âzalığı kaydı hayat iledir. Bu memuriyetlere vükelâlık ve valilik
+                     ve ordu müşirliği ve kazaskerlik ve elçilik ve patriklik ve hahambaşılık
+                     memuriyetinde bulunmuş olan mazulinden ve berri ve bahri ferikândan ve sıfatı
+                     lâzimeyi cami sair zevattan münasipleri tâyin olunur. Kendü talepleri Devletçe
+                     sair memuriyete tâyin olunanlar azalık memuriyetinden sakıt olur.</p>
+               </div>
+               <div n="63" type="article">
+                  <head>Madde 63</head>
+                  <p>Heyeti Âyanın azalık maaşı şehrî onbin kuruştur. Başka bir nam ile Hazineden
+                     muvazzaf olan azanın maaş ve tâyini eğer onbin kuruştan dûn ise ol miktara
+                     iblâğ olunur ve eğer onbin kuruş veya ziyade ise ibka olunur.</p>
+               </div>
+               <div n="64" type="article">
+                  <head>Madde 64</head>
+                  <p>Heyeti Âyan Heyeti Mebusandan verilen kavanin ve muvazene lâyihalarını tetkik
+                     ile eğer bunlarda esası umuru diniyeye ve Zatı Padişahinin hukuku seniyesine ve
+                     hürriyete ve Kanunu Esasi ahkâmına ve Devletin tamamiyeti mülkiyesinde ve
+                     memleketin emniyeti dahiliyesine ve vatanın eshabı müdafaa ve muhafazasına ve
+                     adabı umumiyeye halel verir bir şey görür ise mütalâasını ilâvesile ya kat’iyen
+                     red veyahut tâdil ve tashih olunmak üzere Heyeti Mebusana iade eder ve kabul
+                     ettiği lâyihaları tastik ile Makamı Sadarete arzeyler ve Heyete takdim olunan
+                     arzuhalları bittetkik lüzum görür ise ilâvei mütalâa ile beraber Makamı
+                     Sadarete takdim eder.</p>
+                  <p/>
+               </div>
+            </div>
+            <div n="7" type="section">
+               <head>Heyeti Mebusan</head>
+               <div n="65" type="article">
+                  <head>Madde 65</head>
+                  <p>Heyeti Mebusanın miktarı âzası tebaai Osmaniyeden her ellibin nüfus zükûrda bir
+                     nefer olmak itibariyle tertip olunur.</p>
+               </div>
+               <div n="66" type="article">
+                  <head>Madde 66</head>
+                  <p>Emri intihap reyi hafi kaidesi üzerine müessestir. Sureti icrası kanunu mahsus
+                     ile tâyin olunacaktır.</p>
+               </div>
+               <div n="67" type="article">
+                  <head>Madde 67</head>
+                  <p>Heyeti Mebusan âzalığı ile Hükümeti memuriyeti bir zat uhdesinde içtima edemez.
+                     Fakat Vükelâdan intihap olunanların âzalığı mücazdır. Vesair memurinden biri
+                     mebusluğa intihap olunur ise kabul edip etmemek yedi ihtiyarındandır. Fakat
+                     kabul ettiği halde memuriyetinden infisal eder.</p>
+               </div>
+               <div n="68" type="article">
+                  <head>Madde 68</head>
+                  <p>Heyeti Mebusan için azalığa intihabı caiz olmayanlar şunlardır: Evvelâ tebai
+                     Devleti Âliyeden olmıyan saniyen nizamı mahsusu mucibince muvakkaten hizmeti
+                     ecnebiye imtiyazını haiz olan salisen Türkçe bilmiyen rabian otuz yaşını ikmal
+                     etmiyen hamisen hini intihabta bir kimsenin hizmetkârlığında bulunan sadisen
+                     iflâs ile mahkûm olup da iadei itibar etmemiş olan sabian sui ahval ile
+                     müştehir olan saminen mahcuriyetine hüküm lâhik olup ta fekki hacir edilmeyen
+                     tasian hukuku medeniyeden sakıt olmuş aşiren tabiiyeti ecnebiye iddiasında
+                     bulunan kimselerdir. Bunlar mebus olamaz. Dört seneden sonra icra olunacak
+                     iltihaplarda mebus olmak için Türkçe okumak ve mümkün mertebe yazmak dahi şart
+                     olacaktır.</p>
+               </div>
+               <div n="69" type="article">
+                  <head>Madde 69</head>
+                  <p>Mebusan intihabı umumisi dört senede bir kerre icra olunur ve her mebusun
+                     müddeti memuriyeti dört seneden ibaret olup fakat tekrar intihap olunmak
+                     caizdir.</p>
+               </div>
+               <div n="70" type="article">
+                  <head>Madde 70</head>
+                  <p>Mebusların intihabı umumisine Heyetin mebdei içtimaı olan teşrini saniyeden
+                     lâakal dört mah mukaddem başlanılır.</p>
+               </div>
+               <div n="71" type="article">
+                  <head>Madde 71</head>
+                  <p>Heyeti Mebusan âzasının herbiri kendini intihap eden dairenin ayrıca vekili
+                     olmayıp umum Osmanlıların vekili hükmündedir.</p>
+               </div>
+               <div n="72" type="article">
+                  <head>Madde 72</head>
+                  <p>Müntehipler intihap edecekleri mebusları mensup oldukları dairei vilâyet
+                     ahalisinden intihap etmeğe mecburdur.</p>
+               </div>
+               <div n="73" type="article">
+                  <head>Madde 73</head>
+                  <p>Bu iradei seniye Heyeti Mebusan feshile dağıtıldığı halde nihayet altı ayda
+                     müçtemi olmak üzere umum mebusanının müceddeden intihabına başlanılacaktır.</p>
+               </div>
+               <div n="74" type="article">
+                  <head>Madde 74</head>
+                  <p>Heyeti Mebusan âzasından biri vefat eder veya eshabı hacriyei meşruadan birine
+                     duçar olur veya bir uzun müddette meclise devam etmez veyahut istifa eder veya
+                     mahkûmiyet veya kabulü memuriyet cihetile âzalıktan sakıt olursa yerine nihayet
+                     gelecek içtimaa yetiştirmek üzere usulü veçhile diğeri tâyin olunur.</p>
+               </div>
+               <div n="75" type="article">
+                  <head>Madde 75</head>
+                  <p>Münhal olan mebusluk makamlarına intihap olunacak âzanın memuriyeti gelecek
+                     intihabı umumî zamanına kadardır.</p>
+               </div>
+               <div n="76" type="article">
+                  <head>Madde 76</head>
+                  <p>Mebuslardan herbirine beher sene içtimai için Hazineden yirmibin kuruş
+                     verilecek ve şehrî beşbin kuruş maaş itibarile memurini mülkiye nizamına
+                     tevfikan azimet ve avdet harcırahı ita kılınacaktır.</p>
+               </div>
+               <div n="77" type="article">
+                  <head>Madde 77</head>
+                  <p>Heyeti Mebusan Riyasetine Heyet tarafından ekseriyetle üç ve ikinci ve üçüncü
+                     riyasetlere üçer nefes ki cem’an dokuz zat intihap olunarak huzuru şahaneye
+                     arzile bunlardan birisi riyasete ve ikisi reis vekâletlerine ba idaei seniye
+                     tercih ve memuriyetleri icra kılınır.</p>
+               </div>
+               <div n="78" type="article">
+                  <head>Madde 78</head>
+                  <p>Heyeti Mebusanın müzakeratı alenidir. Fakat bir maddei mühimmeden dolayı
+                     müzakeratı hafi tutulmak Vükelâ canibinden veyahut Heyet Mebusanın âzasından
+                     onbeş zat tarafından teklif olundukta Heyetin içtima ettiği mahal âzanın
+                     maadasından tahliye edilerek teklifin red veya kabulü için ekseriyeti azâya
+                     müracaat edilir.</p>
+               </div>
+               <div n="79" type="article">
+                  <head>Madde 79</head>
+                  <p>Heyeti Mebusanın müddeti içtimaiyesinde âzadan hiç biri Heyet tarafından ithama
+                     sebebi kâfi bulunduğuna ekseriyetle karar verilmedikçe veyahut bir cünha veya
+                     cinayet icra ederken veya icrayı müteakip tutulmadıkça tevkif ve muhakeme
+                     olunamaz.</p>
+               </div>
+               <div n="80" type="article">
+                  <head>Madde 80</head>
+                  <p>Heyeti Mebusan kendüye havale olunacak kavanin lâyihalarını müzakere ile
+                     bunlardan umuru maliyeye ve Kanunu Esasiye taalûk eder maddeleri red veya kabul
+                     veyahut tâdil eder ve mesarifi umumiye muvazene kanununda gösterildiği veçhile
+                     Heyeti Mebusanda tafsilâtile tetkik olunduktan sonra miktarına Vükelâ ile
+                     birlikte karar verilür ve buna karşılık olacak varidatın keyfiyeti ve kemmiyeti
+                     ve sureti tevzi ve tedariki kezalik Vükelâ ile birlikte tâyin edilir.</p>
+                  <p/>
+               </div>
+            </div>
+            <div n="8" type="section">
+               <head>Mehakim</head>
+               <div n="81" type="article">
+                  <head>Madde 81</head>
+                  <p>Kanunu mahsusuna tevfikan tarafı Devletten nasbolunan ve yedlerine beratı şerif
+                     verilen hakimler layenazildir. Fakat istifaları kabul olunur. Hakimlerin
+                     terekkiyatı ve meslekleri ve tebdili memuriyetleri ve tekaüdleri ve bir cürüm
+                     ile mahkûmiyet üzerine azil olunmaları dahi kanunu mahsusu hükmüne tabidir ve
+                     hakimlerin ve mehakim memurlarının matlup olan evsafını işbu kanun irae
+                     eder.</p>
+               </div>
+               <div n="82" type="article">
+                  <head>Madde 82</head>
+                  <p>Mahkemelerde her nevi muhakeme alenen cereyan eder ve ilâmatın neşrine
+                     mezuniyet verir. Ancak kanunda musarrah esbaba mebni mahkeme muhakemeyi hafi
+                     tutulabilir.</p>
+               </div>
+               <div n="83" type="article">
+                  <head>Madde 83</head>
+                  <p>Herkes huzuru mahkemede hukukunu muhafaza için lüzum gördüğü vesaiti meşruayı
+                     istimal edebilir.</p>
+               </div>
+               <div n="84" type="article">
+                  <head>Madde 84</head>
+                  <p>Bir mahkeme vazifesi dahilinde olan dâvanın her ne vesile ile olursa olsun
+                     rüiyetinden imtina edemez ve bir kerre rüyetine veyahut rüiyeti için iktiza
+                     eden tahkikatı evvileyeye başlandıktan sonra tatil veya tâviki dahi caiz
+                     olamaz; meğer ki müddei dâvadan keffiyed etmiş ola. Şu kadar ki cezaya
+                     müteallik deavide Hükümete ait olan, hukuk nizamı vechile yine icra olunur.</p>
+               </div>
+               <div n="85" type="article">
+                  <head>Madde 85</head>
+                  <p>Her dâva ait olduğu mahkemede rüyet olunur. Eşhas ile hükümet beynindeki
+                     dâvalar dahil mehakimi umumiyeye aittir.</p>
+               </div>
+               <div n="86" type="article">
+                  <head>Madde 86</head>
+                  <p>Mahkemeler her türlü müdehelâttan azâdedir.</p>
+               </div>
+               <div n="87" type="article">
+                  <head>Madde 87</head>
+                  <p>Deavii şer’iye mehakimi şer’iyede ve deavii nizamiye mehakimi nizamiyede rüyet
+                     olunur.</p>
+               </div>
+               <div n="88" type="article">
+                  <head>Madde 88</head>
+                  <p>Mahkemelerin sunuf ve vezaif ve selâhiyetinin derecat ve taksimatı ve hükkâmın
+                     tavzifi kavanine müstenittir.</p>
+               </div>
+               <div n="89" type="article">
+                  <head>Madde 89</head>
+                  <p>Her ne nam ile olur ise olsun bazı mevaddı mahsusayı rüiyet ve hükmetmek için
+                     mehakimi muayene haricinde fevkalâde bir mahkeme veyahut hüküm vermek
+                     selâhiyetini haiz komisyon teşkili kat’a caiz değildir. Fakat kanunen muayyen
+                     olduğu veçhile tâyini mevla ve tahkim caizdir.</p>
+               </div>
+               <div n="90" type="article">
+                  <head>Madde 90</head>
+                  <p>Hiçbir hakim hakimlik sıfatiyle Devletin maaşlı bir başka memuriyetini
+                     uhdesinde cemedemez.</p>
+               </div>
+               <div n="91" type="article">
+                  <head>Madde 91</head>
+                  <p>Umuru cezaiyede hukuku âmmeyi vikayeye memur müddeî umumiler bulunacak ve
+                     bunların vezaif ve derecatı kanun ile tâyin kılınacaktır.</p>
+                  <p/>
+               </div>
+            </div>
+            <div n="9" type="section">
+               <head>Divânı Âli</head>
+               <div n="92" type="article">
+                  <head>Madde 92</head>
+                  <p>Divanı Âli otuz âzadan mürekkeptir. Bunların onu Heyeti Âyan ve onu Şûrayı
+                     Devlet ve onu Mahkemeyi Temyiz ve İstinaf rüesa ve âzasından kur’a ile tefrik
+                     ve tâyin olunarak Heyeti Âyan dairesinde lüzum göründükçe ba iradei seniye
+                     akdolunur. Vazifesi Vükelâ ile Mahkemei Teyiz rüesa ve âzasının ve zat ve hukuk
+                     şahane aleyhinde harekete ve Devleti bir hali muhataraya ilkaya tasaddi
+                     eyliyenlerin muhakemesidir.</p>
+               </div>
+               <div n="93" type="article">
+                  <head>Madde 93</head>
+                  <p>Divanı Âli ikiye münkasem olup biri Dairei İthamiye ve biri Divanı Hükümdür.
+                     Daireyi İthamiye dokuz âzadan ibaret olup bunun üçü Heyeti Âyan ve üçü Divanı
+                     Temyiz ve İstinaf ve üçü Şûrayı Devlet âzasından Divanı Âliye alınacak âza
+                     içinden kur’a ile intihap olunur.</p>
+               </div>
+               <div n="94" type="article">
+                  <head>Madde 94</head>
+                  <p>Bu daire şikâyet olunan zevatın müttehem olup olmadığına sülüsan ekseriyetile
+                     karar verir ve Dairei İthamiyede bulunanlar Divanı Hükümde bulunamaz.</p>
+               </div>
+               <div n="95" type="article">
+                  <head>Madde 95</head>
+                  <p>Divanı Hüküm, yedisi Heyeti Âyan ve yedisi Divanı Temyiz ve İstinaf ve yedisi
+                     Şûrayı Devlet rüesa ve âzasından olmak üzere Divanı Âli âzasının yirmibir
+                     neferinden mürekkep olarak Dairei İthamiye tarafından muhakemesi lâzım olduğuna
+                     karar verilmiş dâvalar hakkında âzayı murettebenin sülüsan ekseriyetile
+                     kat’iyen ve kavanini mevzuasına tatbikan hükmeder ve hükümleri kabili istinaf
+                     ve temyiz değildir.</p>
+               </div>
+            </div>
+            <div n="10" type="section">
+               <head>Umuru Maliye</head>
+               <div n="96" type="article">
+                  <head>Madde 96</head>
+                  <p>Tekâlifi Devletin hiçbiri bir kanun ile tâyin olunmadıkça vaz’ ve tevzi
+                     istihsal olunamaz.</p>
+               </div>
+               <div n="97" type="article">
+                  <head>Madde 97</head>
+                  <p>Devletin büdçesi varidat ve mesarifatı takribiyesini mübeyyin kanundur.
+                     Tekâlifi Devletin vaz’ ve tevzi ve tahsil emrinde müstenit olacağı kanun
+                     budur.</p>
+               </div>
+               <div n="98" type="article">
+                  <head>Madde 98</head>
+                  <p>Büdçe yani Muvazenei Umumiye Kanunu Meclisi Umumide madde be madde tetkik ve
+                     kabul olunur. Varidat ve mesarifatı muhammeninin müfredatını cami olmak üzere
+                     ana merbut olan cedveller nızamen tâyin olunan numunesine tevfikan aksam ve
+                     fusul ve mevaddı müteaddideye münkasem olarak bunların müzakeresi dahi fasıl
+                     icra edilir.</p>
+               </div>
+               <div n="99" type="article">
+                  <head>Madde 99</head>
+                  <p>Muvazenei Umumiye Kanunu mütealilk olduğu senenin dühulünde mevkii icraya
+                     konulabilmek için lâyihası Hey’eti Mebusana Meclisi Umuminin küşadı akabinde
+                     ita olunur.</p>
+               </div>
+               <div n="100" type="article">
+                  <head>Madde 100</head>
+                  <p>Bir kanunu mahsus ile muayyen olmadıkça emvâli Devletten muvazene haricinde
+                     sarfiyat caiz olamaz.</p>
+               </div>
+               <div n="101" type="article">
+                  <head>Madde 101</head>
+                  <p>Meclisi Umuminin münakit bulunmadığı esnada esbabı mücbireyi fevkalâdeden
+                     dolayı muvazene haricinde masraf ihtiyarına lüzumu kavi tahakkuk eder ise
+                     mesuliyeti Heyeti Vükelâya ait olmak ve Meclisi Umuminin küşadı akabinde ana
+                     dair kanun lâyıhası Meclisi Umumiye verilmek üzere o masrafın tesviyesi için
+                     iktiza eden mebaliğin tarafı Hazreti Padişahiye arz ve istizan ile sadır olacak
+                     iradei seniye üzerine tedarik ve sarfı caiz olur.</p>
+               </div>
+               <div n="102" type="article">
+                  <head>Madde 102</head>
+                  <p>Muvazene Kanununun hükmü bir seneye mahsustur. O senenin haricinde hükmü cari
+                     olamaz ancak bazı ahvali fevkalâdeden dolayı Meclisi Mebusan muvazeneyi
+                     kararlaştırmaksızın fesih olunduğu halde hükmü bir seneyi tecavüz etmemek üzere
+                     bir kararname ile Vükelâyı Devlet ba iradei seniye senei sabıka muvazenesinin
+                     cereyanı ahkâmını Meclisi Mebusanın gelecek içtimaına kadar temdit ederler.</p>
+               </div>
+               <div n="103" type="article">
+                  <head>Madde 103</head>
+                  <p>Muhasebei Kat’iye Kanunu müteallik olduğu senenin varidatında istihsal olunan
+                     mebaliğ ile yine o senenin mesarifatına vukubulan sarfiyatın miktarı hakikisini
+                     mübeyyin olarak bunun şekil ve taksimatı dahi Muvazenei Umumiye tamamile
+                     mutabık olacaktır.</p>
+               </div>
+               <div n="104" type="article">
+                  <head>Madde 104</head>
+                  <p>Muhasebei Kat’iye Kanununun lâyihası müteallik olduğu senenin hitamından
+                     itibaren nihayet dört sene sonra Meclisi Umumiye ita olunur.</p>
+               </div>
+               <div n="105" type="article">
+                  <head>Madde 105</head>
+                  <p>Emevali Devletin kabız ve sarfına memur olanların muhasebelerini rüiyet ve
+                     devairden tanzim olunan sâi muhasebelerini tetkik ederek hulâsai tetkikat ve
+                     neticei mütalâatını her sene bir takriri mahsus ile Heyeti Mebusana arzeylmek
+                     üzere bir Divanı Muhasebat teşkil olunacaktır. Bu divan her üç ayda bir kerre
+                     ahvali maliyeyi Riyaseti Vükelâ vasıtasile ba takrir tarafı Hazreti Padişahiye
+                     dahi arzeder.</p>
+               </div>
+               <div n="106" type="article">
+                  <head>Madde 106</head>
+                  <p>Divanı Muhasebatın azası oniki kişiden mürettep olacak ve herbiri Heyeti
+                     Mebusandan ekseriyetle azlinin lüzumu tastik olunmadıkça memuriyetinde kaydı
+                     hayat ile kalmak üzere ba iradei seniye nasbolunacaktır.</p>
+               </div>
+               <div n="107" type="article">
+                  <head>Madde 107</head>
+                  <p>Divanı Muhasebet âzasının evsaf ve vezayifinin tafsilatı ve sureti istifade ve
+                     tebdil ve terakki ve tekaüdü ve ahkâmının keyfiyeti teşkili bir nizamı mahsus
+                     ile tâyin olunacaktır.</p>
+               </div>
+            </div>
+            <div n="11" type="section">
+               <head>Vilâyat</head>
+               <div n="108" type="article">
+                  <head>Madde 108</head>
+                  <p>Vilâyetin usulü idaresi, tevsii mezuniyet ve tefriki vezayif kaidesi üzerine
+                     müesses olup derecatı nizamı mahsus ile tâyin kılınacaktır.</p>
+               </div>
+               <div n="109" type="article">
+                  <head>Madde 109</head>
+                  <p>Vilâyet ve leva ve kaza merkezlerinde olan idare meclislerile senede bir defa
+                     merkezi vilâyette içtima eden Meclisi Umumî âzasının sureti intihabı bir kanunu
+                     mahsus ile tevsi olunacaktır.</p>
+               </div>
+               <div n="110" type="article">
+                  <head>Madde 110</head>
+                  <p>Vilâyet Mecalisi Umumiyesinin vezayifi yapılacak kanunu mahsusunda beyan
+                     olunacağı veçhile turuku meabir tanzimi ve itibar sandıklarının teşkili ve
+                     sanayi ve ticaret ve felahatın teshili gibi umuru nafiaya müteallik mevad
+                     hakkında ve umuma ait maarif ve terbiyenin intişarı yolunda müzakerata şâmil
+                     olmakla beraber, tekâlif ve mürettebatı miriyenin sureti tevzi ve istihsalinde
+                     ve muamelâtı sairede kavanin ve nizamatı mevzua ahkâmına muhalif gördükleri
+                     ahvalin müteallik olduğu makam ve mevkilere tebliğ ile tashih ve ıslahı
+                     zımmında arzı iştikâ etmek selâhiyetini dahil muhtevi olacaktır.</p>
+               </div>
+               <div n="111" type="article">
+                  <head>Madde 111</head>
+                  <p>Müsakkafat ve müstagallat ve nukudu mevkufe hasılatının şurutu vakfiyesi ve
+                     teamülü kadimi veçhile meşrutun lehine ve hayrat ve müberrata sarfolunmak üzere
+                     vasiyet edilen emvalin vasiyetnamelerde muharrer olduğu üzere musalehine
+                     sarfına ve emvali eytamın nizamnamei mahsusu veçhile sureti idaresine nezaret
+                     etmek üzere her kazada her milletin bir cemaat meclisi bulunacak ve bu
+                     meclisler tanzim edilecek nizamatı mahsusası veçhile her milletin müntehap
+                     efradından mürekkep olacaktır. Ve mecalisi mezkûre mahalleri hükümetlerini ve
+                     Vilâyet Mecalisi Umumiyesini kendilerine merci bilecektir.</p>
+               </div>
+               <div n="112" type="article">
+                  <head>Madde 112</head>
+                  <p>Umuru belediye Dersaadet ve taşralarda bilintihap teşkil olunacak Devairi
+                     Belediye Meclislerile idare olunacak ve bu dairelerin sureti teşkili ve vezaifi
+                     ve âzasının sureti intihabı kanunu mahsus ile tâyin kılınacaktır.</p>
+               </div>
+            </div>
+            <div n="12" type="section">
+               <head>Mevaddı Şita</head>
+               <div n="119" type="article">
+                  <head>Madde 113</head>
+                  <p>Mülkün bir cihetinde ihtilâl zuhur edeceğini müeyyid asar ve emarat görüldüğü
+                     halde Hükûmeti seniyenin o mahalle mahsus olmak üzere muvakkaten (idarei
+                     örfiye) ilânına hakkı vardır. (İdarei örfiye) kavanin ve nizamatı mülkiyenin
+                     muvakkaten tatilinden ibaret olup (idarei örfiye) tahtından bulunan mahallin
+                     sureti idaresi nizamı mahsus ile tâyin olunacaktır. Hükûmetin emniyetini ihlâl
+                     ettikleri idarei zabıtanın tahkikatı mevsukası üzerine sabit olanların memâliki
+                     mahrusai şahaneden ihraç ve teb’id etmek münhasıran Zatı Hazreti Padişahinin
+                     yedi iktidarındadır.</p>
+               </div>
+               <div n="114" type="article">
+                  <head>Madde 114</head>
+                  <p>Osmanlı efradının kâffesince tahsili maarifin birinci mertebesi mecburi olacak
+                     ve bunun derecat ve teferrüatı nizamı mahsus ile tâyin kılınacaktır.</p>
+               </div>
+               <div n="115" type="article">
+                  <head>Madde 115</head>
+                  <p>Kanunu Esasinin bir maddesi bile hiçbir sebep ve bahane ile tatil veya icradan
+                     iskat edilemez.</p>
+               </div>
+               <div n="116" type="article">
+                  <head>Madde 116</head>
+                  <p>Kanunu Esasinin mevaddı mündericesinden bazılarının icabı hale ve vakte göre
+                     tagyir ve tadiline lüzumu salih ve kat’i göründüğü halde zikri ati şerait ile
+                     tadili caiz olabilir. Şöyle ki, ya Heyeti Vükelâ veya Heyeti Âyan veya Heyeti
+                     Mebusan tarafından işbu tadile dair bir teklif vukubulduğu halde evvelâ Meclisi
+                     Mebusanda âzayı mürettebenin sülüsan ekseriyetile kabul olunur ve kabul Meclisi
+                     Âyanın kezalik sülüsan ekeriyetile tastik edildikten sonra iradei seniye dahi
+                     sudur eder ise tadilâtı meşruha düstürulamel olur ve Kanunu Esasinin tadili
+                     teklif olunan bir maddesi berveçhi meşruh müzakeratı lâzimesinin icrasile
+                     iradei seniyesinin suduruna kadar hüküm ve kuvvetini gaip etmeksizin
+                     meriyülicra tutulur.</p>
+               </div>
+               <div n="117" type="article">
+                  <head>Madde 117</head>
+                  <p>Bir maddei kanuniyenin tefsiri lâzım geldikte umuru adliyeye müteallik ise
+                     tâyini manâsı Mahkemei Temyize ve idarei mülkiyeye dair ise Şûrayı Devlete ve
+                     işbu Kanunu Esasiden ise Heyeti Âyana aittir.</p>
+               </div>
+               <div n="118" type="article">
+                  <head>Madde 118</head>
+                  <p>Elyevm düsturülamel bulunan nizamat ve teamül ve âdet ileride vazolunacak
+                     kavanin ve nizamat ile tadil veya ilga olunmadıkça meriyülicra olacaktır.</p>
+               </div>
+               <div n="119" type="article">
+                  <head>Madde 119</head>
+                  <p>Meclisi Umumiye dair olan fi <date>10 Şevval sene 93</date> tarihli Talimatı
+                     Muvakkatenin cereyanı ahkâmı yalınız birinci defa içtima edecek Meclisi
+                     Umuminin müddeti inikadiyesi hitamına kadar olup ondan sonra hükmü cari
+                     değildir.</p>
+               </div>
+            </div>
+         </div>-->
+      </body>
+   </text>
+</TEI>

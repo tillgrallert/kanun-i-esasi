@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/TeiJaraid.rnc" type="application/relax-ng-compact-syntax"?> 
+<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ota-Latn-x-ijmes">Ḳānūn-i Esāsī</title>
+            <title type="sub">Digital Edition</title>
+            <respStmt>
+               <resp>TEI version</resp>
+               <persName>Till Grallert</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text xml:lang="ota">
+      <body>
+         <div type="bill" xml:lang="ota"  corresp="#law-ottoman-constitution-1876" >
+            <head>قانون اساسى</head>
+            <div type="section" n="1">
+               <head>ممالك دولت عثمانيه</head>
+               <div type="article" n="1">
+                  <head>برنجى ماده</head>
+                  <p> - دولت عثمانيه ممالك وقطعات حاضره يى وايالات ممتازه يي محتويى ويكوجود اولمغله هيج بر زمانده هيج بر سببله تفريق قبول ايتمز.</p>
+               </div>
+            <div type="article" n="2">
+               <head>ايكنجى ماده</head>
+               <p>- دولت عثمانيه نك پاى نختى استانبول شهريدر وشهر مذكورك سائر بلاد عثمانيه دن آيرو
+                  اوله رق بر كونه امتياز ومعافيتى يوقدر.</p>
+            </div>
+               <div type="article" n="3" >
+                  <head>اوچنجى ماده</head>
+                  <p>سلطنت سنيه عثمانيه خلافت كبراى اسلاميه يى حائز اوله رق سلاله آل عماندن اصول
+                     قديمه سى وجهله اكبر اولاده عائددر.</p>
+               </div>
+               <div type="article" n="4">
+                  <head>دردنجى ماده</head>
+                  <p>ذات حضرت پادشاهى حسب الخلافه دين اسلامك حاميسى وبالجملخ تبعه عثمانيه نك حكمدار
+                     وپادشاهيدر.</p>
+               </div>
+               <div type="article" n="5">
+                  <head>بشنجى ماده</head>
+                  <p>ذات حضرت پادشاهينك نفس همايونى مقدس وغير مسؤلدر. </p>
+               </div>
+               <div type="article" n="6">
+                  <head>التنجى ماده</head>
+                  <p>سلاله آل عثمانك حقوق حريه واموال واملاك ذاتيه ومادام الحاة تخصيصات ماليه لرى
+                     تكافل عمومى تحتنده در.</p>
+               </div>
+               <div type="article" n="7">
+                  <head>يدنجى ماده</head>
+                  <p>وكالنك عزل ونصبى ورتبه ومناصب توجيهى ونشان اعطاسى وايالات ممتازه نك شرايط
+                     امتيازيه لرينه توفيقا اجراى توجيهاتى ومسكوكات<cb/> ...</p>
+               </div>
+            </div>
+         <div type="section" n="2">
+            <head>تبعه دولت عثمانيه نك حقوق عموميه سى</head>
+               <div type="article" n="8">
+                  <head>سكزنجى ماده</head>
+                  <p>دولت عثمانيه تابعيتنه بولنان افرادك جمله سنه هرقنغى دين ومذهبدن اولورايسه
+                     اولسون بلا استثنا عثمانلى تعبير اوانور وعثمانلى صفتى قانونا معين اولان الحواله
+                     كوره استحصال واضاعه ايديلير.</p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+               <div type="article" n="">
+                  <head></head>
+                  <p></p>
+               </div>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>
