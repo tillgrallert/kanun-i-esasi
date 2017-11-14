@@ -83,7 +83,7 @@
              </listBibl>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
+      <revisionDesc><tei:change when="2017-11-14" who="#pers_TG">Linked all <tei:tag>pb ed="print"</tei:tag> to the corresponding facsimile</tei:change><tei:change when="2017-11-14" who="#pers_TG">Linked all <tei:tag>pb ed="print"</tei:tag> to the corresponding facsimile</tei:change>
           <change when="2017-11-14" who="#pers_TG">Added automated page numbers as <att>n</att>s and <att>ed</att>="print" for every<gi>pb</gi> that was not of <att>ed</att>="shamela".</change>
           <tei:change when="2017-11-13" who="#pers_TG">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2015-08-19" who="#pers_TG" xml:lang="en">Added the automatically generated <gi xml:lang="en">facsimile</gi>.</change>
@@ -94,108 +94,108 @@
    </teiHeader>
    <tei:facsimile>
       <tei:surface xml:id="facs_1">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-1.tif" xml:id="facs_1_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-1.jpg" xml:id="facs_1_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-1.tif" mimeType="image/tiff" xml:id="facs_1_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-1.jpg" mimeType="image/jpeg" xml:id="facs_1_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_2">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-2.tif" xml:id="facs_2_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-2.jpg" xml:id="facs_2_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-2.tif" mimeType="image/tiff" xml:id="facs_2_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-2.jpg" mimeType="image/jpeg" xml:id="facs_2_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_3">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-3.tif" xml:id="facs_3_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-3.jpg" xml:id="facs_3_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-3.tif" mimeType="image/tiff" xml:id="facs_3_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-3.jpg" mimeType="image/jpeg" xml:id="facs_3_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_4">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-4.tif" xml:id="facs_4_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-4.jpg" xml:id="facs_4_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-4.tif" mimeType="image/tiff" xml:id="facs_4_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-4.jpg" mimeType="image/jpeg" xml:id="facs_4_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_5">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-5.tif" xml:id="facs_5_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-5.jpg" xml:id="facs_5_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-5.tif" mimeType="image/tiff" xml:id="facs_5_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-5.jpg" mimeType="image/jpeg" xml:id="facs_5_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_6">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-6.tif" xml:id="facs_6_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-6.jpg" xml:id="facs_6_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-6.tif" mimeType="image/tiff" xml:id="facs_6_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-6.jpg" mimeType="image/jpeg" xml:id="facs_6_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_7">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-7.tif" xml:id="facs_7_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-7.jpg" xml:id="facs_7_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-7.tif" mimeType="image/tiff" xml:id="facs_7_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-7.jpg" mimeType="image/jpeg" xml:id="facs_7_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_8">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-8.tif" xml:id="facs_8_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-8.jpg" xml:id="facs_8_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-8.tif" mimeType="image/tiff" xml:id="facs_8_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-8.jpg" mimeType="image/jpeg" xml:id="facs_8_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_9">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-9.tif" xml:id="facs_9_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-9.jpg" xml:id="facs_9_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-9.tif" mimeType="image/tiff" xml:id="facs_9_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-9.jpg" mimeType="image/jpeg" xml:id="facs_9_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_10">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-10.tif" xml:id="facs_10_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-10.jpg" xml:id="facs_10_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-10.tif" mimeType="image/tiff" xml:id="facs_10_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-10.jpg" mimeType="image/jpeg" xml:id="facs_10_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_11">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-11.tif" xml:id="facs_11_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-11.jpg" xml:id="facs_11_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-11.tif" mimeType="image/tiff" xml:id="facs_11_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-11.jpg" mimeType="image/jpeg" xml:id="facs_11_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_12">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-12.tif" xml:id="facs_12_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-12.jpg" xml:id="facs_12_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-12.tif" mimeType="image/tiff" xml:id="facs_12_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-12.jpg" mimeType="image/jpeg" xml:id="facs_12_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_13">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-13.tif" xml:id="facs_13_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-13.jpg" xml:id="facs_13_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-13.tif" mimeType="image/tiff" xml:id="facs_13_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-13.jpg" mimeType="image/jpeg" xml:id="facs_13_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_14">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-14.tif" xml:id="facs_14_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-14.jpg" xml:id="facs_14_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-14.tif" mimeType="image/tiff" xml:id="facs_14_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-14.jpg" mimeType="image/jpeg" xml:id="facs_14_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_15">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-15.tif" xml:id="facs_15_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-15.jpg" xml:id="facs_15_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-15.tif" mimeType="image/tiff" xml:id="facs_15_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-15.jpg" mimeType="image/jpeg" xml:id="facs_15_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_16">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-16.tif" xml:id="facs_16_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-16.jpg" xml:id="facs_16_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-16.tif" mimeType="image/tiff" xml:id="facs_16_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-16.jpg" mimeType="image/jpeg" xml:id="facs_16_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_17">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-17.tif" xml:id="facs_17_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-17.jpg" xml:id="facs_17_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-17.tif" mimeType="image/tiff" xml:id="facs_17_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-17.jpg" mimeType="image/jpeg" xml:id="facs_17_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_18">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-18.tif" xml:id="facs_18_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-18.jpg" xml:id="facs_18_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-18.tif" mimeType="image/tiff" xml:id="facs_18_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-18.jpg" mimeType="image/jpeg" xml:id="facs_18_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_19">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-19.tif" xml:id="facs_19_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-19.jpg" xml:id="facs_19_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-19.tif" mimeType="image/tiff" xml:id="facs_19_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-19.jpg" mimeType="image/jpeg" xml:id="facs_19_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_20">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-20.tif" xml:id="facs_20_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-20.jpg" xml:id="facs_20_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-20.tif" mimeType="image/tiff" xml:id="facs_20_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-20.jpg" mimeType="image/jpeg" xml:id="facs_20_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_21">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-21.tif" xml:id="facs_21_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-21.jpg" xml:id="facs_21_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-21.tif" mimeType="image/tiff" xml:id="facs_21_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-21.jpg" mimeType="image/jpeg" xml:id="facs_21_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_22">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-22.tif" xml:id="facs_22_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-22.jpg" xml:id="facs_22_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-22.tif" mimeType="image/tiff" xml:id="facs_22_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-22.jpg" mimeType="image/jpeg" xml:id="facs_22_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_23">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-23.tif" xml:id="facs_23_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-23.jpg" xml:id="facs_23_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-23.tif" mimeType="image/tiff" xml:id="facs_23_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-23.jpg" mimeType="image/jpeg" xml:id="facs_23_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_24">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-24.tif" xml:id="facs_24_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-24.jpg" xml:id="facs_24_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-24.tif" mimeType="image/tiff" xml:id="facs_24_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-24.jpg" mimeType="image/jpeg" xml:id="facs_24_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_25">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-25.tif" xml:id="facs_25_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-25.jpg" xml:id="facs_25_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-25.tif" mimeType="image/tiff" xml:id="facs_25_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-25.jpg" mimeType="image/jpeg" xml:id="facs_25_g_2"/>
       </tei:surface>
       <tei:surface xml:id="facs_26">
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-26.tif" xml:id="facs_26_g_1"/>
-         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-26.jpg" xml:id="facs_26_g_2"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-26.tif" mimeType="image/tiff" xml:id="facs_26_g_1"/>
+         <tei:graphic url="../images/uc1-c109017146/uc1-c109017146_img-26.jpg" mimeType="image/jpeg" xml:id="facs_26_g_2"/>
       </tei:surface>
    </tei:facsimile>
    <text xml:lang="ar">
@@ -206,14 +206,14 @@
          </note></head>
       </front>
       <body xml:lang="ar">
-            <pb ed="print" n="2"/>
+            <pb ed="print" n="2" facs="#facs_1"/>
             <div>
                 <head>ترجمة الخط الشريف السلطاني</head>
                 <salute>وزيري سمير المعالي <persName>مدحت باشا</persName></salute>
-                <p><gap/> <pb ed="print" n="3"/><gap/><pb ed="print" n="4"/><gap/></p>
+                <p><gap/> <pb ed="print" n="3" facs="#facs_2"/><gap/><pb ed="print" n="4" facs="#facs_3"/><gap/></p>
                 <dateline>في <date>٧ ذي الحجة سنة ١٢٩٣</date></dateline>
             </div>
-            <pb ed="print" n="5"/>
+            <pb ed="print" n="5" facs="#facs_4"/>
          <div corresp="#law-ottoman-constitution-1876" type="bill" xml:lang="ar">
             <head xml:lang="ar">القانون الأساسي العثماني</head>
 
@@ -242,7 +242,7 @@
                </div>
                <div n="6" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة السادسة:</head>
-                  <p xml:lang="ar"> إنّ حقوق حرية سلالة آل عثمان وأموالهم <pb ed="print" n="6"/>وأملاكهم الذاتية وتخصيصاتهم المالية مادامت الحياة جميعها تحت <lb/>التكافل العمومي.</p>
+                  <p xml:lang="ar"> إنّ حقوق حرية سلالة آل عثمان وأموالهم <pb ed="print" n="6" facs="#facs_5"/>وأملاكهم الذاتية وتخصيصاتهم المالية مادامت الحياة جميعها تحت <lb/>التكافل العمومي.</p>
                </div>
                <div n="7" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة السابعة:</head>
@@ -275,7 +275,7 @@
                </div>
                <div n="11" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة الحادية عشرة:</head>
-                  <p xml:lang="ar"> إنّ دين الدولة العثمانية هو دين <pb ed="print" n="7"/>الإسلام. مع المحافظة على هذا الأساس، تكون حرية جميع الأديان المعروفة في الممالك العثمانية وكافة الامتيازات الممنوحة إلى الجماعات المختلفة، تحت حماية الدولة، على شرط أن لا تخل براحة الخلق ولا بالآداب العمومية. </p>
+                  <p xml:lang="ar"> إنّ دين الدولة العثمانية هو دين <pb ed="print" n="7" facs="#facs_6"/>الإسلام. مع المحافظة على هذا الأساس، تكون حرية جميع الأديان المعروفة في الممالك العثمانية وكافة الامتيازات الممنوحة إلى الجماعات المختلفة، تحت حماية الدولة، على شرط أن لا تخل براحة الخلق ولا بالآداب العمومية. </p>
                </div>
                <div n="12" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة الثانية عشرة:</head>
@@ -308,7 +308,7 @@
                   <head xml:lang="ar">المادة السابعة عشرة:</head>
                   <p xml:lang="ar"> يكون كافة العثمانيين متساوين أمام <lb/>القانون وفي حقوق المملكة ووظائفها فيما عدا الأحوال المذهبية والدينية. </p>
                </div>
-                    <pb ed="print" n="8"/>
+                    <pb ed="print" n="8" facs="#facs_7"/>
                <div n="18" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة الثامنة عشرة:</head>
                   <p xml:lang="ar"> يشترط في مطلب استخدام التبعة العثمانية في خدمات الدولة أن يعرفوا اللسان التركي
@@ -352,7 +352,7 @@
                             <orig>الفرد</orig>
                             <corr>واحدة</corr>
                             </choice>
-                            <pb ed="print" n="9"/>تحت اسم ويركو ورسومات أو تحت أي اسم آخر من غير أن يكون ذلك <lb/>مستنداً على قانون. </p>
+                            <pb ed="print" n="9" facs="#facs_8"/>تحت اسم ويركو ورسومات أو تحت أي اسم آخر من غير أن يكون ذلك <lb/>مستنداً على قانون. </p>
                </div>
                <div n="26" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة السادسة والعشرون:</head>
@@ -386,7 +386,7 @@
                </div>
                <div n="31" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة الحادية والثلاثون:</head>
-                  <p xml:lang="ar"> إذا أورد أحد أعضاء المبعوثان <lb/>أو عدة منهم، شكاية على أحد الوكلاء توجب عليه المسؤولية من قبيل بعض <pb ed="print" n="10"/>الأحوال الداخلة ضمن دائرة وظيفة هيئة المبعوثان يرسل رئيس الهيئة تقرير الشكاية المتقدم له في ظرف ثلاثة أيام إلى الشعبة المأمورة بالتدقيق. على ما يماثل هذه المواد لتنظر هل نظام هيئة المبعوثان الداخلي يوجب تحويلها إلى الهيئة أو لا. وبعد أن تجري الشعبة التحقيقات اللازمة، وتستحصل من المشتكى عليه الإيضاحات الكافلة، يتلى لدى هيئة المبعوثان قرارها الذي يترتب بأكثرية الآراء بلزوم التذاكر على الشكلية. وإذا مست الحاجة تستدعي الهيئة ذلك الذات المشتكى عليه وتسمع منه رأساً أو من وكيله الإيضاحات التي يوردها في هذا الباب ومتى قر القرار بالأكثرية المطلقة من ثلثي الأعضاء الموجودين على قبول الشكلية تقدم مضبطة طلب المحاكمة إلى مقام الصدارة فيقدمها الصدر للعرض وتحال الكيفية إلى الديوان العالي بعد تعلق الإرادة السنية عليها. </p>
+                  <p xml:lang="ar"> إذا أورد أحد أعضاء المبعوثان <lb/>أو عدة منهم، شكاية على أحد الوكلاء توجب عليه المسؤولية من قبيل بعض <pb ed="print" n="10" facs="#facs_9"/>الأحوال الداخلة ضمن دائرة وظيفة هيئة المبعوثان يرسل رئيس الهيئة تقرير الشكاية المتقدم له في ظرف ثلاثة أيام إلى الشعبة المأمورة بالتدقيق. على ما يماثل هذه المواد لتنظر هل نظام هيئة المبعوثان الداخلي يوجب تحويلها إلى الهيئة أو لا. وبعد أن تجري الشعبة التحقيقات اللازمة، وتستحصل من المشتكى عليه الإيضاحات الكافلة، يتلى لدى هيئة المبعوثان قرارها الذي يترتب بأكثرية الآراء بلزوم التذاكر على الشكلية. وإذا مست الحاجة تستدعي الهيئة ذلك الذات المشتكى عليه وتسمع منه رأساً أو من وكيله الإيضاحات التي يوردها في هذا الباب ومتى قر القرار بالأكثرية المطلقة من ثلثي الأعضاء الموجودين على قبول الشكلية تقدم مضبطة طلب المحاكمة إلى مقام الصدارة فيقدمها الصدر للعرض وتحال الكيفية إلى الديوان العالي بعد تعلق الإرادة السنية عليها. </p>
                </div>
                <div n="32" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة الثانية والثلاثون:</head>
@@ -405,7 +405,7 @@
                </div>
                <div n="35" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة الخامسة والثلاثون:</head>
-                  <p xml:lang="ar"> إذا أصرّ الوكلاء على قبول <lb/>أحد المواد المختلف عليها بينهم وبين هيئة المبعوثان وكرر المبعوثان رفضها <pb ed="print" n="11"/>قطعياً بأكثرية الآراء المشفوعة بتفصيل الأسباب الموجبة لرفضها فيكون حينئذ بيد اقتدار الحضرة السلطانية تبديل الوكلاء أو فسخ هيئة المبعوثان على شرط تجديد انتخابها في المدة القانونية. </p>
+                  <p xml:lang="ar"> إذا أصرّ الوكلاء على قبول <lb/>أحد المواد المختلف عليها بينهم وبين هيئة المبعوثان وكرر المبعوثان رفضها <pb ed="print" n="11" facs="#facs_10"/>قطعياً بأكثرية الآراء المشفوعة بتفصيل الأسباب الموجبة لرفضها فيكون حينئذ بيد اقتدار الحضرة السلطانية تبديل الوكلاء أو فسخ هيئة المبعوثان على شرط تجديد انتخابها في المدة القانونية. </p>
                </div>
                <div n="36" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة السادسة والثلاثون:</head>
@@ -433,7 +433,7 @@
                <head xml:lang="ar">في المأمورين</head>
                <div n="39" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة التاسعة والثلاثون:</head>
-                  <p xml:lang="ar"> جميع المأمورين ينتخبون للمأموريات <lb/>التي يكونون أهلاً لها، على وفق الشروط التي سيتعين نظامها. <lb/>والمأمورون المنتخبون على هذا الوجه لا يعزلون <gap/><pb ed="print" n="12"/><gap/> أو يستعفوا من تلقاء أنفسهم ما لم <lb/>ير لدى الدولة سبب ضروري لعزلهم. أما من كان منهم مستقيماً وحسن <lb/>السلوك وانفصل عن مأموريته لسبب مقتض لدى الدولة فله حق بالترقي <lb/>أو بالتقاعد أو بمعاش معزولـيته حسبما يتعين في نظام هذا المطلب المخصوص. </p>
+                  <p xml:lang="ar"> جميع المأمورين ينتخبون للمأموريات <lb/>التي يكونون أهلاً لها، على وفق الشروط التي سيتعين نظامها. <lb/>والمأمورون المنتخبون على هذا الوجه لا يعزلون <gap/><pb ed="print" n="12" facs="#facs_11"/><gap/> أو يستعفوا من تلقاء أنفسهم ما لم <lb/>ير لدى الدولة سبب ضروري لعزلهم. أما من كان منهم مستقيماً وحسن <lb/>السلوك وانفصل عن مأموريته لسبب مقتض لدى الدولة فله حق بالترقي <lb/>أو بالتقاعد أو بمعاش معزولـيته حسبما يتعين في نظام هذا المطلب المخصوص. </p>
                </div>
                <div n="40" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة الأربعون:</head>
@@ -466,7 +466,7 @@
                </div>
                <div n="45" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة الخامسة والأربعون:</head>
-                  <p xml:lang="ar"> يتم افتتاح المجلس العمومي بحضور <lb/>الحضرة السلطانية بالذات أو بالوكالة بحضور الصدر الأعظم ووكلاء <pb ed="print" n="13"/>الدولة وأعضاء الهيئتين معاً ويتلى في ذلك اليوم نطق سلطاني متعلق بأحوال داخلية الدولة ومناسباتها الخارجية في ظرف السنة الجارية وفيما يجب اتخاذه من الوسائل والتدابير في السنة الآتية. </p>
+                  <p xml:lang="ar"> يتم افتتاح المجلس العمومي بحضور <lb/>الحضرة السلطانية بالذات أو بالوكالة بحضور الصدر الأعظم ووكلاء <pb ed="print" n="13" facs="#facs_12"/>الدولة وأعضاء الهيئتين معاً ويتلى في ذلك اليوم نطق سلطاني متعلق بأحوال داخلية الدولة ومناسباتها الخارجية في ظرف السنة الجارية وفيما يجب اتخاذه من الوسائل والتدابير في السنة الآتية. </p>
                </div>
                <div n="46" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة السادسة والأربعون:</head>
@@ -496,7 +496,7 @@
                   <p xml:lang="ar"> لكل فرد من أعضاء المجلس العمومي أن يعطي رأيه بالذات أو لا يعطيه في رد تلك
                      المادة الواقع عليها التذاكر أو في قبولها. </p>
                </div>
-                    <pb ed="print" n="14"/>
+                    <pb ed="print" n="14" facs="#facs_13"/>
                <div n="50" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة الخمسون:</head>
                   <p xml:lang="ar"> لا يمكن لأحد أن يكون عضواً في الهيئتين معاً في وقت واحد. </p>
@@ -532,7 +532,7 @@
                </div>
                <div n="55" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة الخامسة والخمسون:</head>
-                  <p xml:lang="ar"> لا يعتبر أحد القوانين مقبولاً ما لم <pb ed="print" n="15"/>تقرأ لائحته بنداً فبنداً في هيئة المبعوثان ثم في هيئة الأعيان. ويعطى على كل بند على حدته رأي، ويقر عليه القرار بأكثرية الآراء، ثم يقر القرار بعد ذلك على مجموع هيئتها تكراراً بالأكثرية. </p>
+                  <p xml:lang="ar"> لا يعتبر أحد القوانين مقبولاً ما لم <pb ed="print" n="15" facs="#facs_14"/>تقرأ لائحته بنداً فبنداً في هيئة المبعوثان ثم في هيئة الأعيان. ويعطى على كل بند على حدته رأي، ويقر عليه القرار بأكثرية الآراء، ثم يقر القرار بعد ذلك على مجموع هيئتها تكراراً بالأكثرية. </p>
                </div>
                <div n="56" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة السادسة والخمسون:</head>
@@ -566,7 +566,7 @@
                </div>
                <div n="61" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة الحادية والستون:</head>
-                  <p xml:lang="ar"> لا يمكن أن يكون عضواً في هيئة <lb/>الأعيان إلا من كان بالأقل بالغاً سن الأربعين وهو من الذوات الذين حازت <pb ed="print" n="16"/>آثارهـم وأفعـالهم وثوق العامـة واعتمادهـا والمشهود لهم بحـسن الخدمات المسبوقة في أمور الدولة. </p>
+                  <p xml:lang="ar"> لا يمكن أن يكون عضواً في هيئة <lb/>الأعيان إلا من كان بالأقل بالغاً سن الأربعين وهو من الذوات الذين حازت <pb ed="print" n="16" facs="#facs_15"/>آثارهـم وأفعـالهم وثوق العامـة واعتمادهـا والمشهود لهم بحـسن الخدمات المسبوقة في أمور الدولة. </p>
                </div>
                <div n="62" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة الثانية والستون:</head>
@@ -594,7 +594,7 @@
                      رأت لذلك لزوماً. </p>
                </div>
             </div>
-                <pb ed="print" n="17"/>
+                <pb ed="print" n="17" facs="#facs_16"/>
             <div n="7" type="section" xml:lang="ar">
                <head xml:lang="ar">في هيئة المبعوثان</head>
                <div n="65" type="article" xml:lang="ar">
@@ -629,7 +629,7 @@
                   <p xml:lang="ar"> إن انتخاب المبعوثان العمومي يجري مرة واحدة في كل أربع سنين، ومدة مأمورية كل
                      مبعوث عبارة عنها. ويجوز تكرار انتخابه. </p>
                </div>
-                    <pb ed="print" n="18"/>
+                    <pb ed="print" n="18" facs="#facs_17"/>
                <div n="70" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة السبعون:</head>
                   <p xml:lang="ar"> يبتدأ بانتخاب المبعوثان العمومي من مدة لا أقل من أربعة أشهر قبل تشرين الثاني،
@@ -669,7 +669,7 @@
                </div>
                <div n="77" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة السابعة والسبعون:</head>
-                  <p xml:lang="ar"> ينتخب من طرف الهيئة ثلاثة <lb/>أنفار لرئاسة هيئة المبعوثان وثلاثة أنفار لكل من الرئاسة الثانية والثالثة، <lb/>مجموع ذلك تسع ذوات، فيعرضون على الحضرة السلطانية فيترجح <pb ed="print" n="19"/>أحدهم بالإرادة السنية السلطانية للرئاسة، واثنان منهم كذلك لوكالتي <lb/>الرئاسة، وتجرى مأموريتهم. </p>
+                  <p xml:lang="ar"> ينتخب من طرف الهيئة ثلاثة <lb/>أنفار لرئاسة هيئة المبعوثان وثلاثة أنفار لكل من الرئاسة الثانية والثالثة، <lb/>مجموع ذلك تسع ذوات، فيعرضون على الحضرة السلطانية فيترجح <pb ed="print" n="19" facs="#facs_18"/>أحدهم بالإرادة السنية السلطانية للرئاسة، واثنان منهم كذلك لوكالتي <lb/>الرئاسة، وتجرى مأموريتهم. </p>
                </div>
                <div n="78" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة الثامنة والسبعون:</head>
@@ -771,7 +771,7 @@
                      ديوان التمييز والاستئناف، وثلاثة من أعضاء شورى الدولة، وجميعهم ينتخبون بالقرعة
                      من الأعضاء الذين يؤخذون للديوان العالي. </p>
                </div>
-                    <pb ed="print" n="22"/>
+                    <pb ed="print" n="22" facs="#facs_21"/>
                <div n="94" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة الرابعة والتسعون:</head>
                   <p xml:lang="ar"> إنّ هذه الدائرة تعطي القرار بأكثرية الثلثين في اتهام الذوات المشتكى عليهم أو
@@ -806,7 +806,7 @@
                </div>
                <div n="99" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة التاسعة والتسعون:</head>
-                  <p xml:lang="ar"> إنّ لائحة قانون الموازنة العمومية <pb ed="print" n="23"/>تعطى لهيئة المبعوثان عقب فتح المجلس العمومي ليمكن وضعه في موقع الإجراء قبل دخول السنة المتعلق بها. </p>
+                  <p xml:lang="ar"> إنّ لائحة قانون الموازنة العمومية <pb ed="print" n="23" facs="#facs_22"/>تعطى لهيئة المبعوثان عقب فتح المجلس العمومي ليمكن وضعه في موقع الإجراء قبل دخول السنة المتعلق بها. </p>
                </div>
                <div n="100" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة المائة:</head>
@@ -837,7 +837,7 @@
                </div>
                <div n="104" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة الرابعة بعد المائة:</head>
-                  <p xml:lang="ar"> تعطى لائحة قانون المحاسبة <lb/>القطعية إلى المجلس العمومي بعد أربع سنين من اعتبار ختام السنة <pb ed="print" n="24"/>المتعلقة بها بشرط أن لا تتجاوز هذه المدة. </p>
+                  <p xml:lang="ar"> تعطى لائحة قانون المحاسبة <lb/>القطعية إلى المجلس العمومي بعد أربع سنين من اعتبار ختام السنة <pb ed="print" n="24" facs="#facs_23"/>المتعلقة بها بشرط أن لا تتجاوز هذه المدة. </p>
                </div>
                <div n="105" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة الخامسة بعد المائة:</head>
@@ -872,7 +872,7 @@
                      والقضاوات وانتخاب أعضاء المجلس العمومي الذي يجتمع مرة واحدة في السنة في مركز كل
                      ولاية على حدتها. </p>
                </div>
-                    <pb ed="print" n="25"/>
+                    <pb ed="print" n="25" facs="#facs_24"/>
                <div n="110" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة العاشرة بعد المائة:</head>
                   <p xml:lang="ar"> تبين وظائف أعضاء المجلس العمومية في الولايات بقانون مخصوص يوضع لها، ويشتمل
@@ -901,7 +901,7 @@
                      ووظائفها وكيفية انتخاب أعضائها سيتعين بقانون مخصوص. </p>
                </div>
             </div>
-                <pb ed="print" n="26"/>
+                <pb ed="print" n="26" facs="#facs_25"/>
             <div n="12" type="section" xml:lang="ar">
                <head xml:lang="ar">في مواد شتى</head>
                <div n="113" type="article" xml:lang="ar">
@@ -925,7 +925,7 @@
                </div>
                <div n="116" type="article" xml:lang="ar">
                   <head xml:lang="ar"> المادة السادسة عشرة بعد المائة: </head>
-                  <p xml:lang="ar">إذا شهد لزوم صحيح قطعي، حسب إيجاب الوقت والحال، لتغيير بعض مواد القانون الأساسي وتعديلها، يجوز تعديلها على الشروط الآتية وهي: أولاً: أن يقع التكليف المتعلق بالتعديل من هيئة الوكلاء أو من هيئة الأعيان أو من هيئة المبعوثان. ثانياً: يقبل التكليف المذكور في هيئة المبعوثان بأكثرية الثلثين، ثم يصادق على قبوله من هيئة الأعيان أيضاً بأكثرية الثلثين، فمتى تم ذلك وتعلقت على هذا المركز الإرادة السنية تصير حينئذ تلك التعديلات دستوراً للعمل. أما المادة الواقع التكليف على تعديلها من القانون الأساسي فتستمر مرعية الإجراء من غير أن تفقد قوتها وحكمها إلى أن تتمّ المذاكرات اللازمة <pb ed="print" n="27"/>بتعديلها وتتعلق بخصوصها الإرادة السنية. </p>
+                  <p xml:lang="ar">إذا شهد لزوم صحيح قطعي، حسب إيجاب الوقت والحال، لتغيير بعض مواد القانون الأساسي وتعديلها، يجوز تعديلها على الشروط الآتية وهي: أولاً: أن يقع التكليف المتعلق بالتعديل من هيئة الوكلاء أو من هيئة الأعيان أو من هيئة المبعوثان. ثانياً: يقبل التكليف المذكور في هيئة المبعوثان بأكثرية الثلثين، ثم يصادق على قبوله من هيئة الأعيان أيضاً بأكثرية الثلثين، فمتى تم ذلك وتعلقت على هذا المركز الإرادة السنية تصير حينئذ تلك التعديلات دستوراً للعمل. أما المادة الواقع التكليف على تعديلها من القانون الأساسي فتستمر مرعية الإجراء من غير أن تفقد قوتها وحكمها إلى أن تتمّ المذاكرات اللازمة <pb ed="print" n="27" facs="#facs_26"/>بتعديلها وتتعلق بخصوصها الإرادة السنية. </p>
                </div>
                <div n="117" type="article" xml:lang="ar">
                   <head xml:lang="ar">المادة السابعة عشرة بعد المائة:</head>
