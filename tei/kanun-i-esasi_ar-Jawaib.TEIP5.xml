@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../boilerplate/xslt/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="">
    <teiHeader xml:lang="en" xml:id="teiHeader_1.d2e6">
       <fileDesc xml:lang="en" xml:id="fileDesc_1.d2e8">
@@ -18,16 +18,11 @@
             <p xml:lang="en" xml:id="p_1.d2e39">unpublished</p>
          </publicationStmt>
          <sourceDesc xml:lang="en" xml:id="sourceDesc_1.d2e43">
-           <!-- <p xml:lang="en">The text was originally published in <bibl xml:lang="ar-Latn-x-ijmes">Shidyāq, Aḥmad
-                  Fāris. <hi xml:lang="ar-Latn-x-ijmes">Kanz al-raghāʾib fī muntakhabāt al-jawāʾib: Wa huwa yaḥtawī ʿalā baʿḍ
-                     mā fī al-jawāʾib min al-fuṣūl al-laṭīfa wa-l-maqāmāt al-ẓarīfa wa-l-maqālāt
-                     al-adabiyya allātī li-muḥarrir al-jawāʾib</hi>. 1st ed. Vol. 6. Edited by Salīm
-                  Fāris. al-Astāna al-ʿāliyya: Maṭbaʿat al-jawāʾib, 1295 aH [1878]: 5-27</bibl></p>
-            <p xml:lang="en">The text was also published by <bibl xml:lang="ar-Latn-x-ijmes">al-Bashīr
-                  (#1869)</bibl></p>
+           <!-- 
             <p xml:lang="en">The digital text was downloaded from <ref target="http://www.ahewar.org/debat/show.art.asp?aid=394603" xml:lang="en">ahewar.org</ref> and
                   <ref target="http://iraqja.iq/view.93/" xml:lang="en">iraqja.iq</ref>. Image files are available
-               from <ref target="http://hdl.handle.net/2027/uc1.c109017146" xml:lang="en">HathiTrust</ref>. </p>-->
+               from <ref target="http://hdl.handle.net/2027/uc1.c109017146" xml:lang="en">HathiTrust</ref>. </p>
+           -->
              <listBibl xml:id="listBibl_1.d2e47">
                  <biblStruct xml:lang="ar-Latn-x-ijmes" xml:id="biblStruct_1.d2e49">
                      <analytic xml:id="analytic_1.d2e51">
@@ -40,6 +35,7 @@
                      <monogr xml:id="monogr_1.d2e66">
                          <title level="m" xml:id="title_4.d2e68">Kanz al-raghāʾib fī muntakhabāt al-jawāʾib</title>
                          <title level="m" type="sub" xml:id="title_5.d2e71">Wa huwa yaḥtawī ʿalā baʿḍ mā fī al-jawāʾib min al-fuṣūl al-laṭīfa wa-l-maqāmāt al-ẓarīfa wa-l-maqālāt al-adabiyya allātī li-muḥarrir al-jawāʾib</title>
+                         <idno type="oclc">11426489</idno>
                          <editor xml:id="editor_1.d2e74">
                              <persName xml:id="persName_4.d2e76">Salīm Fāris</persName>
                          </editor>
