@@ -1,232 +1,238 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/TeiJaraid.rnc" type="application/relax-ng-compact-syntax"?> 
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="">
   <teiHeader xml:lang="en">
-      <fileDesc>
-         <titleStmt>
+      <fileDesc xml:lang="en">
+         <titleStmt xml:lang="en">
             <title xml:lang="ota-Latn-x-ijmes">Ḳānūn-i Esāsī</title>
-            <title type="sub">Digital Edition</title>
-            <respStmt>
-               <resp>TEI version</resp>
-               <persName>Till Grallert</persName>
+            <title type="sub" xml:lang="en">Digital Edition</title>
+            <respStmt xml:lang="en">
+               <resp xml:lang="en">TEI version</resp>
+               <persName xml:lang="en">Till Grallert</persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
+         <publicationStmt xml:lang="en">
+            <p xml:lang="en">Publication Information</p>
          </publicationStmt>
-         <sourceDesc>
-            <p>Information about the source</p>
+         <sourceDesc xml:lang="en">
+            <!--<p xml:lang="en">Information about the source</p>-->
+             <listBibl>
+                 <biblStruct>
+                     <monogr>
+                         <imprint></imprint>
+                     </monogr>
+                 </biblStruct>
+             </listBibl>
          </sourceDesc>
       </fileDesc>
   </teiHeader>
   <text xml:lang="ota">
-      <body>
-         <div type="bill" xml:lang="ota"  corresp="#law-ottoman-constitution-1876" >
-            <head>قانون اساسى</head>
-            <div type="section" n="1">
-               <head>ممالك دولت عثمانيه</head>
-               <div type="article" n="1">
-                  <head>برنجى ماده</head>
-                  <p> - دولت عثمانيه ممالك وقطعات حاضره يى وايالات ممتازه يي محتويى ويكوجود اولمغله هيج بر زمانده هيج بر سببله تفريق قبول ايتمز.</p>
+      <front/>
+      <body xml:lang="ota">
+         <div type="bill" xml:lang="ota" corresp="#law-ottoman-constitution-1876">
+            <head xml:lang="ota">قانون اساسى</head>
+            <div type="section" n="1" xml:lang="ota">
+               <head xml:lang="ota">ممالك دولت عثمانيه</head>
+               <div type="article" n="1" xml:lang="ota">
+                  <head xml:lang="ota">برنجى ماده</head>
+                  <p xml:lang="ota"> - دولت عثمانيه ممالك وقطعات حاضره يى وايالات ممتازه يي محتويى ويكوجود اولمغله هيج بر زمانده هيج بر سببله تفريق قبول ايتمز.</p>
                </div>
-            <div type="article" n="2">
-               <head>ايكنجى ماده</head>
-               <p>- دولت عثمانيه نك پاى نختى استانبول شهريدر وشهر مذكورك سائر بلاد عثمانيه دن آيرو
+            <div type="article" n="2" xml:lang="ota">
+               <head xml:lang="ota">ايكنجى ماده</head>
+               <p xml:lang="ota">- دولت عثمانيه نك پاى نختى استانبول شهريدر وشهر مذكورك سائر بلاد عثمانيه دن آيرو
                   اوله رق بر كونه امتياز ومعافيتى يوقدر.</p>
             </div>
-               <div type="article" n="3" >
-                  <head>اوچنجى ماده</head>
-                  <p>سلطنت سنيه عثمانيه خلافت كبراى اسلاميه يى حائز اوله رق سلاله آل عماندن اصول
+               <div type="article" n="3" xml:lang="ota">
+                  <head xml:lang="ota">اوچنجى ماده</head>
+                  <p xml:lang="ota">سلطنت سنيه عثمانيه خلافت كبراى اسلاميه يى حائز اوله رق سلاله آل عماندن اصول
                      قديمه سى وجهله اكبر اولاده عائددر.</p>
                </div>
-               <div type="article" n="4">
-                  <head>دردنجى ماده</head>
-                  <p>ذات حضرت پادشاهى حسب الخلافه دين اسلامك حاميسى وبالجملخ تبعه عثمانيه نك حكمدار
+               <div type="article" n="4" xml:lang="ota">
+                  <head xml:lang="ota">دردنجى ماده</head>
+                  <p xml:lang="ota">ذات حضرت پادشاهى حسب الخلافه دين اسلامك حاميسى وبالجملخ تبعه عثمانيه نك حكمدار
                      وپادشاهيدر.</p>
                </div>
-               <div type="article" n="5">
-                  <head>بشنجى ماده</head>
-                  <p>ذات حضرت پادشاهينك نفس همايونى مقدس وغير مسؤلدر. </p>
+               <div type="article" n="5" xml:lang="ota">
+                  <head xml:lang="ota">بشنجى ماده</head>
+                  <p xml:lang="ota">ذات حضرت پادشاهينك نفس همايونى مقدس وغير مسؤلدر. </p>
                </div>
-               <div type="article" n="6">
-                  <head>التنجى ماده</head>
-                  <p>سلاله آل عثمانك حقوق حريه واموال واملاك ذاتيه ومادام الحاة تخصيصات ماليه لرى
+               <div type="article" n="6" xml:lang="ota">
+                  <head xml:lang="ota">التنجى ماده</head>
+                  <p xml:lang="ota">سلاله آل عثمانك حقوق حريه واموال واملاك ذاتيه ومادام الحاة تخصيصات ماليه لرى
                      تكافل عمومى تحتنده در.</p>
                </div>
-               <div type="article" n="7">
-                  <head>يدنجى ماده</head>
-                  <p>وكالنك عزل ونصبى ورتبه ومناصب توجيهى ونشان اعطاسى وايالات ممتازه نك شرايط
+               <div type="article" n="7" xml:lang="ota">
+                  <head xml:lang="ota">يدنجى ماده</head>
+                  <p xml:lang="ota">وكالنك عزل ونصبى ورتبه ومناصب توجيهى ونشان اعطاسى وايالات ممتازه نك شرايط
                      امتيازيه لرينه توفيقا اجراى توجيهاتى ومسكوكات<cb/> ...</p>
                </div>
             </div>
-         <div type="section" n="2">
-            <head>تبعه دولت عثمانيه نك حقوق عموميه سى</head>
-               <div type="article" n="8">
-                  <head>سكزنجى ماده</head>
-                  <p>دولت عثمانيه تابعيتنه بولنان افرادك جمله سنه هرقنغى دين ومذهبدن اولورايسه
+         <div type="section" n="2" xml:lang="ota">
+            <head xml:lang="ota">تبعه دولت عثمانيه نك حقوق عموميه سى</head>
+               <div type="article" n="8" xml:lang="ota">
+                  <head xml:lang="ota">سكزنجى ماده</head>
+                  <p xml:lang="ota">دولت عثمانيه تابعيتنه بولنان افرادك جمله سنه هرقنغى دين ومذهبدن اولورايسه
                      اولسون بلا استثنا عثمانلى تعبير اوانور وعثمانلى صفتى قانونا معين اولان الحواله
                      كوره استحصال واضاعه ايديلير.</p>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
-               <div type="article" n="">
-                  <head></head>
-                  <p></p>
+               <div type="article" n="" xml:lang="ota">
+                  <head/>
+                  <p/>
                </div>
             </div>
          </div>

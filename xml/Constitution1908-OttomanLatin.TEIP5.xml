@@ -1,65 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../schema/TeiJaraid.rnc" type="application/relax-ng-compact-syntax"?> 
-<?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="">
    <teiHeader xml:lang="en">
-      <fileDesc>
-         <titleStmt>
+      <fileDesc xml:lang="en">
+         <titleStmt xml:lang="en">
             <title xml:lang="ota-Latn-x-ijmes">Ḳānūn-i Esāsī</title>
-            <title type="sub">Digital Edition</title>
-            <respStmt>
-               <resp>TEI version</resp>
-               <persName>Till Grallert</persName>
+            <title type="sub" xml:lang="en">Digital Edition</title>
+            <respStmt xml:lang="en">
+               <resp xml:lang="en">TEI version</resp>
+               <persName xml:lang="en">Till Grallert</persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
+         <publicationStmt xml:lang="en">
+            <p xml:lang="en">Publication Information</p>
          </publicationStmt>
-         <sourceDesc>
-            <p>The digital text was downloaded from <ref target="http://anayasametinleri.blogspot.com/2010/09/1876-kanun-i-esasi-orijinal-metin_15.html">http://anayasametinleri.blogspot.com/2010/09/1876-kanun-i-esasi-orijinal-metin_15.html</ref>. The transcription produced by Yrd. Doç. <persName>Dr. Abdullah SEZER</persName> of <orgName><orgName>Marmara Üniversitesi</orgName> <orgName>Hukuk Fakültesi</orgName></orgName> - Anayasa Hukuku Öğretim Üyesi. </p>
+         <sourceDesc xml:lang="en">
+            <p xml:lang="en">The digital text was downloaded from <ref target="http://anayasametinleri.blogspot.com/2010/09/1876-kanun-i-esasi-orijinal-metin_15.html" xml:lang="en">http://anayasametinleri.blogspot.com/2010/09/1876-kanun-i-esasi-orijinal-metin_15.html</ref>. The transcription produced by Yrd. Doç. <persName xml:lang="en">Dr. Abdullah SEZER</persName> of <orgName xml:lang="en"><orgName xml:lang="en">Marmara Üniversitesi</orgName> <orgName xml:lang="en">Hukuk Fakültesi</orgName></orgName> - Anayasa Hukuku Öğretim Üyesi. </p>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text xml:lang="ota-Latn-TR">
-      <body>
+      <body xml:lang="ota-Latn-TR">
          <div corresp="#law-ottoman-constitution-1876" type="bill" xml:lang="ota-Latn-TR">
-            <head>KANÛN-I ESÂSÎ</head>
+            <head xml:lang="ota-Latn-TR">KANÛN-I ESÂSÎ</head>
 
-            <div n="1" type="section">
-               <head>MEMÂLİK-İ DEVLET-İ OSMANİYE</head>
+            <div n="1" type="section" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MEMÂLİK-İ DEVLET-İ OSMANİYE</head>
 
-               <div n="1" type="article">
-                  <head>MADDE 1.</head>
-                  <p>Devlet-i Osmaniye, memâlik ve kıtaat-ı hâzırayı ve eyalât-ı mümtâzeyi muhtevi
+               <div n="1" type="article" xml:lang="ota-Latn-TR">
+                  <head xml:lang="ota-Latn-TR">MADDE 1.</head>
+                  <p xml:lang="ota-Latn-TR">Devlet-i Osmaniye, memâlik ve kıtaat-ı hâzırayı ve eyalât-ı mümtâzeyi muhtevi
                      ve yek-vücud olmakla, hiçbir zamanda hiçbir sebeble tefrik kabûl etmez. </p>
                </div>
-               <div n="2" type="article">
-                  <head>MADDE 2.</head>
-                  <p>Devlet-i Osmaniye’nin pây-ı tahtı İstanbul şehridir ve şehr-i mezkûrun, sair
+               <div n="2" type="article" xml:lang="ota-Latn-TR">
+                  <head xml:lang="ota-Latn-TR">MADDE 2.</head>
+                  <p xml:lang="ota-Latn-TR">Devlet-i Osmaniye’nin pây-ı tahtı İstanbul şehridir ve şehr-i mezkûrun, sair
                      bilâd-ı Osmaniye’den ayrı olarak bir gûne imtiyaz ve muafiyeti yoktur. </p>
                </div>
-               <div n="3" type="article">
-                  <head>MADDE 3.</head>
-                  <p>Saltanat-ı Seniye-i Osmaniye Hilâfet-i Kübrâ-yı İslâmiye’yi hâiz olarak
+               <div n="3" type="article" xml:lang="ota-Latn-TR">
+                  <head xml:lang="ota-Latn-TR">MADDE 3.</head>
+                  <p xml:lang="ota-Latn-TR">Saltanat-ı Seniye-i Osmaniye Hilâfet-i Kübrâ-yı İslâmiye’yi hâiz olarak
                      Sülâle-i Âl-i Osman’dan usûl-i kadîmesi vechile ekber evlâda aittir. </p>
                </div>
-               <div n="4" type="article">
-                  <head>MADDE 4.</head>
-                  <p>Zât-ı Hazret-i Pâdişâhî, hasbel-hilâfe Dîn-i İslâm’ın hâmisi ve bil-cümle
+               <div n="4" type="article" xml:lang="ota-Latn-TR">
+                  <head xml:lang="ota-Latn-TR">MADDE 4.</head>
+                  <p xml:lang="ota-Latn-TR">Zât-ı Hazret-i Pâdişâhî, hasbel-hilâfe Dîn-i İslâm’ın hâmisi ve bil-cümle
                      tebaa-i Osmaniye’nin hükümdar ve pâdişâhıdır. </p>
                </div>
-               <div n="5" type="article">
-                  <head>MADDE 5.</head>
-                  <p>Zât-ı Hazret-i Pâdişâhî’nin nefs-i hümâyûnu, mukaddes ve gayr-i mes’ûldür. </p>
+               <div n="5" type="article" xml:lang="ota-Latn-TR">
+                  <head xml:lang="ota-Latn-TR">MADDE 5.</head>
+                  <p xml:lang="ota-Latn-TR">Zât-ı Hazret-i Pâdişâhî’nin nefs-i hümâyûnu, mukaddes ve gayr-i mes’ûldür. </p>
                </div>
-               <div n="6" type="article">
-                  <head>MADDE 6.</head>
-                  <p>Sülâle-i Âl-i Osman’ın hukuk-ı hürriye ve emval ve emlâk-i zâtiye ve
+               <div n="6" type="article" xml:lang="ota-Latn-TR">
+                  <head xml:lang="ota-Latn-TR">MADDE 6.</head>
+                  <p xml:lang="ota-Latn-TR">Sülâle-i Âl-i Osman’ın hukuk-ı hürriye ve emval ve emlâk-i zâtiye ve
                      madâmel-hayat tahsisât-ı mâliyeleri, tekâfül-i umûmî tahtındadır. </p>
                </div>
-               <div n="7" type="article">
-                  <head>MADDE 7.</head>
-                  <p>Vükelânın azil ve nasbı ve rütbe ve menasıp tevcihi ve nişân itâsı ve eyalât-ı
+               <div n="7" type="article" xml:lang="ota-Latn-TR">
+                  <head xml:lang="ota-Latn-TR">MADDE 7.</head>
+                  <p xml:lang="ota-Latn-TR">Vükelânın azil ve nasbı ve rütbe ve menasıp tevcihi ve nişân itâsı ve eyalât-ı
                      mümtâzenin şerait-i imtiyaziyelerine tevfikan icrâ-yı tevcihâtı ve meskûkat
                      darbı ve hutbelerde nâmının zikri ve düvel-i ecnebiyye ile muahedat akdi ve
                      harb ve sulh ilânı ve kuvve-i berriyye ve bahriyyenin kumandası ve harekât-ı
@@ -70,129 +68,129 @@
                      Pâdişâhî cümlesindendir. </p>
                </div>
             </div>
-            <div type="section" n="2">
-               <head>TEBAA-İ DEVLET-İ OSMANİYE’NİN HUKUK-I UMÛMÎYESİ</head>
-            <div n="8" type="article">
-               <head>MADDE 8.</head>
-               <p>Devlet-i Osmaniye tâbiiyyetinde bulunan efradın cümlesine her hangi din ve
+            <div type="section" n="2" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">TEBAA-İ DEVLET-İ OSMANİYE’NİN HUKUK-I UMÛMÎYESİ</head>
+            <div n="8" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 8.</head>
+               <p xml:lang="ota-Latn-TR">Devlet-i Osmaniye tâbiiyyetinde bulunan efradın cümlesine her hangi din ve
                   mezhepten olur ise olsun bilâ-istisna Osmanlı tâbir olunur ve Osmanlı sıfatı
                   kanûnen muayyen olan ahvale göre istihsal ve izae edilir. </p>
             </div>
-            <div n="9" type="article">
-               <head>MADDE 9.</head>
-               <p>Osmanlıların kâffesi, hürriyet-i şahsiyelerine mâlik ve aharın hukuk-ı hürriyetine
+            <div n="9" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 9.</head>
+               <p xml:lang="ota-Latn-TR">Osmanlıların kâffesi, hürriyet-i şahsiyelerine mâlik ve aharın hukuk-ı hürriyetine
                   tecavüz etmemekle mükelleftir. </p>
             </div>
-            <div n="10" type="article">
-               <head>MADDE 10.</head>
-               <p>Hürriyet-i şahsiye her türlü taarruzdan masûndur. Hiç kimse kanûnun tâyin ettiği
+            <div n="10" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 10.</head>
+               <p xml:lang="ota-Latn-TR">Hürriyet-i şahsiye her türlü taarruzdan masûndur. Hiç kimse kanûnun tâyin ettiği
                   sebeb ve sûretten maada bir bahane ile mücazaât olunamaz. </p>
             </div>
-            <div n="11" type="article">
-               <head>MADDE 11.</head>
-               <p>Devlet-i Osmaniye’nin dîni, Dîn-i İslâm’dır. Bu esası vikâye ile beraber, asayiş-i
+            <div n="11" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 11.</head>
+               <p xml:lang="ota-Latn-TR">Devlet-i Osmaniye’nin dîni, Dîn-i İslâm’dır. Bu esası vikâye ile beraber, asayiş-i
                   halkı ve âdâb-ı umûmîyeyi ihlâl etmemek şartile memâlik-i Osmaniye’de marûf olan
                   bil-cümle edyânın serbesti-i icrâsı ve cemaat-ı muhtelifeye verilmiş olan
                   imtiyazât-ı mezhebiyenin kemâkân cereyanı, Devlet’in taht-ı himayetindedir. </p>
             </div>
-            <div n="12" type="article">
-               <head>MADDE 12.</head>
-               <p>Matbuat kanûn dairesinde serbesttir. </p>
+            <div n="12" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 12.</head>
+               <p xml:lang="ota-Latn-TR">Matbuat kanûn dairesinde serbesttir. </p>
             </div>
-            <div n="13" type="article">
-               <head>MADDE 13.</head>
-               <p>Tebaa-i Osmaniye nizâm ve kanûn dairesinde ticaret ve san’at ve felâhat için her
+            <div n="13" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 13.</head>
+               <p xml:lang="ota-Latn-TR">Tebaa-i Osmaniye nizâm ve kanûn dairesinde ticaret ve san’at ve felâhat için her
                   nev’i şirketler teşkiline mezûndur. </p>
             </div>
-            <div n="14" type="article">
-               <head>MADDE 14.</head>
-               <p>Tebaa-i Osmaniye’den bir veya bir kaç kişinin gerek şahıslarına ve gerek umûma
+            <div n="14" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 14.</head>
+               <p xml:lang="ota-Latn-TR">Tebaa-i Osmaniye’den bir veya bir kaç kişinin gerek şahıslarına ve gerek umûma
                   müteallik olan kavânîn ve nizâmâta muhalif gördükleri bir maddeden dolayı işin
                   merciine arzuhal verdikleri gibi Meclis-i Umûmî’ye dahi müddeî sıfatile imzalı
                   arzuhal vermeğe ve memurînin ef’âlinden iştikâya salâhiyetleri vardır. </p>
             </div>
-            <div n="15" type="article">
-               <head>MADDE 15.</head>
-               <p>Emr-i tedris serbesttir. Muayyen olan kanûna tebaiyet şartile her Osmanlı umûmî ve
+            <div n="15" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 15.</head>
+               <p xml:lang="ota-Latn-TR">Emr-i tedris serbesttir. Muayyen olan kanûna tebaiyet şartile her Osmanlı umûmî ve
                   husûsî tedrise mezûndur. </p>
             </div>
-            <div n="16" type="article">
-               <head>MADDE 16.</head>
-               <p>Bil-cümle mektepler Devlet’in taht-ı nezaretindedir. Tebaa-i Osmaniye’nin
+            <div n="16" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 16.</head>
+               <p xml:lang="ota-Latn-TR">Bil-cümle mektepler Devlet’in taht-ı nezaretindedir. Tebaa-i Osmaniye’nin
                   terbiyesi bir siyak-ı ittihâd ve intizâm üzere olmak için iktiza eden esbâba
                   teşebbüs olunacak ve milel-i muhtelifenin umûr-ı itikadiyelerine müteallik olan
                   usûl-i talimiyeye halel getirilmeyecektir. </p>
             </div>
-            <div n="17" type="article">
-               <head>MADDE 17.</head>
-               <p>Osmanlıların kâffesi huzur-ı kanûnda ve ahval-i dîniye ve mezhebiyeden maada
+            <div n="17" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 17.</head>
+               <p xml:lang="ota-Latn-TR">Osmanlıların kâffesi huzur-ı kanûnda ve ahval-i dîniye ve mezhebiyeden maada
                   memleketin hukuk ve vazaifinde mütesâvidir. </p>
             </div>
-            <div n="18" type="article">
-               <head>MADDE 18.</head>
-               <p>Tebaa-i Osmaniye’nin hidemât-ı Devlette istihdam olunmak için Devlet’in lisan-ı
+            <div n="18" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 18.</head>
+               <p xml:lang="ota-Latn-TR">Tebaa-i Osmaniye’nin hidemât-ı Devlette istihdam olunmak için Devlet’in lisan-ı
                   resmîsi olan Türkçe’yi bilmeleri şarttır. </p>
             </div>
-            <div n="19" type="article">
-               <head>MADDE 19.</head>
-               <p>Devlet memuriyetinde umûm tebaa ehliyet ve kabiliyetlerine göre münasip olan
+            <div n="19" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 19.</head>
+               <p xml:lang="ota-Latn-TR">Devlet memuriyetinde umûm tebaa ehliyet ve kabiliyetlerine göre münasip olan
                   memuriyetlere kabûl olunurlar. </p>
             </div>
-            <div n="20" type="article">
-               <head>MADDE 20.</head>
-               <p>Tekâlif-i mukarrere nizâmât-ı mahsûsasına tevfikan kâffe-i tebaa beyninde herkesin
+            <div n="20" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 20.</head>
+               <p xml:lang="ota-Latn-TR">Tekâlif-i mukarrere nizâmât-ı mahsûsasına tevfikan kâffe-i tebaa beyninde herkesin
                   kudreti nisbetince tarh ve tevzi olunur. </p>
             </div>
-            <div n="21" type="article">
-               <head>MADDE 21.</head>
-               <p>Herkes usûlen mutasarrıf olduğu mal ve mülkten emindir. Menafi-i umûmîye için
+            <div n="21" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 21.</head>
+               <p xml:lang="ota-Latn-TR">Herkes usûlen mutasarrıf olduğu mal ve mülkten emindir. Menafi-i umûmîye için
                   lüzumu sabit olmadıkça ve kanûnu mûcibince değer bahası peşin verilmedikçe
                   kimsenin tasarrufunda olan mülk alınamaz. </p>
             </div>
-            <div n="22" type="article">
-               <head>MADDE 22.</head>
-               <p>Memalik-i Osmaniye’de herkesin mesken ve menzili taarruzdan masûndur. Kanûnun
+            <div n="22" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 22.</head>
+               <p xml:lang="ota-Latn-TR">Memalik-i Osmaniye’de herkesin mesken ve menzili taarruzdan masûndur. Kanûnun
                   tâyin eylediği ahvalden maada bir sebeble Hükûmet tarafından cebren hiç kimsenin
                   mesken ve menziline girilemez. </p>
             </div>
-            <div n="23" type="article">
-               <head>MADDE 23.</head>
-               <p>Yapılacak Usûl-i Muhakeme Kanûnu hükmünce hiç kimse kanûnen mensup olduğu
+            <div n="23" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 23.</head>
+               <p xml:lang="ota-Latn-TR">Yapılacak Usûl-i Muhakeme Kanûnu hükmünce hiç kimse kanûnen mensup olduğu
                   mahkemeden başka bir mahkemeye gitmeye icbar olunamaz. </p>
             </div>
-            <div n="24" type="article">
-               <head>MADDE 24.</head>
-               <p>Müsadere ve angarya ve cerîme memnûdur. Fakat muharebe esnasında usûlen tâyin
+            <div n="24" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 24.</head>
+               <p xml:lang="ota-Latn-TR">Müsadere ve angarya ve cerîme memnûdur. Fakat muharebe esnasında usûlen tâyin
                   olunacak tekâlif ve ahval bundan müstesnadır. </p>
             </div>
-            <div n="25" type="article">
-               <head>MADDE 25.</head>
-               <p>Bir kanûna müstenit olmadıkça vergi ve rüsumât nâmı ile ve nâm-ı aharla hiç
+            <div n="25" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 25.</head>
+               <p xml:lang="ota-Latn-TR">Bir kanûna müstenit olmadıkça vergi ve rüsumât nâmı ile ve nâm-ı aharla hiç
                   kimseden bir akçe alınamaz. </p>
             </div>
-            <div n="26" type="article">
-               <head>MADDE 26.</head>
-               <p>İşkence ve sair her nev’i eziyet kat’iyyen ve külliyyen memnûdur.
+            <div n="26" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 26.</head>
+               <p xml:lang="ota-Latn-TR">İşkence ve sair her nev’i eziyet kat’iyyen ve külliyyen memnûdur.
                </p>
             </div>
             </div>
-            <div type="section" n="3">
-               <head>VÜKELÂ-YI DEVLET</head>
-            <div n="27" type="article">
-               <head>MADDE 27.</head>
-               <p>Mesned-i Sadâret ve Meşihât-ı İslâmiye Taraf-ı Pâdişâhî’den emniyet buyurulan
+            <div type="section" n="3" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">VÜKELÂ-YI DEVLET</head>
+            <div n="27" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 27.</head>
+               <p xml:lang="ota-Latn-TR">Mesned-i Sadâret ve Meşihât-ı İslâmiye Taraf-ı Pâdişâhî’den emniyet buyurulan
                   zâtlara ihale buyurulduğu missillû sair vükelânın memuriyetleri dahi bâ-irade-i
                   Şâhâne icrâ olunur. </p>
             </div>
-            <div n="28" type="article">
-               <head>MADDE 28.</head>
-               <p>Meclis-i Vükelâ Sadr-ı A’zam’ın riyaseti tahtında olarak akdolunup dahilî ve
+            <div n="28" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 28.</head>
+               <p xml:lang="ota-Latn-TR">Meclis-i Vükelâ Sadr-ı A’zam’ın riyaseti tahtında olarak akdolunup dahilî ve
                   haricî umûr-ı mühimmenin merciidir. Müzakerâtından mühtac-ı istîzan olanların
                   kararları irade-i seniye ile icrâ olunur. </p>
             </div>
-            <div n="29" type="article">
-               <head>MADDE 29.</head>
-               <p>Vükelâdan herbiri dairesine ait olan umûrdan, icrâsı mezûniyeti tahtında
+            <div n="29" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 29.</head>
+               <p xml:lang="ota-Latn-TR">Vükelâdan herbiri dairesine ait olan umûrdan, icrâsı mezûniyeti tahtında
                   bulunanları usûlüne tevfikan icrâ ve icrâsı mezûniyeti tahtında olmayanları Sadr-ı
                   A’zam’a arzeder. Sadr-ı A’zam dahi o makûle mevâddan müzakereye muhtaç
                   olmayanların muktezasını icrâ veyahut Taraf-ı Hazret-i Pâdişâhî’den istîzan ederek
@@ -200,13 +198,13 @@
                   müteallik buyurulacak irade-i seniye mûcibince iktizasını ifa eyler. Bu mesalihin
                   envağ ve derecâtı nizâm-ı mahsûs ile tâyin olunacaktır. </p>
             </div>
-            <div n="30" type="article">
-               <head>MADDE 30.</head>
-               <p>Vükelâ-yı Devlet memuriyetlerine müteallik ahval ve icrââttan mes’ûldür. </p>
+            <div n="30" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 30.</head>
+               <p xml:lang="ota-Latn-TR">Vükelâ-yı Devlet memuriyetlerine müteallik ahval ve icrââttan mes’ûldür. </p>
             </div>
-            <div n="31" type="article">
-               <head>MADDE 31.</head>
-               <p>Meb’ûsân âzâsından biri veyahut birkaçı Hey’et-i Meb’ûsân’ın dâhil-i dâire-i
+            <div n="31" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 31.</head>
+               <p xml:lang="ota-Latn-TR">Meb’ûsân âzâsından biri veyahut birkaçı Hey’et-i Meb’ûsân’ın dâhil-i dâire-i
                   vazifesi olan ahvaldan dolayı Vükelâ-yı Devlet’ten bir zât hakkında mes’ûliyeti
                   mûcip şikâyet beyan ettiği halde evvelâ Hey’et-i Meb’ûsân’ın nizâm-ı dahilîsi
                   mûcibince bu misillû mevâddın Hey’et’e havalesi lâzım gelip gelmeyeceğini
@@ -221,59 +219,59 @@
                   Sadâret’e takdim ile lede-l-arz müteallik olacak irade-i seniye üzerine keyfiyet
                   Dîvân-ı Âlî’ye havale olunur. </p>
             </div>
-            <div n="32" type="article">
-               <head>MADDE 32.</head>
-               <p>Vükelâ’dan itham olunanların usûl-i muhakemeleri, kanûn-ı mahsûs ile tâyin
+            <div n="32" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 32.</head>
+               <p xml:lang="ota-Latn-TR">Vükelâ’dan itham olunanların usûl-i muhakemeleri, kanûn-ı mahsûs ile tâyin
                   edilecektir. </p>
             </div>
-            <div n="33" type="article">
-               <head>MADDE 33.</head>
-               <p>Memuriyetlerinden hariç ve sırf zâtlarına ait her nev’i deâvîde vükelânın sair
+            <div n="33" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 33.</head>
+               <p xml:lang="ota-Latn-TR">Memuriyetlerinden hariç ve sırf zâtlarına ait her nev’i deâvîde vükelânın sair
                   efrad-ı Osmaniye’den aslâ farkı yoktur. Bu misillû husûsâtın muhakemesi ait olduğu
                   mehâkim-i umûmîyede icrâ olunur. </p>
             </div>
-            <div n="34" type="article">
-               <head>MADDE 34.</head>
-               <p>Dîvân-ı Âlî’nin Dâire-i İtham’ı tarafından müttehem olduğuna karar verilen Vükelâ
+            <div n="34" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 34.</head>
+               <p xml:lang="ota-Latn-TR">Dîvân-ı Âlî’nin Dâire-i İtham’ı tarafından müttehem olduğuna karar verilen Vükelâ
                   tebriye-i zimmet edinceye kadar vekâletten sâkıt olur. </p>
             </div>
-            <div n="35" type="article">
-               <head>MADDE 35.</head>
-               <p>Vükelâ ile Hey’et-i Meb’ûsân arasında ihtilâf olunan maddelerden birinin kabûlünde
+            <div n="35" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 35.</head>
+               <p xml:lang="ota-Latn-TR">Vükelâ ile Hey’et-i Meb’ûsân arasında ihtilâf olunan maddelerden birinin kabûlünde
                   Vükelâ tarafından israr olunup da Meb’ûsân cânibinden ekseriyet-i ârâ ile tafsilen
                   esbâb-ı mûcibe beyanile kat’iyyen ve mükerreren reddedildiği halde Vükelâ’nın
                   tebdîli veyahut müceddeden müddet-i kanûniyesinde intihâb olunmak üzere Hey’et-i
                   Meb’ûsân’ın feshi münhasıran yed-i iktidar-ı Hazret-i Pâdişâhî’dedir. </p>
             </div>
-            <div n="36" type="article">
-               <head>MADDE 36.</head>
-               <p>Meclis-i Umûmî mün’akid olmadığı zamanlarda Devlet’i bir muhataradan veyahut
+            <div n="36" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 36.</head>
+               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî mün’akid olmadığı zamanlarda Devlet’i bir muhataradan veyahut
                   emniyet-i umûmîyeyi halelden vikâye için bir zaruret-i mübreme zuhur ettiği ve bu
                   bâbda vaz’ına lüzûm görülecek kanûnun müzakeresi için Meclis’in celp ve cem’ine
                   vakit müsait olmadığı halde Kanûn-ı Esâsî ahkâmına mugayir olmamak üzere Hey’et-i
                   Vükelâ tarafından verilen kararlar, Hey’et-i Meb’ûsân’ın içtimaile verilecek
                   karara kadar bâ-irade-i seniye, muvakkaten kanûn hüküm ve kuvvetindedir. </p>
             </div>
-            <div n="37" type="article">
-               <head>MADDE 37.</head>
-               <p>Vükelâdan her biri her ne zaman murad eder ise, Hey’et’lerin ikisinde dahi
+            <div n="37" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 37.</head>
+               <p xml:lang="ota-Latn-TR">Vükelâdan her biri her ne zaman murad eder ise, Hey’et’lerin ikisinde dahi
                   bulunmak veyahut maiyetindeki rüesa-yı memurînden birini tarafından vekâleten
                   bulundurmak ve irad-ı nutukta âzâya takaddüm etmek hakkını hâizdir. </p>
             </div>
-            <div n="38" type="article">
-               <head>MADDE 38.</head>
-               <p>İstîzah-ı madde için Vükelâdan birinin huzuruna Meclis-i Meb’ûsân’da ekseriyetle
+            <div n="38" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 38.</head>
+               <p xml:lang="ota-Latn-TR">İstîzah-ı madde için Vükelâdan birinin huzuruna Meclis-i Meb’ûsân’da ekseriyetle
                   karar verilerek da’vet olundukta ya bizzat bulunarak veyahut maiyetindeki rüesa-yı
                   memurînden birini göndererek irad olunacak suallere cevap verecek veyahut lüzum
                   görür ise mes’ûliyetini üzerine alarak cevabını tehir etmek salâhiyetini hâiz
                   olacaktır. </p>
             </div>
             </div>
-            <div type="section" n="4">
-               <head>MEMURÎN</head>
-            <div n="39" type="article">
-               <head>MADDE 39.</head>
-               <p>Bil-cümle memurîn nizâmen tâyin olunacak şerait üzere ehil ve müstahak oldukları
+            <div type="section" n="4" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MEMURÎN</head>
+            <div n="39" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 39.</head>
+               <p xml:lang="ota-Latn-TR">Bil-cümle memurîn nizâmen tâyin olunacak şerait üzere ehil ve müstahak oldukları
                   memuriyetlere intihâb olunacaktır ve bu vechile intihâb olunan memurlar kanûnen
                   mûcib-i azil hareketi tahakkuk etmedikçe veya kendisi istifa eylemedikçe veyahut
                   Devlet’çe bir sebeb-i zarûrî görülmedikçe azl ve tebdîl olunamaz ve hüsn-i hareket
@@ -281,99 +279,99 @@
                   edenler nizâm-ı mahsûsunda tâyin olunacağı vechile terakkiyata ve tekaüt ve
                   mazuliyet maaşlarına nâil olacaklardır. </p>
             </div>
-            <div n="40" type="article">
-               <head>MADDE 40.</head>
-               <p>Her memuriyetin vezayifi nizâm-ı mahsûs ile tâyin olunacağından her memur kendi
+            <div n="40" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 40.</head>
+               <p xml:lang="ota-Latn-TR">Her memuriyetin vezayifi nizâm-ı mahsûs ile tâyin olunacağından her memur kendi
                   vazifesi dairesinde mes’ûldür. </p>
             </div>
-            <div n="41" type="article">
-               <head>MADDE 41.</head>
-               <p>Memurun âmirine hürmet ve riayeti lâzimeden ise de itaati kanûnun tâyin ettiği
+            <div n="41" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 41.</head>
+               <p xml:lang="ota-Latn-TR">Memurun âmirine hürmet ve riayeti lâzimeden ise de itaati kanûnun tâyin ettiği
                   daireye mahsûstur. Hilâf-ı kanûn olan umûrda âmire itaat mes’ûliyetten kurtulmağa
                   medâr olamaz. </p>
             </div>
             </div>
-            <div type="section" n="5">
-               <head>MECLİS-İ UMÛMÎ</head>
-            <div n="42" type="article">
-               <head>MADDE 42.</head>
-               <p>Meclis-i Umûmî Hey’et-i Â’yân ve Hey’et-i Meb’ûsân nâmlarile başka başka iki
+            <div type="section" n="5" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MECLİS-İ UMÛMÎ</head>
+            <div n="42" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 42.</head>
+               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî Hey’et-i Â’yân ve Hey’et-i Meb’ûsân nâmlarile başka başka iki
                   hey’eti muhtevidir. </p>
             </div>
-            <div n="43" type="article">
-               <head>MADDE 43.</head>
-               <p>Meclis-i Umûmî’nin iki hey’eti beher sene Teşrin-i sânî iptidâsında tecemmu eder
+            <div n="43" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 43.</head>
+               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî’nin iki hey’eti beher sene Teşrin-i sânî iptidâsında tecemmu eder
                   ve bâ-irade-i seniye açılır ve mart iptidâsında yine bâ-irade-i seniye kapanır ve
                   bu hey’etlerden biri diğerinin müçtemi bulunmadığı zamanda mün’akid olamaz. </p>
             </div>
-            <div n="44" type="article">
-               <head>MADDE 44.</head>
-               <p>Zât-ı Hazret-i Pâdişâhî, Devlet’çe görülecek lüzum üzerine Meclis-i Umûmî’yi
+            <div n="44" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 44.</head>
+               <p xml:lang="ota-Latn-TR">Zât-ı Hazret-i Pâdişâhî, Devlet’çe görülecek lüzum üzerine Meclis-i Umûmî’yi
                   vaktinden evvel dahi açar ve müddet-i muayyene-i içtimaını da tenkis veya temdit
                   eder. </p>
             </div>
-            <div n="45" type="article">
-               <head>MADDE 45.</head>
-               <p>Meclis-i Umûmî’nin yevm-i küşadında Zât-ı Hazret-i Pâdişâhî veyahut taraflarından
+            <div n="45" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 45.</head>
+               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî’nin yevm-i küşadında Zât-ı Hazret-i Pâdişâhî veyahut taraflarından
                   bi-l-vekâle Sadr-ı A’zam hazır olduğu ve Vükelâ-yı Devlet’le iki hey’etin âzâ-yı
                   mevcûdesi birlikte bulundukları halde resmî küşad icrâ olunup sene-i câriye
                   zarfında Devlet’in ahval-i dahiliye ve münasebât-ı hariciyesine ve sene-i âtiyyede
                   ittihazına lüzum görülecek tedabir ve teşebbüsâta dair bir nutk-ı hümâyûn kırâat
                   olunur. </p>
             </div>
-            <div n="46" type="article">
-               <head>MADDE 46.</head>
-               <p>Meclis-i Umûmî âzâlığına intihâb veya nasbolunan zevât Meclis’in yevm-i küşadında
+            <div n="46" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 46.</head>
+               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî âzâlığına intihâb veya nasbolunan zevât Meclis’in yevm-i küşadında
                   Sadr-ı A’zam huzurunda ve o gün hazır bulunmayan olur ise mensup olduğu Hey’et
                   müçtemi olduğu halde Reîsleri huzurunda Zât-ı Hazret-i Pâdişâhî’ye ve vatanına
                   sadakat ve Kanûn-ı Esâsî ahkâmına ve uhdesine tevdi olunan vazifeye riayetle
                   hilâfından mücanebet eyleyeceğine tahlif edilür. </p>
             </div>
-            <div n="47" type="article">
-               <head>MADDE 47.</head>
-               <p>Meclis-i Umûmî âzâsı rey ve mütalâa beyanında muhtar olarak bunlardan hiçbiri bir
+            <div n="47" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 47.</head>
+               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî âzâsı rey ve mütalâa beyanında muhtar olarak bunlardan hiçbiri bir
                   gûna va’d-u vaîd ve talimat kaydı altında bulunamaz ve gerek verdiği reylerden ve
                   gerek Meclis’in müzakerâtı esnasında beyan ettiği mütalâalardan dolayı bir vechile
                   itham olunamaz; meğer ki Meclis’in Nizâmnâme-i Dahilî’si hilâfında hareket etmiş
                   ola. Bu takdirde nizâmnâme-i mezkûr hükmünce muamele görür. </p>
             </div>
-            <div n="48" type="article">
-               <head>MADDE 48.</head>
-               <p>Meclis-i Umûmî âzâsından birinin hıyanet ve Kanûn-ı Esâsî’yi nakz ve ilgaya
+            <div n="48" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 48.</head>
+               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî âzâsından birinin hıyanet ve Kanûn-ı Esâsî’yi nakz ve ilgaya
                   tasaddi ve irtikâp töhmetlerinden biri ile müttehem olduğuna mensub olduğu Hey’et
                   âzâ-yı mevcûdesinin sülüsân-ı ekseriyet-i mutlakasile karar verilir veyahut
                   kanûnen hapis ve nefyi mûcib bir ceza ile mahkûm olur ise âzâlık sıfatı zâil olur
                   ve bu ef’âlin muhakemesile mücazaâtı ait olduğu mahkeme tarafından rü’yet ve
                   hükmolunur. </p>
             </div>
-            <div n="49" type="article">
-               <head>MADDE 49.</head>
-               <p>Meclis-i Umûmî âzâsından herbiri reyini bizzat itâ eder ve herbirinin müzakerede
+            <div n="49" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 49.</head>
+               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî âzâsından herbiri reyini bizzat itâ eder ve herbirinin müzakerede
                   bulunan bir maddenin red ve kabûlüne dair rey vermekten içtinaba hakkı vardır.
                </p>
             </div>
-            <div n="50" type="article">
-               <head>MADDE 50.</head>
-               <p>Bir kimse zikrolunan iki Hey’et’in ikisine birden âzâ olamaz. </p>
+            <div n="50" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 50.</head>
+               <p xml:lang="ota-Latn-TR">Bir kimse zikrolunan iki Hey’et’in ikisine birden âzâ olamaz. </p>
             </div>
-            <div n="51" type="article">
-               <head>MADDE 51.</head>
-               <p>Meclis-i Umûmî Hey’etlerinden ikisinde dahi mürettep olan âzânın nısfından bir
+            <div n="51" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 51.</head>
+               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî Hey’etlerinden ikisinde dahi mürettep olan âzânın nısfından bir
                   ziyade hazır bulunmadıkça müzakereye mubaderet olunamaz ve kâffe-i müzakerât
                   sülüsân-ı ekseriyetile meşrut olmayan husûsâtta hazır bulunan âzânın ekseriyet-i
                   mutlakasile karargîr olur ve tesavi-i ârâ vukuunda Reîs’in reyi iki addedilir.
                </p>
             </div>
-            <div n="52" type="article">
-               <head>MADDE 52.</head>
-               <p>Bir kimse şahsına müteallik da’vâsından dolayı Meclis-i Umûmî’nin iki Hey’etinden
+            <div n="52" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 52.</head>
+               <p xml:lang="ota-Latn-TR">Bir kimse şahsına müteallik da’vâsından dolayı Meclis-i Umûmî’nin iki Hey’etinden
                   birine arzuhal verdiği halde eğer evvelâ ait olduğu memurîn-i Devlete veyahut o
                   memurların tâbi bulundukları mercie müracaat etmediği tebeyyün ederse arzuhali
                   reddolunur. </p>
             </div>
-            <div n="53" type="article">
-               <head>MADDE 53.</head>
-               <p>Müceddeden kanûn tanzîmi veya kavânîn-i mevcûdeden birinin ta’dîli teklifi
+            <div n="53" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 53.</head>
+               <p xml:lang="ota-Latn-TR">Müceddeden kanûn tanzîmi veya kavânîn-i mevcûdeden birinin ta’dîli teklifi
                   Hey’et-i Vükelâ’ya ait olduğu gibi, Hey’et-i Â’yân ve Hey’et-i Meb’ûsân’ın dahi
                   kendi vazife-i muayyeneleri dairesinde bulunan mevâd için kanûn tanzîmini veyahut
                   kavânîn-i mevcûdeden birinin ta’dîlini istidaya salâhiyetleri olmağla evvelce
@@ -381,75 +379,75 @@
                   müteallik buyurulur ise ait olduğu dairelerden verilecek izahât ve tafsilât
                   üzerine lâyıhalarının tanzîmi Şûrâ-yı Devlet’e havale olunur. </p>
             </div>
-            <div n="54" type="article">
-               <head>MADDE 54.</head>
-               <p>Şûrâ-yı Devlet’te bi-l-müzakere tanzîm olunacak kavânîn lâyıhaları Hey’et-i
+            <div n="54" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 54.</head>
+               <p xml:lang="ota-Latn-TR">Şûrâ-yı Devlet’te bi-l-müzakere tanzîm olunacak kavânîn lâyıhaları Hey’et-i
                   Meb’ûsân’da ba’dehû Hey’et-i Â’yân’da tetkik ve kabûl olunduktan sonra icrâ-yı
                   ahkâmına irade-i seniye-i Hazret-i Pâdişâhî müteallik buyurulur ise düstûr-ül-amel
                   olur ve işbu hey’etlerin birinde kat’iyyen reddolunan kanûn lâyıhası o senenin
                   müddet-i içtimaiyesinde tekrar mevki-i müzakereye konulamaz. </p>
             </div>
-            <div n="55" type="article">
-               <head>MADDE 55.</head>
-               <p>Bir kanûn lâyıhası evvelâ Hey’et-i Meb’ûsân’da ba’dehû Hey’et-i Â’yân’da bend bend
+            <div n="55" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 55.</head>
+               <p xml:lang="ota-Latn-TR">Bir kanûn lâyıhası evvelâ Hey’et-i Meb’ûsân’da ba’dehû Hey’et-i Â’yân’da bend bend
                   okunup ve her bendine rey verilüp ekseriyet-i ârâ ile karar verilmedikçe ve
                   ba’de-l-karar hey’et-i mecmuası için dahi be-tekrar ekseriyetle karar hâsıl
                   olmadıkça kabûl olunmuş olmaz. </p>
             </div>
-            <div n="56" type="article">
-               <head>MADDE 56.</head>
-               <p>Bu Hey’etler Vükelâ’dan veya onların göndereceği vekillerden veya kendi
+            <div n="56" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 56.</head>
+               <p xml:lang="ota-Latn-TR">Bu Hey’etler Vükelâ’dan veya onların göndereceği vekillerden veya kendi
                   âzâlarından olmayan veyahut resmen da’vet olunmuş memurînden bulunmayan hiç
                   kimseyi gerek asaleten ve gerek bir cemaat tarafından vekâleten bir madde ifadesi
                   için gelmiş olduğu halde aslâ kabûl edemez ve ifadelerini istima’ eyleyemez. </p>
             </div>
-            <div n="57" type="article">
-               <head>MADDE 57.</head>
-               <p>Hey’et’lerin müzakerâtı lisan-ı Türkî üzere cereyan eder ve müzakere olunacak
+            <div n="57" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 57.</head>
+               <p xml:lang="ota-Latn-TR">Hey’et’lerin müzakerâtı lisan-ı Türkî üzere cereyan eder ve müzakere olunacak
                   lâyıhaların sûretleri tab’ ile yevm-i müzakereden evvel âzâya tevzi olunur. </p>
             </div>
-            <div n="58" type="article">
-               <head>MADDE 58.</head>
-               <p>Hey’et’lerde verilecek reyler ya tâyin-i esamî veyahut işarât-ı mahsûsa veyahut
+            <div n="58" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 58.</head>
+               <p xml:lang="ota-Latn-TR">Hey’et’lerde verilecek reyler ya tâyin-i esamî veyahut işarât-ı mahsûsa veyahut
                   rey-i hafî ile olur. Rey-i hafî usûlünün icrâsı âzâ-yı mevcûdenin ekseriyet-i
                   ârâsı ile karar verilmeğe mütevakkıftır. </p>
             </div>
-            <div n="59" type="article">
-               <head>MADDE 59.</head>
-               <p>Her Hey’et’in inzibât-ı dahilîsini münhasıran kendi Reîsi icrâ eder. </p>
+            <div n="59" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 59.</head>
+               <p xml:lang="ota-Latn-TR">Her Hey’et’in inzibât-ı dahilîsini münhasıran kendi Reîsi icrâ eder. </p>
             </div>
             </div>
-            <div type="section" n="6">
-               <head>HEY’ET-İ Â’YÂN</head>
-            <div n="60" type="article">
-               <head>MADDE 60.</head>
-               <p>Hey’et-i Â’yân’ın Reîsi ve âzâsı nihayet mikdarı Hey’et-i Meb’ûsân âzâsının sülüsî
+            <div type="section" n="6" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">HEY’ET-İ Â’YÂN</head>
+            <div n="60" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 60.</head>
+               <p xml:lang="ota-Latn-TR">Hey’et-i Â’yân’ın Reîsi ve âzâsı nihayet mikdarı Hey’et-i Meb’ûsân âzâsının sülüsî
                   mikdarını tecavüz etmemek üzere doğrudan doğruya Taraf-ı Hazret-i Pâdişâhî’den
                   nasbolunur. </p>
             </div>
-            <div n="61" type="article">
-               <head>MADDE 61.</head>
-               <p>Hey’et-i Â’yân’a âzâ tâyin olunabilmek için âsâr ve ef’âli umûmun vüsûk ve
+            <div n="61" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 61.</head>
+               <p xml:lang="ota-Latn-TR">Hey’et-i Â’yân’a âzâ tâyin olunabilmek için âsâr ve ef’âli umûmun vüsûk ve
                   itimadına şayan ve umûr-ı Devlet’te hidemât-ı memdûhesi mesbûk ve mütearif
                   zevâttan olmak ve kırk yaşından aşağı bulunmamak lâzımdır. </p>
             </div>
-            <div n="62" type="article">
-               <head>MADDE 62.</head>
-               <p>Hey’et-i Â’yân âzâlığı kayd-ı hayat iledir. Bu memuriyetlere vükelâlık ve valilik
+            <div n="62" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 62.</head>
+               <p xml:lang="ota-Latn-TR">Hey’et-i Â’yân âzâlığı kayd-ı hayat iledir. Bu memuriyetlere vükelâlık ve valilik
                   ve ordu müşîrliği ve kadı-askerlik ve elçilik ve patriklik ve hahambaşılık
                   memuriyetinde bulunmuş olan mazulînden ve berrî ve bahrî ferikândan ve sıfat-ı
                   lâzimeyi cami’ sair zevâttan münasipleri tâyin olunur. Kendü taleplerile Devlet’çe
                   sair memuriyete tâyin olunanlar âzâlık memuriyetinden sâkıt olur. </p>
             </div>
-            <div n="63" type="article">
-               <head>MADDE 63.</head>
-               <p>Hey’et-i Â’yân’ın âzâlık maaşı şehriye on bin kuruştur. Başka bir nâm ile
+            <div n="63" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 63.</head>
+               <p xml:lang="ota-Latn-TR">Hey’et-i Â’yân’ın âzâlık maaşı şehriye on bin kuruştur. Başka bir nâm ile
                   Hazine’den muvazzaf olan âzânın maaş ve tâyini eğer on bin kuruştan dûn ise ol
                   mikdara iblâğ olunur ve eğer on bin kuruş veya ziyade ise ibka olunur. </p>
             </div>
-            <div n="64" type="article">
-               <head>MADDE 64.</head>
-               <p>Hey’et-i Â’yân Hey’et-i Meb’ûsân’dan verilen kavânîn ve muvazene lâyıhalarını
+            <div n="64" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 64.</head>
+               <p xml:lang="ota-Latn-TR">Hey’et-i Â’yân Hey’et-i Meb’ûsân’dan verilen kavânîn ve muvazene lâyıhalarını
                   tetkik ile eğer bunlarda esasen umûr-ı dinîyeye ve Zât-ı Hazret-i Pâdişâhî’nin
                   hukuk-ı seniyesine ve hürriyete ve Kanûn-ı Esâsî ahkâmına ve Devlet’in tamamiyet-i
                   mülkiyesine ve memleketin emniyet-i dahiliyesine ve vatanın esbâb-ı müdafaa ve
@@ -460,28 +458,28 @@
                   mütalâa ile beraber Makam-ı Sadâret’e takdim eder.  </p>
             </div>
             </div>
-            <div type="section" n="7">
-               <head>HEY’ET-İ MEB’ÛSÂN</head>
-            <div n="65" type="article">
-               <head>MADDE 65.</head>
-               <p>Hey’et-i Meb’ûsân’ın mikdar-ı âzâsı tebaa-i Osmaniye’den her elli bin nüfus-ı
+            <div type="section" n="7" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">HEY’ET-İ MEB’ÛSÂN</head>
+            <div n="65" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 65.</head>
+               <p xml:lang="ota-Latn-TR">Hey’et-i Meb’ûsân’ın mikdar-ı âzâsı tebaa-i Osmaniye’den her elli bin nüfus-ı
                   zükûrda bir nefer olmak itibariyle tertip olunur. </p>
             </div>
-            <div n="66" type="article">
-               <head>MADDE 66.</head>
-               <p>Emr-i intihâb rey-i hafî kaidesi üzerine müessestir. Sûret-i icrâsı Kanûn-ı mahsûs
+            <div n="66" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 66.</head>
+               <p xml:lang="ota-Latn-TR">Emr-i intihâb rey-i hafî kaidesi üzerine müessestir. Sûret-i icrâsı Kanûn-ı mahsûs
                   ile tâyin olunacaktır. </p>
             </div>
-            <div n="67" type="article">
-               <head>MADDE 67.</head>
-               <p>Hey’et-i Meb’ûsân âzâlığı ile Hükûmet memuriyeti bir zât uhdesinde içtima’ edemez.
+            <div n="67" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 67.</head>
+               <p xml:lang="ota-Latn-TR">Hey’et-i Meb’ûsân âzâlığı ile Hükûmet memuriyeti bir zât uhdesinde içtima’ edemez.
                   Fakat Vükelâ’dan intihâb olunanların âzâlığı mücazdır ve sair memurînden biri
                   meb’ûsluğa intihâb olunur ise kabûl edip etmemek yed-i ihtiyarındadır. Fakat kabûl
                   ettiği halde memuriyetinden infisal eder. </p>
             </div>
-            <div n="68" type="article">
-               <head>MADDE 68.</head>
-               <p>Hey’et-i Meb’ûsân için âzâlığa intihâbı câiz olmayanlar şunlardır: Evvelâ, tebaa-i
+            <div n="68" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 68.</head>
+               <p xml:lang="ota-Latn-TR">Hey’et-i Meb’ûsân için âzâlığa intihâbı câiz olmayanlar şunlardır: Evvelâ, tebaa-i
                   Devlet-i Âliye’den olmayan; sâniyen, nizâm-ı mahsûsu mûcibince muvakkaten hizmet-i
                   ecnebiye imtiyazını hâiz olan; salisen, Türkçe bilmeyen; râbian, otuz yaşını ikmal
                   etmeyen; hâmisen, hîn-i intihâbda bir kimsenin hizmetkârlığında bulunan; sâdisen,
@@ -492,76 +490,76 @@
                   olunacak iltihaplarda meb’ûs olmak için Türkçe okumak ve mümkün mertebe yazmak
                   dahi şart olacaktır. </p>
             </div>
-            <div n="69" type="article">
-               <head>MADDE 69.</head>
-               <p>Meb’ûsân intihâb-ı umûmîsi dört senede bir kerre icrâ olunur ve her meb’ûsun
+            <div n="69" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 69.</head>
+               <p xml:lang="ota-Latn-TR">Meb’ûsân intihâb-ı umûmîsi dört senede bir kerre icrâ olunur ve her meb’ûsun
                   müddet-i memuriyeti dört seneden ibaret olup fakat tekrar intihâb olunmak câizdir.
                </p>
             </div>
-            <div n="70" type="article">
-               <head>MADDE 70.</head>
-               <p>Meb’ûsların intihâb-ı umûmîsine Hey’et’in mebde-i içtimaı olan Teşrin-i sânîden
+            <div n="70" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 70.</head>
+               <p xml:lang="ota-Latn-TR">Meb’ûsların intihâb-ı umûmîsine Hey’et’in mebde-i içtimaı olan Teşrin-i sânîden
                   lâ-akall dört mah mukaddem başlanılır. </p>
             </div>
-            <div n="71" type="article">
-               <head>MADDE 71.</head>
-               <p>Hey’et-i Meb’ûsân âzâsının her biri kendini intihâb eden dairenin ayrıca vekili
+            <div n="71" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 71.</head>
+               <p xml:lang="ota-Latn-TR">Hey’et-i Meb’ûsân âzâsının her biri kendini intihâb eden dairenin ayrıca vekili
                   olmayıp umûm Osmanlı’ların vekili hükmündedir. </p>
             </div>
-            <div n="72" type="article">
-               <head>MADDE 72.</head>
-               <p>Müntehibler intihâb edecekleri meb’ûsları mensup oldukları dâire-i vilâyet
+            <div n="72" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 72.</head>
+               <p xml:lang="ota-Latn-TR">Müntehibler intihâb edecekleri meb’ûsları mensup oldukları dâire-i vilâyet
                   ahalisinden intihâb etmeğe mecbûrdur. </p>
             </div>
-            <div n="73" type="article">
-               <head>MADDE 73.</head>
-               <p>Bâ-irade-i seniye Hey’et-i Meb’ûsân feshile dağıldığı halde nihayet altı ayda
+            <div n="73" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 73.</head>
+               <p xml:lang="ota-Latn-TR">Bâ-irade-i seniye Hey’et-i Meb’ûsân feshile dağıldığı halde nihayet altı ayda
                   müçtemi olmak üzere umûm meb’ûsânın müceddeden intihâbına başlanılacaktır.
                </p>
             </div>
-            <div n="74" type="article">
-               <head>MADDE 74.</head>
-               <p>Hey’et-i Meb’ûsân âzâsından biri vefat eder veya esbâb-ı hacriye-i meşrûadan
+            <div n="74" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 74.</head>
+               <p xml:lang="ota-Latn-TR">Hey’et-i Meb’ûsân âzâsından biri vefat eder veya esbâb-ı hacriye-i meşrûadan
                   birine dûçar olur veya bir uzun müddette Meclis’e devam etmez veyahut istifa eder
                   veya mahkûmiyet veya kabûl-i memuriyet cihetile âzâlıktan sâkıt olursa yerine
                   nihayet gelecek içtimaa yetişmek üzere usûlü vechile diğeri tâyin olunur. </p>
             </div>
-            <div n="75" type="article">
-               <head>MADDE 75.</head>
-               <p>Münhal olan meb’ûsluk makamlarına intihâb olunacak âzânın memuriyeti gelecek
+            <div n="75" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 75.</head>
+               <p xml:lang="ota-Latn-TR">Münhal olan meb’ûsluk makamlarına intihâb olunacak âzânın memuriyeti gelecek
                   intihâb-ı umûmî zamanına kadardır. </p>
             </div>
-            <div n="76" type="article">
-               <head>MADDE 76.</head>
-               <p>Meb’ûslardan her birine beher sene içtimaı için Hazine’den yirmi bin kuruş
+            <div n="76" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 76.</head>
+               <p xml:lang="ota-Latn-TR">Meb’ûslardan her birine beher sene içtimaı için Hazine’den yirmi bin kuruş
                   verilecek ve şehriye beş bin kuruş maaş itibarile memurin-i mülkiye nizâmına
                   tevfikan azimet ve avdet harcırahı itâ kılınacaktır. </p>
             </div>
-            <div n="77" type="article">
-               <head>MADDE 77.</head>
-               <p>Hey’et-i Meb’ûsân Riyaseti’ne Hey’et tarafından ekseriyetle üç ve ikinci ve üçüncü
+            <div n="77" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 77.</head>
+               <p xml:lang="ota-Latn-TR">Hey’et-i Meb’ûsân Riyaseti’ne Hey’et tarafından ekseriyetle üç ve ikinci ve üçüncü
                   riyasetlere üçer nefer ki cem’an dokuz zât intihâb olunarak Huzur-ı Şâhâne’ye
                   arzile bunlardan birisi riyasete ve ikisi reîs vekâletlerine bâ-irade-i seniye
                   tercih ve memuriyetleri icrâ kılınır. </p>
             </div>
-            <div n="78" type="article">
-               <head>MADDE 78.</head>
-               <p>Hey’et-i Meb’ûsân’ın müzakerâtı alenîdir. Fakat bir madde-i mühimmeden dolayı
+            <div n="78" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 78.</head>
+               <p xml:lang="ota-Latn-TR">Hey’et-i Meb’ûsân’ın müzakerâtı alenîdir. Fakat bir madde-i mühimmeden dolayı
                   müzakerâtı hafî tutulmak Vükelâ cânibinden veyahut Hey’et-i Meb’ûsân’ın âzâsından
                   onbeş zât tarafından teklif olundukta, Hey’etin içtima’ ettiği mahal âzânın
                   maadasından tahliye edilerek teklifin red veya kabûlü için ekseriyet-i ârâya
                   müracaat edilür. </p>
             </div>
-            <div n="79" type="article">
-               <head>MADDE 79.</head>
-               <p>Hey’et-i Meb’ûsân’ın müddet-i içtimaiyesinde âzâdan hiç biri Hey’et tarafından
+            <div n="79" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 79.</head>
+               <p xml:lang="ota-Latn-TR">Hey’et-i Meb’ûsân’ın müddet-i içtimaiyesinde âzâdan hiç biri Hey’et tarafından
                   ithama sebeb-i kâfi bulunduğuna ekseriyetle karar verilmedikçe veyahut bir cünha
                   veya cinayet icrâ eder iken veya icrâyı müteakip tutulmadıkça, tevkif ve muhakeme
                   olunamaz. </p>
             </div>
-            <div n="80" type="article">
-               <head>MADDE 80.</head>
-               <p>Hey’et-i Meb’ûsân kendisine havale olunacak kavânîn lâyıhalarını müzakere ile
+            <div n="80" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 80.</head>
+               <p xml:lang="ota-Latn-TR">Hey’et-i Meb’ûsân kendisine havale olunacak kavânîn lâyıhalarını müzakere ile
                   bunlardan umûr-ı mâliyeye ve Kanûn-ı Esâsî’ye taallûk eder maddeleri red veya
                   kabûl veyahut ta’dîl eder ve mesarif-i umûmiye muvazene kanûnunda gösterildiği
                   vechile Hey’et-i Meb’ûsân’da tafsilâtile tetkik olunduktan sonra mikdarına Vükelâ
@@ -570,98 +568,98 @@
                    </p>
             </div>
             </div>
-            <div type="section" n="8">
-               <head>MEHÂKİM</head>
-            <div n="81" type="article">
-               <head>MADDE 81.</head>
-               <p>Kanûn-ı mahsûsuna tevfikan taraf-ı Devlet’ten nasbolunan ve yedlerine berât-ı
+            <div type="section" n="8" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MEHÂKİM</head>
+            <div n="81" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 81.</head>
+               <p xml:lang="ota-Latn-TR">Kanûn-ı mahsûsuna tevfikan taraf-ı Devlet’ten nasbolunan ve yedlerine berât-ı
                   şerif verilen hâkimler lâ-yen-azldir. Fakat istifaları kabûl olunur. Hâkimlerin
                   terekkiyatı ve meslekleri ve tebdîl-i memuriyetleri ve tekaüdleri ve bir cürüm ile
                   mahkûmiyet üzerine azil olunmaları dahi kanûn-ı mahsûsu hükmüne tâbidir ve
                   hâkimlerin ve mehâkim memurlarının matlûb olan evsafını işbu kanûn irae eder. </p>
             </div>
-            <div n="82" type="article">
-               <head>MADDE 82.</head>
-               <p>Mahkemelerde her nev’i muhakeme alenen cereyan eder ve ilâmâtın neşrine mezûniyet
+            <div n="82" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 82.</head>
+               <p xml:lang="ota-Latn-TR">Mahkemelerde her nev’i muhakeme alenen cereyan eder ve ilâmâtın neşrine mezûniyet
                   vardır. Ancak kanûnda musarrah esbâba mebni mahkeme muhakemeyi hafî tutabilir.
                </p>
             </div>
-            <div n="83" type="article">
-               <head>MADDE 83.</head>
-               <p>Herkes huzur-ı mahkemede hukukunu muhafaza için lüzum gördüğü vesait-i meşruayı
+            <div n="83" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 83.</head>
+               <p xml:lang="ota-Latn-TR">Herkes huzur-ı mahkemede hukukunu muhafaza için lüzum gördüğü vesait-i meşruayı
                   istimal edebilir. </p>
             </div>
-            <div n="84" type="article">
-               <head>MADDE 84.</head>
-               <p>Bir mahkeme vazifesi dahilinde olan dâvânın her ne vesile ile olursa olsun
+            <div n="84" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 84.</head>
+               <p xml:lang="ota-Latn-TR">Bir mahkeme vazifesi dahilinde olan dâvânın her ne vesile ile olursa olsun
                   rü’yetinden imtina edemez ve bir kerre rü’yetine veyahut rü’yeti için iktiza eden
                   tahkikat-ı evveliyeye başlandıktan sonra tatil veya tâviki dahi câiz olamaz; meğer
                   ki müddeî dâvâdan keff-i yed etmiş ola. Şu kadar ki cezaya müteallik deâvîde
                   Hükûmet’e ait olan hukuk nizâmı vechile yine icrâ olunur. </p>
             </div>
-            <div n="85" type="article">
-               <head>MADDE 85.</head>
-               <p>Her dâvâ ait olduğu mahkemede rü’yet olunur. Eşhas ile Hükûmet beynindeki dâvâlar
+            <div n="85" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 85.</head>
+               <p xml:lang="ota-Latn-TR">Her dâvâ ait olduğu mahkemede rü’yet olunur. Eşhas ile Hükûmet beynindeki dâvâlar
                   dahi mehâkim-i umûmîyeye aittir. </p>
             </div>
-            <div n="86" type="article">
-               <head>MADDE 86.</head>
-               <p>Mahkemeler her türlü müdehelâttan âzâdedir. </p>
+            <div n="86" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 86.</head>
+               <p xml:lang="ota-Latn-TR">Mahkemeler her türlü müdehelâttan âzâdedir. </p>
             </div>
-            <div n="87" type="article">
-               <head>MADDE 87.</head>
-               <p>Deâvî-i şer’iyye mehâkim-i şer’iyyede ve deâvî-i nizâmiyye mehâkim-i nizâmiyyede
+            <div n="87" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 87.</head>
+               <p xml:lang="ota-Latn-TR">Deâvî-i şer’iyye mehâkim-i şer’iyyede ve deâvî-i nizâmiyye mehâkim-i nizâmiyyede
                   rü’yet olunur. </p>
             </div>
-            <div n="88" type="article">
-               <head>MADDE 88.</head>
-               <p>Mahkemelerin sunûf ve vezaif ve salâhiyetinin derecât ve taksimâtı ve hükkâmın
+            <div n="88" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 88.</head>
+               <p xml:lang="ota-Latn-TR">Mahkemelerin sunûf ve vezaif ve salâhiyetinin derecât ve taksimâtı ve hükkâmın
                   tavzifi kavânîne müstenittir. </p>
             </div>
-            <div n="89" type="article">
-               <head>MADDE 89.</head>
-               <p>Her ne nâm ile olur ise olsun, bazı mevâdd-ı mahsûsayı rü’yet ve hükmetmek için
+            <div n="89" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 89.</head>
+               <p xml:lang="ota-Latn-TR">Her ne nâm ile olur ise olsun, bazı mevâdd-ı mahsûsayı rü’yet ve hükmetmek için
                   mehâkim-i muayene haricinde fevk-al-âde bir mahkeme veyahut hüküm vermek
                   salâhiyetini hâiz komisyon teşkili kat’iyyen câiz değildir. Fakat kanûnen muayyen
                   olduğu vechile tâyin-i mevla ve tahkim câizdir. </p>
             </div>
-            <div n="90" type="article">
-               <head>MADDE 90.</head>
-               <p>Hiçbir hâkim hâkimlik sıfatiyle Devlet’in maaşlı bir başka memuriyetini uhdesinde
+            <div n="90" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 90.</head>
+               <p xml:lang="ota-Latn-TR">Hiçbir hâkim hâkimlik sıfatiyle Devlet’in maaşlı bir başka memuriyetini uhdesinde
                   cem’edemez. </p>
             </div>
-            <div n="91" type="article">
-               <head>MADDE 91.</head>
-               <p>Umûr-ı cezaiyede hukuk-ı âmmeyi vikâyeye memur müddeîumûmîler bulunacak ve
+            <div n="91" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 91.</head>
+               <p xml:lang="ota-Latn-TR">Umûr-ı cezaiyede hukuk-ı âmmeyi vikâyeye memur müddeîumûmîler bulunacak ve
                   bunların vezaif ve derecâtı kanûn ile tâyin kılınacaktır.  </p>
             </div>
             </div>
-            <div type="section" n="9">
-               <head>DÎVÂN-I ÂLÎ</head>
-            <div n="92" type="article">
-               <head>MADDE 92.</head>
-               <p>Dîvân-ı Âlî otuz âzâdan mürekkeptir. Bunların onu Hey’et-i Â’yân ve onu Şûrâ-yı
+            <div type="section" n="9" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">DÎVÂN-I ÂLÎ</head>
+            <div n="92" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 92.</head>
+               <p xml:lang="ota-Latn-TR">Dîvân-ı Âlî otuz âzâdan mürekkeptir. Bunların onu Hey’et-i Â’yân ve onu Şûrâ-yı
                   Devlet ve onu Mahkeme-i Temyiz ve İstinaf rüesa ve âzâsından kur’a ile tefrik ve
                   tâyin olunarak Hey’et-i Â’yân dairesinde lüzum göründükçe bâ-irade-i seniye
                   akdolunur. Vazifesi Vükelâ ile Mahkeme-i Temyiz rüesa ve âzâsının ve zât ve
                   hukuk-ı Şâhâne aleyhinde harekete ve Devlet’i bir hal-i muhataraya ilkâya tasaddi
                   eyleyenlerin muhakemesidir. </p>
             </div>
-            <div n="93" type="article">
-               <head>MADDE 93.</head>
-               <p>Dîvân-ı Âlî ikiye münkasem olup biri Dâire-i İthamiye ve biri Divân-ı Hüküm’dür.
+            <div n="93" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 93.</head>
+               <p xml:lang="ota-Latn-TR">Dîvân-ı Âlî ikiye münkasem olup biri Dâire-i İthamiye ve biri Divân-ı Hüküm’dür.
                   Dâire-i İthamiye dokuz âzâdan ibaret olup bunun üçü Hey’et-i Â’yân ve üçü Divân-ı
                   Temyiz ve İstinaf ve üçü Şûrâ-yı Devlet âzâsından Dîvân-ı Âlî’ye alınacak âzâ
                   içinden kur’a ile intihâb olunur. </p>
             </div>
-            <div n="94" type="article">
-               <head>MADDE 94.</head>
-               <p>Bu Daire şikâyet olunan zevâtın müttehem olup olmadığına sülüsân-ı ekseriyetile
+            <div n="94" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 94.</head>
+               <p xml:lang="ota-Latn-TR">Bu Daire şikâyet olunan zevâtın müttehem olup olmadığına sülüsân-ı ekseriyetile
                   karar verir ve Dâire-i İthamiye’de bulunanlar Divân-ı Hüküm’de bulunamaz. </p>
             </div>
-            <div n="95" type="article">
-               <head>MADDE 95.</head>
-               <p>Divân-ı Hüküm, yedisi Hey’et-i Â’yân ve yedisi Divân-ı Temyiz ve İstinaf ve yedisi
+            <div n="95" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 95.</head>
+               <p xml:lang="ota-Latn-TR">Divân-ı Hüküm, yedisi Hey’et-i Â’yân ve yedisi Divân-ı Temyiz ve İstinaf ve yedisi
                   Şûrâ-yı Devlet rüesa ve âzâsından olmak üzere Dîvân-ı Âlî âzâsının yirmibir
                   neferinden mürekkep olarak Dâire-i İthamiyye tarafından muhakemesi lâzım olduğuna
                   karar verilmiş dâvâlar hakkında âzâ-yı mürettebenin sülüsân-ı ekseriyetile
@@ -669,106 +667,106 @@
                   ve temyiz değildir.  </p>
             </div>
             </div>
-            <div type="section" n="10">
-               <head>UMÛR-I MÂLİYE</head>
-            <div n="96" type="article">
-               <head>MADDE 96.</head>
-               <p>Tekâlif-i Devletin hiçbiri bir kanûn ile tâyin olunmadıkça vaz’ ve tevzi ve
+            <div type="section" n="10" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">UMÛR-I MÂLİYE</head>
+            <div n="96" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 96.</head>
+               <p xml:lang="ota-Latn-TR">Tekâlif-i Devletin hiçbiri bir kanûn ile tâyin olunmadıkça vaz’ ve tevzi ve
                   istihsal olunamaz. </p>
             </div>
-            <div n="97" type="article">
-               <head>MADDE 97.</head>
-               <p>Devlet’in bütçesi vâridât ve mesarifât-ı takribiyesini mübeyyin kanûndur.
+            <div n="97" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 97.</head>
+               <p xml:lang="ota-Latn-TR">Devlet’in bütçesi vâridât ve mesarifât-ı takribiyesini mübeyyin kanûndur.
                   Tekâlif-i Devletin vaz’ ve tevzi ve tahsil emrinde müstenit olacağı kanûn budur.
                </p>
             </div>
-            <div n="98" type="article">
-               <head>MADDE 98.</head>
-               <p>Bütçe yani Muvazene-i Umûmîye Kanûnu Meclis-i Umûmî’de madde be madde tetkik ve
+            <div n="98" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 98.</head>
+               <p xml:lang="ota-Latn-TR">Bütçe yani Muvazene-i Umûmîye Kanûnu Meclis-i Umûmî’de madde be madde tetkik ve
                   kabûl olunur. Vâridât ve mesarifât-ı muhammeninin müfredâtını câmi’ olmak üzere
                   ana merbut olan cedveller nizâmen tâyin olunan numûnesine tevfikan aksam ve fusûl
                   ve mevâdd-ı müteaddideye münkasem olarak bunların müzakeresi dahi fasıl fasıl icrâ
                   edilir. </p>
             </div>
-            <div n="99" type="article">
-               <head>MADDE 99.</head>
-               <p>Muvazene-i Umûmîye Kanûnu müteallik olduğu senenin duhûlünde mevki-i icrâya
+            <div n="99" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 99.</head>
+               <p xml:lang="ota-Latn-TR">Muvazene-i Umûmîye Kanûnu müteallik olduğu senenin duhûlünde mevki-i icrâya
                   konulabilmek için lâyıhası Hey’et-i Meb’ûsân’a Meclis-i Umûmî’nin küşadı akabinde
                   itâ olunur. </p>
             </div>
-            <div n="100" type="article">
-               <head>MADDE 100.</head>
-               <p>Bir kanûn-ı mahsûs ile muayyen olmadıkça emvâl-i Devletten muvazene haricinde
+            <div n="100" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 100.</head>
+               <p xml:lang="ota-Latn-TR">Bir kanûn-ı mahsûs ile muayyen olmadıkça emvâl-i Devletten muvazene haricinde
                   sarfiyat câiz olamaz. </p>
             </div>
-            <div n="101" type="article">
-               <head>MADDE 101.</head>
-               <p>Meclis-i Umûmî’nin mün’akid bulunmadığı esnada esbâb-ı mücbire-yi fevk-al-âdeden
+            <div n="101" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 101.</head>
+               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî’nin mün’akid bulunmadığı esnada esbâb-ı mücbire-yi fevk-al-âdeden
                   dolayı muvazene haricinde masraf ihtiyarına lüzum-ı kavi tahakkuk eder ise
                   mes’ûliyeti Hey’et-i Vükelâ’ya ait olmak ve Meclis-i Umûmî’nin küşadı akabinde ona
                   dair kanûn lâyıhası Meclis-i Umûmî’ye verilmek üzere o masrafın tesviyesi için
                   iktiza eden mebaliğin Taraf-ı Hazret-i Pâdişâhî’ye arz ve istîzân ile sâdır olacak
                   irade-i seniye üzerine tedarik ve sarfı câiz olur. </p>
             </div>
-            <div n="102" type="article">
-               <head>MADDE 102.</head>
-               <p>Muvazene Kanûnunun hükmü bir seneye mahsûstur. O senenin haricinde hükmü câri
+            <div n="102" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 102.</head>
+               <p xml:lang="ota-Latn-TR">Muvazene Kanûnunun hükmü bir seneye mahsûstur. O senenin haricinde hükmü câri
                   olamaz ancak bazı ahval-i fevk-al-âdeden dolayı Meclis-i Meb’ûsân muvazeneyi
                   kararlaştırmaksızın fesholunduğu halde hükmü bir seneyi tecavüz etmemek üzere bir
                   kararnâme ile Vükelâ-yı Devlet bâ-irade-i seniye sene-i sâbıka muvazenesinin
                   cereyan-ı ahkâmını Meclis-i Meb’ûsân’ın gelecek içtimaına kadar temdit ederler.
                </p>
             </div>
-            <div n="103" type="article">
-               <head>MADDE 103.</head>
-               <p>Muhasebe-i Kat’iyye Kanûnu müteallik olduğu senenin vâridâtından istihsal olunan
+            <div n="103" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 103.</head>
+               <p xml:lang="ota-Latn-TR">Muhasebe-i Kat’iyye Kanûnu müteallik olduğu senenin vâridâtından istihsal olunan
                   mebaliğ ile yine o senenin mesarifâtına vukûbulan sarfiyatın mikdar-ı hakikîsini
                   mübeyyin olarak bunun şekil ve taksimâtı dahi Muvazene-i Umûmîye Kanûnuna tamamile
                   mutabık olacaktır. </p>
             </div>
-            <div n="104" type="article">
-               <head>MADDE 104.</head>
-               <p>Muhasebe-i Kat’iyye Kanûnunun lâyıhası müteallik olduğu senenin hitamından
+            <div n="104" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 104.</head>
+               <p xml:lang="ota-Latn-TR">Muhasebe-i Kat’iyye Kanûnunun lâyıhası müteallik olduğu senenin hitamından
                   itibaren nihayet dört sene sonra Meclis-i Umûmî’ye itâ olunur. </p>
             </div>
-            <div n="105" type="article">
-               <head>MADDE 105.</head>
-               <p>Emval-i Devlet’in kabz ve sarfına memur olanların muhasebelerini rü’yet ve
+            <div n="105" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 105.</head>
+               <p xml:lang="ota-Latn-TR">Emval-i Devlet’in kabz ve sarfına memur olanların muhasebelerini rü’yet ve
                   devairden tanzîm olunan sâl muhasebelerini tetkik ederek hulâsa-i tetkikat ve
                   netice-i mütalâatını her sene bir takrir-i mahsûs ile Hey’et-i Meb’ûsân’a
                   arzeylemek üzere bir Divân-ı Muhasebât teşkil olunacaktır. Bu Divân her üç ayda
                   bir kerre ahval-i mâliyeyi Riyaset-i Vükelâ vasıtasile bâ-takrir Taraf-ı Hazret-i
                   Pâdişâhî’ye dahi arzeder. </p>
             </div>
-            <div n="106" type="article">
-               <head>MADDE 106.</head>
-               <p>Divân-ı Muhasebât’ın âzâsı oniki kişiden mürettep olacak ve herbiri Hey’et-i
+            <div n="106" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 106.</head>
+               <p xml:lang="ota-Latn-TR">Divân-ı Muhasebât’ın âzâsı oniki kişiden mürettep olacak ve herbiri Hey’et-i
                   Meb’ûsân’dan ekseriyetle azlinin lüzumu tasdik olunmadıkça memuriyetinde kayd-ı
                   hayat ile kalmak üzere bâ-irade-i seniye nasbolunacaktır. </p>
             </div>
-            <div n="107" type="article">
-               <head>MADDE 107.</head>
-               <p>Divân-ı Muhasebât âzâsının evsaf ve vezayifinin tafsilâtı ve sûret-i istifa ve
+            <div n="107" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 107.</head>
+               <p xml:lang="ota-Latn-TR">Divân-ı Muhasebât âzâsının evsaf ve vezayifinin tafsilâtı ve sûret-i istifa ve
                   tebdîl ve terakki ve tekaüdü ve ahkâmının keyfiyet-i teşkili bir nizâm-ı mahsûs
                   ile tâyin olunacaktır.  </p>
             </div>
             </div>
-            <div type="section" n="11">
-               <head>VİLÂYÂT</head>
-            <div n="108" type="article">
-               <head>MADDE 108.</head>
-               <p>Vilâyâtın usûl-i idâresi, tevsi-i mezûniyet ve tefrik-i vezayif kaidesi üzerine
+            <div type="section" n="11" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">VİLÂYÂT</head>
+            <div n="108" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 108.</head>
+               <p xml:lang="ota-Latn-TR">Vilâyâtın usûl-i idâresi, tevsi-i mezûniyet ve tefrik-i vezayif kaidesi üzerine
                   müesses olup derecâtı nizâm-ı mahsûs ile tâyin kılınacaktır. </p>
             </div>
-            <div n="109" type="article">
-               <head>MADDE 109.</head>
-               <p>Vilâyet ve livâ’ ve kazâ merkezlerinde olan idâre meclislerile senede bir defa
+            <div n="109" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 109.</head>
+               <p xml:lang="ota-Latn-TR">Vilâyet ve livâ’ ve kazâ merkezlerinde olan idâre meclislerile senede bir defa
                   merkezî vilâyette içtima eden Meclis-i Umûmî âzâsının sûret-i intihâbı bir kanûn-ı
                   mahsûs ile tevsi olunacaktır. </p>
             </div>
-            <div n="110" type="article">
-               <head>MADDE 110.</head>
-               <p>Vilâyât Mecâlis-i Umûmîyesinin vezayifi yapılacak kanûn-ı mahsûsunda beyan
+            <div n="110" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 110.</head>
+               <p xml:lang="ota-Latn-TR">Vilâyât Mecâlis-i Umûmîyesinin vezayifi yapılacak kanûn-ı mahsûsunda beyan
                   olunacağı vechile turuk u maâbir tanzîmi ve itibar sandıklarının teşkili ve sanayi
                   ve ticaret ve felâhatın teshili gibi umûr-ı nafiaya müteallik mevâd hakkında ve
                   umûma ait maârif ve terbiyenin intişarı yolunda müzakerâta şâmil olmakla beraber,
@@ -777,9 +775,9 @@
                   olduğu makam ve mevkilere tebliğ ile tashih ve ıslahı zımnında arz-ı iştikâ etmek
                   salâhiyetini dahi muhtevi olacaktır. </p>
             </div>
-            <div n="111" type="article">
-               <head>MADDE 111.</head>
-               <p>Müsakkafât ve müstagallât ve nukûd-ı mevkufe hâsılâtının şurût-ı vakfiyesi ve
+            <div n="111" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 111.</head>
+               <p xml:lang="ota-Latn-TR">Müsakkafât ve müstagallât ve nukûd-ı mevkufe hâsılâtının şurût-ı vakfiyesi ve
                   teamül-i kadîmi vechile meşrûtunlehine ve hayrât ve müberrâta sarfolunmak üzere
                   vasiyet edilen emvalin vasiyetnâmelerde muharrer olduğu üzere mûsâlehine sarfına
                   ve emval-i eytamın nizâmnâme-i mahsûsu vechile sûret-i idâresine nezaret etmek
@@ -788,19 +786,19 @@
                   olacaktır. Ve mecâlis-i mezkûre mahalleri hükûmetlerini ve Vilâyât Mecâlis-i
                   Umûmîyesini kendilerine merci bilecektir. </p>
             </div>
-            <div n="112" type="article">
-               <head>MADDE 112.</head>
-               <p>Umûr-ı belediye Der-saâdet ve taşralarda bil-intihâb teşkil olunacak Devair-i
+            <div n="112" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 112.</head>
+               <p xml:lang="ota-Latn-TR">Umûr-ı belediye Der-saâdet ve taşralarda bil-intihâb teşkil olunacak Devair-i
                   Belediye Meclislerile idâre olunacak ve bu dairelerin sûret-i teşkili ve vezaifi
                   ve âzâsının sûret-i intihâbı kanûn-ı mahsûs ile tâyin kılınacaktır. 
                </p>
             </div>
             </div>
-            <div type="section" n="12">
-               <head>MEVÂDD-I ŞETTÂ</head>
-            <div n="113" type="article">
-               <head>MADDE 113.</head>
-               <p>Mülkün bir cihetinde ihtilâl zuhur edeceğini müeyyid âsâr ve emarât görüldüğü
+            <div type="section" n="12" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MEVÂDD-I ŞETTÂ</head>
+            <div n="113" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 113.</head>
+               <p xml:lang="ota-Latn-TR">Mülkün bir cihetinde ihtilâl zuhur edeceğini müeyyid âsâr ve emarât görüldüğü
                   halde Hükûmet-i seniyenin o mahalle mahsûs olmak üzere muvakkaten (idâre-i örfiye)
                   ilânına hakkı vardır. (idâre-i örfiye) kavânîn ve nizâmât-ı mülkiyenin muvakkaten
                   tatilinden ibaret olup (idâre-i örfiye) tahtında bulunan mahallin sûret-i idâresi
@@ -809,19 +807,19 @@
                   şâhâneden ihraç ve teb’îd etmek münhasıran Zât-ı Hazret-i Pâdişâhî’nin yed-i
                   iktidarındadır[, ]. </p>
             </div>
-            <div n="114" type="article">
-               <head>MADDE 114.</head>
-               <p>Osmanlı efradının kâffesince tahsil-i maârifin birinci mertebesi mecbûrî olacak ve
+            <div n="114" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 114.</head>
+               <p xml:lang="ota-Latn-TR">Osmanlı efradının kâffesince tahsil-i maârifin birinci mertebesi mecbûrî olacak ve
                   bunun derecât ve teferrüâtı nizâm-ı mahsûs ile tâyin kılınacaktır. </p>
             </div>
-            <div n="115" type="article">
-               <head>MADDE 115.</head>
-               <p>Kanûn-ı Esâsî’nin bir maddesi bile hiçbir sebeb ve bahane ile tatil veya icrâdan
+            <div n="115" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 115.</head>
+               <p xml:lang="ota-Latn-TR">Kanûn-ı Esâsî’nin bir maddesi bile hiçbir sebeb ve bahane ile tatil veya icrâdan
                   iskat edilemez. </p>
             </div>
-            <div n="116" type="article">
-               <head>MADDE 116.</head>
-               <p>Kanûn-ı Esâsî’nin mevâdd-ı mündericesinden bazılarının icab-ı hale ve vakte göre
+            <div n="116" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 116.</head>
+               <p xml:lang="ota-Latn-TR">Kanûn-ı Esâsî’nin mevâdd-ı mündericesinden bazılarının icab-ı hale ve vakte göre
                   tağyir ve ta’dîline lüzum-ı sahih ve kat’î göründüğü halde zikr-i âti şerait ile
                   ta’dîli câiz olabilir. Şöyle ki, ya Hey’et-i Vükelâ veya Hey’et-i Â’yân veya
                   Hey’et-i Meb’ûsân tarafından işbu ta’dîle dair bir teklif vukûbulduğu halde evvelâ
@@ -832,28 +830,28 @@
                   ber-vech-i meşrûh müzakerât-ı lâzimesinin icrâsile irade-i seniyesinin sudûruna
                   kadar hüküm ve kuvvetini gaip etmeksizin mer’iyy-ül-icrâ tutulur. </p>
             </div>
-            <div n="117" type="article">
-               <head>MADDE 117.</head>
-               <p>Bir madde-i kanûniyenin tefsiri lâzım geldikte umûr-ı adliyeye müteallik ise
+            <div n="117" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 117.</head>
+               <p xml:lang="ota-Latn-TR">Bir madde-i kanûniyenin tefsiri lâzım geldikte umûr-ı adliyeye müteallik ise
                   tâyin-i mânâsı Mahkeme-i Temyiz’e ve idâre-i mülkiyeye dair ise Şûrâ-yı Devlet’e
                   ve işbu Kanûn-ı Esâsî’den ise Hey’et-i Â’yân’a aittir. </p>
             </div>
-            <div n="118" type="article">
-               <head>MADDE 118.</head>
-               <p>Elyevm düstûr-ül-amel bulunan nizâmât ve teamül ve âdat ileride vaz’olunacak
+            <div n="118" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 118.</head>
+               <p xml:lang="ota-Latn-TR">Elyevm düstûr-ül-amel bulunan nizâmât ve teamül ve âdat ileride vaz’olunacak
                   kavânîn ve nizâmât ile ta’dîl veya ilga olunmadıkça mer’iyy-ül-icrâ olacaktır.
                </p>
             </div>
-            <div n="119" type="article">
-               <head>MADDE 119.</head>
-               <p>Meclis-i Umûmî’ye dair olan fi 10 Şevval sene 93 tarihli Talimat-ı
+            <div n="119" type="article" xml:lang="ota-Latn-TR">
+               <head xml:lang="ota-Latn-TR">MADDE 119.</head>
+               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî’ye dair olan fi 10 Şevval sene 93 tarihli Talimat-ı
                   Muvakkate’nin cereyan-ı ahkâmı yalınız birinci defa içtima edecek Meclis-i
                   Umûmî’nin müddet-i in’ikadiyesi hitâmına kadar olup ondan sonra hükmü câri
                   değildir.</p>
             </div>
             </div>
 
-            <dateline>Fi <date>7 Zilhicce, sene 1293</date>.</dateline>
+            <dateline xml:lang="ota-Latn-TR">Fi <date xml:lang="ota-Latn-TR">7 Zilhicce, sene 1293</date>.</dateline>
          </div>
          <!--<div corresp="#law-ottoman-constitution-1876" type="bill" xml:lang="ota-Latn-TR">
             <head>Kanun-u Esasi</head>
