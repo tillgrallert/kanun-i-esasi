@@ -19,11 +19,6 @@
             <p xml:lang="en" xml:id="p_1.d2e39">unpublished</p>
          </publicationStmt>
          <sourceDesc xml:lang="en" xml:id="sourceDesc_1.d2e43">
-           <!-- 
-            <p xml:lang="en">The digital text was downloaded from <ref target="http://www.ahewar.org/debat/show.art.asp?aid=394603" xml:lang="en">ahewar.org</ref> and
-                  <ref target="http://iraqja.iq/view.93/" xml:lang="en">iraqja.iq</ref>. Image files are available
-               from <ref target="http://hdl.handle.net/2027/uc1.c109017146" xml:lang="en">HathiTrust</ref>. </p>
-           -->
              <listBibl xml:id="listBibl_1.d2e47">
                  <biblStruct xml:lang="ar-Latn-x-ijmes" xml:id="ed_Jawaib">
                      <analytic xml:id="analytic_1.d2e51">
@@ -82,7 +77,10 @@
       </fileDesc>
        <encodingDesc>
            <projectDesc>
-               <p>The TEI file was produced for teaching a course on the basics of scholarly encoding
+               <p>The digital text was downloaded from <ref target="http://www.ahewar.org/debat/show.art.asp?aid=394603" xml:lang="en">ahewar.org</ref> and
+                   <ref target="http://iraqja.iq/view.93/" xml:lang="en">iraqja.iq</ref> and subsequently transformed into TEI. Image files are available
+                   from <ref target="http://hdl.handle.net/2027/uc1.c109017146" xml:lang="en">HathiTrust</ref>.</p>
+               <p>Parts of this TEI file were produced for teaching a course on the basics of scholarly encoding
                    using TEI P5 and XML.</p>
            </projectDesc>
            <editorialDecl>
