@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="../boilerplate/xslt/teibp_parameters.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xml:lang="ar">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="ar-Latn-x-ijmes">al-Qānūn al-Āsāsī al-ʿUthmānī</title>
+                <title type="sub">Beirut 2</title>
+                <respStmt xml:lang="en">
+                    <resp xml:lang="en">Translation from Ottoman to Arabic</resp>
+                    <persName>N.N.</persName>
+                </respStmt>
+                <respStmt xml:lang="en">
+                    <resp xml:lang="en">Transcription from the source and TEI edition</resp>
+                    <persName xml:lang="en" xml:id="pers_TG"><forename>Till</forename> <surname>Grallert</surname></persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>unpublished</p>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl xml:lang="en">
+                    <biblStruct xml:lang="ar-Latn-x-ijmes" xml:id="ed_LH-5773">
+                        <analytic>
+                            <title level="a" xml:lang="ar-Latn-x-ijmes">al-Qānūn al-Asāsī</title>
+                            <title level="a" xml:lang="ar">القانون الاساسي</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j" xml:lang="ar">لسان الحال</title>
+                            <title level="j" type="sub" xml:lang="ar"
+                                >جريدة سياسية تجارية ادبية</title>
+                            <title level="j" xml:lang="ar-Latn-x-ijmes">Lisān al-Ḥāl</title>
+                            <title level="j" xml:lang="ar-Latn-x-ijmes" type="sub"
+                                >Jarīda siyāsiya tijāriyya adabiyya</title>
+                            <title level="j" xml:lang="fr">LISSAN-UL-HAL</title>
+                            <editor> <persName xml:lang="ar-Latn-x-ijmes"
+                                ><forename>Khalīl</forename> <surname>Sarkīs</surname></persName>
+                                <persName xml:lang="ar"><forename>خليل</forename>
+                                    <surname>سركيس</surname></persName> </editor>
+                            <imprint>
+                                <pubPlace xml:lang="en"> <placeName xml:lang="ar">بيروت</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                                    <placeName xml:lang="en">Beirut</placeName> <placeName
+                                        xml:lang="fr">Beyrouth</placeName> </pubPlace>
+                                <tei:date type="official" when="1908-07-27"
+                                    datingMethod="#cal_gregorian" calendar="#cal_gregorian"
+                                    xml:lang="en">27 July 1908</tei:date>
+                                <tei:date type="official" when="1908-07-27"
+                                    datingMethod="#cal_julian" calendar="#cal_julian"
+                                    when-custom="1908-07-14" xml:lang="en">14 Tammūz 1908</tei:date>
+                            </imprint>
+                            <biblScope unit="volume" from="31" to="31">31</biblScope>
+                            <biblScope unit="issue" from="5773" to="5773"/>
+                            <biblScope unit="page" from="1" to="1"/>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct xml:lang="ar-Latn-x-ijmes" xml:id="ed_LH-5774">
+                        <analytic>
+                            <title level="a" xml:lang="ar-Latn-x-ijmes">al-Qānūn al-Asāsī</title>
+                            <title level="a" xml:lang="ar">القانون الاساسي</title>
+                        </analytic>
+                        <monogr>
+                            <title level="j" xml:lang="ar">لسان الحال</title>
+                            <title level="j" type="sub" xml:lang="ar"
+                                >جريدة سياسية تجارية ادبية</title>
+                            <title level="j" xml:lang="ar-Latn-x-ijmes">Lisān al-Ḥāl</title>
+                            <title level="j" xml:lang="ar-Latn-x-ijmes" type="sub"
+                                >Jarīda siyāsiya tijāriyya adabiyya</title>
+                            <title level="j" xml:lang="fr">LISSAN-UL-HAL</title>
+                            <editor> <persName xml:lang="ar-Latn-x-ijmes"
+                                ><forename>Khalīl</forename> <surname>Sarkīs</surname></persName>
+                                <persName xml:lang="ar"><forename>خليل</forename>
+                                    <surname>سركيس</surname></persName> </editor>
+                            <imprint>
+                                <pubPlace xml:lang="en"> <placeName xml:lang="ar">بيروت</placeName>
+                                    <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                                    <placeName xml:lang="en">Beirut</placeName> <placeName
+                                        xml:lang="fr">Beyrouth</placeName> </pubPlace>
+                                <tei:date type="official" when="1908-07-28"
+                                    datingMethod="#cal_gregorian" calendar="#cal_gregorian"
+                                    xml:lang="en">28 July 1908</tei:date>
+                                <tei:date type="official" when="1908-07-28"
+                                    datingMethod="#cal_julian" calendar="#cal_julian"
+                                    when-custom="1908-07-15" xml:lang="en">15 Tammūz 1908</tei:date>
+                            </imprint>
+                            <biblScope unit="volume" from="31" to="31">31</biblScope>
+                            <biblScope unit="issue" from="5774" to="5774"/>
+                            <biblScope unit="page" from="3" to="3"/>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The TEI file was produced for teaching a course on the basics of scholarly encoding
+                    using TEI P5 and XML.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p>providing information on our decisions concerning the actual transcription of a
+                    newspaper structure into a TEI P5 XML file</p>
+            </editorialDecl>
+            <listPrefixDef>
+                <prefixDef ident="geon" matchPattern="(\d+?)" replacementPattern="https://www.geonames.org/$1">
+                    <p>Private URIs using the <code>geon</code> prefix are pointers to entries in the GeoNames dataset. For example, <code>geon:277130</code> dereferences to <code>https://www.geonames.org/277130</code>.</p>
+                </prefixDef>
+                <prefixDef ident="issn" matchPattern="(\d{4}\-\d{4})" replacementPattern="http://data.ub.uni-leipzig.de/zdb/issn/$1">
+                    <p>Private URIs using the <code>issn</code> prefix are pointers to ISSNs and can be dereferenced using a service provided by the Leipzig University Library. For example, <code>issn:1110-8908</code> dereferences to <code>http://data.ub.uni-leipzig.de/zdb/issn/1110-8908</code>.</p>
+                </prefixDef>
+                <prefixDef ident="oclc" matchPattern="(\d+?)" replacementPattern="https://www.worldcat.org/oclc/$1">
+                    <p>Private URIs using the <code>oclc</code> prefix are pointers to bibliographic items in worldcat. For example, <code>oclc:4770057679</code> dereferences to <code>https://www.worldcat.org/oclc/4770057679</code>.</p>
+                </prefixDef>
+                <prefixDef ident="viaf" matchPattern="(\d+?)" replacementPattern="https://viaf.org/viaf/$1">
+                    <p>Private URIs using the <code>viaf</code> prefix are pointers to entities in the Virtual International Authority File (VIAF). For example, <code>viaf:32272677</code> dereferences to <code>https://viaf.org/viaf/32272677</code>.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+        <profileDesc xml:id="profileDesc" xml:lang="en">
+            <calendarDesc xml:id="calendarDesc_1.d1e137" xml:lang="en">
+                <calendar xml:id="cal_gregorian" xml:lang="en">
+                    <p xml:id="p_6.d1e141" xml:lang="en">Following the hegemonial approach of standards rooted in the English language, the Gregorian calendar is presumed as the norm and must not be specified.</p>
+                    <p xml:id="p_7.d1e144" xml:lang="en">The <att xml:id="att_4.d1e146" xml:lang="en">when</att> attribute always provides W3C dates, while the <att xml:id="att_5.d1e149" xml:lang="en">when-custom</att> attribute follows the inherent logic of the chosen calendar.</p>
+                    <p xml:id="p_8.d1e153" xml:lang="en">E.g. <date when="1841-05-23" xml:id="date_2.d1e155" xml:lang="en">23 May 1841, Sunday</date>, <date when="1908-03-05" xml:id="date_3.d1e158" xml:lang="en">5 Mar 1908, Thursday</date>.</p>
+                </calendar>
+                <calendar xml:id="cal_islamic" xml:lang="en">
+                    <p xml:id="p_9.d1e165" xml:lang="en">Islamic <hi xml:id="hi_1.d1e167" xml:lang="en">hijrī</hi> calendar: lunar calendar beginning the Year with 1 Muḥarram. Dates differ between locations as the beginning of the month is based on sightings of the new moon.</p>
+                    <p xml:id="p_10.d1e171" xml:lang="en">E.g. <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1841-05-23" when-custom="1257-04-01" xml:id="date_4.d1e173" xml:lang="en">1 Rab II 1257, Sunday</date>, <date calendar="#cal_islamic" datingMethod="#cal_islamic" when="1908-03-05" when-custom="1326-02-01" xml:id="date_5.d1e176" xml:lang="en">1 Ṣaf 1326, Thursday</date>.</p>
+                </calendar>
+                <calendar xml:id="cal_julian" xml:lang="en">
+                    <p xml:id="p_11.d1e183" xml:lang="en">Reformed Julian calendar beginning the Year with 1 January. In the Ottoman context usually referred to as <hi xml:id="hi_2.d1e185" xml:lang="en">rūmī</hi>. Arabic newspapers usually labelled this calendar as <hi xml:id="hi_3.d1e188" xml:lang="en">sharqī</hi>.</p>
+                    <p xml:id="p_12.d1e192" xml:lang="en">All solar calendars add an intercalated 366th day every fourth (and, in the case of Gregorian and rūmī calendars, even-numbered) year at the end of February (the last day of the old Julian calendar). The Gregorian calendar suppresses this rule in centesimal years that cannot be divided by 400. This difference creates a growing offset between Gregorian and Julian calendars: while 1900 R was a leap year, 1900 was not, which in turn caused the difference between the Gregorian calendar, on the one hand, and the <hi xml:id="hi_4.d1e194" xml:lang="en">mālī</hi> and <hi xml:id="hi_5.d1e197" xml:lang="en">rūmī</hi> calendars, on the other, to grow from 12 to 13 days from 29 Shubāṭ (February) 1900 R / 1315 M (13 March 1900) onwards.</p>
+                    <p xml:id="p_13.d1e201" xml:lang="en">E.g. <date calendar="#cal_julian" datingMethod="#cal_julian" when="1841-05-23" when-custom="1841-05-11" xml:id="date_6.d1e203" xml:lang="en">11 Ayyār 1841, Sunday</date>, <date calendar="#cal_julian" datingMethod="#cal_julian" when="1908-03-05" when-custom="1908-02-21" xml:id="date_7.d1e206" xml:lang="en">21 Shub 1908, Thursday</date>.</p>
+                </calendar>
+                <calendar xml:id="cal_ottomanfiscal" xml:lang="en">
+                    <p xml:id="p_14.d1e213" xml:lang="en">Ottoman fiscal calendar: a lunosolar calendar. It is based on the Old Julian calendar beginning the Year with 1 March. Introduced as fiscal calendar in 1676 and in the Ottoman context usually referred to as <hi xml:id="hi_6.d1e215" xml:lang="en">mālī</hi> and sometimes, confusingly, also as <hi xml:id="hi_7.d1e218" xml:lang="en">rūmī</hi>. Every 33 lunar years, a <hi xml:id="hi_8.d1e221" xml:lang="en">hijrī</hi> year would complete within a single solar <hi xml:id="hi_9.d1e224" xml:lang="en">mālī</hi> year. In this case the counting of the <hi xml:id="hi_10.d1e227" xml:lang="en">mālī</hi> years skipped a year to catch up with the faster <hi xml:id="hi_11.d1e231" xml:lang="en">hijrī</hi> calendar. Due to a printing error in the coupon booklets for the consolidated debt repayment program for 1872 (1288 M instead of 1289 M), synchronisation of <hi xml:id="hi_12.d1e234" xml:lang="en">mālī</hi> and <hi xml:id="hi_13.d1e237" xml:lang="en">hijrī</hi> years was henceforth abolished. As <hi xml:id="hi_14.d1e240" xml:lang="en">mālī</hi> years began with 1 March, <hi xml:id="hi_15.d1e243" xml:lang="en">mālī</hi> leap years preceded their <hi xml:id="hi_16.d1e246" xml:lang="en">rūmī</hi> and Gregorian counterpart (the leap year 1315 M commenced on 13 March 1899).</p>
+                    <p xml:id="p_15.d1e250" xml:lang="en">E.g. <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1841-05-23" when-custom="1257-03-11" xml:id="date_8.d1e252" xml:lang="en">11 Māyis 1257, Sunday</date>, <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1908-03-05" when-custom="1323-12-21" xml:id="date_9.d1e255" xml:lang="en">21 Shub 1323, Thursday</date>.</p>
+                </calendar>
+                <calendar xml:id="cal_coptic" xml:lang="en"><p>Coptic calendar in use in Egypt.</p></calendar>
+            </calendarDesc>
+            <langUsage xml:id="langUsage_1.d1e261" xml:lang="en">
+                <language ident="ar" xml:id="language_1.d1e263" xml:lang="en">Arabic</language>
+                <language ident="ar-Latn-x-ijmes" xml:id="language_2.d1e266" xml:lang="en">Arabic transcribed into Latin script following the IJMES conventions</language>
+                <language ident="ar-Latn-EN" xml:id="language_3.d1e269" xml:lang="en">Arabic transcribed into Latin script following common English practices</language>
+                <language ident="ar-Latn-FR" xml:id="language_4.d1e272" xml:lang="en">Arabic transcribed into Latin script following common French practices</language>
+                <language ident="en" xml:id="language_5.d1e275" xml:lang="en">English</language>
+                <language ident="fa" xml:id="language_6.d1e279" xml:lang="en">Farsi</language>
+                <language ident="fa-Latn-x-ijmes" xml:id="language_7.d1e282" xml:lang="en">Farsi transcribed into Latin script following the IJMES conventions</language>
+                <language ident="fr" xml:id="language_8.d1e285" xml:lang="en">French</language>
+                <language ident="ota" xml:id="language_9.d1e288" xml:lang="en">Ottoman</language>
+                <language ident="ota-Latn-x-ijmes" xml:id="language_10.d1e291" xml:lang="en">Ottoman transcribed into Latin script following the IJMES conventions</language>
+                <language ident="tr" xml:id="language_11.d1e294" xml:lang="en">Turkish</language>
+                <language ident="en-Arab-AR" xml:id="language_12.d1e298" xml:lang="en">English transcribed into Arabic script following common Levantine Arabic practices</language>
+                <language ident="fr-Arab-AR" xml:id="language_13.d1e301" xml:lang="en">French transcribed into Arabic script following common Levantine Arabic practices</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2017-11-15" who="#pers_TG">Created file</change>
+        </revisionDesc>
+    </teiHeader>
+    <!-- providing links to the actual image files either remote or local -->
+    <facsimile>
+        <surface xml:id="facs-1-1">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0912_150dpi.jpg"
+                xml:id="facs-1-1_source"/>
+        </surface>
+        <surface xml:id="facs-1-2">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0913_150dpi.jpg"
+                xml:id="facs-1-2_source"/>
+        </surface>
+        <surface xml:id="facs-1-3">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0914_150dpi.jpg"
+                xml:id="facs-1-3_source"/>
+        </surface>
+        <surface xml:id="facs-1-4">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0915_150dpi.jpg"
+                xml:id="facs-1-4_source"/>
+        </surface>
+        <surface xml:id="facs-2-1">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0916_150dpi.jpg"
+                xml:id="facs-2-1_source"/>
+        </surface>
+        <surface xml:id="facs-2-2">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0917_150dpi.jpg"
+                xml:id="facs-2-2_source"/>
+        </surface>
+        <surface xml:id="facs-2-3">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0918_150dpi.jpg"
+                xml:id="facs-2-3_source"/>
+        </surface>
+        <surface xml:id="facs-2-4">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0919_150dpi.jpg"
+                xml:id="facs-2-4_source"/>
+        </surface>
+        <surface xml:id="facs-3-1">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0920_150dpi.jpg"
+                xml:id="facs-3-1_source"/>
+        </surface>
+        <surface xml:id="facs-3-2">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0921_150dpi.jpg"
+                xml:id="facs-3-2_source"/>
+        </surface>
+        <surface xml:id="facs-3-3">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0922_150dpi.jpg"
+                xml:id="facs-3-3_source"/>
+        </surface>
+        <surface xml:id="facs-3-4">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0923_150dpi.jpg"
+                xml:id="facs-3-4_source"/>
+        </surface>
+        <surface xml:id="facs-4-1">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0924_150dpi.jpg"
+                xml:id="facs-4-1_source"/>
+        </surface>
+        <surface xml:id="facs-4-2">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0925_150dpi.jpg"
+                xml:id="facs-4-2_source"/>
+        </surface>
+        <surface xml:id="facs-4-3">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0926_150dpi.jpg"
+                xml:id="facs-4-3_source"/>
+        </surface>
+        <surface xml:id="facs-4-4">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0927_150dpi.jpg"
+                xml:id="facs-4-4_source"/>
+        </surface>
+    </facsimile>
+            <text xml:lang="ar">
+                <pb ed="print" edRef="#ed_LH-5773" facs="#facs-1-1" n="1"/>
+                <!-- the masthead of the issue comprising all the bibliographic information -->
+                <body>
+                    <!-- sections and individual articles are mixed -->
+                    <cb n="1" edRef="#ed_LH-5773"/>
+                    <cb n="2" edRef="#ed_LH-5773"/>
+                        <div type="section">
+                            <head>تعريب االخط المنيف السلطاني</head>
+                            <div type="letter">
+                                <salute>وزيري سمير المعالي <persName>مدحت باشا</persName></salute>
+                                <p/>
+                                <dateline>في <date>٧ ذي الحجة سنة ١٢٩٣</date></dateline>
+                            </div>
+                            <div corresp="#law-ottoman-constitution-1876" type="bill" xml:lang="ar">
+                                <head>القانون الاساسي</head>
+                                <div n="1" type="section">
+                                    <head>ممالك الدولة العثمانية</head>
+                                    <div n="1" type="article">
+                                        <head>(البند الاول)</head>
+                                        <p>ان الدولة العثمانية<lb/>تشمل الممالك والخطط الحاضرة
+                                            والولايات الممتازة<lb/>وهي كجسم واحد لا تقبل الانقسام
+                                            ابداً لاية<lb/>علة كانت</p>
+                                    </div>
+                                    <div n="2" type="article">
+                                        <head>(٢)</head>
+                                        <p>ان عاصمة الدولة العثمانية هي مدينة<lb/>
+                                            <placeName>اسلامبول</placeName> وهذه المدينة ليس لها
+                                            ادنى امتياز<lb/> على غيرها من البلاد العثمانية ولا هي
+                                            معافة<lb/> من شيئ </p>
+                                    </div>
+                                    <div n="3" type="article">
+                                        <head>(٣)</head>
+                                        <p>ان السلطنة السنية هي بمنزلة الخلافة <lb/>الاسلامية الكبرى
+                                            وهي عائدة بمقتضى الاصول<cb/><lb/> القديمة الى اكبر
+                                            الاولاد من سلالة آل عثمان</p>
+                                    </div>
+                                    <div n="4" type="article">
+                                        <head>(٤)</head>
+                                        <p>ان حضرة السلطان هو حامي الدين<lb/> الاسلامي بحسب الخلافة
+                                            وحاكم جميع التبعة<lb/> العثمانية وسلطانها</p>
+                                    </div>
+                                    <div n="5" type="article">
+                                        <head>(٥)</head>
+                                        <p>ان خضرة السلطان مقدس<lb/> وغير مسئول</p>
+                                    </div>
+                                    <div n="6" type="article">
+                                        <head>(٦)</head>
+                                        <p>ان حقوق حرية سلالة بني عثمان<lb/> واموالهم واملاكهم
+                                            الذاتية ومخصصاتهم المالية<lb/> في مدة حياتهم هي تحت
+                                            الضمانة العامة</p>
+                                    </div>
+                                    <div n="7" type="article">
+                                        <head>(٧)</head>
+                                        <p>يعين لوزراء ويفضلهم ويوجه<lb/>لرتب والمأمورين ويشبت روساء
+                                            لولايات<lb/>المقررة لهم بحسب الامتيازات المقررة
+                                            لهم<lb/>ويصك ابنقود وتقام الصلاة باسمه في
+                                            الجوامع<lb/>ويعقد المعاهدات مع الدول الاجنبية
+                                            ويشهر<lb/>الحرب يعقد الصلح، ويقود جيوش البر<lb/>والبحر
+                                            ويامر بالحركات العسكرية يتفذ الشرع<lb/>الشريف، وقرر
+                                            نظامات الادارة العامة.<lb/>ويبطل او يخفض
+                                                <unclear>انقصاصات</unclear>
+                                            <unclear>الج ئية</unclear> ويجمع<lb/>مجلس الامة ويختمة،
+                                            واذا راى لزوماً يفض<lb/>مجلس المبعوثان بشرط الشروع في
+                                            تجديد<lb/>الانتجابه</p>
+                                    </div>
+                                </div>
+
+                                <div n="2" type="section">
+                                    <head>حقوق العثمانيين</head>
+                                    <!-- articles 8-26 -->
+                                    <div n="8" type="article">
+                                        <head>(٨)</head>
+                                        <p>يسمى كل رعايا السلطنة بدون<lb/>امتياز بعثمانييم مهما كان
+                                            دينهم والجنسية<lb/>العثمانية تحسر وتربح بحسب نصوص
+                                            النظام</p>
+                                    </div>
+                                    <div n="9" type="article">
+                                        <head>(٩)</head>
+                                        <p>يتمتع جميع العثمانيين بالحرية الشخصية<lb/>بشرط ان لا
+                                            يسروا بحرية الآخرين</p>
+                                    </div>
+                                    <closer>ستاتي الباقية</closer>
+                                </div>
+                            </div>
+                        </div>
+                   <!--  <pb ed="print" edRef="#ed_LH-5774" facs="#facs-2-2" n="2"/> -->
+                    <pb ed="print" edRef="#ed_LH-5774" facs="#facs-2-3" n="3"/>
+                    <div type="bill">
+                        <head>القانون الاساسي</head>
+                        <div type="article" n="10">
+                            <head>(١٠)</head>
+                            <p></p>
+                        </div>
+                        <div type="article" n="11">
+                            <head>(١١)</head>
+                            <p>الاسلامية دين السلطنة ومع<lb edRef="#ed_LH-5774"/>المحافظة الى ذلك تصون السلطنة حرية
+                                جميع<lb edRef="#ed_LH-5774"/>الاديات المعروفة في السلطانة وتحافظ على<lb edRef="#ed_LH-5774"/>الامتيازات
+                                الدينية الممنوحة الى الطوائف<lb edRef="#ed_LH-5774"/>المختلفة بشرط ان لا تخل بالراحة
+                                العمومية<lb edRef="#ed_LH-5774"/>والعادات التهذيبية</p>
+                        </div>
+                        <div type="article" n="12">
+                            <head>(١٢)</head>
+                            <p>المطابع حرة بموجب الحدود<lb edRef="#ed_LH-5774"/>المعينة بالنظام</p>
+                        </div>
+                        
+                        
+                    </div>
+                </body>
+            </text>
+            
+
+    
+</TEI>
