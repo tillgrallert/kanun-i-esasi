@@ -220,7 +220,8 @@
       </fileDesc>
        <encodingDesc>
            <projectDesc>
-               <p>The TEI file was produced for teaching a course on the basics of scholarly encoding
+               <p>The text of this file has been manually transcribed from facsimiles of the sources provided in the <gi>sourceDesc</gi> above.</p>
+               <p>Parts of this TEI file were produced for teaching a course on the basics of scholarly encoding
                    using TEI P5 and XML.</p>
            </projectDesc>
            <editorialDecl>
