@@ -165,73 +165,57 @@
     </teiHeader>
     <!-- providing links to the actual image files either remote or local -->
     <facsimile>
-        <surface xml:id="facs-1-1">
-            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0912_150dpi.jpg"
-                xml:id="facs-1-1_source"/>
+        <surface xml:id="facs_1-1">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0912_150dpi.jpg" mimeType="image/jpeg" xml:id="facs_1-1_source"/>
         </surface>
-        <surface xml:id="facs-1-2">
-            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0913_150dpi.jpg"
-                xml:id="facs-1-2_source"/>
+        <surface xml:id="facs_1-2">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0913_150dpi.jpg" mimeType="image/jpeg" xml:id="facs_1-2_source"/>
         </surface>
-        <surface xml:id="facs-1-3">
-            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0914_150dpi.jpg"
-                xml:id="facs-1-3_source"/>
+        <surface xml:id="facs_1-3">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0914_150dpi.jpg" mimeType="image/jpeg" xml:id="facs_1-3_source"/>
         </surface>
-        <surface xml:id="facs-1-4">
-            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0915_150dpi.jpg"
-                xml:id="facs-1-4_source"/>
+        <surface xml:id="facs_1-4">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0915_150dpi.jpg" mimeType="image/jpeg" xml:id="facs_1-4_source"/>
         </surface>
-        <surface xml:id="facs-2-1">
-            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0916_150dpi.jpg"
-                xml:id="facs-2-1_source"/>
+        <surface xml:id="facs_2-1">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0916_150dpi.jpg" mimeType="image/jpeg" xml:id="facs_2-1_source"/>
         </surface>
-        <surface xml:id="facs-2-2">
-            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0917_150dpi.jpg"
-                xml:id="facs-2-2_source"/>
+        <surface xml:id="facs_2-2">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0917_150dpi.jpg" mimeType="image/jpeg" xml:id="facs_2-2_source"/>
         </surface>
-        <surface xml:id="facs-2-3">
-            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0918_150dpi.jpg"
-                xml:id="facs-2-3_source"/>
+        <surface xml:id="facs_2-3">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0918_150dpi.jpg" mimeType="image/jpeg" xml:id="facs_2-3_source"/>
         </surface>
-        <surface xml:id="facs-2-4">
-            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0919_150dpi.jpg"
-                xml:id="facs-2-4_source"/>
+        <surface xml:id="facs_2-4">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0919_150dpi.jpg" mimeType="image/jpeg" xml:id="facs_2-4_source"/>
         </surface>
-        <surface xml:id="facs-3-1">
-            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0920_150dpi.jpg"
-                xml:id="facs-3-1_source"/>
+        <surface xml:id="facs_3-1">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0920_150dpi.jpg" mimeType="image/jpeg" xml:id="facs_3-1_source"/>
         </surface>
-        <surface xml:id="facs-3-2">
-            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0921_150dpi.jpg"
-                xml:id="facs-3-2_source"/>
+        <surface xml:id="facs_3-2">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0921_150dpi.jpg" mimeType="image/jpeg" xml:id="facs_3-2_source"/>
         </surface>
-        <surface xml:id="facs-3-3">
-            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0922_150dpi.jpg"
-                xml:id="facs-3-3_source"/>
+        <surface xml:id="facs_3-3">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0922_150dpi.jpg" mimeType="image/jpeg" xml:id="facs_3-3_source"/>
         </surface>
-        <surface xml:id="facs-3-4">
-            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0923_150dpi.jpg"
-                xml:id="facs-3-4_source"/>
+        <surface xml:id="facs_3-4">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0923_150dpi.jpg" mimeType="image/jpeg" xml:id="facs_3-4_source"/>
         </surface>
-        <surface xml:id="facs-4-1">
-            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0924_150dpi.jpg"
-                xml:id="facs-4-1_source"/>
+        <surface xml:id="facs_4-1">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0924_150dpi.jpg" mimeType="image/jpeg" xml:id="facs_4-1_source"/>
         </surface>
-        <surface xml:id="facs-4-2">
-            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0925_150dpi.jpg"
-                xml:id="facs-4-2_source"/>
+        <surface xml:id="facs_4-2">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0925_150dpi.jpg" mimeType="image/jpeg" xml:id="facs_4-2_source"/>
         </surface>
-        <surface xml:id="facs-4-3">
-            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0926_150dpi.jpg"
-                xml:id="facs-4-3_source"/>
+        <surface xml:id="facs_4-3">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0926_150dpi.jpg" mimeType="image/jpeg" xml:id="facs_4-3_source"/>
         </surface>
-        <surface xml:id="facs-4-4">
-            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0927_150dpi.jpg"
-                xml:id="facs-4-4_source"/>
+        <surface xml:id="facs_4-4">
+            <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0927_150dpi.jpg" mimeType="image/jpeg" xml:id="facs_4-4_source"/>
         </surface>
     </facsimile>
             <text xml:lang="ar">
-                <pb ed="print" edRef="#ed_LH-5773" facs="#facs-1-1" n="1"/>
+                <pb ed="print" edRef="#ed_LH-5773" facs="#facs_1-1" n="1"/>
                 <!-- the masthead of the issue comprising all the bibliographic information -->
                 <body>
                     <!-- sections and individual articles are mixed -->
@@ -316,8 +300,8 @@
                                 </div>
                             </div>
                         </div>
-                   <!--  <pb ed="print" edRef="#ed_LH-5774" facs="#facs-2-2" n="2"/> -->
-                    <pb ed="print" edRef="#ed_LH-5774" facs="#facs-2-3" n="3"/>
+                   <!--  <pb ed="print" edRef="#ed_LH-5774" facs="#facs_2-2" n="2"/> -->
+                    <pb ed="print" edRef="#ed_LH-5774" facs="#facs_2-3" n="3"/>
                     <div type="bill">
                         <head>القانون الاساسي</head>
                         <div type="article" n="10">
