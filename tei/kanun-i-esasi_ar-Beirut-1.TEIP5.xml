@@ -215,6 +215,26 @@
                             <biblScope unit="page" from="1" to="1"/>
                         </monogr>
                  </biblStruct>
+                 <biblStruct xml:id="ed_Khuri-1908">
+                     <monogr>
+                         <title level="m" xml:lang="ar-Latn-x-ijmes">al-Qānūn al-Asāsī</title>
+                         <title level="m" xml:lang="ar-Latn-x-ijmes" type="sub">Ṭubiʿa bi-nifqat Amīn al-Khūrī ṣāḥib maktabat – maṭbaʿa al-ādāb fī Bayrūt</title>
+                         <respStmt>
+                             <resp>Sponsor</resp>
+                             <persName><forename>Amīn</forename> <surname>al-Khūrī</surname></persName>
+                         </respStmt>
+                         <imprint>
+                             <pubPlace xml:lang="en"> <placeName xml:lang="ar">بيروت</placeName>
+                                 <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                                 <placeName xml:lang="en">Beirut</placeName> <placeName
+                                     xml:lang="fr">Beyrouth</placeName> </pubPlace>
+                             <publisher>
+                                 <orgName xml:lang="ar-Latn-x-ijmes">Maṭbaʿa al-Ādāb</orgName>
+                             </publisher>
+                             <date when="1908"/>
+                         </imprint>
+                     </monogr>
+                 </biblStruct>
              </listBibl>
          </sourceDesc>
       </fileDesc>
@@ -311,6 +331,7 @@
             <graphic url="../images/lisan/small/na111_lisanulhal_1907-08_0912_150dpi.jpg" mimeType="image/jpeg"/>
         </surface>
         <!-- images of the Qalafat edition -->
+        <!-- images of the Khuri edition -->
     </tei:facsimile>
    <text xml:lang="ar">
       <body xml:lang="ar">
@@ -318,6 +339,7 @@
             <pb ed="print" edRef="#ed_TF-90" n="1" facs="#facs_1"/>
             <pb ed="print" edRef="#ed_TF-1683" n="2" facs="#facs_4"/>
             <pb ed="print" edRef="#ed_LH-5773" n="1" facs="#facs_5"/>
+          <pb ed="print" edRef="#ed_Khuri-1908" n="4"/>
             <cb n="3" edRef="#ed_LH-5773"/>
             <div corresp="#law-ottoman-constitution-1876" type="bill" xml:lang="ar">
                 <head>القانون الاساسي</head>
