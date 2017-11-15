@@ -51,7 +51,7 @@ Arabic: The main difference between Arabic translations I have seen (most of whi
 2. Based on the French text
     1. Beirut 3: 
         * **needs to be digitised**; imagery available at HathiTrust
-        1. "Al-niẓāmāt Al-asāsiyya Al-ʿuthmāniyya [Art 1-11, 31-119]." Promulgated on 7 Dhu II 1293 aH [23 Dec. 1876]. In Jinān VIII. Bayrūt: Maṭbaʿat al-Maʿārif, **1877**: 37-46, "Al-niẓāmāt Al-asāsiyya [Art 12-30]." Promulgated on 7 Dhu II 1293 aH [23 Dec. 1876]. In Jinān VIII. Bayrūt: Maṭbaʿat al-Maʿārif, 1877: 95-96. and  ([HathiTrust](http://hdl.handle.net/2027/njp.32101007749334))
+        1. "Al-niẓāmāt Al-asāsiyya Al-ʿuthmāniyya [Art 1-11, 31-119]." Promulgated on 7 Dhu II 1293 aH [23 Dec. 1876]. In Jinān VIII. Bayrūt: Maṭbaʿat al-Maʿārif, **1877**: 37-46, "Al-niẓāmāt Al-asāsiyya [Art 12-30]." Promulgated on 7 Dhu II 1293 aH [23 Dec. 1876]. In Jinān VIII. Bayrūt: Maṭbaʿat al-Maʿārif, 1877: 95-96.  Imagery is available from ([HathiTrust](http://hdl.handle.net/2027/njp.32101007749334))
 3. Unclear: 
     1. *al-Manār* published a partial translation according to {Campos 2011@95}
             
