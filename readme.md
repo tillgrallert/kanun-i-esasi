@@ -53,7 +53,8 @@ Arabic: The main difference between Arabic translations I have seen (most of whi
         * **needs to be digitised**; imagery available at HathiTrust
         1. "Al-niẓāmāt Al-asāsiyya Al-ʿuthmāniyya [Art 1-11, 31-119]." Promulgated on 7 Dhu II 1293 aH [23 Dec. 1876]. In Jinān VIII. Bayrūt: Maṭbaʿat al-Maʿārif, **1877**: 37-46, "Al-niẓāmāt Al-asāsiyya [Art 12-30]." Promulgated on 7 Dhu II 1293 aH [23 Dec. 1876]. In Jinān VIII. Bayrūt: Maṭbaʿat al-Maʿārif, 1877: 95-96.  Imagery is available from ([HathiTrust](http://hdl.handle.net/2027/njp.32101007749334))
 3. Unclear: 
-    1. *al-Manār* published a partial translation according to {Campos 2011@95}
+    1. *al-Manār* published [a partial translation of some articles](https://github.com/tillgrallert/digital-manar/blob/master/tei/oclc_1588981-div_1924.TEIP5.xml) on 28 July 1908.^[{Campos 2011@95}]
+        + **digital text available** from shamela.ws
             
 
 # European languages
