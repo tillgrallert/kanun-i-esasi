@@ -302,8 +302,8 @@
            </langUsage>
        </profileDesc>
       <revisionDesc>
-            <change xml:lang="en"
-                >added links to facsimiles, traced the differences between the three currently known witnesses until the end of page 1 of Thamarāt al-Funūn #90 and page 5 of Qalafāṭ (3rd ed.).</change>
+      	<change when="2017-11-16" who="#pers_TG">Added readings of article 12.</change>
+            <change xml:lang="en" when="2017-11-15" who="#pers_TG">added links to facsimiles, traced the differences between the three currently known witnesses until the end of page 1 of Thamarāt al-Funūn #90 and page 5 of Qalafāṭ (3rd ed.).</change>
          <change when="2017-11-14" who="#pers_TG" xml:lang="en">Created the original TEI file.</change>
       </revisionDesc>
    </teiHeader>
@@ -448,9 +448,9 @@
                     </div>
                     <div n="12" type="article">
                         <head>(١٢)</head>
-                        <p>ان المطبوعات هي حرة ضمن دائرة القانون </p>
+                        <p>ان المطبوعات هي حرة <app><rdg wit="#ed_Qalafat-3 #ed_TF-90">في</rdg></app> ضمن دائرة القانون </p>
                     </div>
-                    <cb n="2"/>
+                    <cb n="2" edRef="#ed_TF-1683"/>
                     <div n="13" type="article">
                         <head>(١٣)</head>
                         <p>ان تبعة الدولة العثمانية مرخصة بتأليف كل نوع من <lb edRef="#ed_TF-1683"
