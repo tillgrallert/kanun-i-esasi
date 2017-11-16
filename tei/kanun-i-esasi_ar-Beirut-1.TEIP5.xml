@@ -17,8 +17,8 @@
                <persName>N.N.</persName>
             </respStmt>
             <respStmt xml:lang="en">
-               <resp xml:lang="en">TEI edition</resp>
-               <persName xml:lang="en">Till Grallert</persName>
+               <resp xml:lang="en">Transcription from the facsimile and TEI edition</resp>
+               <persName xml:lang="en"><forename>Till</forename> <surname>Grallert</surname></persName>
             </respStmt>
          </titleStmt>
          <publicationStmt xml:lang="en">
