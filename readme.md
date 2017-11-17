@@ -43,18 +43,18 @@ Arabic: The main difference between Arabic translations I have seen (most of whi
     2. [Beirut 2](https://github.com/tillgrallert/kanun-i-esasi/blob/master/tei/kanun-i-esasi_ar-Beirut-2.TEIP5.xml):
         * **needs to be digitised**: I have produced partial transcriptions
         * Follows the text of Beirut 1 for articles 1--6.
-        1. Lisān 27 Jul. **1908**:1 and Lisān 28 Jul. **1908**:3-4. 
+        1. Lisān 27 Jul. **1908**:1 and Lisān 28 Jul. **1908**:3-4.
+    3. [Cairo 1](https://github.com/tillgrallert/kanun-i-esasi/blob/master/tei/kanun-i-esasi_ar-Cairo-1.TEIP5.xml):
+        + follows largely Beirut 1 
+        1. al-Manār* published [a partial translation of some articles](https://github.com/tillgrallert/digital-manar/blob/master/tei/oclc_1588981-div_1924.TEIP5.xml) on 28 July 1908.^[{Campos 2011@95}] This means the text was published less than a week after the Young Turk Revolution. **digital text available** from shamela.ws
     3. [Istanbul 1](https://github.com/tillgrallert/kanun-i-esasi/blob/master/tei/kanun-i-esasi_ar-Istanbul-1.TEIP5.xml):
         * **full digital text available** from [www.ahewar.org](http://www.ahewar.org/debat/show.art.asp?aid=394603) and [iraqja.iq](http://iraqja.iq/view.93/))
         1. "Al-Khaṭṭ Al-sharif Al-sulṭānī Wa-l-Qānūn Al-Asāsī." Promulgated on 7 Dhū II 1293 aH [23 Dec. 1876]. In Kanz Al-raghāʾib fī Muntakhabāt Al-Jawāʾib: Wa Huwa Yaḥtawī ʿalā Baʿḍ Mā fī Al-Jawāʾib Min Al-fuṣūl Al-laṭīfa Wa-l-maqāmāt Al-ẓarīfa Wa-l-maqālāt Al-adabiyya Allātī Li-muḥarrir Al-Jawāʾib 6. <!-- Written by Aḥmad Fāris Shidyāq. --> Edited by Salīm Fāris. al-Astāna al-ʿĀliyya: Maṭbaʿat al-Jawāʾib, **1878**. ([HathiTrust](http://hdl.handle.net/2027/uc1.c109017146); the same translation was then published in:
-        2. "Al-qānūn Al-asāsi." Promulgated on 7 Dhu II 1294 aH [23 Dec. 1876]. In Bashīr 1869[a]. Bayrūt: Maṭbaʿat al-Ābāʾ al-Yasūʿiyīn, **1908**: 1-2  
+        2. "Al-qānūn Al-asāsi." Promulgated on 7 Dhu II 1294 aH [23 Dec. 1876]. In Bashīr 1869[a]. Bayrūt: Maṭbaʿat al-Ābāʾ al-Yasūʿiyīn, **1908**: 1-2
 2. Based on the French text
     1. Beirut 3: 
         * **needs to be digitised**; imagery available at HathiTrust
         1. "Al-niẓāmāt Al-asāsiyya Al-ʿuthmāniyya [Art 1-11, 31-119]." Promulgated on 7 Dhu II 1293 aH [23 Dec. 1876]. In Jinān VIII. Bayrūt: Maṭbaʿat al-Maʿārif, **1877**: 37-46, "Al-niẓāmāt Al-asāsiyya [Art 12-30]." Promulgated on 7 Dhu II 1293 aH [23 Dec. 1876]. In Jinān VIII. Bayrūt: Maṭbaʿat al-Maʿārif, 1877: 95-96.  Imagery is available from ([HathiTrust](http://hdl.handle.net/2027/njp.32101007749334))
-3. Unclear: 
-    1. *al-Manār* published [a partial translation of some articles](https://github.com/tillgrallert/digital-manar/blob/master/tei/oclc_1588981-div_1924.TEIP5.xml) on 28 July 1908.^[{Campos 2011@95}]
-        + **digital text available** from shamela.ws
             
 
 # European languages

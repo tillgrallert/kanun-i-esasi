@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xml:id="oclc_1588981-div_1924"
+     next="oclc_1588981-div_1925"
+     prev="oclc_1588981-div_1923">
+   <teiHeader xmlns:html="http://www.w3.org/1999/xhtml"
+              xmlns:xd="http://www.pnp-software.com/XSLTdoc"
+              xmlns:opf="http://www.idpf.org/2007/opf"
+              xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <fileDesc>
+         <titleStmt>
+            <title level="j" xml:lang="ar">مجلة المنار</title>
+            <title type="sub" xml:lang="en">TEI edition</title>
+            <author>محمد رشيد رضا</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished TEI edition</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>
+               <dc:title xmlns="http://www.idpf.org/2007/opf">مجلة المنار</dc:title>
+               <dc:creator xmlns="http://www.idpf.org/2007/opf" opf:role="aut">محمد رشيد رضا</dc:creator>
+               <dc:publisher xmlns="http://www.idpf.org/2007/opf">http://shamela.ws</dc:publisher>
+               <dc:language xmlns="http://www.idpf.org/2007/opf">ar</dc:language>
+               <dc:identifier xmlns="http://www.idpf.org/2007/opf" id="BookID" opf:scheme="UUID">urn:uuid:d9f220a43954b225e35c1f85aa74b090</dc:identifier>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+        <change when="2016-02-10">Structured the file into divs based on the existing heads.</change>
+         <change when="2016-01-21">Created this TEI P5 file by automatic conversion from ePub.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="ar">
+      <body>
+         <div xmlns:html="http://www.w3.org/1999/xhtml"
+              xmlns:xd="http://www.pnp-software.com/XSLTdoc"
+              xmlns:opf="http://www.idpf.org/2007/opf"
+              xmlns:dc="http://purl.org/dc/elements/1.1/"
+              type="article">
+            <head>
+               <rs>القانون الأساسي</rs> والخط السلطاني به</head>
+               <p>ننشر هنا أهم موادّ هذا القانون في حقوق العثمانيين ليتدبرها القراء منهم
+<lb ed="shamela"/>فيعرفوا قيمتهم، وأنهم ليسوا عبيدًا لحكامهم. ثم ترجمة الخط السلطاني في الحاجة
+<lb ed="shamela"/>إلى هذا القانون.
+<lb ed="shamela"/>
+            </p>
+            <div type="bill">
+                          <div type="article"><head>المادة 9 - </head>
+<p>إن جميع العثمانيين متمتعون بحريتهم الشخصية بشرط أنْ لا
+<lb ed="shamela"/>يعتديَ أحدٌ على حقوق غيره.
+<lb ed="shamela"/></p>
+</div>
+            <div type="article"><head>10 - </head>
+<p> إن الحرية الشخصية مصونة من جميع أنواع التعدي، ولا يجوز
+<lb ed="shamela"/>مجازاة أحد بأي وسيلة كانت إلا بالأسباب والأوجه التي يعينها القانون.
+<lb ed="shamela"/>
+                        </p>
+</div>
+            <div type="article"><head>11 - </head>
+<p> إن دين الدولة العثمانية هو الإسلام ومع مراعاة هذا الأساس وعدم
+<lb ed="shamela"/>الإخلال براحة الخلق والآداب العمومية تجري جميع الأديان المعروفة في الممالك
+<lb ed="shamela"/>العثمانية بحرية تحت حماية الدولة مع بقاء الامتيازات المعطاة للجماعات المختلفة
+<lb ed="shamela"/>كما كانت عليه.
+<lb ed="shamela"/>
+                        </p>
+</div>
+            <div type="article"><head>12 - </head>
+<p> إن المطبوعات هي حرة في ضمن دائرة القانون.
+<lb ed="shamela"/>
+                        </p>
+</div>
+            <div type="article"><head>14 - </head>
+<p> يسوغ لكل فرد من أفراد التبعة العثمانية أو الجملة منهم الشكوى إلى
+<lb ed="shamela"/>جهة الاختصاص من مخالفة القوانين والنظامات أو من أفعال المأمورين.
+<lb ed="shamela"/>
+                        </p>
+</div>
+            <div type="article"><head>17 - </head>
+<p> إن العثمانيين جميعهم متساوون أمام القانون، كما أنهم متساوون كذلك
+<lb ed="shamela"/>في حقوق وظائف المملكة ما عدا الأحوال الدينية والمذهبية.
+<lb ed="shamela"/>
+                        </p>
+</div>
+            <div type="article"><head>21 - </head>
+<p> كل أحد أمين على ماله وملكه الذي تحت تصرفه , ولا يؤخذ من أحد
+<lb ed="shamela"/>ملكه ما لم يثبت لزومه للنفع العام وحينئذ يدفع ثمنه الحقيقي سلفًا وفقًا للقانون.
+<lb ed="shamela"/>
+                        </p>
+</div>
+            <div type="article"><head>23 - </head>
+<p> لا يسوغ إجبار أحد على الحضور إلى محكمة غير المحكمة المنسوب
+<lb ed="shamela"/>هو إليها قانونيًّا وفقًا لقانون أصول المحاكمة الذي تقرر وضعه.
+<lb ed="shamela"/>
+                        </p>
+</div>
+            <div type="article"><head>24 - </head>
+<p> المصادرة والتسخير والجريمة من الأمور الممنوعة، وإنما يستثنى من
+<lb ed="shamela"/>ذلك التكاليف والأحوال التي تعين في أوقات الحرب بحسب الأحوال.
+<lb ed="shamela"/>
+                        </p>
+</div>
+            <div type="article"><head>25 - </head>
+<p> لا يجوز أن يؤخذ من أحد بارة واحدة باسم ويركو ورسوم أو بصفة
+<lb ed="shamela"/>أخرى ما لم يكن ذلك موافقًا للقانون.
+<lb ed="shamela"/>
+                        </p>
+</div>
+            <div type="article"><head>26 - </head>
+<p> إن التعذيب وكل أنواع الأذى ممنوع منعًا باتًّا كليًّا.</p></div></div>
+<ab>* * *</ab>
+             <div type="section">
+                    <head>ترجمة الخط الشريف السلطاني <lb ed="shamela"
+                        />ب<rs>القانون الأساسي</rs></head>
+                    <opener>وهو خطاب السلطان لمدحت باشا الصدر الأعظم باعتماد القانون وأمره <lb
+                        ed="shamela"/>بتنفيذه. </opener>
+                    <salute>وزيري سمير المعالي مدحت باشا: </salute>
+                    <p><lb ed="shamela"
+                        />إن التدنيات العارضة منذ أزمان على قوة دولتنا العَلِيّة قد نشأت من الانحراف <lb
+                        ed="shamela"
+                        />عن الطريق المستقيم في إدارة الأمور الداخلية أكثر مما نشأت من الغوائل الخارجية, <lb
+                        ed="shamela"
+                        />ومن ميل الأسباب الكافلة أمنية التبعة من حكومتهم المتبوعة إلى الانحطاط؛ فلذا <lb
+                        ed="shamela"
+                        />كان والدي الماجد المرحوم عبد المجيد خان أعلن مقدمة للإصلاحات خط التنظيمات <lb
+                        ed="shamela"
+                        />الذي منح به جميع الرعية الأمن على نفوسهم وأموالهم وأعراضهم وناموسهم موافقة <lb
+                        ed="shamela"
+                        />لأحكام الشرع الشريف المقدسة , وما عشناه إلى الآن في ضمن دائرة الأمن , وما <lb
+                        ed="shamela"
+                        />وفقنا به اليوم إلى وضع وإعلان هذا <rs>القانون الأساسي</rs> الذي هو ثمرة الآراء والأفكار <lb
+                        ed="shamela"
+                        />المتداولة بالحرية المستندة على تلك الأمنية إنما هو من جملة آثار تلك التنظيمات <lb
+                        ed="shamela"
+                        />الخيرية فلذلك أردد خاصّة في هذا اليوم المسعود اسم المرحوم المشار إليه وموفقيته <lb
+                        ed="shamela"
+                        />وأصفه بعنوان محيي الدولة , ولا ريبَ بأنه لو كان الأوان الذي تأسست فيه <lb
+                        ed="shamela"
+                        />التنظيمات المذكورة موافقة لاستعداد زماننا هذا وإلجاءاته لَكَان المرحومُ المشار إليه <lb
+                        ed="shamela"
+                        />وضع يومئذ أحكام هذا <rs>القانون الأساسي</rs> الذي نشرناه الآن وأنفذه , ولكن جناب الحق <lb
+                        ed="shamela"
+                        />علق حصول هذه النتيجة المسعودة الكافلة بالتمام سعادة حال مِلَّتنا وأرجأها إلى عهد <lb
+                        ed="shamela"
+                        />سلطنتنا فنقدم بِنَاءً على هذه الدلالة لجناب الرب الكريم الحمد والشكر العظيم. <lb
+                        ed="shamela"
+                        />على أن التغييرات التي وقعت بالطبع في أحوال داخلية دولتنا العَلِيّة <lb
+                        ed="shamela"
+                        />والتوسيعات التي حصلت في مناسباتها الخارجية أوصلت عدم كفاءة شكل إدارة <lb
+                        ed="shamela"
+                        />الحكومة لدرجة البداهة , وَلَمّا كان أقصى مقاصدنا الخيرية إزالة الأسباب المانعة <lb
+                        ed="shamela"
+                        />للآن من الاستفادة الواجبة من الثروة الطبيعية لمملكتنا وأمتنا , ومن قابليتهما <lb
+                        ed="shamela"
+                        />الفطرية وتقدم صنوف الرعية في طرق الترقّي بالتعاون والاتحاد اقتضى لأجل <lb
+                        ed="shamela"
+                        />الوصول إلى هذا المقصد أن يوضع للحكومة أساس مأمون منتظم , وهذا أيضًا <lb
+                        ed="shamela"
+                        />يتوقف على تأمين هذه الفوائد وتقريرها , بمعنى أن قوة الحكومة تحافظ على <lb
+                        ed="shamela"
+                        />حقوقها المقبولة والمشروعة , وعلى منع الحركات غير المشروعة، أعني بها <lb
+                        ed="shamela"
+                        />منْع ومحو ضروب الخطآت , وسوء التصرف المتولدة من الحكم الاستبدادي الفردي <lb
+                        ed="shamela"
+                        />أو حكم الأفراد القلائل ليستفيد جميع الأقوام المركبة هيئتنا منهم نعمة الحرية <lb
+                        ed="shamela"
+                        />والعدالة والمساواة بلا استثناءٍ ذلك الحق والمنفعة الحريّان بالهيئة الاجتماعية المدنية. <lb
+                        ed="shamela"
+                        />ولما كان ربط القوانين والمصالح القائمة بقاعدتي الشورى والحكومة المقيدة <lb
+                        ed="shamela"
+                        />المشروعتين , والثابت خيرهما مما تحتاج إليه هذه الأصول أوعزنا في خطنا الذي <lb
+                        ed="shamela"
+                        />أذعنا به جلوسنا إلى وُجوب تأليف مجلس عمومي، وحيثُ إن <rs>القانون الأساسي</rs>
+                        <lb ed="shamela"
+                        />الذي وجب تنظيمه في هذا المطلب قد وضع بالمذاكرة في الجمعية المخصوصة التي <lb
+                        ed="shamela"
+                        />تعينت مُرَكَّبَةً مِن متحيزي الوزارة وصدور العلماء , ومن سائر رجال وعمال دولتنا <lb
+                        ed="shamela"
+                        />العلية , وجرى عليه التصديق في مجلس وكلائنا بعد إمعان نظر التدقيق , وكانت <lb
+                        ed="shamela"
+                        />المواد المندرجة فيه إنما هي متعلقة بحقوق الخلافة الإسلامية الكبرى , والسلطنة <lb
+                        ed="shamela"
+                        />العثمانية العظمى , وحرية العثمانيين ومساواتهم , وصلاحية الوكلاء والمأمورين <lb
+                        ed="shamela"
+                        />ومسئوليتهم , وبما للمجلس العمومي من حق الوقوف وباستقلال المحاكم الكامل , <lb
+                        ed="shamela"
+                        />وبصحة ميزانية المالية , وبالمحافظة على مركز الحقوق في إدارة الولايات واتباع <lb
+                        ed="shamela"
+                        />أصول المأذونية , وكان جميع ما ذكر مطابقًا لأحكام الشرع الشريف ولاحتياجِ <lb
+                        ed="shamela"
+                        />الملك والملة , وقابليتهما في يومنا هذا , وكانت أخص آمالنا في مطلب سعادة العامة <lb
+                        ed="shamela"
+                        />وترقياتها مُساعِدةً لهذا الفكر الخيري وموافقة له - فاستنادًا على عون الله ومدد <lb
+                        ed="shamela"
+                        />روحانية رسول الله صلى الله عليه وسلم قد قبلنا هذا <rs>القانون الأساسي</rs> وأرسلنا به <lb
+                        ed="shamela"
+                        />لطرفكم بعد أن صادقنا عليه فبادروا لإعلانه في جميع أنحاء الممالك العثمانية <lb
+                        ed="shamela"
+                        />وأطرافها؛ ليكون دستورًا للعمل إلى ما شاء الله وباشروا بإجراء أحكامه منذ اليوم <lb
+                        ed="shamela"
+                        />متخذين أسرع التدابير لتنظيم ما تقرر فيه وتسطر من النظامات والقوانين كما هو <lb
+                        ed="shamela"
+                        />مطلوبنا القطعي , ونسأل جناب الحقّ المتعالي أن يجعل مساعي المجتهدين في <lb
+                        ed="shamela"
+                        />سعادة حال ملكنا ومِلَّتِنا مظهرًا للتوفيق في كل الأعمال.اهـ </p>
+                    <dateline>في <date>7 ذي الحجة <lb ed="shamela"/>سنة 1293</date>.</dateline>
+                </div>
+                <div type="section">
+                    <pb n="n11-p427" ed="shamela"
+                        corresp="file:../epub/6947/OEBPS/xhtml/P2029.xhtml"/>
+                    <p>الكاتب: محمد رشيد رضا </p>
+                </div>
+         </div>
+      </body>
+   </text>
+</TEI>
