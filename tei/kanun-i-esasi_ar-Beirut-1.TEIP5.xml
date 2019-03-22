@@ -41,12 +41,12 @@
                          <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
                          <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
                          <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
-                         <idno type="oclc" xml:lang="en">792755216</idno>
-                         <idno type="oclc" xml:lang="en">745202659</idno>
-                         <idno type="oclc" xml:lang="en">915538205</idno>
-                         <idno type="oclc" xml:lang="en">30431084</idno>
-                         <idno type="oclc" xml:lang="en">499946128</idno>
-                         <idno type="oclc" xml:lang="en">177646790</idno>
+                         <idno type="OCLC" xml:lang="en">792755216</idno>
+                         <idno type="OCLC" xml:lang="en">745202659</idno>
+                         <idno type="OCLC" xml:lang="en">915538205</idno>
+                         <idno type="OCLC" xml:lang="en">30431084</idno>
+                         <idno type="OCLC" xml:lang="en">499946128</idno>
+                         <idno type="OCLC" xml:lang="en">177646790</idno>
                          <editor xml:lang="en">
                              <persName xml:lang="ar">
                                  <forename>عبد القادر</forename>
@@ -132,12 +132,12 @@
                      <tei:monogr xml:lang="en">
                          <title level="j" xml:lang="ar">ثمرات الفنون</title>
                          <title level="j" xml:lang="ar-Latn-x-ijmes">Thamarāt al-Funūn</title>
-                         <idno type="oclc" xml:lang="en">792755216</idno>
-                         <idno type="oclc" xml:lang="en">745202659</idno>
-                         <idno type="oclc" xml:lang="en">915538205</idno>
-                         <idno type="oclc" xml:lang="en">30431084</idno>
-                         <idno type="oclc" xml:lang="en">499946128</idno>
-                         <idno type="oclc" xml:lang="en">177646790</idno>
+                         <idno type="OCLC" xml:lang="en">792755216</idno>
+                         <idno type="OCLC" xml:lang="en">745202659</idno>
+                         <idno type="OCLC" xml:lang="en">915538205</idno>
+                         <idno type="OCLC" xml:lang="en">30431084</idno>
+                         <idno type="OCLC" xml:lang="en">499946128</idno>
+                         <idno type="OCLC" xml:lang="en">177646790</idno>
                          <editor xml:lang="en">
                              <persName xml:lang="ar">
                                  <forename>عبد القادر</forename>
