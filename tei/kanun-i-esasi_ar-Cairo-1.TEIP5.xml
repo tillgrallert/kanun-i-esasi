@@ -1,219 +1,121 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:tei="http://www.tei-c.org/ns/1.0"
-     xmlns:xi="http://www.w3.org/2001/XInclude"
-     xml:id="oclc_1588981-div_1924"
-     next="oclc_1588981-div_1925"
-     prev="oclc_1588981-div_1923">
-   <teiHeader xmlns:html="http://www.w3.org/1999/xhtml"
-              xmlns:xd="http://www.pnp-software.com/XSLTdoc"
-              xmlns:opf="http://www.idpf.org/2007/opf"
-              xmlns:dc="http://purl.org/dc/elements/1.1/">
-      <fileDesc>
-         <titleStmt>
-            <title level="j" xml:lang="ar">مجلة المنار</title>
-            <title type="sub" xml:lang="en">TEI edition</title>
-            <author>محمد رشيد رضا</author>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="oclc_1588981-div_1924" next="oclc_1588981-div_1925" prev="oclc_1588981-div_1923" change="#d2e82" xml:lang="">
+   <teiHeader xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xd="http://www.pnp-software.com/XSLTdoc" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" change="#d2e71 #d2e82" xml:id="teiHeader_1.d2e7" xml:lang="">
+      <fileDesc change="#d2e71 #d2e82" xml:id="fileDesc_1.d2e9" xml:lang="">
+         <titleStmt change="#d2e71 #d2e82" xml:id="titleStmt_1.d2e11" xml:lang="">
+            <title level="j" xml:lang="ar" change="#d2e71" xml:id="title_1.d2e13">مجلة المنار</title>
+            <title type="sub" xml:lang="en" change="#d2e71" xml:id="title_2.d2e16">TEI edition</title>
+            <author change="#d2e71 #d2e82" xml:id="author_1.d2e19" xml:lang="">محمد رشيد رضا</author>
          </titleStmt>
-         <publicationStmt>
-            <p>Unpublished TEI edition</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>
-               <dc:title xmlns="http://www.idpf.org/2007/opf">مجلة المنار</dc:title>
-               <dc:creator xmlns="http://www.idpf.org/2007/opf" opf:role="aut">محمد رشيد رضا</dc:creator>
-               <dc:publisher xmlns="http://www.idpf.org/2007/opf">http://shamela.ws</dc:publisher>
-               <dc:language xmlns="http://www.idpf.org/2007/opf">ar</dc:language>
-               <dc:identifier xmlns="http://www.idpf.org/2007/opf" id="BookID" opf:scheme="UUID">urn:uuid:d9f220a43954b225e35c1f85aa74b090</dc:identifier>
+         <publicationStmt xml:id="publicationStmt_1.d1e61" xml:lang="en">
+                <authority xml:id="authority_1.d1e63" xml:lang="en">
+                    <persName xml:id="persName_4.d1e65" xml:lang="en">Till Grallert</persName>
+                </authority>
+                <pubPlace xml:id="pubPlace_1.d1e69" xml:lang="en">Beirut</pubPlace>
+                <date when="2017" xml:id="date_1.d1e72" xml:lang="en">2017</date>
+                <availability status="restricted" xml:id="availability_1.d1e75" xml:lang="en">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/" xml:id="licence_1.d1e77" xml:lang="en">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence>
+                </availability>
+             </publicationStmt>
+         <sourceDesc change="#d2e71 #d2e82" xml:id="sourceDesc_1.d2e44" xml:lang="">
+            <p change="#d2e71 #d2e82" xml:id="p_1.d2e46" xml:lang="">
+               <dc:title xmlns="http://www.idpf.org/2007/opf" change="#d2e71 #d2e82" xml:id="dc:title_1.d2e48" xml:lang="">مجلة المنار</dc:title>
+               <dc:creator xmlns="http://www.idpf.org/2007/opf" opf:role="aut" change="#d2e71 #d2e82" xml:id="dc:creator_1.d2e51" xml:lang="">محمد رشيد رضا</dc:creator>
+               <dc:publisher xmlns="http://www.idpf.org/2007/opf" change="#d2e71 #d2e82" xml:id="dc:publisher_1.d2e54" xml:lang="">http://shamela.ws</dc:publisher>
+               <dc:language xmlns="http://www.idpf.org/2007/opf" change="#d2e71 #d2e82" xml:id="dc:language_1.d2e57" xml:lang="">ar</dc:language>
+               <dc:identifier xmlns="http://www.idpf.org/2007/opf" id="BookID" opf:scheme="UUID" change="#d2e71 #d2e82" xml:id="dc:identifier_1.d2e60" xml:lang="">urn:uuid:d9f220a43954b225e35c1f85aa74b090</dc:identifier>
             </p>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
-        <change when="2016-02-10">Structured the file into divs based on the existing heads.</change>
-         <change when="2016-01-21">Created this TEI P5 file by automatic conversion from ePub.</change>
+      <revisionDesc><tei:change when="2019-04-24" who="#pers_TG" change="d2e82" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change><change when="2019-04-24" who="#pers_TG" xml:id="d2e71" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+        <change when="2016-02-10" change="#d2e71 #d2e82" xml:id="change_1.d2e68" xml:lang="">Structured the file into divs based on the existing heads.</change>
+         <change when="2016-01-21" change="#d2e71 #d2e82" xml:id="change_2.d2e71" xml:lang="">Created this TEI P5 file by automatic conversion from ePub.</change>
       </revisionDesc>
    </teiHeader>
-   <text xml:lang="ar">
-      <body>
-         <div xmlns:html="http://www.w3.org/1999/xhtml"
-              xmlns:xd="http://www.pnp-software.com/XSLTdoc"
-              xmlns:opf="http://www.idpf.org/2007/opf"
-              xmlns:dc="http://purl.org/dc/elements/1.1/"
-              type="article">
-            <head>
-               <rs>القانون الأساسي</rs> والخط السلطاني به</head>
-               <p>ننشر هنا أهم موادّ هذا القانون في حقوق العثمانيين ليتدبرها القراء منهم
-<lb ed="shamela"/>فيعرفوا قيمتهم، وأنهم ليسوا عبيدًا لحكامهم. ثم ترجمة الخط السلطاني في الحاجة
-<lb ed="shamela"/>إلى هذا القانون.
-<lb ed="shamela"/>
+   <text xml:lang="ar" change="#d2e71" xml:id="text_1.d2e76">
+      <body change="#d2e71 #d2e82" xml:id="body_1.d2e78" xml:lang="ar">
+         <div xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xd="http://www.pnp-software.com/XSLTdoc" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" type="article" change="#d2e71 #d2e82" xml:id="div_1.d2e80" xml:lang="ar">
+            <head change="#d2e71 #d2e82" xml:id="head_1.d2e82" xml:lang="ar">
+               <rs change="#d2e71 #d2e82" xml:id="rs_1.d2e84" xml:lang="ar">القانون الأساسي</rs> والخط السلطاني به</head>
+               <p change="#d2e71 #d2e82" xml:id="p_2.d2e88" xml:lang="ar">ننشر هنا أهم موادّ هذا القانون في حقوق العثمانيين ليتدبرها القراء منهم
+<lb ed="shamela" change="#d2e71" xml:id="lb_1.d2e90"/>فيعرفوا قيمتهم، وأنهم ليسوا عبيدًا لحكامهم. ثم ترجمة الخط السلطاني في الحاجة
+<lb ed="shamela" change="#d2e71" xml:id="lb_2.d2e92"/>إلى هذا القانون.
+<lb ed="shamela" change="#d2e71" xml:id="lb_3.d2e94"/>
             </p>
-            <div type="bill">
-                          <div type="article"><head>المادة 9 - </head>
-<p>إن جميع العثمانيين متمتعون بحريتهم الشخصية بشرط أنْ لا
-<lb ed="shamela"/>يعتديَ أحدٌ على حقوق غيره.
-<lb ed="shamela"/></p>
+            <div type="bill" change="#d2e71 #d2e82" xml:id="div_1.d2e97" xml:lang="ar">
+                          <div type="article" change="#d2e71 #d2e82" xml:id="div_1.d2e99" xml:lang="ar"><head change="#d2e71 #d2e82" xml:id="head_2.d2e100" xml:lang="ar">المادة 9 - </head>
+<p change="#d2e71 #d2e82" xml:id="p_3.d2e103" xml:lang="ar">إن جميع العثمانيين متمتعون بحريتهم الشخصية بشرط أنْ لا
+<lb ed="shamela" change="#d2e71" xml:id="lb_4.d2e105"/>يعتديَ أحدٌ على حقوق غيره.
+<lb ed="shamela" change="#d2e71" xml:id="lb_5.d2e107"/></p>
 </div>
-            <div type="article"><head>10 - </head>
-<p> إن الحرية الشخصية مصونة من جميع أنواع التعدي، ولا يجوز
-<lb ed="shamela"/>مجازاة أحد بأي وسيلة كانت إلا بالأسباب والأوجه التي يعينها القانون.
-<lb ed="shamela"/>
+            <div type="article" change="#d2e71 #d2e82" xml:id="div_2.d2e110" xml:lang="ar"><head change="#d2e71 #d2e82" xml:id="head_3.d2e111" xml:lang="ar">10 - </head>
+<p change="#d2e71 #d2e82" xml:id="p_4.d2e114" xml:lang="ar"> إن الحرية الشخصية مصونة من جميع أنواع التعدي، ولا يجوز
+<lb ed="shamela" change="#d2e71" xml:id="lb_6.d2e116"/>مجازاة أحد بأي وسيلة كانت إلا بالأسباب والأوجه التي يعينها القانون.
+<lb ed="shamela" change="#d2e71" xml:id="lb_7.d2e118"/>
                         </p>
 </div>
-            <div type="article"><head>11 - </head>
-<p> إن دين الدولة العثمانية هو الإسلام ومع مراعاة هذا الأساس وعدم
-<lb ed="shamela"/>الإخلال براحة الخلق والآداب العمومية تجري جميع الأديان المعروفة في الممالك
-<lb ed="shamela"/>العثمانية بحرية تحت حماية الدولة مع بقاء الامتيازات المعطاة للجماعات المختلفة
-<lb ed="shamela"/>كما كانت عليه.
-<lb ed="shamela"/>
+            <div type="article" change="#d2e71 #d2e82" xml:id="div_3.d2e122" xml:lang="ar"><head change="#d2e71 #d2e82" xml:id="head_4.d2e123" xml:lang="ar">11 - </head>
+<p change="#d2e71 #d2e82" xml:id="p_5.d2e126" xml:lang="ar"> إن دين الدولة العثمانية هو الإسلام ومع مراعاة هذا الأساس وعدم
+<lb ed="shamela" change="#d2e71" xml:id="lb_8.d2e128"/>الإخلال براحة الخلق والآداب العمومية تجري جميع الأديان المعروفة في الممالك
+<lb ed="shamela" change="#d2e71" xml:id="lb_9.d2e130"/>العثمانية بحرية تحت حماية الدولة مع بقاء الامتيازات المعطاة للجماعات المختلفة
+<lb ed="shamela" change="#d2e71" xml:id="lb_10.d2e132"/>كما كانت عليه.
+<lb ed="shamela" change="#d2e71" xml:id="lb_11.d2e134"/>
                         </p>
 </div>
-            <div type="article"><head>12 - </head>
-<p> إن المطبوعات هي حرة في ضمن دائرة القانون.
-<lb ed="shamela"/>
+            <div type="article" change="#d2e71 #d2e82" xml:id="div_4.d2e138" xml:lang="ar"><head change="#d2e71 #d2e82" xml:id="head_5.d2e139" xml:lang="ar">12 - </head>
+<p change="#d2e71 #d2e82" xml:id="p_6.d2e142" xml:lang="ar"> إن المطبوعات هي حرة في ضمن دائرة القانون.
+<lb ed="shamela" change="#d2e71" xml:id="lb_12.d2e144"/>
                         </p>
 </div>
-            <div type="article"><head>14 - </head>
-<p> يسوغ لكل فرد من أفراد التبعة العثمانية أو الجملة منهم الشكوى إلى
-<lb ed="shamela"/>جهة الاختصاص من مخالفة القوانين والنظامات أو من أفعال المأمورين.
-<lb ed="shamela"/>
+            <div type="article" change="#d2e71 #d2e82" xml:id="div_5.d2e148" xml:lang="ar"><head change="#d2e71 #d2e82" xml:id="head_6.d2e149" xml:lang="ar">14 - </head>
+<p change="#d2e71 #d2e82" xml:id="p_7.d2e152" xml:lang="ar"> يسوغ لكل فرد من أفراد التبعة العثمانية أو الجملة منهم الشكوى إلى
+<lb ed="shamela" change="#d2e71" xml:id="lb_13.d2e154"/>جهة الاختصاص من مخالفة القوانين والنظامات أو من أفعال المأمورين.
+<lb ed="shamela" change="#d2e71" xml:id="lb_14.d2e156"/>
                         </p>
 </div>
-            <div type="article"><head>17 - </head>
-<p> إن العثمانيين جميعهم متساوون أمام القانون، كما أنهم متساوون كذلك
-<lb ed="shamela"/>في حقوق وظائف المملكة ما عدا الأحوال الدينية والمذهبية.
-<lb ed="shamela"/>
+            <div type="article" change="#d2e71 #d2e82" xml:id="div_6.d2e161" xml:lang="ar"><head change="#d2e71 #d2e82" xml:id="head_7.d2e162" xml:lang="ar">17 - </head>
+<p change="#d2e71 #d2e82" xml:id="p_8.d2e165" xml:lang="ar"> إن العثمانيين جميعهم متساوون أمام القانون، كما أنهم متساوون كذلك
+<lb ed="shamela" change="#d2e71" xml:id="lb_15.d2e167"/>في حقوق وظائف المملكة ما عدا الأحوال الدينية والمذهبية.
+<lb ed="shamela" change="#d2e71" xml:id="lb_16.d2e169"/>
                         </p>
 </div>
-            <div type="article"><head>21 - </head>
-<p> كل أحد أمين على ماله وملكه الذي تحت تصرفه , ولا يؤخذ من أحد
-<lb ed="shamela"/>ملكه ما لم يثبت لزومه للنفع العام وحينئذ يدفع ثمنه الحقيقي سلفًا وفقًا للقانون.
-<lb ed="shamela"/>
+            <div type="article" change="#d2e71 #d2e82" xml:id="div_7.d2e173" xml:lang="ar"><head change="#d2e71 #d2e82" xml:id="head_8.d2e174" xml:lang="ar">21 - </head>
+<p change="#d2e71 #d2e82" xml:id="p_9.d2e177" xml:lang="ar"> كل أحد أمين على ماله وملكه الذي تحت تصرفه , ولا يؤخذ من أحد
+<lb ed="shamela" change="#d2e71" xml:id="lb_17.d2e179"/>ملكه ما لم يثبت لزومه للنفع العام وحينئذ يدفع ثمنه الحقيقي سلفًا وفقًا للقانون.
+<lb ed="shamela" change="#d2e71" xml:id="lb_18.d2e181"/>
                         </p>
 </div>
-            <div type="article"><head>23 - </head>
-<p> لا يسوغ إجبار أحد على الحضور إلى محكمة غير المحكمة المنسوب
-<lb ed="shamela"/>هو إليها قانونيًّا وفقًا لقانون أصول المحاكمة الذي تقرر وضعه.
-<lb ed="shamela"/>
+            <div type="article" change="#d2e71 #d2e82" xml:id="div_8.d2e185" xml:lang="ar"><head change="#d2e71 #d2e82" xml:id="head_9.d2e186" xml:lang="ar">23 - </head>
+<p change="#d2e71 #d2e82" xml:id="p_10.d2e189" xml:lang="ar"> لا يسوغ إجبار أحد على الحضور إلى محكمة غير المحكمة المنسوب
+<lb ed="shamela" change="#d2e71" xml:id="lb_19.d2e191"/>هو إليها قانونيًّا وفقًا لقانون أصول المحاكمة الذي تقرر وضعه.
+<lb ed="shamela" change="#d2e71" xml:id="lb_20.d2e193"/>
                         </p>
 </div>
-            <div type="article"><head>24 - </head>
-<p> المصادرة والتسخير والجريمة من الأمور الممنوعة، وإنما يستثنى من
-<lb ed="shamela"/>ذلك التكاليف والأحوال التي تعين في أوقات الحرب بحسب الأحوال.
-<lb ed="shamela"/>
+            <div type="article" change="#d2e71 #d2e82" xml:id="div_9.d2e197" xml:lang="ar"><head change="#d2e71 #d2e82" xml:id="head_10.d2e198" xml:lang="ar">24 - </head>
+<p change="#d2e71 #d2e82" xml:id="p_11.d2e201" xml:lang="ar"> المصادرة والتسخير والجريمة من الأمور الممنوعة، وإنما يستثنى من
+<lb ed="shamela" change="#d2e71" xml:id="lb_21.d2e203"/>ذلك التكاليف والأحوال التي تعين في أوقات الحرب بحسب الأحوال.
+<lb ed="shamela" change="#d2e71" xml:id="lb_22.d2e205"/>
                         </p>
 </div>
-            <div type="article"><head>25 - </head>
-<p> لا يجوز أن يؤخذ من أحد بارة واحدة باسم ويركو ورسوم أو بصفة
-<lb ed="shamela"/>أخرى ما لم يكن ذلك موافقًا للقانون.
-<lb ed="shamela"/>
+            <div type="article" change="#d2e71 #d2e82" xml:id="div_10.d2e209" xml:lang="ar"><head change="#d2e71 #d2e82" xml:id="head_11.d2e210" xml:lang="ar">25 - </head>
+<p change="#d2e71 #d2e82" xml:id="p_12.d2e213" xml:lang="ar"> لا يجوز أن يؤخذ من أحد بارة واحدة باسم ويركو ورسوم أو بصفة
+<lb ed="shamela" change="#d2e71" xml:id="lb_23.d2e215"/>أخرى ما لم يكن ذلك موافقًا للقانون.
+<lb ed="shamela" change="#d2e71" xml:id="lb_24.d2e217"/>
                         </p>
 </div>
-            <div type="article"><head>26 - </head>
-<p> إن التعذيب وكل أنواع الأذى ممنوع منعًا باتًّا كليًّا.</p></div></div>
-<ab>* * *</ab>
-             <div type="section">
-                    <head>ترجمة الخط الشريف السلطاني <lb ed="shamela"
-                        />ب<rs>القانون الأساسي</rs></head>
-                    <opener>وهو خطاب السلطان لمدحت باشا الصدر الأعظم باعتماد القانون وأمره <lb
-                        ed="shamela"/>بتنفيذه. </opener>
-                    <salute>وزيري سمير المعالي مدحت باشا: </salute>
-                    <p><lb ed="shamela"
-                        />إن التدنيات العارضة منذ أزمان على قوة دولتنا العَلِيّة قد نشأت من الانحراف <lb
-                        ed="shamela"
-                        />عن الطريق المستقيم في إدارة الأمور الداخلية أكثر مما نشأت من الغوائل الخارجية, <lb
-                        ed="shamela"
-                        />ومن ميل الأسباب الكافلة أمنية التبعة من حكومتهم المتبوعة إلى الانحطاط؛ فلذا <lb
-                        ed="shamela"
-                        />كان والدي الماجد المرحوم عبد المجيد خان أعلن مقدمة للإصلاحات خط التنظيمات <lb
-                        ed="shamela"
-                        />الذي منح به جميع الرعية الأمن على نفوسهم وأموالهم وأعراضهم وناموسهم موافقة <lb
-                        ed="shamela"
-                        />لأحكام الشرع الشريف المقدسة , وما عشناه إلى الآن في ضمن دائرة الأمن , وما <lb
-                        ed="shamela"
-                        />وفقنا به اليوم إلى وضع وإعلان هذا <rs>القانون الأساسي</rs> الذي هو ثمرة الآراء والأفكار <lb
-                        ed="shamela"
-                        />المتداولة بالحرية المستندة على تلك الأمنية إنما هو من جملة آثار تلك التنظيمات <lb
-                        ed="shamela"
-                        />الخيرية فلذلك أردد خاصّة في هذا اليوم المسعود اسم المرحوم المشار إليه وموفقيته <lb
-                        ed="shamela"
-                        />وأصفه بعنوان محيي الدولة , ولا ريبَ بأنه لو كان الأوان الذي تأسست فيه <lb
-                        ed="shamela"
-                        />التنظيمات المذكورة موافقة لاستعداد زماننا هذا وإلجاءاته لَكَان المرحومُ المشار إليه <lb
-                        ed="shamela"
-                        />وضع يومئذ أحكام هذا <rs>القانون الأساسي</rs> الذي نشرناه الآن وأنفذه , ولكن جناب الحق <lb
-                        ed="shamela"
-                        />علق حصول هذه النتيجة المسعودة الكافلة بالتمام سعادة حال مِلَّتنا وأرجأها إلى عهد <lb
-                        ed="shamela"
-                        />سلطنتنا فنقدم بِنَاءً على هذه الدلالة لجناب الرب الكريم الحمد والشكر العظيم. <lb
-                        ed="shamela"
-                        />على أن التغييرات التي وقعت بالطبع في أحوال داخلية دولتنا العَلِيّة <lb
-                        ed="shamela"
-                        />والتوسيعات التي حصلت في مناسباتها الخارجية أوصلت عدم كفاءة شكل إدارة <lb
-                        ed="shamela"
-                        />الحكومة لدرجة البداهة , وَلَمّا كان أقصى مقاصدنا الخيرية إزالة الأسباب المانعة <lb
-                        ed="shamela"
-                        />للآن من الاستفادة الواجبة من الثروة الطبيعية لمملكتنا وأمتنا , ومن قابليتهما <lb
-                        ed="shamela"
-                        />الفطرية وتقدم صنوف الرعية في طرق الترقّي بالتعاون والاتحاد اقتضى لأجل <lb
-                        ed="shamela"
-                        />الوصول إلى هذا المقصد أن يوضع للحكومة أساس مأمون منتظم , وهذا أيضًا <lb
-                        ed="shamela"
-                        />يتوقف على تأمين هذه الفوائد وتقريرها , بمعنى أن قوة الحكومة تحافظ على <lb
-                        ed="shamela"
-                        />حقوقها المقبولة والمشروعة , وعلى منع الحركات غير المشروعة، أعني بها <lb
-                        ed="shamela"
-                        />منْع ومحو ضروب الخطآت , وسوء التصرف المتولدة من الحكم الاستبدادي الفردي <lb
-                        ed="shamela"
-                        />أو حكم الأفراد القلائل ليستفيد جميع الأقوام المركبة هيئتنا منهم نعمة الحرية <lb
-                        ed="shamela"
-                        />والعدالة والمساواة بلا استثناءٍ ذلك الحق والمنفعة الحريّان بالهيئة الاجتماعية المدنية. <lb
-                        ed="shamela"
-                        />ولما كان ربط القوانين والمصالح القائمة بقاعدتي الشورى والحكومة المقيدة <lb
-                        ed="shamela"
-                        />المشروعتين , والثابت خيرهما مما تحتاج إليه هذه الأصول أوعزنا في خطنا الذي <lb
-                        ed="shamela"
-                        />أذعنا به جلوسنا إلى وُجوب تأليف مجلس عمومي، وحيثُ إن <rs>القانون الأساسي</rs>
-                        <lb ed="shamela"
-                        />الذي وجب تنظيمه في هذا المطلب قد وضع بالمذاكرة في الجمعية المخصوصة التي <lb
-                        ed="shamela"
-                        />تعينت مُرَكَّبَةً مِن متحيزي الوزارة وصدور العلماء , ومن سائر رجال وعمال دولتنا <lb
-                        ed="shamela"
-                        />العلية , وجرى عليه التصديق في مجلس وكلائنا بعد إمعان نظر التدقيق , وكانت <lb
-                        ed="shamela"
-                        />المواد المندرجة فيه إنما هي متعلقة بحقوق الخلافة الإسلامية الكبرى , والسلطنة <lb
-                        ed="shamela"
-                        />العثمانية العظمى , وحرية العثمانيين ومساواتهم , وصلاحية الوكلاء والمأمورين <lb
-                        ed="shamela"
-                        />ومسئوليتهم , وبما للمجلس العمومي من حق الوقوف وباستقلال المحاكم الكامل , <lb
-                        ed="shamela"
-                        />وبصحة ميزانية المالية , وبالمحافظة على مركز الحقوق في إدارة الولايات واتباع <lb
-                        ed="shamela"
-                        />أصول المأذونية , وكان جميع ما ذكر مطابقًا لأحكام الشرع الشريف ولاحتياجِ <lb
-                        ed="shamela"
-                        />الملك والملة , وقابليتهما في يومنا هذا , وكانت أخص آمالنا في مطلب سعادة العامة <lb
-                        ed="shamela"
-                        />وترقياتها مُساعِدةً لهذا الفكر الخيري وموافقة له - فاستنادًا على عون الله ومدد <lb
-                        ed="shamela"
-                        />روحانية رسول الله صلى الله عليه وسلم قد قبلنا هذا <rs>القانون الأساسي</rs> وأرسلنا به <lb
-                        ed="shamela"
-                        />لطرفكم بعد أن صادقنا عليه فبادروا لإعلانه في جميع أنحاء الممالك العثمانية <lb
-                        ed="shamela"
-                        />وأطرافها؛ ليكون دستورًا للعمل إلى ما شاء الله وباشروا بإجراء أحكامه منذ اليوم <lb
-                        ed="shamela"
-                        />متخذين أسرع التدابير لتنظيم ما تقرر فيه وتسطر من النظامات والقوانين كما هو <lb
-                        ed="shamela"
-                        />مطلوبنا القطعي , ونسأل جناب الحقّ المتعالي أن يجعل مساعي المجتهدين في <lb
-                        ed="shamela"
-                        />سعادة حال ملكنا ومِلَّتِنا مظهرًا للتوفيق في كل الأعمال.اهـ </p>
-                    <dateline>في <date>7 ذي الحجة <lb ed="shamela"/>سنة 1293</date>.</dateline>
+            <div type="article" change="#d2e71 #d2e82" xml:id="div_11.d2e221" xml:lang="ar"><head change="#d2e71 #d2e82" xml:id="head_12.d2e222" xml:lang="ar">26 - </head>
+<p change="#d2e71 #d2e82" xml:id="p_13.d2e225" xml:lang="ar"> إن التعذيب وكل أنواع الأذى ممنوع منعًا باتًّا كليًّا.</p></div></div>
+<ab change="#d2e71 #d2e82" xml:id="ab_1.d2e228" xml:lang="ar">* * *</ab>
+             <div type="section" change="#d2e71 #d2e82" xml:id="div_13.d2e231" xml:lang="ar">
+                    <head change="#d2e71 #d2e82" xml:id="head_13.d2e233" xml:lang="ar">ترجمة الخط الشريف السلطاني <lb ed="shamela" change="#d2e71" xml:id="lb_25.d2e235"/>ب<rs change="#d2e71 #d2e82" xml:id="rs_2.d2e237" xml:lang="ar">القانون الأساسي</rs></head>
+                    <opener change="#d2e71 #d2e82" xml:id="opener_1.d2e240" xml:lang="ar">وهو خطاب السلطان لمدحت باشا الصدر الأعظم باعتماد القانون وأمره <lb ed="shamela" change="#d2e71" xml:id="lb_26.d2e242"/>بتنفيذه. </opener>
+                    <salute change="#d2e71 #d2e82" xml:id="salute_1.d2e245" xml:lang="ar">وزيري سمير المعالي مدحت باشا: </salute>
+                    <p change="#d2e71 #d2e82" xml:id="p_14.d2e248" xml:lang="ar"><lb ed="shamela" change="#d2e71" xml:id="lb_27.d2e249"/>إن التدنيات العارضة منذ أزمان على قوة دولتنا العَلِيّة قد نشأت من الانحراف <lb ed="shamela" change="#d2e71" xml:id="lb_28.d2e251"/>عن الطريق المستقيم في إدارة الأمور الداخلية أكثر مما نشأت من الغوائل الخارجية, <lb ed="shamela" change="#d2e71" xml:id="lb_29.d2e253"/>ومن ميل الأسباب الكافلة أمنية التبعة من حكومتهم المتبوعة إلى الانحطاط؛ فلذا <lb ed="shamela" change="#d2e71" xml:id="lb_30.d2e255"/>كان والدي الماجد المرحوم عبد المجيد خان أعلن مقدمة للإصلاحات خط التنظيمات <lb ed="shamela" change="#d2e71" xml:id="lb_31.d2e257"/>الذي منح به جميع الرعية الأمن على نفوسهم وأموالهم وأعراضهم وناموسهم موافقة <lb ed="shamela" change="#d2e71" xml:id="lb_32.d2e259"/>لأحكام الشرع الشريف المقدسة , وما عشناه إلى الآن في ضمن دائرة الأمن , وما <lb ed="shamela" change="#d2e71" xml:id="lb_33.d2e262"/>وفقنا به اليوم إلى وضع وإعلان هذا <rs change="#d2e71 #d2e82" xml:id="rs_3.d2e264" xml:lang="ar">القانون الأساسي</rs> الذي هو ثمرة الآراء والأفكار <lb ed="shamela" change="#d2e71" xml:id="lb_34.d2e267"/>المتداولة بالحرية المستندة على تلك الأمنية إنما هو من جملة آثار تلك التنظيمات <lb ed="shamela" change="#d2e71" xml:id="lb_35.d2e269"/>الخيرية فلذلك أردد خاصّة في هذا اليوم المسعود اسم المرحوم المشار إليه وموفقيته <lb ed="shamela" change="#d2e71" xml:id="lb_36.d2e271"/>وأصفه بعنوان محيي الدولة , ولا ريبَ بأنه لو كان الأوان الذي تأسست فيه <lb ed="shamela" change="#d2e71" xml:id="lb_37.d2e273"/>التنظيمات المذكورة موافقة لاستعداد زماننا هذا وإلجاءاته لَكَان المرحومُ المشار إليه <lb ed="shamela" change="#d2e71" xml:id="lb_38.d2e276"/>وضع يومئذ أحكام هذا <rs change="#d2e71 #d2e82" xml:id="rs_4.d2e278" xml:lang="ar">القانون الأساسي</rs> الذي نشرناه الآن وأنفذه , ولكن جناب الحق <lb ed="shamela" change="#d2e71" xml:id="lb_39.d2e281"/>علق حصول هذه النتيجة المسعودة الكافلة بالتمام سعادة حال مِلَّتنا وأرجأها إلى عهد <lb ed="shamela" change="#d2e71" xml:id="lb_40.d2e283"/>سلطنتنا فنقدم بِنَاءً على هذه الدلالة لجناب الرب الكريم الحمد والشكر العظيم. <lb ed="shamela" change="#d2e71" xml:id="lb_41.d2e285"/>على أن التغييرات التي وقعت بالطبع في أحوال داخلية دولتنا العَلِيّة <lb ed="shamela" change="#d2e71" xml:id="lb_42.d2e287"/>والتوسيعات التي حصلت في مناسباتها الخارجية أوصلت عدم كفاءة شكل إدارة <lb ed="shamela" change="#d2e71" xml:id="lb_43.d2e290"/>الحكومة لدرجة البداهة , وَلَمّا كان أقصى مقاصدنا الخيرية إزالة الأسباب المانعة <lb ed="shamela" change="#d2e71" xml:id="lb_44.d2e292"/>للآن من الاستفادة الواجبة من الثروة الطبيعية لمملكتنا وأمتنا , ومن قابليتهما <lb ed="shamela" change="#d2e71" xml:id="lb_45.d2e294"/>الفطرية وتقدم صنوف الرعية في طرق الترقّي بالتعاون والاتحاد اقتضى لأجل <lb ed="shamela" change="#d2e71" xml:id="lb_46.d2e296"/>الوصول إلى هذا المقصد أن يوضع للحكومة أساس مأمون منتظم , وهذا أيضًا <lb ed="shamela" change="#d2e71" xml:id="lb_47.d2e298"/>يتوقف على تأمين هذه الفوائد وتقريرها , بمعنى أن قوة الحكومة تحافظ على <lb ed="shamela" change="#d2e71" xml:id="lb_48.d2e300"/>حقوقها المقبولة والمشروعة , وعلى منع الحركات غير المشروعة، أعني بها <lb ed="shamela" change="#d2e71" xml:id="lb_49.d2e303"/>منْع ومحو ضروب الخطآت , وسوء التصرف المتولدة من الحكم الاستبدادي الفردي <lb ed="shamela" change="#d2e71" xml:id="lb_50.d2e305"/>أو حكم الأفراد القلائل ليستفيد جميع الأقوام المركبة هيئتنا منهم نعمة الحرية <lb ed="shamela" change="#d2e71" xml:id="lb_51.d2e307"/>والعدالة والمساواة بلا استثناءٍ ذلك الحق والمنفعة الحريّان بالهيئة الاجتماعية المدنية. <lb ed="shamela" change="#d2e71" xml:id="lb_52.d2e309"/>ولما كان ربط القوانين والمصالح القائمة بقاعدتي الشورى والحكومة المقيدة <lb ed="shamela" change="#d2e71" xml:id="lb_53.d2e311"/>المشروعتين , والثابت خيرهما مما تحتاج إليه هذه الأصول أوعزنا في خطنا الذي <lb ed="shamela" change="#d2e71" xml:id="lb_54.d2e313"/>أذعنا به جلوسنا إلى وُجوب تأليف مجلس عمومي، وحيثُ إن <rs change="#d2e71 #d2e82" xml:id="rs_5.d2e316" xml:lang="ar">القانون الأساسي</rs>
+                        <lb ed="shamela" change="#d2e71" xml:id="lb_55.d2e319"/>الذي وجب تنظيمه في هذا المطلب قد وضع بالمذاكرة في الجمعية المخصوصة التي <lb ed="shamela" change="#d2e71" xml:id="lb_56.d2e321"/>تعينت مُرَكَّبَةً مِن متحيزي الوزارة وصدور العلماء , ومن سائر رجال وعمال دولتنا <lb ed="shamela" change="#d2e71" xml:id="lb_57.d2e323"/>العلية , وجرى عليه التصديق في مجلس وكلائنا بعد إمعان نظر التدقيق , وكانت <lb ed="shamela" change="#d2e71" xml:id="lb_58.d2e325"/>المواد المندرجة فيه إنما هي متعلقة بحقوق الخلافة الإسلامية الكبرى , والسلطنة <lb ed="shamela" change="#d2e71" xml:id="lb_59.d2e327"/>العثمانية العظمى , وحرية العثمانيين ومساواتهم , وصلاحية الوكلاء والمأمورين <lb ed="shamela" change="#d2e71" xml:id="lb_60.d2e330"/>ومسئوليتهم , وبما للمجلس العمومي من حق الوقوف وباستقلال المحاكم الكامل , <lb ed="shamela" change="#d2e71" xml:id="lb_61.d2e332"/>وبصحة ميزانية المالية , وبالمحافظة على مركز الحقوق في إدارة الولايات واتباع <lb ed="shamela" change="#d2e71" xml:id="lb_62.d2e334"/>أصول المأذونية , وكان جميع ما ذكر مطابقًا لأحكام الشرع الشريف ولاحتياجِ <lb ed="shamela" change="#d2e71" xml:id="lb_63.d2e336"/>الملك والملة , وقابليتهما في يومنا هذا , وكانت أخص آمالنا في مطلب سعادة العامة <lb ed="shamela" change="#d2e71" xml:id="lb_64.d2e338"/>وترقياتها مُساعِدةً لهذا الفكر الخيري وموافقة له - فاستنادًا على عون الله ومدد <lb ed="shamela" change="#d2e71" xml:id="lb_65.d2e340"/>روحانية رسول الله صلى الله عليه وسلم قد قبلنا هذا <rs change="#d2e71 #d2e82" xml:id="rs_6.d2e343" xml:lang="ar">القانون الأساسي</rs> وأرسلنا به <lb ed="shamela" change="#d2e71" xml:id="lb_66.d2e346"/>لطرفكم بعد أن صادقنا عليه فبادروا لإعلانه في جميع أنحاء الممالك العثمانية <lb ed="shamela" change="#d2e71" xml:id="lb_67.d2e348"/>وأطرافها؛ ليكون دستورًا للعمل إلى ما شاء الله وباشروا بإجراء أحكامه منذ اليوم <lb ed="shamela" change="#d2e71" xml:id="lb_68.d2e350"/>متخذين أسرع التدابير لتنظيم ما تقرر فيه وتسطر من النظامات والقوانين كما هو <lb ed="shamela" change="#d2e71" xml:id="lb_69.d2e352"/>مطلوبنا القطعي , ونسأل جناب الحقّ المتعالي أن يجعل مساعي المجتهدين في <lb ed="shamela" change="#d2e71" xml:id="lb_70.d2e354"/>سعادة حال ملكنا ومِلَّتِنا مظهرًا للتوفيق في كل الأعمال.اهـ </p>
+                    <dateline change="#d2e71 #d2e82" xml:id="dateline_1.d2e357" xml:lang="ar">في <date change="#d2e71 #d2e82" xml:id="date_2.d2e359" xml:lang="ar">7 ذي الحجة <lb ed="shamela" change="#d2e71" xml:id="lb_71.d2e361"/>سنة 1293</date>.</dateline>
                 </div>
-                <div type="section">
-                    <pb n="n11-p427" ed="shamela"
-                        corresp="file:../epub/6947/OEBPS/xhtml/P2029.xhtml"/>
-                    <p>الكاتب: محمد رشيد رضا </p>
+                <div type="section" change="#d2e71 #d2e82" xml:id="div_14.d2e367" xml:lang="ar">
+                    <pb n="n11-p427" ed="shamela" corresp="file:../epub/6947/OEBPS/xhtml/P2029.xhtml" change="#d2e71" xml:id="pb_1.d2e369"/>
+                    <p change="#d2e71 #d2e82" xml:id="p_15.d2e371" xml:lang="ar">الكاتب: محمد رشيد رضا </p>
                 </div>
          </div>
       </body>

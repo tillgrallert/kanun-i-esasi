@@ -1,66 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../boilerplate/xslt/teibp_parameters.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en" >
-   <teiHeader xml:lang="en">
-      <fileDesc xml:lang="en">
-         <titleStmt xml:lang="en">
-            <title xml:lang="en">The Ottoman Constitution of 1876/1908</title>
-            <title type="sub" xml:lang="en">Digital Edition</title>
-            <respStmt xml:lang="en">
-               <resp xml:lang="en">TEI version</resp>
-               <persName xml:lang="en">Till Grallert</persName>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../boilerplate/xslt/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader xml:lang="en" change="#d2e358" xml:id="teiHeader_1.d2e7">
+      <fileDesc xml:lang="en" change="#d2e358" xml:id="fileDesc_1.d2e9">
+         <titleStmt xml:lang="en" change="#d2e358" xml:id="titleStmt_1.d2e11">
+            <title xml:lang="en" change="#d2e358" xml:id="title_1.d2e13">The Ottoman Constitution of 1876/1908</title>
+            <title type="sub" xml:lang="en" change="#d2e358" xml:id="title_2.d2e16">Digital Edition</title>
+            <respStmt xml:lang="en" change="#d2e358" xml:id="respStmt_1.d2e19">
+               <resp xml:lang="en" change="#d2e358" xml:id="resp_1.d2e21">TEI version</resp>
+               <persName xml:lang="en" change="#d2e358" xml:id="persName_1.d2e24">Till Grallert</persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt xml:lang="en">
-            <p xml:lang="en">unpublished</p>
-         </publicationStmt>
-         <sourceDesc xml:lang="en">
+         <publicationStmt xml:id="publicationStmt_1.d1e61" xml:lang="en">
+                <authority xml:id="authority_1.d1e63" xml:lang="en">
+                    <persName xml:id="persName_4.d1e65" xml:lang="en">Till Grallert</persName>
+                </authority>
+                <pubPlace xml:id="pubPlace_1.d1e69" xml:lang="en">Beirut</pubPlace>
+                <date when="2015" xml:id="date_1.d1e72" xml:lang="en">2015</date>
+                <availability status="restricted" xml:id="availability_1.d1e75" xml:lang="en">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/" xml:id="licence_1.d1e77" xml:lang="en">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence>
+                </availability>
+             </publicationStmt>
+         <sourceDesc xml:lang="en" change="#d2e358" xml:id="sourceDesc_1.d2e50">
             <!--<p>The text was published in <bibl>"The Ottoman Constitution, Promulgated the 7th
                   Zilbridje, 1293 (11/23 December, 1876) ." The American Journal of International
                   Law 2, no. 4, Supplement: Official Documents (1908)</bibl></p>-->
-             <biblStruct xml:lang="en">
-                 <analytic xml:lang="en">
-                     <title level="a" xml:lang="en">The Ottoman Constitution, Promulgated the 7th Zilbridje, 1293 (11/23 December, 1876)</title>
-                     <respStmt xml:lang="en">
-                         <resp xml:lang="en">Translator</resp>
-                         <persName xml:lang="en">N.N.</persName>
+             <biblStruct xml:lang="en" change="#d2e358" xml:id="biblStruct_1.d2e54">
+                 <analytic xml:lang="en" change="#d2e358" xml:id="analytic_1.d2e56">
+                     <title level="a" xml:lang="en" change="#d2e358" xml:id="title_3.d2e58">The Ottoman Constitution, Promulgated the 7th Zilbridje, 1293 (11/23 December, 1876)</title>
+                     <respStmt xml:lang="en" change="#d2e358" xml:id="respStmt_2.d2e61">
+                         <resp xml:lang="en" change="#d2e358" xml:id="resp_2.d2e63">Translator</resp>
+                         <persName xml:lang="en" change="#d2e358" xml:id="persName_3.d2e66">N.N.</persName>
                      </respStmt>
                  </analytic>
-                 <monogr xml:lang="en">
-                     <title level="j" xml:lang="en">The American Journal of International Law</title>
-                     <imprint xml:lang="en">
-                         <biblScope unit="volume" from="2" to="2" xml:lang="en">vol. 2</biblScope>
-                         <biblScope unit="issue" from="4" to="4" xml:lang="en">no. 4</biblScope>
-                         <biblScope unit="page" from="367" to="387" xml:lang="en">367-387</biblScope>
-                         <date notBefore="1908-10-01" notAfter="1908-10-31" xml:lang="en">October 1908</date>
+                 <monogr xml:lang="en" change="#d2e358" xml:id="monogr_1.d2e71">
+                     <title level="j" xml:lang="en" change="#d2e358" xml:id="title_4.d2e73">The American Journal of International Law</title>
+                     <imprint xml:lang="en" change="#d2e358" xml:id="imprint_1.d2e76">
+                         <biblScope unit="volume" from="2" to="2" xml:lang="en" change="#d2e358" xml:id="biblScope_1.d2e78">vol. 2</biblScope>
+                         <biblScope unit="issue" from="4" to="4" xml:lang="en" change="#d2e358" xml:id="biblScope_2.d2e81">no. 4</biblScope>
+                         <biblScope unit="page" from="367" to="387" xml:lang="en" change="#d2e358" xml:id="biblScope_3.d2e84">367-387</biblScope>
+                         <date notBefore="1908-10-01" notAfter="1908-10-31" xml:lang="en" change="#d2e358" xml:id="date_2.d2e87">October 1908</date>
                      </imprint>
                  </monogr>
              </biblStruct>
          </sourceDesc>
       </fileDesc>
-       <encodingDesc>
-           <projectDesc>
-               <p>The TEI file was produced for teaching a course on the basics of scholarly encoding
+       <encodingDesc change="#d2e358 #d2e369" xml:id="encodingDesc_1.d2e95" xml:lang="en">
+           <projectDesc change="#d2e358 #d2e369" xml:id="projectDesc_1.d2e97" xml:lang="en">
+               <p change="#d2e358 #d2e369" xml:id="p_1.d2e99" xml:lang="en">The TEI file was produced for teaching a course on the basics of scholarly encoding
                    using TEI P5 and XML.</p>
            </projectDesc>
-           <editorialDecl>
-               <p>providing information on our decisions concerning the actual transcription of a
+           <editorialDecl change="#d2e358 #d2e369" xml:id="editorialDecl_1.d2e103" xml:lang="en">
+               <p change="#d2e358 #d2e369" xml:id="p_2.d2e105" xml:lang="en">providing information on our decisions concerning the actual transcription of a
                    newspaper structure into a TEI P5 XML file</p>
            </editorialDecl>
-           <listPrefixDef>
-               <prefixDef ident="geon" matchPattern="(\d+?)" replacementPattern="https://www.geonames.org/$1">
-                   <p>Private URIs using the <code>geon</code> prefix are pointers to entries in the GeoNames dataset. For example, <code>geon:277130</code> dereferences to <code>https://www.geonames.org/277130</code>.</p>
+           <listPrefixDef change="#d2e358 #d2e369" xml:id="listPrefixDef_1.d2e109" xml:lang="en">
+               <prefixDef ident="geon" matchPattern="(\d+?)" replacementPattern="https://www.geonames.org/$1" change="#d2e358 #d2e369" xml:id="prefixDef_1.d2e111" xml:lang="en">
+                   <p change="#d2e358 #d2e369" xml:id="p_3.d2e113" xml:lang="en">Private URIs using the <code change="#d2e358 #d2e369" xml:id="code_1.d2e115" xml:lang="en">geon</code> prefix are pointers to entries in the GeoNames dataset. For example, <code change="#d2e358 #d2e369" xml:id="code_2.d2e118" xml:lang="en">geon:277130</code> dereferences to <code change="#d2e358 #d2e369" xml:id="code_3.d2e121" xml:lang="en">https://www.geonames.org/277130</code>.</p>
                </prefixDef>
-               <prefixDef ident="issn" matchPattern="(\d{4}\-\d{4})" replacementPattern="http://data.ub.uni-leipzig.de/zdb/issn/$1">
-                   <p>Private URIs using the <code>issn</code> prefix are pointers to ISSNs and can be dereferenced using a service provided by the Leipzig University Library. For example, <code>issn:1110-8908</code> dereferences to <code>http://data.ub.uni-leipzig.de/zdb/issn/1110-8908</code>.</p>
+               <prefixDef ident="issn" matchPattern="(\d{4}\-\d{4})" replacementPattern="http://data.ub.uni-leipzig.de/zdb/issn/$1" change="#d2e358 #d2e369" xml:id="prefixDef_2.d2e126" xml:lang="en">
+                   <p change="#d2e358 #d2e369" xml:id="p_4.d2e128" xml:lang="en">Private URIs using the <code change="#d2e358 #d2e369" xml:id="code_4.d2e130" xml:lang="en">issn</code> prefix are pointers to ISSNs and can be dereferenced using a service provided by the Leipzig University Library. For example, <code change="#d2e358 #d2e369" xml:id="code_5.d2e133" xml:lang="en">issn:1110-8908</code> dereferences to <code change="#d2e358 #d2e369" xml:id="code_6.d2e136" xml:lang="en">http://data.ub.uni-leipzig.de/zdb/issn/1110-8908</code>.</p>
                </prefixDef>
-               <prefixDef ident="oclc" matchPattern="(\d+?)" replacementPattern="https://www.worldcat.org/oclc/$1">
-                   <p>Private URIs using the <code>oclc</code> prefix are pointers to bibliographic items in worldcat. For example, <code>oclc:4770057679</code> dereferences to <code>https://www.worldcat.org/oclc/4770057679</code>.</p>
+               <prefixDef ident="oclc" matchPattern="(\d+?)" replacementPattern="https://www.worldcat.org/oclc/$1" change="#d2e358 #d2e369" xml:id="prefixDef_3.d2e141" xml:lang="en">
+                   <p change="#d2e358 #d2e369" xml:id="p_5.d2e143" xml:lang="en">Private URIs using the <code change="#d2e358 #d2e369" xml:id="code_7.d2e145" xml:lang="en">oclc</code> prefix are pointers to bibliographic items in worldcat. For example, <code change="#d2e358 #d2e369" xml:id="code_8.d2e148" xml:lang="en">oclc:4770057679</code> dereferences to <code change="#d2e358 #d2e369" xml:id="code_9.d2e151" xml:lang="en">https://www.worldcat.org/oclc/4770057679</code>.</p>
                </prefixDef>
-               <prefixDef ident="viaf" matchPattern="(\d+?)" replacementPattern="https://viaf.org/viaf/$1">
-                   <p>Private URIs using the <code>viaf</code> prefix are pointers to entities in the Virtual International Authority File (VIAF). For example, <code>viaf:32272677</code> dereferences to <code>https://viaf.org/viaf/32272677</code>.</p>
+               <prefixDef ident="viaf" matchPattern="(\d+?)" replacementPattern="https://viaf.org/viaf/$1" change="#d2e358 #d2e369" xml:id="prefixDef_4.d2e156" xml:lang="en">
+                   <p change="#d2e358 #d2e369" xml:id="p_6.d2e158" xml:lang="en">Private URIs using the <code change="#d2e358 #d2e369" xml:id="code_10.d2e160" xml:lang="en">viaf</code> prefix are pointers to entities in the Virtual International Authority File (VIAF). For example, <code change="#d2e358 #d2e369" xml:id="code_11.d2e163" xml:lang="en">viaf:32272677</code> dereferences to <code change="#d2e358 #d2e369" xml:id="code_12.d2e166" xml:lang="en">https://viaf.org/viaf/32272677</code>.</p>
                </prefixDef>
            </listPrefixDef>
        </encodingDesc>
@@ -84,7 +87,7 @@
                    <p xml:id="p_14.d1e213" xml:lang="en">Ottoman fiscal calendar: a lunosolar calendar. It is based on the Old Julian calendar beginning the Year with 1 March. Introduced as fiscal calendar in 1676 and in the Ottoman context usually referred to as <hi xml:id="hi_6.d1e215" xml:lang="en">mālī</hi> and sometimes, confusingly, also as <hi xml:id="hi_7.d1e218" xml:lang="en">rūmī</hi>. Every 33 lunar years, a <hi xml:id="hi_8.d1e221" xml:lang="en">hijrī</hi> year would complete within a single solar <hi xml:id="hi_9.d1e224" xml:lang="en">mālī</hi> year. In this case the counting of the <hi xml:id="hi_10.d1e227" xml:lang="en">mālī</hi> years skipped a year to catch up with the faster <hi xml:id="hi_11.d1e231" xml:lang="en">hijrī</hi> calendar. Due to a printing error in the coupon booklets for the consolidated debt repayment program for 1872 (1288 M instead of 1289 M), synchronisation of <hi xml:id="hi_12.d1e234" xml:lang="en">mālī</hi> and <hi xml:id="hi_13.d1e237" xml:lang="en">hijrī</hi> years was henceforth abolished. As <hi xml:id="hi_14.d1e240" xml:lang="en">mālī</hi> years began with 1 March, <hi xml:id="hi_15.d1e243" xml:lang="en">mālī</hi> leap years preceded their <hi xml:id="hi_16.d1e246" xml:lang="en">rūmī</hi> and Gregorian counterpart (the leap year 1315 M commenced on 13 March 1899).</p>
                    <p xml:id="p_15.d1e250" xml:lang="en">E.g. <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1841-05-23" when-custom="1257-03-11" xml:id="date_8.d1e252" xml:lang="en">11 Māyis 1257, Sunday</date>, <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1908-03-05" when-custom="1323-12-21" xml:id="date_9.d1e255" xml:lang="en">21 Shub 1323, Thursday</date>.</p>
                </calendar>
-               <calendar xml:id="cal_coptic" xml:lang="en"><p>Coptic calendar in use in Egypt.</p></calendar>
+               <calendar xml:id="cal_coptic" xml:lang="en"><p change="#d2e358 #d2e369" xml:id="p_17.d2e299" xml:lang="en">Coptic calendar in use in Egypt.</p></calendar>
            </calendarDesc>
            <langUsage xml:id="langUsage_1.d1e261" xml:lang="en">
                <language ident="ar" xml:id="language_1.d1e263" xml:lang="en">Arabic</language>
@@ -102,61 +105,61 @@
                <language ident="fr-Arab-AR" xml:id="language_13.d1e301" xml:lang="en">French transcribed into Arabic script following common Levantine Arabic practices</language>
            </langUsage>
        </profileDesc>
-      <revisionDesc><tei:change when="2017-11-13" who="#pers_TG">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2015-07-13" xml:lang="en">Some editing of the mark-up</change>
-         <change when="2015-02-13" xml:lang="en">Created the TEI file by generating and extracting the OCR layer from the PDF provided downloaded from <ref xml:lang="en">JSTOR</ref>.</change>
+      <revisionDesc><tei:change when="2019-04-24" who="#pers_TG" change="d2e369" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change><change when="2019-04-24" who="#pers_TG" xml:id="d2e358" xml:lang="en">Added automated <tei:att xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change><tei:change when="2017-11-13" who="#pers_TG" change="#d2e358 #d2e369" xml:id="change_1.d2e349" xml:lang="en">Added the <tei:att change="#d2e358 #d2e369" xml:id="att_3.d2e351" xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+         <change when="2015-07-13" xml:lang="en" change="#d2e358" xml:id="change_1.d2e355">Some editing of the mark-up</change>
+         <change when="2015-02-13" xml:lang="en" change="#d2e358" xml:id="change_2.d2e358">Created the TEI file by generating and extracting the OCR layer from the PDF provided downloaded from <ref xml:lang="en" change="#d2e358" xml:id="ref_1.d2e360">JSTOR</ref>.</change>
       </revisionDesc>
    </teiHeader>
-   <text xml:lang="en">
-      <body xml:lang="en">
-         <pb n="367"/>
-         <div corresp="#law-ottoman-constitution-1876" type="bill" xml:lang="en">
-            <head xml:lang="en">THE OTTOMAN CONSTITUTION, PROMULGATED THE <date when="1876-12-23" xml:lang="en">7TH ZILBRIDJE,
-                  1293 (11/23 DECEMBER, 1876)</date>.<note anchored="true" n="1" rend="bottom" type="footnote" xml:lang="en"> Translation inclosed in <bibl xml:lang="en">dispatch No. 113, dated December
+   <text xml:lang="en" change="#d2e358" xml:id="text_1.d2e366">
+      <body xml:lang="en" change="#d2e358" xml:id="body_1.d2e368">
+         <pb n="367" change="#d2e358" xml:id="pb_1.d2e370"/>
+         <div corresp="#law-ottoman-constitution-1876" type="bill" xml:lang="en" change="#d2e358" xml:id="div_1.d2e372">
+            <head xml:lang="en" change="#d2e358" xml:id="head_1.d2e374">THE OTTOMAN CONSTITUTION, PROMULGATED THE <date when="1876-12-23" xml:lang="en" change="#d2e358" xml:id="date_11.d2e376">7TH ZILBRIDJE,
+                  1293 (11/23 DECEMBER, 1876)</date>.<note anchored="true" n="1" rend="bottom" type="footnote" xml:lang="en" change="#d2e358" xml:id="note_1.d2e379"> Translation inclosed in <bibl xml:lang="en" change="#d2e358" xml:id="bibl_1.d2e381">dispatch No. 113, dated December
                      26, 1876, MS. Records, Department of State</bibl>.</note></head>
-            <div n="1" type="section" xml:lang="en">
-               <head xml:lang="en">The Ottoman Empire.</head>
-               <div n="1" type="article" xml:lang="en">
-                  <head xml:lang="en">ARTICLE 1.</head>
-                  <p n="1" xml:lang="en">The Ottoman Empire comprises the actual Countries and possessions and
+            <div n="1" type="section" xml:lang="en" change="#d2e358" xml:id="div_1.d2e385">
+               <head xml:lang="en" change="#d2e358" xml:id="head_2.d2e387">The Ottoman Empire.</head>
+               <div n="1" type="article" xml:lang="en" change="#d2e358" xml:id="div_1.d2e390">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_3.d2e392">ARTICLE 1.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_18.d2e395">The Ottoman Empire comprises the actual Countries and possessions and
                      privileged provinces.</p>
-                  <p n="2" xml:lang="en">It forms an indivisible whole from which no part can ever be detached for
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_19.d2e398">It forms an indivisible whole from which no part can ever be detached for
                      any motive whatever.</p>
                </div>
-               <div n="2" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 2.</head>
-                  <p n="1" xml:lang="en">Constantinople is the capital of the Ottoman Empire.</p>
-                  <p n="2" xml:lang="en">This city does not possess to the exclusion of other cities of the Empire
+               <div n="2" type="article" xml:lang="en" change="#d2e358" xml:id="div_2.d2e402">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_4.d2e404">ART. 2.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_20.d2e407">Constantinople is the capital of the Ottoman Empire.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_21.d2e410">This city does not possess to the exclusion of other cities of the Empire
                      any privilege or immunity peculiar to itself.</p>
                </div>
-               <div n="3" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 3.</head>
-                  <p n="1" xml:lang="en">The Ottoman sovereignty which is united in the person of the sovereign of
+               <div n="3" type="article" xml:lang="en" change="#d2e358" xml:id="div_3.d2e414">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_5.d2e416">ART. 3.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_22.d2e419">The Ottoman sovereignty which is united in the person of the sovereign of
                      the supreme Kalifat of Islam belongs to the eldest of the princes of the
-                     dynasty of Osman conformably to the rules established <hi xml:lang="en">ab antiquo</hi>.</p>
+                     dynasty of Osman conformably to the rules established <hi xml:lang="en" change="#d2e358" xml:id="hi_17.d2e421">ab antiquo</hi>.</p>
                </div>
-               <div n="4" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 4.</head>
-                  <p n="1" xml:lang="en">His majesty the Sultan is by the title of the Kalif the protector of the
+               <div n="4" type="article" xml:lang="en" change="#d2e358" xml:id="div_4.d2e426">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_6.d2e428">ART. 4.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_23.d2e431">His majesty the Sultan is by the title of the Kalif the protector of the
                      Mussulman religion.</p>
-                  <p n="2" xml:lang="en">He is the sovereign and the Padishar of all the Ottomans.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_24.d2e434">He is the sovereign and the Padishar of all the Ottomans.</p>
                </div>
-               <div n="5" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 5.</head>
-                  <p n="1" xml:lang="en">His majesty the Sultan is irresponsible: His person is sacred.</p>
+               <div n="5" type="article" xml:lang="en" change="#d2e358" xml:id="div_5.d2e439">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_7.d2e441">ART. 5.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_25.d2e444">His majesty the Sultan is irresponsible: His person is sacred.</p>
                </div>
-               <div n="6" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 6.</head>
-                  <p n="1" xml:lang="en">The liberty of the members of the Imperial Ottoman dynasty, their
+               <div n="6" type="article" xml:lang="en" change="#d2e358" xml:id="div_6.d2e448">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_8.d2e450">ART. 6.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_26.d2e453">The liberty of the members of the Imperial Ottoman dynasty, their
                      property both real and personal and their civil list during their whole life
                      are under the guarantee of everybody.</p>
                </div>
-               <div n="7" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 7.</head>
-                  <p n="1" xml:lang="en">His majesty the Sultan counts among the number of his sovereign rights
+               <div n="7" type="article" xml:lang="en" change="#d2e358" xml:id="div_7.d2e457">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_9.d2e459">ART. 7.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_27.d2e462">His majesty the Sultan counts among the number of his sovereign rights
                      the following prerogatives: He names and revokes the Ministers; he confers
                      grades functions and the insignia of his orders; gives investiture to the
-                     chiefs of the privileged provinces in the forms determined by <pb n="368"/>the
+                     chiefs of the privileged provinces in the forms determined by <pb n="368" change="#d2e358" xml:id="pb_2.d2e464"/>the
                      privileges granted to them; he coins money; his name is pronounced in the
                      mosques during the public prayers; he concludes treaties with the powers; he
                      declares war; he makes peace; he commands the armies by sea and land; he orders
@@ -168,456 +171,456 @@
                      deputies.</p>
                </div>
             </div>
-            <div n="2" type="section" xml:lang="en">
-               <head xml:lang="en">The Public Law of the Ottomans.</head>
-               <div n="8" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 8.</head>
-                  <p n="1" xml:lang="en">All the subjects of the Empire are without distinction called Ottomans no
+            <div n="2" type="section" xml:lang="en" change="#d2e358" xml:id="div_9.d2e469">
+               <head xml:lang="en" change="#d2e358" xml:id="head_10.d2e471">The Public Law of the Ottomans.</head>
+               <div n="8" type="article" xml:lang="en" change="#d2e358" xml:id="div_9.d2e474">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_11.d2e476">ART. 8.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_28.d2e479">All the subjects of the Empire are without distinction called Ottomans no
                      matter what religion they profess.</p>
-                  <p n="2" xml:lang="en">The quality of Ottoman is acquired or lost according to the causes
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_29.d2e482">The quality of Ottoman is acquired or lost according to the causes
                      specified in the law.</p>
                </div>
-               <div n="9" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 9.</head>
-                  <p n="1" xml:lang="en">All the Ottomans enjoy individual liberty on condition of not attacking
+               <div n="9" type="article" xml:lang="en" change="#d2e358" xml:id="div_10.d2e486">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_12.d2e488">ART. 9.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_30.d2e491">All the Ottomans enjoy individual liberty on condition of not attacking
                      the liberty of other people.</p>
                </div>
-               <div n="10" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 10.</head>
-                  <p n="1" xml:lang="en">Individual liberty is absolutely inviolable.</p>
-                  <p n="2" xml:lang="en">Nobody can under any pretence suffer any penalty whatever except in the
+               <div n="10" type="article" xml:lang="en" change="#d2e358" xml:id="div_11.d2e495">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_13.d2e497">ART. 10.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_31.d2e500">Individual liberty is absolutely inviolable.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_32.d2e503">Nobody can under any pretence suffer any penalty whatever except in the
                      cases determined by law and according to the forms prescribed by it.</p>
                </div>
-               <div n="11" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 11.</head>
-                  <p n="1" xml:lang="en">Islamism is the religion of the State.</p>
-                  <p n="2" xml:lang="en">While maintaining this principle the state protects the free exercise of
+               <div n="11" type="article" xml:lang="en" change="#d2e358" xml:id="div_12.d2e507">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_14.d2e509">ART. 11.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_33.d2e512">Islamism is the religion of the State.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_34.d2e515">While maintaining this principle the state protects the free exercise of
                      all the religions recognized in the Empire and accords the religious privileges
                      granted to the different communities on condition that no offence is committed
                      against public order or good morals.</p>
                </div>
-               <div n="12" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 12.</head>
-                  <p n="1" xml:lang="en">The Press is free; within the limits traced by the law.</p>
+               <div n="12" type="article" xml:lang="en" change="#d2e358" xml:id="div_13.d2e520">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_15.d2e522">ART. 12.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_35.d2e525">The Press is free; within the limits traced by the law.</p>
                </div>
-               <div n="13" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 13.</head>
-                  <p n="1" xml:lang="en">The Ottomans have the privilege of forming commercial, industrial or
+               <div n="13" type="article" xml:lang="en" change="#d2e358" xml:id="div_14.d2e529">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_16.d2e531">ART. 13.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_36.d2e534">The Ottomans have the privilege of forming commercial, industrial or
                      agricultural associations within the limits determined by the laws and
-                        regulations.<pb n="369"/></p>
+                        regulations.<pb n="369" change="#d2e358" xml:id="pb_3.d2e536"/></p>
                </div>
-               <div n="14" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 14.</head>
-                  <p n="1" xml:lang="en">One or several persons belonging to the Ottoman nationality have the
+               <div n="14" type="article" xml:lang="en" change="#d2e358" xml:id="div_15.d2e539">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_17.d2e541">ART. 14.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_37.d2e544">One or several persons belonging to the Ottoman nationality have the
                      right of presenting petitions to the competent authority on the subject of
                      infractions of the laws or regulations committed either to their personal
                      prejudice or the prejudice of the public welfare and may in the same way
                      address in the form of a complaint signed petitions to the Ottoman General
                      Assembly to complain of the conduct of the State functionaries or employes.</p>
                </div>
-               <div n="15" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 15.</head>
-                  <p n="1" xml:lang="en">Instruction is free.</p>
-                  <p n="2" xml:lang="en">Each Ottoman can give public or private courses of instruction on
+               <div n="15" type="article" xml:lang="en" change="#d2e358" xml:id="div_16.d2e548">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_18.d2e550">ART. 15.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_38.d2e553">Instruction is free.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_39.d2e556">Each Ottoman can give public or private courses of instruction on
                      condition of conforming to the laws.</p>
                </div>
-               <div n="16" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 16.</head>
-                  <p n="1" xml:lang="en">All schools are placed under the supervision of the State.</p>
-                  <p n="2" xml:lang="en">Proper measures shall be taken for unifying and regularizing the
+               <div n="16" type="article" xml:lang="en" change="#d2e358" xml:id="div_17.d2e560">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_19.d2e562">ART. 16.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_40.d2e565">All schools are placed under the supervision of the State.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_41.d2e568">Proper measures shall be taken for unifying and regularizing the
                      instruction given to all Ottomans but no interference shall be made with the
                      religious instruction of the various communities.</p>
                </div>
-               <div n="17" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 17.</head>
-                  <p n="1" xml:lang="en">All Ottomans are equal before the law.</p>
-                  <p n="2" xml:lang="en">They have the same rights and the same duties towards the country,
+               <div n="17" type="article" xml:lang="en" change="#d2e358" xml:id="div_18.d2e572">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_20.d2e574">ART. 17.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_42.d2e577">All Ottomans are equal before the law.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_43.d2e580">They have the same rights and the same duties towards the country,
                      without prejudice to religion.</p>
                </div>
-               <div n="18" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 18.</head>
-                  <p n="1" xml:lang="en">Admission to public office has a condition — the knowledge of Turkish
+               <div n="18" type="article" xml:lang="en" change="#d2e358" xml:id="div_19.d2e585">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_21.d2e587">ART. 18.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_44.d2e590">Admission to public office has a condition — the knowledge of Turkish
                      which is the official language of the State.</p>
                </div>
-               <div n="19" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 19.</head>
-                  <p n="1" xml:lang="en">All Ottomans are admitted to public office according to their aptitudes,
+               <div n="19" type="article" xml:lang="en" change="#d2e358" xml:id="div_20.d2e594">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_22.d2e596">ART. 19.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_45.d2e599">All Ottomans are admitted to public office according to their aptitudes,
                      their merit and capacity.</p>
                </div>
-               <div n="20" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 20.</head>
-                  <p n="1" xml:lang="en">The assessment and distribution of taxes shall be established conformably
+               <div n="20" type="article" xml:lang="en" change="#d2e358" xml:id="div_21.d2e603">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_23.d2e605">ART. 20.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_46.d2e608">The assessment and distribution of taxes shall be established conformably
                      with special laws and regulations in proportion to the fortune of each
                      tax-payer.</p>
                </div>
-               <div n="21" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 21.</head>
-                  <p n="1" xml:lang="en">Real and personal property regularly proved is guaranteed.</p>
-                  <p n="2" xml:lang="en">No expropriation can take place except for reasons of public utility duly
+               <div n="21" type="article" xml:lang="en" change="#d2e358" xml:id="div_22.d2e612">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_24.d2e614">ART. 21.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_47.d2e617">Real and personal property regularly proved is guaranteed.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_48.d2e620">No expropriation can take place except for reasons of public utility duly
                      proved and without previous payment conformably with the law and the value of
-                     the property to be expropriated.<pb n="370"/></p>
+                     the property to be expropriated.<pb n="370" change="#d2e358" xml:id="pb_4.d2e622"/></p>
                </div>
-               <div n="22" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 22.</head>
-                  <p n="1" xml:lang="en">The domicile is inviolable.</p>
-                  <p n="2" xml:lang="en">The authorities cannot forcibly enter the domicile of any person whatever
+               <div n="22" type="article" xml:lang="en" change="#d2e358" xml:id="div_23.d2e625">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_25.d2e627">ART. 22.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_49.d2e630">The domicile is inviolable.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_50.d2e633">The authorities cannot forcibly enter the domicile of any person whatever
                      except in cases determined by the law.</p>
                </div>
-               <div n="23" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 23.</head>
-                  <p n="1" xml:lang="en">No one can be forced to appear before any tribunal except the competent
+               <div n="23" type="article" xml:lang="en" change="#d2e358" xml:id="div_24.d2e637">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_26.d2e639">ART. 23.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_51.d2e642">No one can be forced to appear before any tribunal except the competent
                      tribunal according to the law of procedure which shall be promulgated.</p>
                </div>
-               <div n="24" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 24.</head>
-                  <p n="1" xml:lang="en">The confiscation of property, the <hi xml:lang="en">corvee</hi> and the
-                        <hi xml:lang="en">djerimi</hi> (exaction under the form of fining) are prohibited.</p>
-                  <p n="2" xml:lang="en">Contributions legally levied in time of war and measures necessitated by
+               <div n="24" type="article" xml:lang="en" change="#d2e358" xml:id="div_25.d2e647">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_27.d2e649">ART. 24.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_52.d2e652">The confiscation of property, the <hi xml:lang="en" change="#d2e358" xml:id="hi_18.d2e654">corvee</hi> and the
+                        <hi xml:lang="en" change="#d2e358" xml:id="hi_19.d2e657">djerimi</hi> (exaction under the form of fining) are prohibited.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_53.d2e661">Contributions legally levied in time of war and measures necessitated by
                      the state of war are of course excepted from this disposition.</p>
                </div>
-               <div n="25" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 25.</head>
-                  <p n="1" xml:lang="en">No sum of money can be levied as an impost or tax or under any other
+               <div n="25" type="article" xml:lang="en" change="#d2e358" xml:id="div_26.d2e665">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_28.d2e667">ART. 25.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_54.d2e670">No sum of money can be levied as an impost or tax or under any other
                      denomination except by virtue of the law.</p>
                </div>
-               <div n="26" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 26.</head>
-                  <p n="1" xml:lang="en">Torture in all its forms is completely and absolutely prohibited.</p>
+               <div n="26" type="article" xml:lang="en" change="#d2e358" xml:id="div_27.d2e674">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_29.d2e676">ART. 26.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_55.d2e679">Torture in all its forms is completely and absolutely prohibited.</p>
                </div>
             </div>
-            <div n="3" type="section" xml:lang="en">
-               <head xml:lang="en">The Ministers.</head>
+            <div n="3" type="section" xml:lang="en" change="#d2e358" xml:id="div_29.d2e684">
+               <head xml:lang="en" change="#d2e358" xml:id="head_30.d2e686">The Ministers.</head>
 
-               <div n="27" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 27.</head>
-                  <p n="1" xml:lang="en">His majesty the Sultan invests with the charge of Grand Vizier and that
+               <div n="27" type="article" xml:lang="en" change="#d2e358" xml:id="div_29.d2e689">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_31.d2e691">ART. 27.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_56.d2e694">His majesty the Sultan invests with the charge of Grand Vizier and that
                      of Sheik-ul-Islam the persons whom his high confidence thinks proper to be
                      called. The nomination of the other Ministers takes place by imperial Irade
                      (order).</p>
                </div>
-               <div n="28" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 28.</head>
-                  <p n="1" xml:lang="en">The Council of Ministers is assembled under the presidency of the Grand
+               <div n="28" type="article" xml:lang="en" change="#d2e358" xml:id="div_30.d2e698">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_32.d2e700">ART. 28.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_57.d2e703">The Council of Ministers is assembled under the presidency of the Grand
                      Vizier.</p>
-                  <p n="2" xml:lang="en">The powers of the Council of Ministers comprise all important affairs of
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_58.d2e706">The powers of the Council of Ministers comprise all important affairs of
                      the State whether internal or external.</p>
-                  <p n="3" xml:lang="en">Those of its deliberations which have to be submitted to the sanction of
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_59.d2e709">Those of its deliberations which have to be submitted to the sanction of
                      His Majesty the Sultan are rendered executory by an Imperial Irade.</p>
                </div>
-                <pb n="371"/>
-               <div n="29" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 29.</head>
-                  <p n="1" xml:lang="en">Each chief of the Ministerial Department administers within the limit of
+                <pb n="371" change="#d2e358" xml:id="pb_5.d2e713"/>
+               <div n="29" type="article" xml:lang="en" change="#d2e358" xml:id="div_31.d2e715">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_33.d2e717">ART. 29.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_60.d2e720">Each chief of the Ministerial Department administers within the limit of
                      his powers the affairs which belong to his department.</p>
-                  <p n="2" xml:lang="en">Those which are beyond this limit he refers to the Grand Vizier.</p>
-                  <p n="3" xml:lang="en">The Grand Vizier attends to the reports which are addressed to him by the
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_61.d2e723">Those which are beyond this limit he refers to the Grand Vizier.</p>
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_62.d2e726">The Grand Vizier attends to the reports which are addressed to him by the
                      chiefs of the different departments either by referring them if necessary to
                      the Council of Ministers and then presenting them for Imperial sanction, or in
                      the contrary case in judging himself or submitting them to the decision of His
                      Majesty the Sultan.</p>
-                  <p n="4" xml:lang="en">A special regulation shall determine these different categories of
+                  <p n="4" xml:lang="en" change="#d2e358" xml:id="p_63.d2e729">A special regulation shall determine these different categories of
                      affairs for each ministerial department.</p>
                </div>
-               <div n="30" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 30.</head>
-                  <p n="1" xml:lang="en">The Ministers are responsible for the facts or acts of their
+               <div n="30" type="article" xml:lang="en" change="#d2e358" xml:id="div_32.d2e734">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_34.d2e736">ART. 30.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_64.d2e739">The Ministers are responsible for the facts or acts of their
                      ministry.</p>
                </div>
-               <div n="31" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 31.</head>
-                  <p n="1" xml:lang="en">If one or more members of the Chamber of Deputies wish to complain
+               <div n="31" type="article" xml:lang="en" change="#d2e358" xml:id="div_33.d2e743">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_35.d2e745">ART. 31.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_65.d2e748">If one or more members of the Chamber of Deputies wish to complain
                      against a minister on account of his responsibility and for facts which the
                      Chamber has right of taking cognizance of, the demand containing the complaint
                      is remitted to the president, who sends it in three days to the bureau charged
                      by virtue of the internal regulation with examining the complaint and deciding
                      if there be any reason for submitting it to the deliberations of the
                      Chamber.</p>
-                  <p n="2" xml:lang="en">The decision of the bureau is taken by majority of votes, after the
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_66.d2e751">The decision of the bureau is taken by majority of votes, after the
                      necessary information has been obtained and explanation furnished by the
                      minister accused.</p>
-                  <p n="3" xml:lang="en">If the bureau be of opinion that it should submit the complaint to the
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_67.d2e754">If the bureau be of opinion that it should submit the complaint to the
                      Chamber the report stating this decision is read in a public session, and the
                      Chamber, after having heard the explanation of the accused Minister who is
                      called to assist at the session, or of his delegate, votes by an absolute
                      majority of two-thirds on the conclusions of the report.</p>
-                  <p n="4" xml:lang="en">In case of the adoption of these conclusions an address demanding the
+                  <p n="4" xml:lang="en" change="#d2e358" xml:id="p_68.d2e757">In case of the adoption of these conclusions an address demanding the
                      trial of the accused Minister is transmitted to the Grand Vizier, who submits
                      it to the sanction of His Majesty the Sultan and remits it to the High Court by
                      virtue of an Imperial Irade.</p>
                </div>
-               <div n="32" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 32.</head>
-                  <p n="1" xml:lang="en">A special law shall determine the procedure to be followed for the trial
+               <div n="32" type="article" xml:lang="en" change="#d2e358" xml:id="div_34.d2e761">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_36.d2e763">ART. 32.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_69.d2e766">A special law shall determine the procedure to be followed for the trial
                      of Ministers.</p>
                </div>
-                <pb n="372"/>
-               <div n="33" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 33.</head>
-                  <p n="1" xml:lang="en">There shall be no difference between Ministers and private persons with
+                <pb n="372" change="#d2e358" xml:id="pb_6.d2e770"/>
+               <div n="33" type="article" xml:lang="en" change="#d2e358" xml:id="div_35.d2e772">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_37.d2e774">ART. 33.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_70.d2e777">There shall be no difference between Ministers and private persons with
                      regard to their private suits or those which are outside of their duties.</p>
-                  <p n="2" xml:lang="en">Suits of this nature are referred to the ordinary jurisdiction.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_71.d2e780">Suits of this nature are referred to the ordinary jurisdiction.</p>
                </div>
-               <div n="34" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 34.</head>
-                  <p n="1" xml:lang="en">The Minister whose trial has been decreed by the Chamber on accusation of
+               <div n="34" type="article" xml:lang="en" change="#d2e358" xml:id="div_36.d2e784">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_38.d2e786">ART. 34.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_72.d2e789">The Minister whose trial has been decreed by the Chamber on accusation of
                      the High Court is suspended from his functions until he has been acquitted of
                      the accusation brought against him.</p>
                </div>
-               <div n="35" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 35.</head>
-                  <p n="1" xml:lang="en">In case of rejection, by a vote coming from the Chamber of Deputies, a
+               <div n="35" type="article" xml:lang="en" change="#d2e358" xml:id="div_37.d2e794">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_39.d2e796">ART. 35.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_73.d2e799">In case of rejection, by a vote coming from the Chamber of Deputies, a
                      project of law on the adoption of which the Minister thinks he should insist,
                      His Majesty the Sultan orders in the exercise of His Sovereignty either a
                      change of Ministry or the dissolution of the Chamber on condition of the
                      reelection of deputies within the term fixed by the law.</p>
                </div>
-               <div n="36" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 36.</head>
-                  <p n="1" xml:lang="en">In case of urgent necessity if the general assembly be not convened the
+               <div n="36" type="article" xml:lang="en" change="#d2e358" xml:id="div_38.d2e803">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_40.d2e805">ART. 36.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_74.d2e808">In case of urgent necessity if the general assembly be not convened the
                      Ministers make dispositions towards defending the State against danger or
                      guarding the public security.</p>
-                  <p n="2" xml:lang="en">These dispositions, sanctioned by Imperial Irade, have provisionally the
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_75.d2e811">These dispositions, sanctioned by Imperial Irade, have provisionally the
                      force of law if they be not contrary to the Constitution.</p>
-                  <p n="3" xml:lang="en">They should be submitted to the General Assembly as soon as this may be
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_76.d2e814">They should be submitted to the General Assembly as soon as this may be
                      convened.</p>
                </div>
-               <div n="37" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 37.</head>
-                  <p n="1" xml:lang="en">Each Minister has the right of assisting at the sittings of the Senate
+               <div n="37" type="article" xml:lang="en" change="#d2e358" xml:id="div_39.d2e818">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_41.d2e820">ART. 37.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_77.d2e823">Each Minister has the right of assisting at the sittings of the Senate
                      and of the Chamber of Deputies or being represented there by a superior
                      functionary of his department.</p>
-                  <p n="2" xml:lang="en">He has equally the right of being heard before any member of the Chamber
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_78.d2e826">He has equally the right of being heard before any member of the Chamber
                      who may have demanded the floor.</p>
                </div>
-               <div n="38" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 38.</head>
-                  <p n="1" xml:lang="en">When in consequence of the decision of a majority of votes a Minister is
+               <div n="38" type="article" xml:lang="en" change="#d2e358" xml:id="div_40.d2e830">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_42.d2e832">ART. 38.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_79.d2e835">When in consequence of the decision of a majority of votes a Minister is
                      invited to the Chamber of Deputies to give explanations he is obliged to
                      respond to the questions which may be put to him either by presenting himself
                      personally or by delegating the duties to a superior functionary of his
                      department.</p>
-                  <p n="2" xml:lang="en">Nevertheless he has the right of putting off his reply if he judges
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_80.d2e838">Nevertheless he has the right of putting off his reply if he judges
                      necessary by assuming the responsibility of the adjournment.</p>
                </div>
             </div>
-            <pb n="373"/>
-            <div n="4" type="section" xml:lang="en">
-               <head xml:lang="en">Public Functionaries.</head>
-               <div n="39" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 39.</head>
-                  <p n="1" xml:lang="en">All the nominations of the different public offices shall take place
+            <pb n="373" change="#d2e358" xml:id="pb_7.d2e843"/>
+            <div n="4" type="section" xml:lang="en" change="#d2e358" xml:id="div_42.d2e846">
+               <head xml:lang="en" change="#d2e358" xml:id="head_43.d2e848">Public Functionaries.</head>
+               <div n="39" type="article" xml:lang="en" change="#d2e358" xml:id="div_42.d2e851">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_44.d2e853">ART. 39.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_81.d2e856">All the nominations of the different public offices shall take place
                      conformably with the regulations which shall determine the conditions of merit
                      and capacity demanded for admission to office under the State.</p>
-                  <p n="2" xml:lang="en">Every official appointed under these conditions cannot be dismissed or
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_82.d2e859">Every official appointed under these conditions cannot be dismissed or
                      changed.</p>
-                  <p n="3" xml:lang="en">Unless it is proved that his conduct legally justifies his dismissal.</p>
-                  <p n="4" xml:lang="en">Unless he has given his resignation, or unless his dismissal be judged
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_83.d2e862">Unless it is proved that his conduct legally justifies his dismissal.</p>
+                  <p n="4" xml:lang="en" change="#d2e358" xml:id="p_84.d2e865">Unless he has given his resignation, or unless his dismissal be judged
                      indispensable by the Government.</p>
-                  <p n="5" xml:lang="en">The officials who shall have given proof of good conduct and honesty, as
+                  <p n="5" xml:lang="en" change="#d2e358" xml:id="p_85.d2e869">The officials who shall have given proof of good conduct and honesty, as
                      well as those whose suspension shall be deemed indispensable by the Government,
                      shall have the right either to advancement or to a retiring pension or to the
                      salary of officers on the waiting lists according to the dispositions which
                      shall be determined by a special regulation.</p>
                </div>
-               <div n="40" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 40.</head>
-                  <p n="1" xml:lang="en">The powers of the different offices shall be fixed by special
+               <div n="40" type="article" xml:lang="en" change="#d2e358" xml:id="div_43.d2e873">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_45.d2e875">ART. 40.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_86.d2e878">The powers of the different offices shall be fixed by special
                      regulations.</p>
-                  <p n="2" xml:lang="en">Each official is responsible within the limit of his powers.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_87.d2e881">Each official is responsible within the limit of his powers.</p>
                </div>
-               <div n="41" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 41.</head>
-                  <p n="1" xml:lang="en">Each official is bound to respect his superior but obedience is due only
+               <div n="41" type="article" xml:lang="en" change="#d2e358" xml:id="div_44.d2e885">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_46.d2e887">ART. 41.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_88.d2e890">Each official is bound to respect his superior but obedience is due only
                      to orders given within the limits traced by the law.</p>
-                  <p n="2" xml:lang="en">For acts contrary to the law the fact of having obeyed a superior cannot
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_89.d2e893">For acts contrary to the law the fact of having obeyed a superior cannot
                      relieve from responsibility the official who has executed them.</p>
                </div>
             </div>
-            <div n="5" type="section" xml:lang="en">
-               <head xml:lang="en">The General Assembly.</head>
-               <div n="42" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 42.</head>
-                  <p n="1" xml:lang="en">The General Assembly is composed of two chambers, the Chamber of Lords or
+            <div n="5" type="section" xml:lang="en" change="#d2e358" xml:id="div_46.d2e898">
+               <head xml:lang="en" change="#d2e358" xml:id="head_47.d2e900">The General Assembly.</head>
+               <div n="42" type="article" xml:lang="en" change="#d2e358" xml:id="div_46.d2e903">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_48.d2e905">ART. 42.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_90.d2e908">The General Assembly is composed of two chambers, the Chamber of Lords or
                      the Senate, and the Chamber of Deputies.</p>
                </div>
-               <div n="43" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 43.</head>
-                  <p n="1" xml:lang="en">The two Chambers meet on the 1st of November in each year. The opening
+               <div n="43" type="article" xml:lang="en" change="#d2e358" xml:id="div_47.d2e912">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_49.d2e914">ART. 43.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_91.d2e917">The two Chambers meet on the 1st of November in each year. The opening
                      takes place by Imperial Irade.</p>
-                  <p n="2" xml:lang="en">The closing is fixed for the first of March following and this takes
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_92.d2e920">The closing is fixed for the first of March following and this takes
                      place also by virtue of an Imperial Irade.</p>
-                  <p n="3" xml:lang="en">Neither of the two chambers may meet except when the other chamber is in
-                        Session.<pb n="374"/></p>
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_93.d2e923">Neither of the two chambers may meet except when the other chamber is in
+                        Session.<pb n="374" change="#d2e358" xml:id="pb_8.d2e925"/></p>
                </div>
-               <div n="44" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 44.</head>
-                  <p n="1" xml:lang="en">His Majesty the Sultan may according to the necessities of circumstances
+               <div n="44" type="article" xml:lang="en" change="#d2e358" xml:id="div_48.d2e928">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_50.d2e930">ART. 44.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_94.d2e933">His Majesty the Sultan may according to the necessities of circumstances
                      anticipate the opening and shorten or prolong the session.</p>
                </div>
-               <div n="45" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 45.</head>
-                  <p n="1" xml:lang="en">The ceremony of opening takes place in the presence of His Majesty the
+               <div n="45" type="article" xml:lang="en" change="#d2e358" xml:id="div_49.d2e937">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_51.d2e939">ART. 45.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_95.d2e942">The ceremony of opening takes place in the presence of His Majesty the
                      Sultan either in person or represented by the Grand Vizier and in the presence
                      of the Ministers and the members of the two chambers.</p>
-                  <p n="2" xml:lang="en">There shall be read an Imperial speech setting forth the internal
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_96.d2e945">There shall be read an Imperial speech setting forth the internal
                      situation of the Empire and the state of its external relations in the course
                      of the past year and indicating the measures the adoption of which is judged
                      necessary for the ensuing year.</p>
                </div>
-               <div n="46" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 46.</head>
-                  <p n="1" xml:lang="en">All the members of the general assembly sball take an oath of fidelity to
+               <div n="46" type="article" xml:lang="en" change="#d2e358" xml:id="div_50.d2e950">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_52.d2e952">ART. 46.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_97.d2e955">All the members of the general assembly sball take an oath of fidelity to
                      His Majesty the Sultan and to the country to observe the Constitution, to
                      perform the duty intrusted to them and to abstain from every act contrary to
                      duty.</p>
-                  <p n="2" xml:lang="en">The administration of the oath shall take place for the new members on
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_98.d2e958">The administration of the oath shall take place for the new members on
                      the opening of the session in the presence of the Grand Vizier and after the
                      opening in the presence of their respective presidents and in the public
                      session of the chamber to which they belong.</p>
                </div>
-               <div n="47" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 47.</head>
-                  <p n="1" xml:lang="en">Members of the Geneval Assembly are free in giving their opinion and
+               <div n="47" type="article" xml:lang="en" change="#d2e358" xml:id="div_51.d2e962">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_53.d2e964">ART. 47.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_99.d2e967">Members of the Geneval Assembly are free in giving their opinion and
                      their votes.</p>
-                  <p n="2" xml:lang="en">None of them can be bound by instructions or promises, influence or
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_100.d2e970">None of them can be bound by instructions or promises, influence or
                      menaces.</p>
-                  <p n="3" xml:lang="en">They cannot be attacked for opinions or votes given in the course of
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_101.d2e973">They cannot be attacked for opinions or votes given in the course of
                      deliberations in the chamber to which they belong unless they have contravened
                      the internal regulation of that Chamber, in which case the dispositions of the
                      proper regulations shall be applied to them.</p>
                </div>
-               <div n="48" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 48.</head>
-                  <p n="1" xml:lang="en">Every member of the General Assembly who by an absolute majority of
+               <div n="48" type="article" xml:lang="en" change="#d2e358" xml:id="div_52.d2e977">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_54.d2e979">ART. 48.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_102.d2e982">Every member of the General Assembly who by an absolute majority of
                      two-thirds of the chamber to which he belongs, is accused of treason, of an
                      attempt of violating the Constitution or of bribery or who has been legally
                      condemned to imprisonment or exile ceases thereby to be a Senator or
                      Deputy.</p>
-                  <p n="2" xml:lang="en">The judgment and the application of the penalty belong to a competent
-                        tribunal.<pb n="375"/></p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_103.d2e985">The judgment and the application of the penalty belong to a competent
+                        tribunal.<pb n="375" change="#d2e358" xml:id="pb_9.d2e987"/></p>
                </div>
-               <div n="49" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 49.</head>
-                  <p n="1" xml:lang="en">Every member of the general assembly gives his vote in person.</p>
-                  <p n="2" xml:lang="en">He has the right of abstaining from voting.</p>
+               <div n="49" type="article" xml:lang="en" change="#d2e358" xml:id="div_53.d2e990">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_55.d2e992">ART. 49.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_104.d2e995">Every member of the general assembly gives his vote in person.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_105.d2e998">He has the right of abstaining from voting.</p>
                </div>
-               <div n="50" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 50.</head>
-                  <p n="1" xml:lang="en">No one can be at the same time a member of both chambers.</p>
+               <div n="50" type="article" xml:lang="en" change="#d2e358" xml:id="div_54.d2e1002">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_56.d2e1004">ART. 50.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_106.d2e1007">No one can be at the same time a member of both chambers.</p>
                </div>
-               <div n="51" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 51.</head>
-                  <p n="1" xml:lang="en">No deliberation can be held in either chamber unless a majority of
+               <div n="51" type="article" xml:lang="en" change="#d2e358" xml:id="div_55.d2e1011">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_57.d2e1013">ART. 51.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_107.d2e1016">No deliberation can be held in either chamber unless a majority of
                      members is present.</p>
-                  <p n="2" xml:lang="en">Except in cases where a majority of two-thirds is requisite every
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_108.d2e1019">Except in cases where a majority of two-thirds is requisite every
                      resolution may be taken by an absolute majority of the members present. In case
                      of a tie the president has a casting vote.</p>
                </div>
-               <div n="52" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 52.</head>
-                  <p n="1" xml:lang="en">Every petition relating to private interests presented to either chamber
+               <div n="52" type="article" xml:lang="en" change="#d2e358" xml:id="div_56.d2e1024">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_58.d2e1026">ART. 52.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_109.d2e1029">Every petition relating to private interests presented to either chamber
                      is rejected if the enquiries which it causes prove that the petitioner has not
                      first addressed the public officials with the petition concerned or the
                      authority on whom these officials depend.</p>
                </div>
-               <div n="53" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 53.</head>
-                  <p n="1" xml:lang="en">The initiative of the proposition of a law or of the modification of an
+               <div n="53" type="article" xml:lang="en" change="#d2e358" xml:id="div_57.d2e1033">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_59.d2e1035">ART. 53.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_110.d2e1038">The initiative of the proposition of a law or of the modification of an
                      existing law belongs to the ministry.</p>
-                  <p n="2" xml:lang="en">The Senate and the Chamber of Deputies may also demand a new law or the
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_111.d2e1041">The Senate and the Chamber of Deputies may also demand a new law or the
                      modification of an existing law on matters comprised within their duties.</p>
-                  <p n="3" xml:lang="en">In this latter case the demand is submitted by the Grand Vizier to His
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_112.d2e1044">In this latter case the demand is submitted by the Grand Vizier to His
                      Majesty the Sultan and if there be any reason for it the Council of State is
                      charged by virtue of an Imperial Irade to prepare the draft of a law which
                      meets the object of the proposition on information and experience furnished by
                      the competent departments.</p>
                </div>
-               <div n="54" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 54.</head>
-                  <p n="1" xml:lang="en">The drafts of laws elaborated by the Council of State are submitted in
+               <div n="54" type="article" xml:lang="en" change="#d2e358" xml:id="div_58.d2e1048">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_60.d2e1050">ART. 54.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_113.d2e1053">The drafts of laws elaborated by the Council of State are submitted in
                      the first place to the Chamber of Deputies and in the second place to the
                      Senate.</p>
-                  <p n="2" xml:lang="en">These projects have the force of law only after having been adopted by
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_114.d2e1056">These projects have the force of law only after having been adopted by
                      the two Chambers and are sanctioned by an Imperial Irade.</p>
-                  <pb n="376"/>
-                  <p n="3" xml:lang="en">Every draft of a law definitively rejected by one of the two Chambers
+                  <pb n="376" change="#d2e358" xml:id="pb_10.d2e1059"/>
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_115.d2e1061">Every draft of a law definitively rejected by one of the two Chambers
                      cannot be submitted to a new deliberation in the course of the same
                      session.</p>
                </div>
-               <div n="55" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 55.</head>
-                  <p n="1" xml:lang="en">A draft of a law is not considered as adopted unless voted successively
+               <div n="55" type="article" xml:lang="en" change="#d2e358" xml:id="div_59.d2e1065">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_61.d2e1067">ART. 55.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_116.d2e1070">A draft of a law is not considered as adopted unless voted successively
                      by the Chamber of Deputies and the Senate by the majority of votes article by
                      article and unless the whole of the project has obtained a majority of votes in
                      each of the two chambers.</p>
                </div>
-               <div n="56" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 56.</head>
-                  <p n="1" xml:lang="en">With the exception of the Ministers their delegates and officials
+               <div n="56" type="article" xml:lang="en" change="#d2e358" xml:id="div_60.d2e1074">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_62.d2e1076">ART. 56.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_117.d2e1079">With the exception of the Ministers their delegates and officials
                      convoked by a special invitation no one can be introduced in one or the other
                      chamber and admitted to make any communication whatever whether in his own name
                      or as the representative of a group of individuals.</p>
                </div>
-               <div n="57" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 57.</head>
-                  <p n="1" xml:lang="en">The debates of the Chambers shall be in Turkish.</p>
-                  <p n="2" xml:lang="en">The projects shall be printed and distributed before the day fixed for
+               <div n="57" type="article" xml:lang="en" change="#d2e358" xml:id="div_61.d2e1083">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_63.d2e1085">ART. 57.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_118.d2e1088">The debates of the Chambers shall be in Turkish.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_119.d2e1091">The projects shall be printed and distributed before the day fixed for
                      the discussion.</p>
                </div>
-               <div n="58" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 58.</head>
-                  <p n="1" xml:lang="en">The votes are given — by ayes and nays; by external signs, or by secret
+               <div n="58" type="article" xml:lang="en" change="#d2e358" xml:id="div_62.d2e1096">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_64.d2e1098">ART. 58.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_120.d2e1101">The votes are given — by ayes and nays; by external signs, or by secret
                      ballot.</p>
-                  <p n="2" xml:lang="en">The vote of secret ballot is subordinated to a decision of the Chamber
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_121.d2e1104">The vote of secret ballot is subordinated to a decision of the Chamber
                      taken by the majority of the members present.</p>
                </div>
-               <div n="59" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 59.</head>
-                  <p n="1" xml:lang="en">The internal police of each Chamber is exercised by its President.</p>
+               <div n="59" type="article" xml:lang="en" change="#d2e358" xml:id="div_63.d2e1108">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_65.d2e1110">ART. 59.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_122.d2e1113">The internal police of each Chamber is exercised by its President.</p>
                </div>
             </div>
-            <div n="6" type="section" xml:lang="en">
-               <head xml:lang="en">The Senate.</head>
-               <div n="60" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 60.</head>
-                  <p n="1" xml:lang="en">The President and the members of the Senate are named directly by His
+            <div n="6" type="section" xml:lang="en" change="#d2e358" xml:id="div_65.d2e1118">
+               <head xml:lang="en" change="#d2e358" xml:id="head_66.d2e1120">The Senate.</head>
+               <div n="60" type="article" xml:lang="en" change="#d2e358" xml:id="div_65.d2e1123">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_67.d2e1125">ART. 60.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_123.d2e1128">The President and the members of the Senate are named directly by His
                      Majesty the Sultan.</p>
-                  <p n="2" xml:lang="en">The number of the Senators cannot exceed one-third of the number of the
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_124.d2e1131">The number of the Senators cannot exceed one-third of the number of the
                      members of the Chamber of Deputies.</p>
                </div>
-               <div n="61" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 61.</head>
-                  <p n="1" xml:lang="en">To be named Senator it is necessary:</p>
-                  <p n="2" xml:lang="en">For a man to have rendered himself by his acts worthy of public
+               <div n="61" type="article" xml:lang="en" change="#d2e358" xml:id="div_66.d2e1135">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_68.d2e1137">ART. 61.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_125.d2e1140">To be named Senator it is necessary:</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_126.d2e1143">For a man to have rendered himself by his acts worthy of public
                      confidence or to have rendered signal service to the State.</p>
-                  <p n="3" xml:lang="en">To be at least 40 years of age.</p>
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_127.d2e1146">To be at least 40 years of age.</p>
                </div>
-               <pb n="377"/>
-               <div n="62" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 62.</head>
-                  <p n="1" xml:lang="en">The Senators are named for life.</p>
-                  <p n="2" xml:lang="en">The dignity of Senators can be conferred upon personages<hi xml:lang="fr">en disponibilité</hi>who may have filled the office of Mlinister, Governor
+               <pb n="377" change="#d2e358" xml:id="pb_11.d2e1150"/>
+               <div n="62" type="article" xml:lang="en" change="#d2e358" xml:id="div_67.d2e1152">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_69.d2e1154">ART. 62.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_128.d2e1157">The Senators are named for life.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_129.d2e1160">The dignity of Senators can be conferred upon personages<hi xml:lang="fr" change="#d2e358" xml:id="hi_20.d2e1162">en disponibilité</hi>who may have filled the office of Mlinister, Governor
                      General (Vali) Commander of an army corps, Cazasker (grand judge) Ambassador or
                      Minister plenipotentiary, Patriarch, Khakham-bashi (Grand Rabbi) to the
                      generals of division of the armies by land and sea and generally to persons who
                      unite the requisite conditions.</p>
-                  <p n="3" xml:lang="en">The members of the Senate called at their request to other functions lose
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_130.d2e1166">The members of the Senate called at their request to other functions lose
                      their quality of Senator.</p>
                </div>
-               <div n="63" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 63.</head>
-                  <p n="1" xml:lang="en">The pay of a Senator is fixed at the monthly sum of 10,000 piastres.</p>
-                  <p n="2" xml:lang="en">The Senator who receives from the Treasury a salary or pay by any other
+               <div n="63" type="article" xml:lang="en" change="#d2e358" xml:id="div_68.d2e1171">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_70.d2e1173">ART. 63.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_131.d2e1176">The pay of a Senator is fixed at the monthly sum of 10,000 piastres.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_132.d2e1179">The Senator who receives from the Treasury a salary or pay by any other
                      title has a right only to the complement if the sum total of such pay is less
                      than 10,000 piastres.</p>
-                  <p n="3" xml:lang="en">If this amount be equal or superior to the salary of Senator he continues
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_133.d2e1182">If this amount be equal or superior to the salary of Senator he continues
                      to receive the whole of it.</p>
                </div>
-               <div n="64" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 64.</head>
-                  <p n="1" xml:lang="en">The Senate shall examine the drafts of laws or of the Budget which shall
+               <div n="64" type="article" xml:lang="en" change="#d2e358" xml:id="div_69.d2e1186">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_71.d2e1188">ART. 64.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_134.d2e1191">The Senate shall examine the drafts of laws or of the Budget which shall
                      be transmitted to it by the Chamber of Deputies.</p>
-                  <p n="2" xml:lang="en">If in the course of the examination of the draft of a law the Senate
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_135.d2e1194">If in the course of the examination of the draft of a law the Senate
                      finds a clause contrarv to the sovereign rights of His Majesty the Sultan, to
                      the liberty, to the constitution, to the territorial integrity of the Empire,
                      to the internal safety of the country, to the interest of the defence of the
@@ -625,468 +628,468 @@
                      reasons thereof or it shall send it back accompanied by its observations to the
                      Chamber of Deputies demanding that it be amended or modified in the sense of
                      these observations.</p>
-                  <p n="3" xml:lang="en">The drafts of law adopted by the Senate shall receive its approbation and
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_136.d2e1197">The drafts of law adopted by the Senate shall receive its approbation and
                      shall be transmitted to the Grand Vizier.</p>
-                  <p n="4" xml:lang="en">The Senate shall examine the petitions presented to it. It shall transmit
+                  <p n="4" xml:lang="en" change="#d2e358" xml:id="p_137.d2e1200">The Senate shall examine the petitions presented to it. It shall transmit
                      to the Grand Vizier those petitions which it believes deserve it accompanying
                      them with its observations.</p>
                </div>
             </div>
-            <div n="7" type="section" xml:lang="en">
+            <div n="7" type="section" xml:lang="en" change="#d2e358" xml:id="div_71.d2e1205">
 
-               <head xml:lang="en">The Chamber of Deputies.</head>
-               <div n="65" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 65.</head>
-                  <p n="1" xml:lang="en">The number of Deputies is fixed at one deputy for 50,000 male inhabitants
-                     belonging to the Ottoman nationality.<pb n="378"/></p>
+               <head xml:lang="en" change="#d2e358" xml:id="head_72.d2e1207">The Chamber of Deputies.</head>
+               <div n="65" type="article" xml:lang="en" change="#d2e358" xml:id="div_71.d2e1210">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_73.d2e1212">ART. 65.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_138.d2e1215">The number of Deputies is fixed at one deputy for 50,000 male inhabitants
+                     belonging to the Ottoman nationality.<pb n="378" change="#d2e358" xml:id="pb_12.d2e1217"/></p>
                </div>
-               <div n="66" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 66.</head>
-                  <p n="1" xml:lang="en">The elections shall be by ballot. The mode of election shall be
+               <div n="66" type="article" xml:lang="en" change="#d2e358" xml:id="div_72.d2e1220">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_74.d2e1222">ART. 66.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_139.d2e1225">The elections shall be by ballot. The mode of election shall be
                      determined by special law.</p>
                </div>
-               <div n="67" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 67.</head>
-                  <p n="1" xml:lang="en">The mandate of Deputy is incompatible with public functions with the
+               <div n="67" type="article" xml:lang="en" change="#d2e358" xml:id="div_73.d2e1229">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_75.d2e1231">ART. 67.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_140.d2e1234">The mandate of Deputy is incompatible with public functions with the
                      exception of those of Ministers.</p>
-                  <p n="2" xml:lang="en">Every other public functionary elected deputy is free to accept or refuse
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_141.d2e1237">Every other public functionary elected deputy is free to accept or refuse
                      but in case of acceptance he must resign his other office.</p>
                </div>
-               <div n="68" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 68.</head>
-                  <p n="1" xml:lang="en">There cannot be elected as deputies:</p>
+               <div n="68" type="article" xml:lang="en" change="#d2e358" xml:id="div_74.d2e1241">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_76.d2e1243">ART. 68.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_142.d2e1246">There cannot be elected as deputies:</p>
                   <!-- encode the list -->
-                  <p n="2" xml:lang="en">(1) Those who do not belong to the Ottoman nationality.</p>
-                  <p n="3" xml:lang="en">(2) Those who by virtue of a special regulation in force enjoy the
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_143.d2e1251">(1) Those who do not belong to the Ottoman nationality.</p>
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_144.d2e1254">(2) Those who by virtue of a special regulation in force enjoy the
                      immunities attached to a foreign service which they exercise.</p>
-                  <p n="4" xml:lang="en">(3) Those who do not know Turkish.</p>
-                  <p n="5" xml:lang="en">(4) Those who are not 30 years of age.</p>
-                  <p n="6" xml:lang="en">(5) People in the service of a private man.</p>
-                  <p n="7" xml:lang="en">(6) Bankrupts.</p>
-                  <p n="8" xml:lang="en">(7) Those of notoriously bad character.</p>
-                  <p n="9" xml:lang="en">(8) Individuals who have been judicially condemned so long as they are
+                  <p n="4" xml:lang="en" change="#d2e358" xml:id="p_145.d2e1258">(3) Those who do not know Turkish.</p>
+                  <p n="5" xml:lang="en" change="#d2e358" xml:id="p_146.d2e1261">(4) Those who are not 30 years of age.</p>
+                  <p n="6" xml:lang="en" change="#d2e358" xml:id="p_147.d2e1264">(5) People in the service of a private man.</p>
+                  <p n="7" xml:lang="en" change="#d2e358" xml:id="p_148.d2e1267">(6) Bankrupts.</p>
+                  <p n="8" xml:lang="en" change="#d2e358" xml:id="p_149.d2e1270">(7) Those of notoriously bad character.</p>
+                  <p n="9" xml:lang="en" change="#d2e358" xml:id="p_150.d2e1273">(8) Individuals who have been judicially condemned so long as they are
                      not pardoned.</p>
-                  <p n="10" xml:lang="en">(9) Those who do not enjoy their civil rights.</p>
-                  <p n="11" xml:lang="en">(10) Those who claim to belong to a foreign nation.</p>
-                  <p n="12" xml:lang="en">After the expiration of the first period of four years one of the
+                  <p n="10" xml:lang="en" change="#d2e358" xml:id="p_151.d2e1277">(9) Those who do not enjoy their civil rights.</p>
+                  <p n="11" xml:lang="en" change="#d2e358" xml:id="p_152.d2e1280">(10) Those who claim to belong to a foreign nation.</p>
+                  <p n="12" xml:lang="en" change="#d2e358" xml:id="p_153.d2e1283">After the expiration of the first period of four years one of the
                      conditions of eligibility of a delegate is that he shall know how to read
                      Turkish and as far as possible write that language.</p>
                </div>
-               <div n="69" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 69.</head>
-                  <p n="1" xml:lang="en">The general elections of deputies take place every four years.</p>
-                  <p n="2" xml:lang="en">The mandate of each deputy lasts only four years but he is
+               <div n="69" type="article" xml:lang="en" change="#d2e358" xml:id="div_75.d2e1288">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_77.d2e1290">ART. 69.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_154.d2e1293">The general elections of deputies take place every four years.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_155.d2e1296">The mandate of each deputy lasts only four years but he is
                      reeligible.</p>
                </div>
-               <div n="70" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 70.</head>
-                  <p n="1" xml:lang="en">The general elections begin at latest four months before the 1st of
+               <div n="70" type="article" xml:lang="en" change="#d2e358" xml:id="div_76.d2e1300">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_78.d2e1302">ART. 70.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_156.d2e1305">The general elections begin at latest four months before the 1st of
                      November which is the date fixed for the meeting of the Chamber.</p>
                </div>
-               <div n="71" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 71.</head>
-                  <p n="1" xml:lang="en">Every member of the Chamber of Deputies represents the whole of the
-                     Ottoman nation and not exclusively the district which has elected him.<pb n="379"/></p>
+               <div n="71" type="article" xml:lang="en" change="#d2e358" xml:id="div_77.d2e1309">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_79.d2e1311">ART. 71.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_157.d2e1314">Every member of the Chamber of Deputies represents the whole of the
+                     Ottoman nation and not exclusively the district which has elected him.<pb n="379" change="#d2e358" xml:id="pb_13.d2e1316"/></p>
                </div>
-               <div n="72" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 72.</head>
-                  <p n="1" xml:lang="en">The electors are obliged to choose their delegates among the inhabitants
+               <div n="72" type="article" xml:lang="en" change="#d2e358" xml:id="div_78.d2e1319">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_80.d2e1321">ART. 72.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_158.d2e1324">The electors are obliged to choose their delegates among the inhabitants
                      of the province to which they belong.</p>
                </div>
-               <div n="73" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 73.</head>
-                  <p n="1" xml:lang="en">In case of the dissolution of the Chamber by an Imperial Irade the
+               <div n="73" type="article" xml:lang="en" change="#d2e358" xml:id="div_79.d2e1328">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_81.d2e1330">ART. 73.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_159.d2e1333">In case of the dissolution of the Chamber by an Imperial Irade the
                      general elections must commence in time necessary for the Chamber to meet again
                      at latest six months after the date of the dissolution.</p>
                </div>
-               <div n="74" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 74.</head>
-                  <p n="1" xml:lang="en">In case of death, judiciary condemnation, prolonged absence, or loss of
+               <div n="74" type="article" xml:lang="en" change="#d2e358" xml:id="div_80.d2e1337">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_82.d2e1339">ART. 74.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_160.d2e1342">In case of death, judiciary condemnation, prolonged absence, or loss of
                      quality of deputy resulting from condemnation or the acceptance of a public
                      office a new election shall be held conformably to the prescriptions of the
                      electoral law within such a time that the new deputy may enter upon his duties
                      at latest in the following session.</p>
                </div>
-               <div n="75" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 75.</head>
-                  <p n="1" xml:lang="en">The mandate of Deputies elected to fill a vacancy shall only last till
+               <div n="75" type="article" xml:lang="en" change="#d2e358" xml:id="div_81.d2e1347">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_83.d2e1349">ART. 75.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_161.d2e1352">The mandate of Deputies elected to fill a vacancy shall only last till
                      the next general election.</p>
                </div>
-               <div n="76" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 76.</head>
-                  <p n="1" xml:lang="en">There shall be allowed by the Treasury to each Deputy 20,000 piastres per
+               <div n="76" type="article" xml:lang="en" change="#d2e358" xml:id="div_82.d2e1356">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_84.d2e1358">ART. 76.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_162.d2e1361">There shall be allowed by the Treasury to each Deputy 20,000 piastres per
                      session and his travelling expenses for going and returning.</p>
-                  <p n="2" xml:lang="en">The sum of this expense shall be established conformably to the
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_163.d2e1364">The sum of this expense shall be established conformably to the
                      dispositions of the regulation which governs the travelling indemnities paid to
                      the civil officials of the State and calculated on the basis of the monthly pay
                      of 5,000 piastres.</p>
                </div>
-               <div n="77" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 77.</head>
-                  <p n="1" xml:lang="en">The president and the two vice presidents of the chamber of deputies
+               <div n="77" type="article" xml:lang="en" change="#d2e358" xml:id="div_83.d2e1368">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_85.d2e1370">ART. 77.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_164.d2e1373">The president and the two vice presidents of the chamber of deputies
                      shall be chosen by His Majesty the Sultan from a list of nine candidates
                      elected by the chamber by a majority of votes, three for the president, three
                      for the first vice president and three for the second vice president.</p>
-                  <p n="2" xml:lang="en">The nomination of the president and the vice presidents shall take place
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_165.d2e1376">The nomination of the president and the vice presidents shall take place
                      by Imperial Irade.</p>
                </div>
-               <div n="78" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 78.</head>
-                  <p n="1" xml:lang="en">The sessions of the Chamber of Deputies shall be public.</p>
-                  <p n="2" xml:lang="en">The Chamber however may meet in secret session when the proposition shall
+               <div n="78" type="article" xml:lang="en" change="#d2e358" xml:id="div_84.d2e1380">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_86.d2e1382">ART. 78.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_166.d2e1385">The sessions of the Chamber of Deputies shall be public.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_167.d2e1388">The Chamber however may meet in secret session when the proposition shall
                      be made by the Ministers, or by the President, or by 15 members, and this
-                     proposition be voted upon in secret session. 3 S<pb n="0"/></p>
+                     proposition be voted upon in secret session. 3 S<pb n="0" change="#d2e358" xml:id="pb_14.d2e1390"/></p>
                </div>
-               <div n="79" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 79.</head>
-                  <p n="1" xml:lang="en">No deputy can during the duration of the session be arrested or sued save
+               <div n="79" type="article" xml:lang="en" change="#d2e358" xml:id="div_85.d2e1393">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_87.d2e1395">ART. 79.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_168.d2e1398">No deputy can during the duration of the session be arrested or sued save
                      in case of flagrante delicto except upon a decision taken by a majority of the
                      chamber which shall authorize the suit.</p>
                </div>
-               <div n="80" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 80.</head>
-                  <p n="1" xml:lang="en">The Chamber of Deputies shall discuss the drafts of law which shall be
+               <div n="80" type="article" xml:lang="en" change="#d2e358" xml:id="div_86.d2e1402">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_88.d2e1404">ART. 80.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_169.d2e1407">The Chamber of Deputies shall discuss the drafts of law which shall be
                      submitted to it.</p>
-                  <p n="2" xml:lang="en">It shall adopt, amend or reject the dispositions concerning finances or
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_170.d2e1410">It shall adopt, amend or reject the dispositions concerning finances or
                      the Constitution.</p>
-                  <p n="3" xml:lang="en">It shall examine in detail the general expenses of the State comprised in
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_171.d2e1413">It shall examine in detail the general expenses of the State comprised in
                      the Budget and may in conjunction with the Ministers fix the total thereof.</p>
-                  <p n="4" xml:lang="en">It shall determine equally by agreement with the Ministers, the nature,
+                  <p n="4" xml:lang="en" change="#d2e358" xml:id="p_172.d2e1416">It shall determine equally by agreement with the Ministers, the nature,
                      the total and the method of the assessment and realization of the receipts
                      destined to cover the expenses.</p>
                </div>
             </div>
-            <div n="8" type="section" xml:lang="en">
-               <head xml:lang="en">The Power of the Judiciary.</head>
-               <div n="81" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 81.</head>
-                  <p n="1" xml:lang="en">The Judges appointed conformably to the special law on this subject and
-                     furnished with their brevet of investiture (<hi xml:lang="en">berat</hi>) are irremovable but
+            <div n="8" type="section" xml:lang="en" change="#d2e358" xml:id="div_88.d2e1421">
+               <head xml:lang="en" change="#d2e358" xml:id="head_89.d2e1423">The Power of the Judiciary.</head>
+               <div n="81" type="article" xml:lang="en" change="#d2e358" xml:id="div_88.d2e1426">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_90.d2e1428">ART. 81.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_173.d2e1431">The Judges appointed conformably to the special law on this subject and
+                     furnished with their brevet of investiture (<hi xml:lang="en" change="#d2e358" xml:id="hi_21.d2e1433">berat</hi>) are irremovable but
                      they may resign.</p>
-                  <p n="2" xml:lang="en">The advancement of Judges in the hierarchal order, their change, their
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_174.d2e1437">The advancement of Judges in the hierarchal order, their change, their
                      being placed on the retired list, or their dismissal in case of judicial
                      condemnation shall be submitted to the dispositions of the same law.</p>
-                  <p n="3" xml:lang="en">This law shall determine the conditions and qualities requisite for
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_175.d2e1440">This law shall determine the conditions and qualities requisite for
                      exercising the functions of a judge or the other functions of a judicial
                      nature.</p>
                </div>
-               <div n="82" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 82.</head>
-                  <p n="1" xml:lang="en">The audience of all the tribunals shall be public.</p>
-                  <p n="2" xml:lang="en">The publication of the judgments is authorized.</p>
-                  <p n="3" xml:lang="en">However in cases specified by the law the tribunal can hold a secret
+               <div n="82" type="article" xml:lang="en" change="#d2e358" xml:id="div_89.d2e1444">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_91.d2e1446">ART. 82.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_176.d2e1449">The audience of all the tribunals shall be public.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_177.d2e1452">The publication of the judgments is authorized.</p>
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_178.d2e1455">However in cases specified by the law the tribunal can hold a secret
                      session.</p>
                </div>
-               <div n="83" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 83.</head>
-                  <p n="1" xml:lang="en">Every individual in the interest of his defence may make use before the
-                     tribunal of the means permitted by the law.<pb n="381"/></p>
+               <div n="83" type="article" xml:lang="en" change="#d2e358" xml:id="div_90.d2e1459">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_92.d2e1461">ART. 83.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_179.d2e1464">Every individual in the interest of his defence may make use before the
+                     tribunal of the means permitted by the law.<pb n="381" change="#d2e358" xml:id="pb_15.d2e1466"/></p>
                </div>
-               <div n="84" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 84.</head>
-                  <p n="1" xml:lang="en">No tribunal can refuse under any pretence whatever to judge an affair
+               <div n="84" type="article" xml:lang="en" change="#d2e358" xml:id="div_91.d2e1469">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_93.d2e1471">ART. 84.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_180.d2e1474">No tribunal can refuse under any pretence whatever to judge an affair
                      within its competence. It can neither arrest nor adjourn the judgment after it
                      has begun the examination or investigation unless the plaintiff withdraws his
                      suit.</p>
-                  <p n="2" xml:lang="en">However, in criminal cases the public action continues to go on
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_181.d2e1477">However, in criminal cases the public action continues to go on
                      conformably to the law even in the case where the complainant withdraws.</p>
                </div>
-               <div n="85" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 85.</head>
-                  <p n="1" xml:lang="en">Every affair shall be judged by the tribunal to which this affair shall
+               <div n="85" type="article" xml:lang="en" change="#d2e358" xml:id="div_92.d2e1482">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_94.d2e1484">ART. 85.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_182.d2e1487">Every affair shall be judged by the tribunal to which this affair shall
                      belong.</p>
-                  <p n="2" xml:lang="en">Suits between private persons of the State are within the competence of
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_183.d2e1490">Suits between private persons of the State are within the competence of
                      the ordinary tribunals.</p>
                </div>
-               <div n="86" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 86.</head>
-                  <p n="1" xml:lang="en">No interference can be exercised with the tribunals.</p>
+               <div n="86" type="article" xml:lang="en" change="#d2e358" xml:id="div_93.d2e1494">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_95.d2e1496">ART. 86.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_184.d2e1499">No interference can be exercised with the tribunals.</p>
                </div>
-               <div n="87" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 87.</head>
-                  <p n="1" xml:lang="en">Affairs concerning the Sheri shall be judged by the tribunals of the
-                        <hi xml:lang="en">Sheri</hi>. The judgment of civil affairs belongs to the civil
+               <div n="87" type="article" xml:lang="en" change="#d2e358" xml:id="div_94.d2e1503">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_96.d2e1505">ART. 87.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_185.d2e1508">Affairs concerning the Sheri shall be judged by the tribunals of the
+                        <hi xml:lang="en" change="#d2e358" xml:id="hi_22.d2e1510">Sheri</hi>. The judgment of civil affairs belongs to the civil
                      tribunals.</p>
                </div>
-               <div n="88" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 88.</head>
-                  <p n="1" xml:lang="en">The different categories of the tribunals, their competency, their
+               <div n="88" type="article" xml:lang="en" change="#d2e358" xml:id="div_95.d2e1515">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_97.d2e1517">ART. 88.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_186.d2e1520">The different categories of the tribunals, their competency, their
                      powers, and the emoluments of the judges shall be fixed by the laws.</p>
                </div>
-               <div n="89" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 89.</head>
-                  <p n="1" xml:lang="en">Besides the ordinary tribunals there cannot be instituted under any
+               <div n="89" type="article" xml:lang="en" change="#d2e358" xml:id="div_96.d2e1524">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_98.d2e1526">ART. 89.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_187.d2e1529">Besides the ordinary tribunals there cannot be instituted under any
                      denomination whatever extraordinary tribunals or commissions for judging
                      certain special affairs.</p>
-                  <p n="2" xml:lang="en">However arbitration (<hi xml:lang="en">talkkin</hi>) and the nomination of
-                        <hi xml:lang="en">muvella</hi> (deputy judge) shall be permitted within the forms
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_188.d2e1532">However arbitration (<hi xml:lang="en" change="#d2e358" xml:id="hi_23.d2e1534">talkkin</hi>) and the nomination of
+                        <hi xml:lang="en" change="#d2e358" xml:id="hi_24.d2e1537">muvella</hi> (deputy judge) shall be permitted within the forms
                      permitted by the law.</p>
                </div>
-               <div n="90" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 90.</head>
-                  <p n="1" xml:lang="en">No judge can hold at the same time any other office paid by the
+               <div n="90" type="article" xml:lang="en" change="#d2e358" xml:id="div_97.d2e1542">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_99.d2e1544">ART. 90.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_189.d2e1547">No judge can hold at the same time any other office paid by the
                      state.</p>
                </div>
-               <div n="91" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 91.</head>
-                  <p n="1" xml:lang="en">There shall be instituted Imperial procurors charged with carrying on
+               <div n="91" type="article" xml:lang="en" change="#d2e358" xml:id="div_98.d2e1552">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_100.d2e1554">ART. 91.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_190.d2e1557">There shall be instituted Imperial procurors charged with carrying on
                      public suits.</p>
-                  <p n="2" xml:lang="en">Their powers and their hierarchy shall be fixed by law.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_191.d2e1560">Their powers and their hierarchy shall be fixed by law.</p>
                </div>
             </div>
-            <pb n="382"/>
-            <div n="9" type="section" xml:lang="en">
-               <head xml:lang="en">The High Court.</head>
-               <div n="92" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 92.</head>
-                  <p n="1" xml:lang="en">The High Court is formed of thirty members, of which ten are Senators,
+            <pb n="382" change="#d2e358" xml:id="pb_16.d2e1565"/>
+            <div n="9" type="section" xml:lang="en" change="#d2e358" xml:id="div_100.d2e1568">
+               <head xml:lang="en" change="#d2e358" xml:id="head_101.d2e1570">The High Court.</head>
+               <div n="92" type="article" xml:lang="en" change="#d2e358" xml:id="div_100.d2e1573">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_102.d2e1575">ART. 92.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_192.d2e1578">The High Court is formed of thirty members, of which ten are Senators,
                      ten Councillors of State, and ten members chosen among the presidents and
                      members of the court of cassation and the court of appeals.</p>
-                  <p n="2" xml:lang="en">All the members shall be designated by lot.</p>
-                  <p n="3" xml:lang="en">The High Court is convoked when there is reason for it by an Imperial
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_193.d2e1581">All the members shall be designated by lot.</p>
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_194.d2e1584">The High Court is convoked when there is reason for it by an Imperial
                      Irade and meets at the Senate House.</p>
-                  <p n="4" xml:lang="en">Its powers consist in judging:-</p>
-                  <p n="5" xml:lang="en">The Ministers.</p>
-                  <p n="6" xml:lang="en">The president and members of the court of cassation.</p>
-                  <p n="7" xml:lang="en">And all other persons accused of high treason or an attempt against the
+                  <p n="4" xml:lang="en" change="#d2e358" xml:id="p_195.d2e1587">Its powers consist in judging:-</p>
+                  <p n="5" xml:lang="en" change="#d2e358" xml:id="p_196.d2e1591">The Ministers.</p>
+                  <p n="6" xml:lang="en" change="#d2e358" xml:id="p_197.d2e1594">The president and members of the court of cassation.</p>
+                  <p n="7" xml:lang="en" change="#d2e358" xml:id="p_198.d2e1597">And all other persons accused of high treason or an attempt against the
                      safety of the State.</p>
                </div>
 
-               <div n="93" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 93.</head>
-                  <p n="1" xml:lang="en">The High Court is composed of two Chambers: the Chamber of accusation,
+               <div n="93" type="article" xml:lang="en" change="#d2e358" xml:id="div_101.d2e1601">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_103.d2e1603">ART. 93.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_199.d2e1606">The High Court is composed of two Chambers: the Chamber of accusation,
                      and the Chamber of judgment.</p>
-                  <p n="2" xml:lang="en">The Chamber of accusation is formed of nine members designated by lot
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_200.d2e1609">The Chamber of accusation is formed of nine members designated by lot
                      among the members of the High Court, of whom three are Senators, three
                      Councillors of State and three members of the Court of cassation or the Court
                      of appeal.</p>
                </div>
-               <div n="94" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 94.</head>
-                  <p n="1" xml:lang="en">The reference to the Chamber of judgment is pronounced by the Chamber of
+               <div n="94" type="article" xml:lang="en" change="#d2e358" xml:id="div_102.d2e1613">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_104.d2e1615">ART. 94.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_201.d2e1618">The reference to the Chamber of judgment is pronounced by the Chamber of
                      accusation by a two-thirds majority of its members.</p>
-                  <p n="2" xml:lang="en">The members belonging to the Chamber of accusation cannot take part in
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_202.d2e1621">The members belonging to the Chamber of accusation cannot take part in
                      the deliberations of the Chamber of judgment.</p>
                </div>
-               <div n="95" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 95.</head>
-                  <p n="1" xml:lang="en">The Chamber of Judgment is formed of 21 members seven of whom are
+               <div n="95" type="article" xml:lang="en" change="#d2e358" xml:id="div_103.d2e1625">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_105.d2e1627">ART. 95.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_203.d2e1630">The Chamber of Judgment is formed of 21 members seven of whom are
                      Senators seven Councillors of State and seven members of the Court of cassation
                      or the court of appeal.</p>
-                  <p n="2" xml:lang="en">It judges by a two thirds majority conformably to the laws in force the
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_204.d2e1633">It judges by a two thirds majority conformably to the laws in force the
                      cases which are sent in to it by the Chamber of accusation.</p>
-                  <p n="3" xml:lang="en">The judgments are susceptible neither of appeal nor of cassation.</p>
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_205.d2e1636">The judgments are susceptible neither of appeal nor of cassation.</p>
                </div>
             </div>
-            <div n="10" type="section" xml:lang="en">
-               <head xml:lang="en">Finances</head>
-               <div n="96" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 96.</head>
-                  <p n="1" xml:lang="en">No tax for the profit of the state can be either established, assessed or
+            <div n="10" type="section" xml:lang="en" change="#d2e358" xml:id="div_105.d2e1641">
+               <head xml:lang="en" change="#d2e358" xml:id="head_106.d2e1643">Finances</head>
+               <div n="96" type="article" xml:lang="en" change="#d2e358" xml:id="div_105.d2e1646">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_107.d2e1648">ART. 96.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_206.d2e1651">No tax for the profit of the state can be either established, assessed or
                      levied except by virtue of law.</p>
                </div>
-               <pb n="383"/>
-               <div n="97" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 97.</head>
-                  <p n="1" xml:lang="en">The Budget is the law which contains the estimates of the receipts and
+               <pb n="383" change="#d2e358" xml:id="pb_17.d2e1655"/>
+               <div n="97" type="article" xml:lang="en" change="#d2e358" xml:id="div_106.d2e1657">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_108.d2e1659">ART. 97.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_207.d2e1662">The Budget is the law which contains the estimates of the receipts and
                      expenses of the State.</p>
-                  <p n="2" xml:lang="en">The taxes for the profit of the State are regulated by this law, as to
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_208.d2e1665">The taxes for the profit of the State are regulated by this law, as to
                      their assessment, their allotment or their collection.</p>
                </div>
-               <div n="98" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 98.</head>
-                  <p n="1" xml:lang="en">The examination and the vote by the General Assembly of the Budget takes
+               <div n="98" type="article" xml:lang="en" change="#d2e358" xml:id="div_107.d2e1669">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_109.d2e1671">ART. 98.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_209.d2e1674">The examination and the vote by the General Assembly of the Budget takes
                      place article by article.</p>
-                  <p n="2" xml:lang="en">The tables annexed to it comprising the totals of the receipts and of the
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_210.d2e1677">The tables annexed to it comprising the totals of the receipts and of the
                      expenses are divided into sections, chapters and articles conformably to the
                      model settled by the regulations.</p>
-                  <p n="3" xml:lang="en">These tables are voted by chapters.</p>
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_211.d2e1680">These tables are voted by chapters.</p>
                </div>
-               <div n="99" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 99.</head>
-                  <p n="1" xml:lang="en">The draft of the Budget is submitted to the Chamber of Deputies
+               <div n="99" type="article" xml:lang="en" change="#d2e358" xml:id="div_108.d2e1685">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_110.d2e1687">ART. 99.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_212.d2e1690">The draft of the Budget is submitted to the Chamber of Deputies
                      immediately after the opening of the Session in order to render possible its
                      being put into execution at the beginning of the fiscal year to which it
                      relates.</p>
                </div>
-               <div n="100" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 100.</head>
-                  <p n="1" xml:lang="en">No expenses beyond the budget can be covered from the funds of the State
+               <div n="100" type="article" xml:lang="en" change="#d2e358" xml:id="div_109.d2e1694">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_111.d2e1696">ART. 100.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_213.d2e1699">No expenses beyond the budget can be covered from the funds of the State
                      except by virtue of the law.</p>
                </div>
-               <div n="101" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 101.</head>
-                  <p n="1" xml:lang="en">In case of urgency caused by extraordinary circumstances the Ministers
+               <div n="101" type="article" xml:lang="en" change="#d2e358" xml:id="div_110.d2e1703">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_112.d2e1705">ART. 101.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_214.d2e1708">In case of urgency caused by extraordinary circumstances the Ministers
                      can during the absence of the General Assembly create by Imperial Irade the
                      necessary resources and make an expense unforeseen by the Budget on condition
                      of presenting to the General Assembly a draft of the law at the beginning of
                      the next session.</p>
                </div>
-               <div n="102" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 102.</head>
-                  <p n="1" xml:lang="en">The Budget is voted for one year and has the force of law only for the
+               <div n="102" type="article" xml:lang="en" change="#d2e358" xml:id="div_111.d2e1712">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_113.d2e1714">ART. 102.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_215.d2e1717">The Budget is voted for one year and has the force of law only for the
                      year to which it relates.</p>
-                  <p n="2" xml:lang="en">However if in consequence of exceptional circumstances the Chamber of
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_216.d2e1720">However if in consequence of exceptional circumstances the Chamber of
                      Deputies is dissolved before the vote on the Budget the Ministers can by a
                      resolution taken by virtue of an Imperial Irade apply the Budget of the
                      preceding year until the next session provided that the provisional application
                      of this Budget does not exceed the period of one year.</p>
                </div>
-               <pb n="384"/>
-               <div n="103" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 103.</head>
-                  <p n="1" xml:lang="en">The complete and definitive statement of the Budget indicates all
+               <pb n="384" change="#d2e358" xml:id="pb_18.d2e1724"/>
+               <div n="103" type="article" xml:lang="en" change="#d2e358" xml:id="div_112.d2e1726">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_114.d2e1728">ART. 103.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_217.d2e1731">The complete and definitive statement of the Budget indicates all
                      receipts realized and payments made out of the revenues and for the expenses of
                      the year to which this statement relates.</p>
-                  <p n="2" xml:lang="en">Its form and its divisions must be the same as those of the Budget.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_218.d2e1734">Its form and its divisions must be the same as those of the Budget.</p>
                </div>
-               <div n="104" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 104.</head>
-                  <p n="1" xml:lang="en">This completed statement is submitted to the Chamber of Deputies at
+               <div n="104" type="article" xml:lang="en" change="#d2e358" xml:id="div_113.d2e1739">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_115.d2e1741">ART. 104.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_219.d2e1744">This completed statement is submitted to the Chamber of Deputies at
                      latest four years after the end of the year to which it relates.</p>
                </div>
-               <div n="105" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 105.</head>
-                  <p n="1" xml:lang="en">There shall be instituted a court of accounts charged with the
+               <div n="105" type="article" xml:lang="en" change="#d2e358" xml:id="div_114.d2e1748">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_116.d2e1750">ART. 105.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_220.d2e1753">There shall be instituted a court of accounts charged with the
                      examination of the operations of the financial officers as well as of the
                      annual accounts drawn up by the different municipal departments.</p>
-                  <p n="2" xml:lang="en">It shall address each year to the Chamber of Deputies a special report
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_221.d2e1756">It shall address each year to the Chamber of Deputies a special report
                      containing the result of its labours accompanied by its observations.</p>
-                  <p n="3" xml:lang="en">At the end of each three months it shall present to His Majesty the
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_222.d2e1759">At the end of each three months it shall present to His Majesty the
                      Sultan through the Grand Vizier a report containing a statement of the fiancial
                      situation.</p>
                </div>
-               <div n="106" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 106.</head>
-                  <p n="1" xml:lang="en">The Court of accounts shall be composed of 12 irremovable memnbers named
+               <div n="106" type="article" xml:lang="en" change="#d2e358" xml:id="div_115.d2e1763">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_117.d2e1765">ART. 106.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_223.d2e1768">The Court of accounts shall be composed of 12 irremovable memnbers named
                      by Imperial Irade.</p>
-                  <p n="2" xml:lang="en">None of them can be dismissed unless a proposition with reasons annexed
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_224.d2e1771">None of them can be dismissed unless a proposition with reasons annexed
                      for his removal be approved by a decision of the majority of the Chamber of
                      Deputies.</p>
                </div>
-               <div n="107" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 107.</head>
-                  <p n="1" xml:lang="en">The conditions and qualities required of the members of the Court of
+               <div n="107" type="article" xml:lang="en" change="#d2e358" xml:id="div_116.d2e1775">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_118.d2e1777">ART. 107.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_225.d2e1780">The conditions and qualities required of the members of the Court of
                      accounts, the details of their powers, the rules applicable in cases of
                      resignation, replacement, advancement or retiring, as well as of the
                      organization of the bureaus, shall be determined by a special law.</p>
                </div>
             </div>
-            <div n="11" type="section" xml:lang="en">
-               <head xml:lang="en">The Provincial Administration.</head>
-               <div n="108" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 108.</head>
-                  <p n="1" xml:lang="en">The administration of the Provinces shall have as its base the principle
+            <div n="11" type="section" xml:lang="en" change="#d2e358" xml:id="div_118.d2e1785">
+               <head xml:lang="en" change="#d2e358" xml:id="head_119.d2e1787">The Provincial Administration.</head>
+               <div n="108" type="article" xml:lang="en" change="#d2e358" xml:id="div_118.d2e1790">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_120.d2e1792">ART. 108.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_226.d2e1795">The administration of the Provinces shall have as its base the principle
                      of decentralization.</p>
-                  <p n="2" xml:lang="en">The details of this organization shall be fixed by a law.<pb n=""/><pb n="385"/></p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_227.d2e1798">The details of this organization shall be fixed by a law.<pb n="" change="#d2e358" xml:id="pb_19.d2e1800"/><pb n="385" change="#d2e358" xml:id="pb_20.d2e1801"/></p>
                </div>
-               <div n="109" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 109.</head>
-                  <p n="1" xml:lang="en">A special law shall regulate on wider bases the election of
+               <div n="109" type="article" xml:lang="en" change="#d2e358" xml:id="div_119.d2e1804">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_121.d2e1806">ART. 109.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_228.d2e1809">A special law shall regulate on wider bases the election of
                      administrative Councils of the province (Vilayet) of the district (Sandjak) and
                      of the canton (K-aza) as well as that of the general council which meets
                      annually in the capital of each province.</p>
                </div>
-               <div n="110" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 110.</head>
-                  <p n="1" xml:lang="en">The powers of the provincial General Council shall be fixed by the same
+               <div n="110" type="article" xml:lang="en" change="#d2e358" xml:id="div_120.d2e1813">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_122.d2e1815">ART. 110.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_229.d2e1818">The powers of the provincial General Council shall be fixed by the same
                      special law and shall include:</p>
-                  <p n="2" xml:lang="en">The right of debating on objects of public utility as well as the
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_230.d2e1821">The right of debating on objects of public utility as well as the
                      establishment of ways of communication, the organization of agricultural credit
                      funds, the development of industry as well as of commerce, of agriculture and
                      the propagation of public instruction.</p>
-                  <p n="3" xml:lang="en">The right of complaining to the competent authorities for obtaining the
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_231.d2e1824">The right of complaining to the competent authorities for obtaining the
                      redress of acts or deeds committed in contravention of the laws and regulations
                      whether in the assessment and collection of taxes or in any other manner.</p>
                </div>
-               <div n="111" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 111.</head>
-                  <p n="1" xml:lang="en">There shall be in each Kaza a council belonging to each of the different
+               <div n="111" type="article" xml:lang="en" change="#d2e358" xml:id="div_121.d2e1828">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_123.d2e1830">ART. 111.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_232.d2e1833">There shall be in each Kaza a council belonging to each of the different
                      communities. This council will be charged with the control of: -
-                     <list xml:lang="en">
-                        <item n="1" xml:lang="en">(1) The administration of the revenues of real property or of Vakouf
+                     <list xml:lang="en" change="#d2e358" xml:id="list_1.d2e1835">
+                        <item n="1" xml:lang="en" change="#d2e358" xml:id="item_1.d2e1837">(1) The administration of the revenues of real property or of Vakouf
                            funds (pious foundations) the special destination of which has been fixed by
                            the expressed dispositions of the founders or by usage.</item>
-                        <item n="2" xml:lang="en">(2) The employment of funds or property affected by testamentary
+                        <item n="2" xml:lang="en" change="#d2e358" xml:id="item_2.d2e1840">(2) The employment of funds or property affected by testamentary
                            disposition, of acts of chiarity or of beneficence.</item>
-                        <item n="3" xml:lang="en">(3) The administration of funds of orphans conformably with the special
+                        <item n="3" xml:lang="en" change="#d2e358" xml:id="item_3.d2e1843">(3) The administration of funds of orphans conformably with the special
                            regulation which governs this matter.</item>
                      </list></p>
-                  <p n="2" xml:lang="en">Each council shall be composed of members elected by the community it
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_233.d2e1847">Each council shall be composed of members elected by the community it
                      represents conformably to special regulations to be established.</p>
-                  <p n="3" xml:lang="en">These councils shall depend on the local authorities and on the General
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_234.d2e1850">These councils shall depend on the local authorities and on the General
                      Councils of the province.</p>
                </div>
-               <div n="112" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 112.</head>
-                  <p n="1" xml:lang="en">Municipal affairs shall be administered in Constantinople and in the
+               <div n="112" type="article" xml:lang="en" change="#d2e358" xml:id="div_122.d2e1855">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_124.d2e1857">ART. 112.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_235.d2e1860">Municipal affairs shall be administered in Constantinople and in the
                      provinces by elective municipal Councils.</p>
-                  <p n="2" xml:lang="en">The regulation of the municipal councils, their powers and the method of
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_236.d2e1863">The regulation of the municipal councils, their powers and the method of
                      electing their members shall be determined by a special law.</p>
                </div>
             </div>
-            <pb n="386"/>
-            <div n="12" type="section" xml:lang="en">
-               <head xml:lang="en">Divers Dispositions.</head>
-               <div n="113" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 113.</head>
-                  <p n="1" xml:lang="en">In case of proof of facts or of signs of a nature to apprehend trouble on
+            <pb n="386" change="#d2e358" xml:id="pb_21.d2e1868"/>
+            <div n="12" type="section" xml:lang="en" change="#d2e358" xml:id="div_124.d2e1870">
+               <head xml:lang="en" change="#d2e358" xml:id="head_125.d2e1872">Divers Dispositions.</head>
+               <div n="113" type="article" xml:lang="en" change="#d2e358" xml:id="div_124.d2e1875">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_126.d2e1877">ART. 113.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_237.d2e1880">In case of proof of facts or of signs of a nature to apprehend trouble on
                      any of the territory of the Empire the Imperial Government has the right of
                      proclaiming there a state of siege.</p>
-                  <p n="2" xml:lang="en">The effects of the state of siege consist in the temporary suspension of
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_238.d2e1883">The effects of the state of siege consist in the temporary suspension of
                      the civil laws.</p>
-                  <p n="3" xml:lang="en">The mode of administering localities submitted to a state of siege shall
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_239.d2e1886">The mode of administering localities submitted to a state of siege shall
                      be regulated by a special law.</p>
-                  <p n="4" xml:lang="en">His Majesty the Sultan has the exclusive power of expelling from the
+                  <p n="4" xml:lang="en" change="#d2e358" xml:id="p_240.d2e1889">His Majesty the Sultan has the exclusive power of expelling from the
                      territory of the Empire those who in consequence of information worthy of
                      confidence collected by the administration of police are recognized as being
                      injurious to the safety of the State.</p>
                </div>
-               <div n="114" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 114.</head>
-                  <p n="1" xml:lang="en">Primary instruction shall be obligatory for all Mussulmans.</p>
-                  <p n="2" xml:lang="en">The details of the application shall be determined by a special law.</p>
+               <div n="114" type="article" xml:lang="en" change="#d2e358" xml:id="div_125.d2e1893">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_127.d2e1895">ART. 114.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_241.d2e1898">Primary instruction shall be obligatory for all Mussulmans.</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_242.d2e1901">The details of the application shall be determined by a special law.</p>
                </div>
-               <div n="115" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 115.</head>
-                  <p n="1" xml:lang="en">No disposition of the Constitution can under any pretext whatever be
+               <div n="115" type="article" xml:lang="en" change="#d2e358" xml:id="div_126.d2e1905">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_128.d2e1907">ART. 115.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_243.d2e1910">No disposition of the Constitution can under any pretext whatever be
                      suspended or ignored.</p>
                </div>
-               <div n="116" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 116.</head>
-                  <p n="1" xml:lang="en">In case of necessity duly proved the Constitution may be modified in some
+               <div n="116" type="article" xml:lang="en" change="#d2e358" xml:id="div_127.d2e1914">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_129.d2e1916">ART. 116.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_244.d2e1919">In case of necessity duly proved the Constitution may be modified in some
                      of its dispositions. This modification is subordinated to the following
                      conditions.</p>
-                  <p n="2" xml:lang="en">Every proposition of modification presented, whether by the Ministry or
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_245.d2e1922">Every proposition of modification presented, whether by the Ministry or
                      by one or the other chamber must be submitted in the first place to the
                      deliberations of the Chamber of deputies.</p>
-                  <p n="3" xml:lang="en">If the proposition be approved by a two thirds majority of the members of
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_246.d2e1925">If the proposition be approved by a two thirds majority of the members of
                      this Chamber, it shall be transmitted to the Senate.</p>
-                  <p n="4" xml:lang="en">In case the Senate shall equally adopt the proposed modification by two
+                  <p n="4" xml:lang="en" change="#d2e358" xml:id="p_247.d2e1928">In case the Senate shall equally adopt the proposed modification by two
                      thirds of the Senators it shall be submitted to the sanction of His Majesty the
                      Sultan.</p>
-                  <p n="5" xml:lang="en">If it be sanctioned by Imperial Irade it shall have the force of law.</p>
-                  <p n="6" xml:lang="en">Every disposition of the Constitution which is the object of a proposed
+                  <p n="5" xml:lang="en" change="#d2e358" xml:id="p_248.d2e1932">If it be sanctioned by Imperial Irade it shall have the force of law.</p>
+                  <p n="6" xml:lang="en" change="#d2e358" xml:id="p_249.d2e1935">Every disposition of the Constitution which is the object of a proposed
                      modification remains in force up to the moment that the proposition, after
                      having been submitted to the approval of the deliberations of the Chambers, has
-                     been sanctioned by Imperial Irade.<pb n="387"/></p>
+                     been sanctioned by Imperial Irade.<pb n="387" change="#d2e358" xml:id="pb_22.d2e1937"/></p>
                </div>
-               <div n="117" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 117.</head>
-                  <p n="1" xml:lang="en">The interpretation of the laws belongs:-</p>
-                  <p n="2" xml:lang="en">To the Court of cassation for civil and penal laws;</p>
-                  <p n="3" xml:lang="en">To the Council of State for administrative laws;</p>
-                  <p n="4" xml:lang="en">And to the Senate for the dispositions of the Constitution.</p>
+               <div n="117" type="article" xml:lang="en" change="#d2e358" xml:id="div_128.d2e1941">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_130.d2e1943">ART. 117.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_250.d2e1946">The interpretation of the laws belongs:-</p>
+                  <p n="2" xml:lang="en" change="#d2e358" xml:id="p_251.d2e1949">To the Court of cassation for civil and penal laws;</p>
+                  <p n="3" xml:lang="en" change="#d2e358" xml:id="p_252.d2e1952">To the Council of State for administrative laws;</p>
+                  <p n="4" xml:lang="en" change="#d2e358" xml:id="p_253.d2e1955">And to the Senate for the dispositions of the Constitution.</p>
                </div>
-               <div n="118" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 118.</head>
-                  <p n="1" xml:lang="en">All the dispositions of the laws, regulations, usages, and customs
+               <div n="118" type="article" xml:lang="en" change="#d2e358" xml:id="div_129.d2e1959">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_131.d2e1961">ART. 118.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_254.d2e1964">All the dispositions of the laws, regulations, usages, and customs
                      actually in force shall continue to be applied until they shall have been
                      modified or abrogated by laws or regulations.</p>
                </div>
-               <div n="119" type="article" xml:lang="en">
-                  <head xml:lang="en">ART. 119.</head>
-                  <p n="1" xml:lang="en">The provisional instruction of the <date when="1876-10-28" xml:lang="en">10th of <hi xml:lang="en">Chival</hi> 1293 (16/28 October 1876)</date>
+               <div n="119" type="article" xml:lang="en" change="#d2e358" xml:id="div_130.d2e1968">
+                  <head xml:lang="en" change="#d2e358" xml:id="head_132.d2e1970">ART. 119.</head>
+                  <p n="1" xml:lang="en" change="#d2e358" xml:id="p_255.d2e1973">The provisional instruction of the <date when="1876-10-28" xml:lang="en" change="#d2e358" xml:id="date_12.d2e1975">10th of <hi xml:lang="en" change="#d2e358" xml:id="hi_25.d2e1977">Chival</hi> 1293 (16/28 October 1876)</date>
                      concerning the general assembly shall cease to have its effect after the
                      closing of the first session.</p>
                </div>

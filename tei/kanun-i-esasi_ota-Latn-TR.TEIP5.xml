@@ -1,46 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="../boilerplate/xslt/teibp_parameters.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="">
-   <teiHeader xml:lang="en">
-      <fileDesc xml:lang="en">
-         <titleStmt xml:lang="en">
-            <title xml:lang="ota-Latn-x-ijmes">Ḳānūn-i Esāsī</title>
-            <title type="sub" xml:lang="en">Digital Edition</title>
-            <respStmt xml:lang="en">
-               <resp xml:lang="en">TEI version</resp>
-               <persName xml:lang="en">Till Grallert</persName>
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://openarabicpe.github.io/OpenArabicPE_ODD/schema/tei_periodical.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../boilerplate/xslt/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="">
+   <teiHeader xml:lang="en" change="#d2e325" xml:id="teiHeader_1.d2e7">
+      <fileDesc xml:lang="en" change="#d2e325" xml:id="fileDesc_1.d2e9">
+         <titleStmt xml:lang="en" change="#d2e325" xml:id="titleStmt_1.d2e11">
+            <title xml:lang="ota-Latn-x-ijmes" change="#d2e325" xml:id="title_1.d2e13">Ḳānūn-i Esāsī</title>
+            <title type="sub" xml:lang="en" change="#d2e325" xml:id="title_2.d2e16">Digital Edition</title>
+            <respStmt xml:lang="en" change="#d2e325" xml:id="respStmt_1.d2e19">
+               <resp xml:lang="en" change="#d2e325" xml:id="resp_1.d2e21">TEI version</resp>
+               <persName xml:lang="en" change="#d2e325" xml:id="persName_1.d2e24">Till Grallert</persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt xml:lang="en">
-            <p xml:lang="en">Publication Information</p>
-         </publicationStmt>
-         <sourceDesc xml:lang="en">
-            <p xml:lang="en">The digital text was downloaded from <ref target="http://anayasametinleri.blogspot.com/2010/09/1876-kanun-i-esasi-orijinal-metin_15.html" xml:lang="en">http://anayasametinleri.blogspot.com/2010/09/1876-kanun-i-esasi-orijinal-metin_15.html</ref>. The transcription produced by Yrd. Doç. <persName xml:lang="en">Dr. Abdullah SEZER</persName> of <orgName xml:lang="en"><orgName xml:lang="en">Marmara Üniversitesi</orgName> <orgName xml:lang="en">Hukuk Fakültesi</orgName></orgName> - Anayasa Hukuku Öğretim Üyesi. </p>
+         <publicationStmt xml:id="publicationStmt_1.d1e61" xml:lang="en">
+                <authority xml:id="authority_1.d1e63" xml:lang="en">
+                    <persName xml:id="persName_4.d1e65" xml:lang="en">Till Grallert</persName>
+                </authority>
+                <pubPlace xml:id="pubPlace_1.d1e69" xml:lang="en">Beirut</pubPlace>
+                <date when="2015" xml:id="date_1.d1e72" xml:lang="en">2015</date>
+                <availability status="restricted" xml:id="availability_1.d1e75" xml:lang="en">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/" xml:id="licence_1.d1e77" xml:lang="en">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence>
+                </availability>
+             </publicationStmt>
+         <sourceDesc xml:lang="en" change="#d2e325" xml:id="sourceDesc_1.d2e50">
+            <p xml:lang="en" change="#d2e325" xml:id="p_1.d2e52">The digital text was downloaded from <ref target="http://anayasametinleri.blogspot.com/2010/09/1876-kanun-i-esasi-orijinal-metin_15.html" xml:lang="en" change="#d2e325" xml:id="ref_1.d2e54">http://anayasametinleri.blogspot.com/2010/09/1876-kanun-i-esasi-orijinal-metin_15.html</ref>. The transcription produced by Yrd. Doç. <persName xml:lang="en" change="#d2e325" xml:id="persName_3.d2e57">Dr. Abdullah SEZER</persName> of <orgName xml:lang="en" change="#d2e325" xml:id="orgName_1.d2e60"><orgName xml:lang="en" change="#d2e325" xml:id="orgName_1.d2e61">Marmara Üniversitesi</orgName> <orgName xml:lang="en" change="#d2e325" xml:id="orgName_2.d2e64">Hukuk Fakültesi</orgName></orgName> - Anayasa Hukuku Öğretim Üyesi. </p>
          </sourceDesc>
       </fileDesc>
-       <encodingDesc>
-           <projectDesc>
-               <p>The TEI file was produced for teaching a course on the basics of scholarly encoding
+       <encodingDesc change="#d2e325 #d2e336" xml:id="encodingDesc_1.d2e70" xml:lang="en">
+           <projectDesc change="#d2e325 #d2e336" xml:id="projectDesc_1.d2e72" xml:lang="en">
+               <p change="#d2e325 #d2e336" xml:id="p_2.d2e74" xml:lang="en">The TEI file was produced for teaching a course on the basics of scholarly encoding
                    using TEI P5 and XML.</p>
            </projectDesc>
-           <editorialDecl>
-               <p>providing information on our decisions concerning the actual transcription of a
+           <editorialDecl change="#d2e325 #d2e336" xml:id="editorialDecl_1.d2e78" xml:lang="en">
+               <p change="#d2e325 #d2e336" xml:id="p_3.d2e80" xml:lang="en">providing information on our decisions concerning the actual transcription of a
                    newspaper structure into a TEI P5 XML file</p>
            </editorialDecl>
-           <listPrefixDef>
-               <prefixDef ident="geon" matchPattern="(\d+?)" replacementPattern="https://www.geonames.org/$1">
-                   <p>Private URIs using the <code>geon</code> prefix are pointers to entries in the GeoNames dataset. For example, <code>geon:277130</code> dereferences to <code>https://www.geonames.org/277130</code>.</p>
+           <listPrefixDef change="#d2e325 #d2e336" xml:id="listPrefixDef_1.d2e84" xml:lang="en">
+               <prefixDef ident="geon" matchPattern="(\d+?)" replacementPattern="https://www.geonames.org/$1" change="#d2e325 #d2e336" xml:id="prefixDef_1.d2e86" xml:lang="en">
+                   <p change="#d2e325 #d2e336" xml:id="p_4.d2e88" xml:lang="en">Private URIs using the <code change="#d2e325 #d2e336" xml:id="code_1.d2e90" xml:lang="en">geon</code> prefix are pointers to entries in the GeoNames dataset. For example, <code change="#d2e325 #d2e336" xml:id="code_2.d2e93" xml:lang="en">geon:277130</code> dereferences to <code change="#d2e325 #d2e336" xml:id="code_3.d2e96" xml:lang="en">https://www.geonames.org/277130</code>.</p>
                </prefixDef>
-               <prefixDef ident="issn" matchPattern="(\d{4}\-\d{4})" replacementPattern="http://data.ub.uni-leipzig.de/zdb/issn/$1">
-                   <p>Private URIs using the <code>issn</code> prefix are pointers to ISSNs and can be dereferenced using a service provided by the Leipzig University Library. For example, <code>issn:1110-8908</code> dereferences to <code>http://data.ub.uni-leipzig.de/zdb/issn/1110-8908</code>.</p>
+               <prefixDef ident="issn" matchPattern="(\d{4}\-\d{4})" replacementPattern="http://data.ub.uni-leipzig.de/zdb/issn/$1" change="#d2e325 #d2e336" xml:id="prefixDef_2.d2e101" xml:lang="en">
+                   <p change="#d2e325 #d2e336" xml:id="p_5.d2e103" xml:lang="en">Private URIs using the <code change="#d2e325 #d2e336" xml:id="code_4.d2e105" xml:lang="en">issn</code> prefix are pointers to ISSNs and can be dereferenced using a service provided by the Leipzig University Library. For example, <code change="#d2e325 #d2e336" xml:id="code_5.d2e108" xml:lang="en">issn:1110-8908</code> dereferences to <code change="#d2e325 #d2e336" xml:id="code_6.d2e111" xml:lang="en">http://data.ub.uni-leipzig.de/zdb/issn/1110-8908</code>.</p>
                </prefixDef>
-               <prefixDef ident="oclc" matchPattern="(\d+?)" replacementPattern="https://www.worldcat.org/oclc/$1">
-                   <p>Private URIs using the <code>oclc</code> prefix are pointers to bibliographic items in worldcat. For example, <code>oclc:4770057679</code> dereferences to <code>https://www.worldcat.org/oclc/4770057679</code>.</p>
+               <prefixDef ident="oclc" matchPattern="(\d+?)" replacementPattern="https://www.worldcat.org/oclc/$1" change="#d2e325 #d2e336" xml:id="prefixDef_3.d2e116" xml:lang="en">
+                   <p change="#d2e325 #d2e336" xml:id="p_6.d2e118" xml:lang="en">Private URIs using the <code change="#d2e325 #d2e336" xml:id="code_7.d2e120" xml:lang="en">oclc</code> prefix are pointers to bibliographic items in worldcat. For example, <code change="#d2e325 #d2e336" xml:id="code_8.d2e123" xml:lang="en">oclc:4770057679</code> dereferences to <code change="#d2e325 #d2e336" xml:id="code_9.d2e126" xml:lang="en">https://www.worldcat.org/oclc/4770057679</code>.</p>
                </prefixDef>
-               <prefixDef ident="viaf" matchPattern="(\d+?)" replacementPattern="https://viaf.org/viaf/$1">
-                   <p>Private URIs using the <code>viaf</code> prefix are pointers to entities in the Virtual International Authority File (VIAF). For example, <code>viaf:32272677</code> dereferences to <code>https://viaf.org/viaf/32272677</code>.</p>
+               <prefixDef ident="viaf" matchPattern="(\d+?)" replacementPattern="https://viaf.org/viaf/$1" change="#d2e325 #d2e336" xml:id="prefixDef_4.d2e131" xml:lang="en">
+                   <p change="#d2e325 #d2e336" xml:id="p_7.d2e133" xml:lang="en">Private URIs using the <code change="#d2e325 #d2e336" xml:id="code_10.d2e135" xml:lang="en">viaf</code> prefix are pointers to entities in the Virtual International Authority File (VIAF). For example, <code change="#d2e325 #d2e336" xml:id="code_11.d2e138" xml:lang="en">viaf:32272677</code> dereferences to <code change="#d2e325 #d2e336" xml:id="code_12.d2e141" xml:lang="en">https://viaf.org/viaf/32272677</code>.</p>
                </prefixDef>
            </listPrefixDef>
        </encodingDesc>
@@ -64,7 +67,7 @@
                    <p xml:id="p_14.d1e213" xml:lang="en">Ottoman fiscal calendar: a lunosolar calendar. It is based on the Old Julian calendar beginning the Year with 1 March. Introduced as fiscal calendar in 1676 and in the Ottoman context usually referred to as <hi xml:id="hi_6.d1e215" xml:lang="en">mālī</hi> and sometimes, confusingly, also as <hi xml:id="hi_7.d1e218" xml:lang="en">rūmī</hi>. Every 33 lunar years, a <hi xml:id="hi_8.d1e221" xml:lang="en">hijrī</hi> year would complete within a single solar <hi xml:id="hi_9.d1e224" xml:lang="en">mālī</hi> year. In this case the counting of the <hi xml:id="hi_10.d1e227" xml:lang="en">mālī</hi> years skipped a year to catch up with the faster <hi xml:id="hi_11.d1e231" xml:lang="en">hijrī</hi> calendar. Due to a printing error in the coupon booklets for the consolidated debt repayment program for 1872 (1288 M instead of 1289 M), synchronisation of <hi xml:id="hi_12.d1e234" xml:lang="en">mālī</hi> and <hi xml:id="hi_13.d1e237" xml:lang="en">hijrī</hi> years was henceforth abolished. As <hi xml:id="hi_14.d1e240" xml:lang="en">mālī</hi> years began with 1 March, <hi xml:id="hi_15.d1e243" xml:lang="en">mālī</hi> leap years preceded their <hi xml:id="hi_16.d1e246" xml:lang="en">rūmī</hi> and Gregorian counterpart (the leap year 1315 M commenced on 13 March 1899).</p>
                    <p xml:id="p_15.d1e250" xml:lang="en">E.g. <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1841-05-23" when-custom="1257-03-11" xml:id="date_8.d1e252" xml:lang="en">11 Māyis 1257, Sunday</date>, <date calendar="#cal_ottomanfiscal" datingMethod="#cal_ottomanfiscal" when="1908-03-05" when-custom="1323-12-21" xml:id="date_9.d1e255" xml:lang="en">21 Shub 1323, Thursday</date>.</p>
                </calendar>
-               <calendar xml:id="cal_coptic" xml:lang="en"><p>Coptic calendar in use in Egypt.</p></calendar>
+               <calendar xml:id="cal_coptic" xml:lang="en"><p change="#d2e325 #d2e336" xml:id="p_18.d2e274" xml:lang="en">Coptic calendar in use in Egypt.</p></calendar>
            </calendarDesc>
            <langUsage xml:id="langUsage_1.d1e261" xml:lang="en">
                <language ident="ar" xml:id="language_1.d1e263" xml:lang="en">Arabic</language>
@@ -82,50 +85,50 @@
                <language ident="fr-Arab-AR" xml:id="language_13.d1e301" xml:lang="en">French transcribed into Arabic script following common Levantine Arabic practices</language>
            </langUsage>
        </profileDesc>
-       <revisionDesc>
-           <change when="2015-11-15" who="#pers_TG">Created this file by converting HTML found on the web to XML TEI</change>
+       <revisionDesc><tei:change xmlns:tei="http://www.tei-c.org/ns/1.0" when="2019-04-24" who="#pers_TG" change="d2e336" xml:lang="en">Added the <tei:att xml:lang="en">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change><change when="2019-04-24" who="#pers_TG" xml:id="d2e325" xml:lang="en">Added automated <tei:att xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">xml:id</tei:att>s for every element that is a descendant of <tei:gi xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">tei:text</tei:gi> and had no existing <tei:att xmlns:tei="http://www.tei-c.org/ns/1.0" xml:lang="en">xml:id</tei:att> following the pattern "name()_generate-id()".</change>
+           <change when="2015-11-15" who="#pers_TG" change="#d2e325 #d2e336" xml:id="change_1.d2e325" xml:lang="en">Created this file by converting HTML found on the web to XML TEI</change>
        </revisionDesc>
    </teiHeader>
-   <text xml:lang="ota-Latn-TR">
-      <body xml:lang="ota-Latn-TR">
-         <div corresp="#law-ottoman-constitution-1876" type="bill" xml:lang="ota-Latn-TR">
-            <head xml:lang="ota-Latn-TR">KANÛN-I ESÂSÎ</head>
+   <text xml:lang="ota-Latn-TR" change="#d2e325" xml:id="text_1.d2e330">
+      <body xml:lang="ota-Latn-TR" change="#d2e325" xml:id="body_1.d2e332">
+         <div corresp="#law-ottoman-constitution-1876" type="bill" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_1.d2e334">
+            <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_1.d2e336">KANÛN-I ESÂSÎ</head>
 
-            <div n="1" type="section" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MEMÂLİK-İ DEVLET-İ OSMANİYE</head>
+            <div n="1" type="section" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_1.d2e339">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_2.d2e341">MEMÂLİK-İ DEVLET-İ OSMANİYE</head>
 
-               <div n="1" type="article" xml:lang="ota-Latn-TR">
-                  <head xml:lang="ota-Latn-TR">MADDE 1.</head>
-                  <p xml:lang="ota-Latn-TR">Devlet-i Osmaniye, memâlik ve kıtaat-ı hâzırayı ve eyalât-ı mümtâzeyi muhtevi
+               <div n="1" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_1.d2e344">
+                  <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_3.d2e346">MADDE 1.</head>
+                  <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_19.d2e349">Devlet-i Osmaniye, memâlik ve kıtaat-ı hâzırayı ve eyalât-ı mümtâzeyi muhtevi
                      ve yek-vücud olmakla, hiçbir zamanda hiçbir sebeble tefrik kabûl etmez. </p>
                </div>
-               <div n="2" type="article" xml:lang="ota-Latn-TR">
-                  <head xml:lang="ota-Latn-TR">MADDE 2.</head>
-                  <p xml:lang="ota-Latn-TR">Devlet-i Osmaniye’nin pây-ı tahtı İstanbul şehridir ve şehr-i mezkûrun, sair
+               <div n="2" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_2.d2e353">
+                  <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_4.d2e355">MADDE 2.</head>
+                  <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_20.d2e358">Devlet-i Osmaniye’nin pây-ı tahtı İstanbul şehridir ve şehr-i mezkûrun, sair
                      bilâd-ı Osmaniye’den ayrı olarak bir gûne imtiyaz ve muafiyeti yoktur. </p>
                </div>
-               <div n="3" type="article" xml:lang="ota-Latn-TR">
-                  <head xml:lang="ota-Latn-TR">MADDE 3.</head>
-                  <p xml:lang="ota-Latn-TR">Saltanat-ı Seniye-i Osmaniye Hilâfet-i Kübrâ-yı İslâmiye’yi hâiz olarak
+               <div n="3" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_3.d2e362">
+                  <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_5.d2e364">MADDE 3.</head>
+                  <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_21.d2e367">Saltanat-ı Seniye-i Osmaniye Hilâfet-i Kübrâ-yı İslâmiye’yi hâiz olarak
                      Sülâle-i Âl-i Osman’dan usûl-i kadîmesi vechile ekber evlâda aittir. </p>
                </div>
-               <div n="4" type="article" xml:lang="ota-Latn-TR">
-                  <head xml:lang="ota-Latn-TR">MADDE 4.</head>
-                  <p xml:lang="ota-Latn-TR">Zât-ı Hazret-i Pâdişâhî, hasbel-hilâfe Dîn-i İslâm’ın hâmisi ve bil-cümle
+               <div n="4" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_4.d2e371">
+                  <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_6.d2e373">MADDE 4.</head>
+                  <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_22.d2e376">Zât-ı Hazret-i Pâdişâhî, hasbel-hilâfe Dîn-i İslâm’ın hâmisi ve bil-cümle
                      tebaa-i Osmaniye’nin hükümdar ve pâdişâhıdır. </p>
                </div>
-               <div n="5" type="article" xml:lang="ota-Latn-TR">
-                  <head xml:lang="ota-Latn-TR">MADDE 5.</head>
-                  <p xml:lang="ota-Latn-TR">Zât-ı Hazret-i Pâdişâhî’nin nefs-i hümâyûnu, mukaddes ve gayr-i mes’ûldür. </p>
+               <div n="5" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_5.d2e381">
+                  <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_7.d2e383">MADDE 5.</head>
+                  <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_23.d2e386">Zât-ı Hazret-i Pâdişâhî’nin nefs-i hümâyûnu, mukaddes ve gayr-i mes’ûldür. </p>
                </div>
-               <div n="6" type="article" xml:lang="ota-Latn-TR">
-                  <head xml:lang="ota-Latn-TR">MADDE 6.</head>
-                  <p xml:lang="ota-Latn-TR">Sülâle-i Âl-i Osman’ın hukuk-ı hürriye ve emval ve emlâk-i zâtiye ve
+               <div n="6" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_6.d2e390">
+                  <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_8.d2e392">MADDE 6.</head>
+                  <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_24.d2e395">Sülâle-i Âl-i Osman’ın hukuk-ı hürriye ve emval ve emlâk-i zâtiye ve
                      madâmel-hayat tahsisât-ı mâliyeleri, tekâfül-i umûmî tahtındadır. </p>
                </div>
-               <div n="7" type="article" xml:lang="ota-Latn-TR">
-                  <head xml:lang="ota-Latn-TR">MADDE 7.</head>
-                  <p xml:lang="ota-Latn-TR">Vükelânın azil ve nasbı ve rütbe ve menasıp tevcihi ve nişân itâsı ve eyalât-ı
+               <div n="7" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_7.d2e399">
+                  <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_9.d2e401">MADDE 7.</head>
+                  <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_25.d2e404">Vükelânın azil ve nasbı ve rütbe ve menasıp tevcihi ve nişân itâsı ve eyalât-ı
                      mümtâzenin şerait-i imtiyaziyelerine tevfikan icrâ-yı tevcihâtı ve meskûkat
                      darbı ve hutbelerde nâmının zikri ve düvel-i ecnebiyye ile muahedat akdi ve
                      harb ve sulh ilânı ve kuvve-i berriyye ve bahriyyenin kumandası ve harekât-ı
@@ -136,129 +139,129 @@
                      Pâdişâhî cümlesindendir. </p>
                </div>
             </div>
-            <div type="section" n="2" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">TEBAA-İ DEVLET-İ OSMANİYE’NİN HUKUK-I UMÛMÎYESİ</head>
-            <div n="8" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 8.</head>
-               <p xml:lang="ota-Latn-TR">Devlet-i Osmaniye tâbiiyyetinde bulunan efradın cümlesine her hangi din ve
+            <div type="section" n="2" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_9.d2e409">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_10.d2e411">TEBAA-İ DEVLET-İ OSMANİYE’NİN HUKUK-I UMÛMÎYESİ</head>
+            <div n="8" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_9.d2e414">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_11.d2e416">MADDE 8.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_26.d2e419">Devlet-i Osmaniye tâbiiyyetinde bulunan efradın cümlesine her hangi din ve
                   mezhepten olur ise olsun bilâ-istisna Osmanlı tâbir olunur ve Osmanlı sıfatı
                   kanûnen muayyen olan ahvale göre istihsal ve izae edilir. </p>
             </div>
-            <div n="9" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 9.</head>
-               <p xml:lang="ota-Latn-TR">Osmanlıların kâffesi, hürriyet-i şahsiyelerine mâlik ve aharın hukuk-ı hürriyetine
+            <div n="9" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_10.d2e423">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_12.d2e425">MADDE 9.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_27.d2e428">Osmanlıların kâffesi, hürriyet-i şahsiyelerine mâlik ve aharın hukuk-ı hürriyetine
                   tecavüz etmemekle mükelleftir. </p>
             </div>
-            <div n="10" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 10.</head>
-               <p xml:lang="ota-Latn-TR">Hürriyet-i şahsiye her türlü taarruzdan masûndur. Hiç kimse kanûnun tâyin ettiği
+            <div n="10" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_11.d2e432">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_13.d2e434">MADDE 10.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_28.d2e437">Hürriyet-i şahsiye her türlü taarruzdan masûndur. Hiç kimse kanûnun tâyin ettiği
                   sebeb ve sûretten maada bir bahane ile mücazaât olunamaz. </p>
             </div>
-            <div n="11" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 11.</head>
-               <p xml:lang="ota-Latn-TR">Devlet-i Osmaniye’nin dîni, Dîn-i İslâm’dır. Bu esası vikâye ile beraber, asayiş-i
+            <div n="11" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_12.d2e441">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_14.d2e443">MADDE 11.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_29.d2e446">Devlet-i Osmaniye’nin dîni, Dîn-i İslâm’dır. Bu esası vikâye ile beraber, asayiş-i
                   halkı ve âdâb-ı umûmîyeyi ihlâl etmemek şartile memâlik-i Osmaniye’de marûf olan
                   bil-cümle edyânın serbesti-i icrâsı ve cemaat-ı muhtelifeye verilmiş olan
                   imtiyazât-ı mezhebiyenin kemâkân cereyanı, Devlet’in taht-ı himayetindedir. </p>
             </div>
-            <div n="12" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 12.</head>
-               <p xml:lang="ota-Latn-TR">Matbuat kanûn dairesinde serbesttir. </p>
+            <div n="12" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_13.d2e451">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_15.d2e453">MADDE 12.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_30.d2e456">Matbuat kanûn dairesinde serbesttir. </p>
             </div>
-            <div n="13" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 13.</head>
-               <p xml:lang="ota-Latn-TR">Tebaa-i Osmaniye nizâm ve kanûn dairesinde ticaret ve san’at ve felâhat için her
+            <div n="13" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_14.d2e460">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_16.d2e462">MADDE 13.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_31.d2e465">Tebaa-i Osmaniye nizâm ve kanûn dairesinde ticaret ve san’at ve felâhat için her
                   nev’i şirketler teşkiline mezûndur. </p>
             </div>
-            <div n="14" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 14.</head>
-               <p xml:lang="ota-Latn-TR">Tebaa-i Osmaniye’den bir veya bir kaç kişinin gerek şahıslarına ve gerek umûma
+            <div n="14" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_15.d2e469">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_17.d2e471">MADDE 14.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_32.d2e474">Tebaa-i Osmaniye’den bir veya bir kaç kişinin gerek şahıslarına ve gerek umûma
                   müteallik olan kavânîn ve nizâmâta muhalif gördükleri bir maddeden dolayı işin
                   merciine arzuhal verdikleri gibi Meclis-i Umûmî’ye dahi müddeî sıfatile imzalı
                   arzuhal vermeğe ve memurînin ef’âlinden iştikâya salâhiyetleri vardır. </p>
             </div>
-            <div n="15" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 15.</head>
-               <p xml:lang="ota-Latn-TR">Emr-i tedris serbesttir. Muayyen olan kanûna tebaiyet şartile her Osmanlı umûmî ve
+            <div n="15" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_16.d2e478">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_18.d2e480">MADDE 15.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_33.d2e483">Emr-i tedris serbesttir. Muayyen olan kanûna tebaiyet şartile her Osmanlı umûmî ve
                   husûsî tedrise mezûndur. </p>
             </div>
-            <div n="16" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 16.</head>
-               <p xml:lang="ota-Latn-TR">Bil-cümle mektepler Devlet’in taht-ı nezaretindedir. Tebaa-i Osmaniye’nin
+            <div n="16" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_17.d2e487">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_19.d2e489">MADDE 16.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_34.d2e492">Bil-cümle mektepler Devlet’in taht-ı nezaretindedir. Tebaa-i Osmaniye’nin
                   terbiyesi bir siyak-ı ittihâd ve intizâm üzere olmak için iktiza eden esbâba
                   teşebbüs olunacak ve milel-i muhtelifenin umûr-ı itikadiyelerine müteallik olan
                   usûl-i talimiyeye halel getirilmeyecektir. </p>
             </div>
-            <div n="17" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 17.</head>
-               <p xml:lang="ota-Latn-TR">Osmanlıların kâffesi huzur-ı kanûnda ve ahval-i dîniye ve mezhebiyeden maada
+            <div n="17" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_18.d2e496">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_20.d2e498">MADDE 17.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_35.d2e501">Osmanlıların kâffesi huzur-ı kanûnda ve ahval-i dîniye ve mezhebiyeden maada
                   memleketin hukuk ve vazaifinde mütesâvidir. </p>
             </div>
-            <div n="18" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 18.</head>
-               <p xml:lang="ota-Latn-TR">Tebaa-i Osmaniye’nin hidemât-ı Devlette istihdam olunmak için Devlet’in lisan-ı
+            <div n="18" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_19.d2e506">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_21.d2e508">MADDE 18.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_36.d2e511">Tebaa-i Osmaniye’nin hidemât-ı Devlette istihdam olunmak için Devlet’in lisan-ı
                   resmîsi olan Türkçe’yi bilmeleri şarttır. </p>
             </div>
-            <div n="19" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 19.</head>
-               <p xml:lang="ota-Latn-TR">Devlet memuriyetinde umûm tebaa ehliyet ve kabiliyetlerine göre münasip olan
+            <div n="19" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_20.d2e515">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_22.d2e517">MADDE 19.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_37.d2e520">Devlet memuriyetinde umûm tebaa ehliyet ve kabiliyetlerine göre münasip olan
                   memuriyetlere kabûl olunurlar. </p>
             </div>
-            <div n="20" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 20.</head>
-               <p xml:lang="ota-Latn-TR">Tekâlif-i mukarrere nizâmât-ı mahsûsasına tevfikan kâffe-i tebaa beyninde herkesin
+            <div n="20" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_21.d2e524">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_23.d2e526">MADDE 20.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_38.d2e529">Tekâlif-i mukarrere nizâmât-ı mahsûsasına tevfikan kâffe-i tebaa beyninde herkesin
                   kudreti nisbetince tarh ve tevzi olunur. </p>
             </div>
-            <div n="21" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 21.</head>
-               <p xml:lang="ota-Latn-TR">Herkes usûlen mutasarrıf olduğu mal ve mülkten emindir. Menafi-i umûmîye için
+            <div n="21" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_22.d2e533">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_24.d2e535">MADDE 21.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_39.d2e538">Herkes usûlen mutasarrıf olduğu mal ve mülkten emindir. Menafi-i umûmîye için
                   lüzumu sabit olmadıkça ve kanûnu mûcibince değer bahası peşin verilmedikçe
                   kimsenin tasarrufunda olan mülk alınamaz. </p>
             </div>
-            <div n="22" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 22.</head>
-               <p xml:lang="ota-Latn-TR">Memalik-i Osmaniye’de herkesin mesken ve menzili taarruzdan masûndur. Kanûnun
+            <div n="22" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_23.d2e542">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_25.d2e544">MADDE 22.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_40.d2e547">Memalik-i Osmaniye’de herkesin mesken ve menzili taarruzdan masûndur. Kanûnun
                   tâyin eylediği ahvalden maada bir sebeble Hükûmet tarafından cebren hiç kimsenin
                   mesken ve menziline girilemez. </p>
             </div>
-            <div n="23" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 23.</head>
-               <p xml:lang="ota-Latn-TR">Yapılacak Usûl-i Muhakeme Kanûnu hükmünce hiç kimse kanûnen mensup olduğu
+            <div n="23" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_24.d2e551">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_26.d2e553">MADDE 23.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_41.d2e556">Yapılacak Usûl-i Muhakeme Kanûnu hükmünce hiç kimse kanûnen mensup olduğu
                   mahkemeden başka bir mahkemeye gitmeye icbar olunamaz. </p>
             </div>
-            <div n="24" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 24.</head>
-               <p xml:lang="ota-Latn-TR">Müsadere ve angarya ve cerîme memnûdur. Fakat muharebe esnasında usûlen tâyin
+            <div n="24" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_25.d2e561">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_27.d2e563">MADDE 24.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_42.d2e566">Müsadere ve angarya ve cerîme memnûdur. Fakat muharebe esnasında usûlen tâyin
                   olunacak tekâlif ve ahval bundan müstesnadır. </p>
             </div>
-            <div n="25" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 25.</head>
-               <p xml:lang="ota-Latn-TR">Bir kanûna müstenit olmadıkça vergi ve rüsumât nâmı ile ve nâm-ı aharla hiç
+            <div n="25" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_26.d2e570">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_28.d2e572">MADDE 25.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_43.d2e575">Bir kanûna müstenit olmadıkça vergi ve rüsumât nâmı ile ve nâm-ı aharla hiç
                   kimseden bir akçe alınamaz. </p>
             </div>
-            <div n="26" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 26.</head>
-               <p xml:lang="ota-Latn-TR">İşkence ve sair her nev’i eziyet kat’iyyen ve külliyyen memnûdur.
+            <div n="26" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_27.d2e579">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_29.d2e581">MADDE 26.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_44.d2e584">İşkence ve sair her nev’i eziyet kat’iyyen ve külliyyen memnûdur.
                </p>
             </div>
             </div>
-            <div type="section" n="3" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">VÜKELÂ-YI DEVLET</head>
-            <div n="27" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 27.</head>
-               <p xml:lang="ota-Latn-TR">Mesned-i Sadâret ve Meşihât-ı İslâmiye Taraf-ı Pâdişâhî’den emniyet buyurulan
+            <div type="section" n="3" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_29.d2e589">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_30.d2e591">VÜKELÂ-YI DEVLET</head>
+            <div n="27" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_29.d2e594">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_31.d2e596">MADDE 27.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_45.d2e599">Mesned-i Sadâret ve Meşihât-ı İslâmiye Taraf-ı Pâdişâhî’den emniyet buyurulan
                   zâtlara ihale buyurulduğu missillû sair vükelânın memuriyetleri dahi bâ-irade-i
                   Şâhâne icrâ olunur. </p>
             </div>
-            <div n="28" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 28.</head>
-               <p xml:lang="ota-Latn-TR">Meclis-i Vükelâ Sadr-ı A’zam’ın riyaseti tahtında olarak akdolunup dahilî ve
+            <div n="28" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_30.d2e603">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_32.d2e605">MADDE 28.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_46.d2e608">Meclis-i Vükelâ Sadr-ı A’zam’ın riyaseti tahtında olarak akdolunup dahilî ve
                   haricî umûr-ı mühimmenin merciidir. Müzakerâtından mühtac-ı istîzan olanların
                   kararları irade-i seniye ile icrâ olunur. </p>
             </div>
-            <div n="29" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 29.</head>
-               <p xml:lang="ota-Latn-TR">Vükelâdan herbiri dairesine ait olan umûrdan, icrâsı mezûniyeti tahtında
+            <div n="29" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_31.d2e612">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_33.d2e614">MADDE 29.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_47.d2e617">Vükelâdan herbiri dairesine ait olan umûrdan, icrâsı mezûniyeti tahtında
                   bulunanları usûlüne tevfikan icrâ ve icrâsı mezûniyeti tahtında olmayanları Sadr-ı
                   A’zam’a arzeder. Sadr-ı A’zam dahi o makûle mevâddan müzakereye muhtaç
                   olmayanların muktezasını icrâ veyahut Taraf-ı Hazret-i Pâdişâhî’den istîzan ederek
@@ -266,13 +269,13 @@
                   müteallik buyurulacak irade-i seniye mûcibince iktizasını ifa eyler. Bu mesalihin
                   envağ ve derecâtı nizâm-ı mahsûs ile tâyin olunacaktır. </p>
             </div>
-            <div n="30" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 30.</head>
-               <p xml:lang="ota-Latn-TR">Vükelâ-yı Devlet memuriyetlerine müteallik ahval ve icrââttan mes’ûldür. </p>
+            <div n="30" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_32.d2e621">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_34.d2e623">MADDE 30.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_48.d2e626">Vükelâ-yı Devlet memuriyetlerine müteallik ahval ve icrââttan mes’ûldür. </p>
             </div>
-            <div n="31" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 31.</head>
-               <p xml:lang="ota-Latn-TR">Meb’ûsân âzâsından biri veyahut birkaçı Hey’et-i Meb’ûsân’ın dâhil-i dâire-i
+            <div n="31" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_33.d2e631">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_35.d2e633">MADDE 31.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_49.d2e636">Meb’ûsân âzâsından biri veyahut birkaçı Hey’et-i Meb’ûsân’ın dâhil-i dâire-i
                   vazifesi olan ahvaldan dolayı Vükelâ-yı Devlet’ten bir zât hakkında mes’ûliyeti
                   mûcip şikâyet beyan ettiği halde evvelâ Hey’et-i Meb’ûsân’ın nizâm-ı dahilîsi
                   mûcibince bu misillû mevâddın Hey’et’e havalesi lâzım gelip gelmeyeceğini
@@ -287,59 +290,59 @@
                   Sadâret’e takdim ile lede-l-arz müteallik olacak irade-i seniye üzerine keyfiyet
                   Dîvân-ı Âlî’ye havale olunur. </p>
             </div>
-            <div n="32" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 32.</head>
-               <p xml:lang="ota-Latn-TR">Vükelâ’dan itham olunanların usûl-i muhakemeleri, kanûn-ı mahsûs ile tâyin
+            <div n="32" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_34.d2e640">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_36.d2e642">MADDE 32.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_50.d2e645">Vükelâ’dan itham olunanların usûl-i muhakemeleri, kanûn-ı mahsûs ile tâyin
                   edilecektir. </p>
             </div>
-            <div n="33" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 33.</head>
-               <p xml:lang="ota-Latn-TR">Memuriyetlerinden hariç ve sırf zâtlarına ait her nev’i deâvîde vükelânın sair
+            <div n="33" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_35.d2e649">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_37.d2e651">MADDE 33.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_51.d2e654">Memuriyetlerinden hariç ve sırf zâtlarına ait her nev’i deâvîde vükelânın sair
                   efrad-ı Osmaniye’den aslâ farkı yoktur. Bu misillû husûsâtın muhakemesi ait olduğu
                   mehâkim-i umûmîyede icrâ olunur. </p>
             </div>
-            <div n="34" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 34.</head>
-               <p xml:lang="ota-Latn-TR">Dîvân-ı Âlî’nin Dâire-i İtham’ı tarafından müttehem olduğuna karar verilen Vükelâ
+            <div n="34" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_36.d2e658">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_38.d2e660">MADDE 34.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_52.d2e663">Dîvân-ı Âlî’nin Dâire-i İtham’ı tarafından müttehem olduğuna karar verilen Vükelâ
                   tebriye-i zimmet edinceye kadar vekâletten sâkıt olur. </p>
             </div>
-            <div n="35" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 35.</head>
-               <p xml:lang="ota-Latn-TR">Vükelâ ile Hey’et-i Meb’ûsân arasında ihtilâf olunan maddelerden birinin kabûlünde
+            <div n="35" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_37.d2e667">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_39.d2e669">MADDE 35.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_53.d2e672">Vükelâ ile Hey’et-i Meb’ûsân arasında ihtilâf olunan maddelerden birinin kabûlünde
                   Vükelâ tarafından israr olunup da Meb’ûsân cânibinden ekseriyet-i ârâ ile tafsilen
                   esbâb-ı mûcibe beyanile kat’iyyen ve mükerreren reddedildiği halde Vükelâ’nın
                   tebdîli veyahut müceddeden müddet-i kanûniyesinde intihâb olunmak üzere Hey’et-i
                   Meb’ûsân’ın feshi münhasıran yed-i iktidar-ı Hazret-i Pâdişâhî’dedir. </p>
             </div>
-            <div n="36" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 36.</head>
-               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî mün’akid olmadığı zamanlarda Devlet’i bir muhataradan veyahut
+            <div n="36" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_38.d2e676">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_40.d2e678">MADDE 36.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_54.d2e681">Meclis-i Umûmî mün’akid olmadığı zamanlarda Devlet’i bir muhataradan veyahut
                   emniyet-i umûmîyeyi halelden vikâye için bir zaruret-i mübreme zuhur ettiği ve bu
                   bâbda vaz’ına lüzûm görülecek kanûnun müzakeresi için Meclis’in celp ve cem’ine
                   vakit müsait olmadığı halde Kanûn-ı Esâsî ahkâmına mugayir olmamak üzere Hey’et-i
                   Vükelâ tarafından verilen kararlar, Hey’et-i Meb’ûsân’ın içtimaile verilecek
                   karara kadar bâ-irade-i seniye, muvakkaten kanûn hüküm ve kuvvetindedir. </p>
             </div>
-            <div n="37" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 37.</head>
-               <p xml:lang="ota-Latn-TR">Vükelâdan her biri her ne zaman murad eder ise, Hey’et’lerin ikisinde dahi
+            <div n="37" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_39.d2e686">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_41.d2e688">MADDE 37.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_55.d2e691">Vükelâdan her biri her ne zaman murad eder ise, Hey’et’lerin ikisinde dahi
                   bulunmak veyahut maiyetindeki rüesa-yı memurînden birini tarafından vekâleten
                   bulundurmak ve irad-ı nutukta âzâya takaddüm etmek hakkını hâizdir. </p>
             </div>
-            <div n="38" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 38.</head>
-               <p xml:lang="ota-Latn-TR">İstîzah-ı madde için Vükelâdan birinin huzuruna Meclis-i Meb’ûsân’da ekseriyetle
+            <div n="38" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_40.d2e695">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_42.d2e697">MADDE 38.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_56.d2e700">İstîzah-ı madde için Vükelâdan birinin huzuruna Meclis-i Meb’ûsân’da ekseriyetle
                   karar verilerek da’vet olundukta ya bizzat bulunarak veyahut maiyetindeki rüesa-yı
                   memurînden birini göndererek irad olunacak suallere cevap verecek veyahut lüzum
                   görür ise mes’ûliyetini üzerine alarak cevabını tehir etmek salâhiyetini hâiz
                   olacaktır. </p>
             </div>
             </div>
-            <div type="section" n="4" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MEMURÎN</head>
-            <div n="39" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 39.</head>
-               <p xml:lang="ota-Latn-TR">Bil-cümle memurîn nizâmen tâyin olunacak şerait üzere ehil ve müstahak oldukları
+            <div type="section" n="4" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_42.d2e705">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_43.d2e707">MEMURÎN</head>
+            <div n="39" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_42.d2e710">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_44.d2e712">MADDE 39.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_57.d2e715">Bil-cümle memurîn nizâmen tâyin olunacak şerait üzere ehil ve müstahak oldukları
                   memuriyetlere intihâb olunacaktır ve bu vechile intihâb olunan memurlar kanûnen
                   mûcib-i azil hareketi tahakkuk etmedikçe veya kendisi istifa eylemedikçe veyahut
                   Devlet’çe bir sebeb-i zarûrî görülmedikçe azl ve tebdîl olunamaz ve hüsn-i hareket
@@ -347,99 +350,99 @@
                   edenler nizâm-ı mahsûsunda tâyin olunacağı vechile terakkiyata ve tekaüt ve
                   mazuliyet maaşlarına nâil olacaklardır. </p>
             </div>
-            <div n="40" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 40.</head>
-               <p xml:lang="ota-Latn-TR">Her memuriyetin vezayifi nizâm-ı mahsûs ile tâyin olunacağından her memur kendi
+            <div n="40" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_43.d2e719">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_45.d2e721">MADDE 40.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_58.d2e724">Her memuriyetin vezayifi nizâm-ı mahsûs ile tâyin olunacağından her memur kendi
                   vazifesi dairesinde mes’ûldür. </p>
             </div>
-            <div n="41" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 41.</head>
-               <p xml:lang="ota-Latn-TR">Memurun âmirine hürmet ve riayeti lâzimeden ise de itaati kanûnun tâyin ettiği
+            <div n="41" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_44.d2e728">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_46.d2e730">MADDE 41.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_59.d2e733">Memurun âmirine hürmet ve riayeti lâzimeden ise de itaati kanûnun tâyin ettiği
                   daireye mahsûstur. Hilâf-ı kanûn olan umûrda âmire itaat mes’ûliyetten kurtulmağa
                   medâr olamaz. </p>
             </div>
             </div>
-            <div type="section" n="5" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MECLİS-İ UMÛMÎ</head>
-            <div n="42" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 42.</head>
-               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî Hey’et-i Â’yân ve Hey’et-i Meb’ûsân nâmlarile başka başka iki
+            <div type="section" n="5" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_46.d2e739">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_47.d2e741">MECLİS-İ UMÛMÎ</head>
+            <div n="42" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_46.d2e744">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_48.d2e746">MADDE 42.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_60.d2e749">Meclis-i Umûmî Hey’et-i Â’yân ve Hey’et-i Meb’ûsân nâmlarile başka başka iki
                   hey’eti muhtevidir. </p>
             </div>
-            <div n="43" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 43.</head>
-               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî’nin iki hey’eti beher sene Teşrin-i sânî iptidâsında tecemmu eder
+            <div n="43" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_47.d2e753">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_49.d2e755">MADDE 43.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_61.d2e758">Meclis-i Umûmî’nin iki hey’eti beher sene Teşrin-i sânî iptidâsında tecemmu eder
                   ve bâ-irade-i seniye açılır ve mart iptidâsında yine bâ-irade-i seniye kapanır ve
                   bu hey’etlerden biri diğerinin müçtemi bulunmadığı zamanda mün’akid olamaz. </p>
             </div>
-            <div n="44" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 44.</head>
-               <p xml:lang="ota-Latn-TR">Zât-ı Hazret-i Pâdişâhî, Devlet’çe görülecek lüzum üzerine Meclis-i Umûmî’yi
+            <div n="44" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_48.d2e762">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_50.d2e764">MADDE 44.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_62.d2e767">Zât-ı Hazret-i Pâdişâhî, Devlet’çe görülecek lüzum üzerine Meclis-i Umûmî’yi
                   vaktinden evvel dahi açar ve müddet-i muayyene-i içtimaını da tenkis veya temdit
                   eder. </p>
             </div>
-            <div n="45" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 45.</head>
-               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî’nin yevm-i küşadında Zât-ı Hazret-i Pâdişâhî veyahut taraflarından
+            <div n="45" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_49.d2e771">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_51.d2e773">MADDE 45.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_63.d2e776">Meclis-i Umûmî’nin yevm-i küşadında Zât-ı Hazret-i Pâdişâhî veyahut taraflarından
                   bi-l-vekâle Sadr-ı A’zam hazır olduğu ve Vükelâ-yı Devlet’le iki hey’etin âzâ-yı
                   mevcûdesi birlikte bulundukları halde resmî küşad icrâ olunup sene-i câriye
                   zarfında Devlet’in ahval-i dahiliye ve münasebât-ı hariciyesine ve sene-i âtiyyede
                   ittihazına lüzum görülecek tedabir ve teşebbüsâta dair bir nutk-ı hümâyûn kırâat
                   olunur. </p>
             </div>
-            <div n="46" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 46.</head>
-               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî âzâlığına intihâb veya nasbolunan zevât Meclis’in yevm-i küşadında
+            <div n="46" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_50.d2e781">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_52.d2e783">MADDE 46.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_64.d2e786">Meclis-i Umûmî âzâlığına intihâb veya nasbolunan zevât Meclis’in yevm-i küşadında
                   Sadr-ı A’zam huzurunda ve o gün hazır bulunmayan olur ise mensup olduğu Hey’et
                   müçtemi olduğu halde Reîsleri huzurunda Zât-ı Hazret-i Pâdişâhî’ye ve vatanına
                   sadakat ve Kanûn-ı Esâsî ahkâmına ve uhdesine tevdi olunan vazifeye riayetle
                   hilâfından mücanebet eyleyeceğine tahlif edilür. </p>
             </div>
-            <div n="47" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 47.</head>
-               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî âzâsı rey ve mütalâa beyanında muhtar olarak bunlardan hiçbiri bir
+            <div n="47" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_51.d2e790">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_53.d2e792">MADDE 47.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_65.d2e795">Meclis-i Umûmî âzâsı rey ve mütalâa beyanında muhtar olarak bunlardan hiçbiri bir
                   gûna va’d-u vaîd ve talimat kaydı altında bulunamaz ve gerek verdiği reylerden ve
                   gerek Meclis’in müzakerâtı esnasında beyan ettiği mütalâalardan dolayı bir vechile
                   itham olunamaz; meğer ki Meclis’in Nizâmnâme-i Dahilî’si hilâfında hareket etmiş
                   ola. Bu takdirde nizâmnâme-i mezkûr hükmünce muamele görür. </p>
             </div>
-            <div n="48" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 48.</head>
-               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî âzâsından birinin hıyanet ve Kanûn-ı Esâsî’yi nakz ve ilgaya
+            <div n="48" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_52.d2e799">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_54.d2e801">MADDE 48.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_66.d2e804">Meclis-i Umûmî âzâsından birinin hıyanet ve Kanûn-ı Esâsî’yi nakz ve ilgaya
                   tasaddi ve irtikâp töhmetlerinden biri ile müttehem olduğuna mensub olduğu Hey’et
                   âzâ-yı mevcûdesinin sülüsân-ı ekseriyet-i mutlakasile karar verilir veyahut
                   kanûnen hapis ve nefyi mûcib bir ceza ile mahkûm olur ise âzâlık sıfatı zâil olur
                   ve bu ef’âlin muhakemesile mücazaâtı ait olduğu mahkeme tarafından rü’yet ve
                   hükmolunur. </p>
             </div>
-            <div n="49" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 49.</head>
-               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî âzâsından herbiri reyini bizzat itâ eder ve herbirinin müzakerede
+            <div n="49" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_53.d2e808">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_55.d2e810">MADDE 49.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_67.d2e813">Meclis-i Umûmî âzâsından herbiri reyini bizzat itâ eder ve herbirinin müzakerede
                   bulunan bir maddenin red ve kabûlüne dair rey vermekten içtinaba hakkı vardır.
                </p>
             </div>
-            <div n="50" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 50.</head>
-               <p xml:lang="ota-Latn-TR">Bir kimse zikrolunan iki Hey’et’in ikisine birden âzâ olamaz. </p>
+            <div n="50" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_54.d2e817">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_56.d2e819">MADDE 50.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_68.d2e822">Bir kimse zikrolunan iki Hey’et’in ikisine birden âzâ olamaz. </p>
             </div>
-            <div n="51" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 51.</head>
-               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî Hey’etlerinden ikisinde dahi mürettep olan âzânın nısfından bir
+            <div n="51" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_55.d2e826">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_57.d2e828">MADDE 51.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_69.d2e831">Meclis-i Umûmî Hey’etlerinden ikisinde dahi mürettep olan âzânın nısfından bir
                   ziyade hazır bulunmadıkça müzakereye mubaderet olunamaz ve kâffe-i müzakerât
                   sülüsân-ı ekseriyetile meşrut olmayan husûsâtta hazır bulunan âzânın ekseriyet-i
                   mutlakasile karargîr olur ve tesavi-i ârâ vukuunda Reîs’in reyi iki addedilir.
                </p>
             </div>
-            <div n="52" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 52.</head>
-               <p xml:lang="ota-Latn-TR">Bir kimse şahsına müteallik da’vâsından dolayı Meclis-i Umûmî’nin iki Hey’etinden
+            <div n="52" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_56.d2e836">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_58.d2e838">MADDE 52.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_70.d2e841">Bir kimse şahsına müteallik da’vâsından dolayı Meclis-i Umûmî’nin iki Hey’etinden
                   birine arzuhal verdiği halde eğer evvelâ ait olduğu memurîn-i Devlete veyahut o
                   memurların tâbi bulundukları mercie müracaat etmediği tebeyyün ederse arzuhali
                   reddolunur. </p>
             </div>
-            <div n="53" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 53.</head>
-               <p xml:lang="ota-Latn-TR">Müceddeden kanûn tanzîmi veya kavânîn-i mevcûdeden birinin ta’dîli teklifi
+            <div n="53" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_57.d2e845">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_59.d2e847">MADDE 53.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_71.d2e850">Müceddeden kanûn tanzîmi veya kavânîn-i mevcûdeden birinin ta’dîli teklifi
                   Hey’et-i Vükelâ’ya ait olduğu gibi, Hey’et-i Â’yân ve Hey’et-i Meb’ûsân’ın dahi
                   kendi vazife-i muayyeneleri dairesinde bulunan mevâd için kanûn tanzîmini veyahut
                   kavânîn-i mevcûdeden birinin ta’dîlini istidaya salâhiyetleri olmağla evvelce
@@ -447,75 +450,75 @@
                   müteallik buyurulur ise ait olduğu dairelerden verilecek izahât ve tafsilât
                   üzerine lâyıhalarının tanzîmi Şûrâ-yı Devlet’e havale olunur. </p>
             </div>
-            <div n="54" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 54.</head>
-               <p xml:lang="ota-Latn-TR">Şûrâ-yı Devlet’te bi-l-müzakere tanzîm olunacak kavânîn lâyıhaları Hey’et-i
+            <div n="54" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_58.d2e854">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_60.d2e856">MADDE 54.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_72.d2e859">Şûrâ-yı Devlet’te bi-l-müzakere tanzîm olunacak kavânîn lâyıhaları Hey’et-i
                   Meb’ûsân’da ba’dehû Hey’et-i Â’yân’da tetkik ve kabûl olunduktan sonra icrâ-yı
                   ahkâmına irade-i seniye-i Hazret-i Pâdişâhî müteallik buyurulur ise düstûr-ül-amel
                   olur ve işbu hey’etlerin birinde kat’iyyen reddolunan kanûn lâyıhası o senenin
                   müddet-i içtimaiyesinde tekrar mevki-i müzakereye konulamaz. </p>
             </div>
-            <div n="55" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 55.</head>
-               <p xml:lang="ota-Latn-TR">Bir kanûn lâyıhası evvelâ Hey’et-i Meb’ûsân’da ba’dehû Hey’et-i Â’yân’da bend bend
+            <div n="55" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_59.d2e863">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_61.d2e865">MADDE 55.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_73.d2e868">Bir kanûn lâyıhası evvelâ Hey’et-i Meb’ûsân’da ba’dehû Hey’et-i Â’yân’da bend bend
                   okunup ve her bendine rey verilüp ekseriyet-i ârâ ile karar verilmedikçe ve
                   ba’de-l-karar hey’et-i mecmuası için dahi be-tekrar ekseriyetle karar hâsıl
                   olmadıkça kabûl olunmuş olmaz. </p>
             </div>
-            <div n="56" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 56.</head>
-               <p xml:lang="ota-Latn-TR">Bu Hey’etler Vükelâ’dan veya onların göndereceği vekillerden veya kendi
+            <div n="56" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_60.d2e872">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_62.d2e874">MADDE 56.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_74.d2e877">Bu Hey’etler Vükelâ’dan veya onların göndereceği vekillerden veya kendi
                   âzâlarından olmayan veyahut resmen da’vet olunmuş memurînden bulunmayan hiç
                   kimseyi gerek asaleten ve gerek bir cemaat tarafından vekâleten bir madde ifadesi
                   için gelmiş olduğu halde aslâ kabûl edemez ve ifadelerini istima’ eyleyemez. </p>
             </div>
-            <div n="57" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 57.</head>
-               <p xml:lang="ota-Latn-TR">Hey’et’lerin müzakerâtı lisan-ı Türkî üzere cereyan eder ve müzakere olunacak
+            <div n="57" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_61.d2e881">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_63.d2e883">MADDE 57.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_75.d2e886">Hey’et’lerin müzakerâtı lisan-ı Türkî üzere cereyan eder ve müzakere olunacak
                   lâyıhaların sûretleri tab’ ile yevm-i müzakereden evvel âzâya tevzi olunur. </p>
             </div>
-            <div n="58" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 58.</head>
-               <p xml:lang="ota-Latn-TR">Hey’et’lerde verilecek reyler ya tâyin-i esamî veyahut işarât-ı mahsûsa veyahut
+            <div n="58" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_62.d2e891">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_64.d2e893">MADDE 58.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_76.d2e896">Hey’et’lerde verilecek reyler ya tâyin-i esamî veyahut işarât-ı mahsûsa veyahut
                   rey-i hafî ile olur. Rey-i hafî usûlünün icrâsı âzâ-yı mevcûdenin ekseriyet-i
                   ârâsı ile karar verilmeğe mütevakkıftır. </p>
             </div>
-            <div n="59" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 59.</head>
-               <p xml:lang="ota-Latn-TR">Her Hey’et’in inzibât-ı dahilîsini münhasıran kendi Reîsi icrâ eder. </p>
+            <div n="59" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_63.d2e900">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_65.d2e902">MADDE 59.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_77.d2e905">Her Hey’et’in inzibât-ı dahilîsini münhasıran kendi Reîsi icrâ eder. </p>
             </div>
             </div>
-            <div type="section" n="6" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">HEY’ET-İ Â’YÂN</head>
-            <div n="60" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 60.</head>
-               <p xml:lang="ota-Latn-TR">Hey’et-i Â’yân’ın Reîsi ve âzâsı nihayet mikdarı Hey’et-i Meb’ûsân âzâsının sülüsî
+            <div type="section" n="6" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_65.d2e910">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_66.d2e912">HEY’ET-İ Â’YÂN</head>
+            <div n="60" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_65.d2e915">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_67.d2e917">MADDE 60.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_78.d2e920">Hey’et-i Â’yân’ın Reîsi ve âzâsı nihayet mikdarı Hey’et-i Meb’ûsân âzâsının sülüsî
                   mikdarını tecavüz etmemek üzere doğrudan doğruya Taraf-ı Hazret-i Pâdişâhî’den
                   nasbolunur. </p>
             </div>
-            <div n="61" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 61.</head>
-               <p xml:lang="ota-Latn-TR">Hey’et-i Â’yân’a âzâ tâyin olunabilmek için âsâr ve ef’âli umûmun vüsûk ve
+            <div n="61" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_66.d2e924">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_68.d2e926">MADDE 61.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_79.d2e929">Hey’et-i Â’yân’a âzâ tâyin olunabilmek için âsâr ve ef’âli umûmun vüsûk ve
                   itimadına şayan ve umûr-ı Devlet’te hidemât-ı memdûhesi mesbûk ve mütearif
                   zevâttan olmak ve kırk yaşından aşağı bulunmamak lâzımdır. </p>
             </div>
-            <div n="62" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 62.</head>
-               <p xml:lang="ota-Latn-TR">Hey’et-i Â’yân âzâlığı kayd-ı hayat iledir. Bu memuriyetlere vükelâlık ve valilik
+            <div n="62" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_67.d2e933">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_69.d2e935">MADDE 62.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_80.d2e938">Hey’et-i Â’yân âzâlığı kayd-ı hayat iledir. Bu memuriyetlere vükelâlık ve valilik
                   ve ordu müşîrliği ve kadı-askerlik ve elçilik ve patriklik ve hahambaşılık
                   memuriyetinde bulunmuş olan mazulînden ve berrî ve bahrî ferikândan ve sıfat-ı
                   lâzimeyi cami’ sair zevâttan münasipleri tâyin olunur. Kendü taleplerile Devlet’çe
                   sair memuriyete tâyin olunanlar âzâlık memuriyetinden sâkıt olur. </p>
             </div>
-            <div n="63" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 63.</head>
-               <p xml:lang="ota-Latn-TR">Hey’et-i Â’yân’ın âzâlık maaşı şehriye on bin kuruştur. Başka bir nâm ile
+            <div n="63" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_68.d2e942">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_70.d2e944">MADDE 63.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_81.d2e947">Hey’et-i Â’yân’ın âzâlık maaşı şehriye on bin kuruştur. Başka bir nâm ile
                   Hazine’den muvazzaf olan âzânın maaş ve tâyini eğer on bin kuruştan dûn ise ol
                   mikdara iblâğ olunur ve eğer on bin kuruş veya ziyade ise ibka olunur. </p>
             </div>
-            <div n="64" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 64.</head>
-               <p xml:lang="ota-Latn-TR">Hey’et-i Â’yân Hey’et-i Meb’ûsân’dan verilen kavânîn ve muvazene lâyıhalarını
+            <div n="64" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_69.d2e952">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_71.d2e954">MADDE 64.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_82.d2e957">Hey’et-i Â’yân Hey’et-i Meb’ûsân’dan verilen kavânîn ve muvazene lâyıhalarını
                   tetkik ile eğer bunlarda esasen umûr-ı dinîyeye ve Zât-ı Hazret-i Pâdişâhî’nin
                   hukuk-ı seniyesine ve hürriyete ve Kanûn-ı Esâsî ahkâmına ve Devlet’in tamamiyet-i
                   mülkiyesine ve memleketin emniyet-i dahiliyesine ve vatanın esbâb-ı müdafaa ve
@@ -526,28 +529,28 @@
                   mütalâa ile beraber Makam-ı Sadâret’e takdim eder.  </p>
             </div>
             </div>
-            <div type="section" n="7" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">HEY’ET-İ MEB’ÛSÂN</head>
-            <div n="65" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 65.</head>
-               <p xml:lang="ota-Latn-TR">Hey’et-i Meb’ûsân’ın mikdar-ı âzâsı tebaa-i Osmaniye’den her elli bin nüfus-ı
+            <div type="section" n="7" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_71.d2e962">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_72.d2e964">HEY’ET-İ MEB’ÛSÂN</head>
+            <div n="65" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_71.d2e967">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_73.d2e969">MADDE 65.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_83.d2e972">Hey’et-i Meb’ûsân’ın mikdar-ı âzâsı tebaa-i Osmaniye’den her elli bin nüfus-ı
                   zükûrda bir nefer olmak itibariyle tertip olunur. </p>
             </div>
-            <div n="66" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 66.</head>
-               <p xml:lang="ota-Latn-TR">Emr-i intihâb rey-i hafî kaidesi üzerine müessestir. Sûret-i icrâsı Kanûn-ı mahsûs
+            <div n="66" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_72.d2e976">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_74.d2e978">MADDE 66.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_84.d2e981">Emr-i intihâb rey-i hafî kaidesi üzerine müessestir. Sûret-i icrâsı Kanûn-ı mahsûs
                   ile tâyin olunacaktır. </p>
             </div>
-            <div n="67" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 67.</head>
-               <p xml:lang="ota-Latn-TR">Hey’et-i Meb’ûsân âzâlığı ile Hükûmet memuriyeti bir zât uhdesinde içtima’ edemez.
+            <div n="67" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_73.d2e985">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_75.d2e987">MADDE 67.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_85.d2e990">Hey’et-i Meb’ûsân âzâlığı ile Hükûmet memuriyeti bir zât uhdesinde içtima’ edemez.
                   Fakat Vükelâ’dan intihâb olunanların âzâlığı mücazdır ve sair memurînden biri
                   meb’ûsluğa intihâb olunur ise kabûl edip etmemek yed-i ihtiyarındadır. Fakat kabûl
                   ettiği halde memuriyetinden infisal eder. </p>
             </div>
-            <div n="68" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 68.</head>
-               <p xml:lang="ota-Latn-TR">Hey’et-i Meb’ûsân için âzâlığa intihâbı câiz olmayanlar şunlardır: Evvelâ, tebaa-i
+            <div n="68" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_74.d2e994">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_76.d2e996">MADDE 68.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_86.d2e999">Hey’et-i Meb’ûsân için âzâlığa intihâbı câiz olmayanlar şunlardır: Evvelâ, tebaa-i
                   Devlet-i Âliye’den olmayan; sâniyen, nizâm-ı mahsûsu mûcibince muvakkaten hizmet-i
                   ecnebiye imtiyazını hâiz olan; salisen, Türkçe bilmeyen; râbian, otuz yaşını ikmal
                   etmeyen; hâmisen, hîn-i intihâbda bir kimsenin hizmetkârlığında bulunan; sâdisen,
@@ -558,76 +561,76 @@
                   olunacak iltihaplarda meb’ûs olmak için Türkçe okumak ve mümkün mertebe yazmak
                   dahi şart olacaktır. </p>
             </div>
-            <div n="69" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 69.</head>
-               <p xml:lang="ota-Latn-TR">Meb’ûsân intihâb-ı umûmîsi dört senede bir kerre icrâ olunur ve her meb’ûsun
+            <div n="69" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_75.d2e1004">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_77.d2e1006">MADDE 69.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_87.d2e1009">Meb’ûsân intihâb-ı umûmîsi dört senede bir kerre icrâ olunur ve her meb’ûsun
                   müddet-i memuriyeti dört seneden ibaret olup fakat tekrar intihâb olunmak câizdir.
                </p>
             </div>
-            <div n="70" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 70.</head>
-               <p xml:lang="ota-Latn-TR">Meb’ûsların intihâb-ı umûmîsine Hey’et’in mebde-i içtimaı olan Teşrin-i sânîden
+            <div n="70" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_76.d2e1013">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_78.d2e1015">MADDE 70.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_88.d2e1018">Meb’ûsların intihâb-ı umûmîsine Hey’et’in mebde-i içtimaı olan Teşrin-i sânîden
                   lâ-akall dört mah mukaddem başlanılır. </p>
             </div>
-            <div n="71" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 71.</head>
-               <p xml:lang="ota-Latn-TR">Hey’et-i Meb’ûsân âzâsının her biri kendini intihâb eden dairenin ayrıca vekili
+            <div n="71" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_77.d2e1022">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_79.d2e1024">MADDE 71.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_89.d2e1027">Hey’et-i Meb’ûsân âzâsının her biri kendini intihâb eden dairenin ayrıca vekili
                   olmayıp umûm Osmanlı’ların vekili hükmündedir. </p>
             </div>
-            <div n="72" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 72.</head>
-               <p xml:lang="ota-Latn-TR">Müntehibler intihâb edecekleri meb’ûsları mensup oldukları dâire-i vilâyet
+            <div n="72" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_78.d2e1031">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_80.d2e1033">MADDE 72.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_90.d2e1036">Müntehibler intihâb edecekleri meb’ûsları mensup oldukları dâire-i vilâyet
                   ahalisinden intihâb etmeğe mecbûrdur. </p>
             </div>
-            <div n="73" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 73.</head>
-               <p xml:lang="ota-Latn-TR">Bâ-irade-i seniye Hey’et-i Meb’ûsân feshile dağıldığı halde nihayet altı ayda
+            <div n="73" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_79.d2e1040">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_81.d2e1042">MADDE 73.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_91.d2e1045">Bâ-irade-i seniye Hey’et-i Meb’ûsân feshile dağıldığı halde nihayet altı ayda
                   müçtemi olmak üzere umûm meb’ûsânın müceddeden intihâbına başlanılacaktır.
                </p>
             </div>
-            <div n="74" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 74.</head>
-               <p xml:lang="ota-Latn-TR">Hey’et-i Meb’ûsân âzâsından biri vefat eder veya esbâb-ı hacriye-i meşrûadan
+            <div n="74" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_80.d2e1049">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_82.d2e1051">MADDE 74.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_92.d2e1054">Hey’et-i Meb’ûsân âzâsından biri vefat eder veya esbâb-ı hacriye-i meşrûadan
                   birine dûçar olur veya bir uzun müddette Meclis’e devam etmez veyahut istifa eder
                   veya mahkûmiyet veya kabûl-i memuriyet cihetile âzâlıktan sâkıt olursa yerine
                   nihayet gelecek içtimaa yetişmek üzere usûlü vechile diğeri tâyin olunur. </p>
             </div>
-            <div n="75" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 75.</head>
-               <p xml:lang="ota-Latn-TR">Münhal olan meb’ûsluk makamlarına intihâb olunacak âzânın memuriyeti gelecek
+            <div n="75" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_81.d2e1059">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_83.d2e1061">MADDE 75.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_93.d2e1064">Münhal olan meb’ûsluk makamlarına intihâb olunacak âzânın memuriyeti gelecek
                   intihâb-ı umûmî zamanına kadardır. </p>
             </div>
-            <div n="76" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 76.</head>
-               <p xml:lang="ota-Latn-TR">Meb’ûslardan her birine beher sene içtimaı için Hazine’den yirmi bin kuruş
+            <div n="76" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_82.d2e1068">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_84.d2e1070">MADDE 76.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_94.d2e1073">Meb’ûslardan her birine beher sene içtimaı için Hazine’den yirmi bin kuruş
                   verilecek ve şehriye beş bin kuruş maaş itibarile memurin-i mülkiye nizâmına
                   tevfikan azimet ve avdet harcırahı itâ kılınacaktır. </p>
             </div>
-            <div n="77" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 77.</head>
-               <p xml:lang="ota-Latn-TR">Hey’et-i Meb’ûsân Riyaseti’ne Hey’et tarafından ekseriyetle üç ve ikinci ve üçüncü
+            <div n="77" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_83.d2e1077">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_85.d2e1079">MADDE 77.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_95.d2e1082">Hey’et-i Meb’ûsân Riyaseti’ne Hey’et tarafından ekseriyetle üç ve ikinci ve üçüncü
                   riyasetlere üçer nefer ki cem’an dokuz zât intihâb olunarak Huzur-ı Şâhâne’ye
                   arzile bunlardan birisi riyasete ve ikisi reîs vekâletlerine bâ-irade-i seniye
                   tercih ve memuriyetleri icrâ kılınır. </p>
             </div>
-            <div n="78" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 78.</head>
-               <p xml:lang="ota-Latn-TR">Hey’et-i Meb’ûsân’ın müzakerâtı alenîdir. Fakat bir madde-i mühimmeden dolayı
+            <div n="78" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_84.d2e1086">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_86.d2e1088">MADDE 78.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_96.d2e1091">Hey’et-i Meb’ûsân’ın müzakerâtı alenîdir. Fakat bir madde-i mühimmeden dolayı
                   müzakerâtı hafî tutulmak Vükelâ cânibinden veyahut Hey’et-i Meb’ûsân’ın âzâsından
                   onbeş zât tarafından teklif olundukta, Hey’etin içtima’ ettiği mahal âzânın
                   maadasından tahliye edilerek teklifin red veya kabûlü için ekseriyet-i ârâya
                   müracaat edilür. </p>
             </div>
-            <div n="79" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 79.</head>
-               <p xml:lang="ota-Latn-TR">Hey’et-i Meb’ûsân’ın müddet-i içtimaiyesinde âzâdan hiç biri Hey’et tarafından
+            <div n="79" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_85.d2e1095">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_87.d2e1097">MADDE 79.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_97.d2e1100">Hey’et-i Meb’ûsân’ın müddet-i içtimaiyesinde âzâdan hiç biri Hey’et tarafından
                   ithama sebeb-i kâfi bulunduğuna ekseriyetle karar verilmedikçe veyahut bir cünha
                   veya cinayet icrâ eder iken veya icrâyı müteakip tutulmadıkça, tevkif ve muhakeme
                   olunamaz. </p>
             </div>
-            <div n="80" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 80.</head>
-               <p xml:lang="ota-Latn-TR">Hey’et-i Meb’ûsân kendisine havale olunacak kavânîn lâyıhalarını müzakere ile
+            <div n="80" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_86.d2e1104">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_88.d2e1106">MADDE 80.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_98.d2e1109">Hey’et-i Meb’ûsân kendisine havale olunacak kavânîn lâyıhalarını müzakere ile
                   bunlardan umûr-ı mâliyeye ve Kanûn-ı Esâsî’ye taallûk eder maddeleri red veya
                   kabûl veyahut ta’dîl eder ve mesarif-i umûmiye muvazene kanûnunda gösterildiği
                   vechile Hey’et-i Meb’ûsân’da tafsilâtile tetkik olunduktan sonra mikdarına Vükelâ
@@ -636,98 +639,98 @@
                    </p>
             </div>
             </div>
-            <div type="section" n="8" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MEHÂKİM</head>
-            <div n="81" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 81.</head>
-               <p xml:lang="ota-Latn-TR">Kanûn-ı mahsûsuna tevfikan taraf-ı Devlet’ten nasbolunan ve yedlerine berât-ı
+            <div type="section" n="8" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_88.d2e1114">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_89.d2e1116">MEHÂKİM</head>
+            <div n="81" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_88.d2e1119">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_90.d2e1121">MADDE 81.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_99.d2e1124">Kanûn-ı mahsûsuna tevfikan taraf-ı Devlet’ten nasbolunan ve yedlerine berât-ı
                   şerif verilen hâkimler lâ-yen-azldir. Fakat istifaları kabûl olunur. Hâkimlerin
                   terekkiyatı ve meslekleri ve tebdîl-i memuriyetleri ve tekaüdleri ve bir cürüm ile
                   mahkûmiyet üzerine azil olunmaları dahi kanûn-ı mahsûsu hükmüne tâbidir ve
                   hâkimlerin ve mehâkim memurlarının matlûb olan evsafını işbu kanûn irae eder. </p>
             </div>
-            <div n="82" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 82.</head>
-               <p xml:lang="ota-Latn-TR">Mahkemelerde her nev’i muhakeme alenen cereyan eder ve ilâmâtın neşrine mezûniyet
+            <div n="82" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_89.d2e1128">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_91.d2e1130">MADDE 82.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_100.d2e1133">Mahkemelerde her nev’i muhakeme alenen cereyan eder ve ilâmâtın neşrine mezûniyet
                   vardır. Ancak kanûnda musarrah esbâba mebni mahkeme muhakemeyi hafî tutabilir.
                </p>
             </div>
-            <div n="83" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 83.</head>
-               <p xml:lang="ota-Latn-TR">Herkes huzur-ı mahkemede hukukunu muhafaza için lüzum gördüğü vesait-i meşruayı
+            <div n="83" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_90.d2e1137">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_92.d2e1139">MADDE 83.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_101.d2e1142">Herkes huzur-ı mahkemede hukukunu muhafaza için lüzum gördüğü vesait-i meşruayı
                   istimal edebilir. </p>
             </div>
-            <div n="84" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 84.</head>
-               <p xml:lang="ota-Latn-TR">Bir mahkeme vazifesi dahilinde olan dâvânın her ne vesile ile olursa olsun
+            <div n="84" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_91.d2e1146">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_93.d2e1148">MADDE 84.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_102.d2e1151">Bir mahkeme vazifesi dahilinde olan dâvânın her ne vesile ile olursa olsun
                   rü’yetinden imtina edemez ve bir kerre rü’yetine veyahut rü’yeti için iktiza eden
                   tahkikat-ı evveliyeye başlandıktan sonra tatil veya tâviki dahi câiz olamaz; meğer
                   ki müddeî dâvâdan keff-i yed etmiş ola. Şu kadar ki cezaya müteallik deâvîde
                   Hükûmet’e ait olan hukuk nizâmı vechile yine icrâ olunur. </p>
             </div>
-            <div n="85" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 85.</head>
-               <p xml:lang="ota-Latn-TR">Her dâvâ ait olduğu mahkemede rü’yet olunur. Eşhas ile Hükûmet beynindeki dâvâlar
+            <div n="85" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_92.d2e1156">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_94.d2e1158">MADDE 85.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_103.d2e1161">Her dâvâ ait olduğu mahkemede rü’yet olunur. Eşhas ile Hükûmet beynindeki dâvâlar
                   dahi mehâkim-i umûmîyeye aittir. </p>
             </div>
-            <div n="86" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 86.</head>
-               <p xml:lang="ota-Latn-TR">Mahkemeler her türlü müdehelâttan âzâdedir. </p>
+            <div n="86" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_93.d2e1165">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_95.d2e1167">MADDE 86.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_104.d2e1170">Mahkemeler her türlü müdehelâttan âzâdedir. </p>
             </div>
-            <div n="87" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 87.</head>
-               <p xml:lang="ota-Latn-TR">Deâvî-i şer’iyye mehâkim-i şer’iyyede ve deâvî-i nizâmiyye mehâkim-i nizâmiyyede
+            <div n="87" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_94.d2e1174">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_96.d2e1176">MADDE 87.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_105.d2e1179">Deâvî-i şer’iyye mehâkim-i şer’iyyede ve deâvî-i nizâmiyye mehâkim-i nizâmiyyede
                   rü’yet olunur. </p>
             </div>
-            <div n="88" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 88.</head>
-               <p xml:lang="ota-Latn-TR">Mahkemelerin sunûf ve vezaif ve salâhiyetinin derecât ve taksimâtı ve hükkâmın
+            <div n="88" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_95.d2e1183">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_97.d2e1185">MADDE 88.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_106.d2e1188">Mahkemelerin sunûf ve vezaif ve salâhiyetinin derecât ve taksimâtı ve hükkâmın
                   tavzifi kavânîne müstenittir. </p>
             </div>
-            <div n="89" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 89.</head>
-               <p xml:lang="ota-Latn-TR">Her ne nâm ile olur ise olsun, bazı mevâdd-ı mahsûsayı rü’yet ve hükmetmek için
+            <div n="89" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_96.d2e1192">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_98.d2e1194">MADDE 89.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_107.d2e1197">Her ne nâm ile olur ise olsun, bazı mevâdd-ı mahsûsayı rü’yet ve hükmetmek için
                   mehâkim-i muayene haricinde fevk-al-âde bir mahkeme veyahut hüküm vermek
                   salâhiyetini hâiz komisyon teşkili kat’iyyen câiz değildir. Fakat kanûnen muayyen
                   olduğu vechile tâyin-i mevla ve tahkim câizdir. </p>
             </div>
-            <div n="90" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 90.</head>
-               <p xml:lang="ota-Latn-TR">Hiçbir hâkim hâkimlik sıfatiyle Devlet’in maaşlı bir başka memuriyetini uhdesinde
+            <div n="90" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_97.d2e1201">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_99.d2e1203">MADDE 90.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_108.d2e1206">Hiçbir hâkim hâkimlik sıfatiyle Devlet’in maaşlı bir başka memuriyetini uhdesinde
                   cem’edemez. </p>
             </div>
-            <div n="91" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 91.</head>
-               <p xml:lang="ota-Latn-TR">Umûr-ı cezaiyede hukuk-ı âmmeyi vikâyeye memur müddeîumûmîler bulunacak ve
+            <div n="91" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_98.d2e1211">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_100.d2e1213">MADDE 91.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_109.d2e1216">Umûr-ı cezaiyede hukuk-ı âmmeyi vikâyeye memur müddeîumûmîler bulunacak ve
                   bunların vezaif ve derecâtı kanûn ile tâyin kılınacaktır.  </p>
             </div>
             </div>
-            <div type="section" n="9" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">DÎVÂN-I ÂLÎ</head>
-            <div n="92" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 92.</head>
-               <p xml:lang="ota-Latn-TR">Dîvân-ı Âlî otuz âzâdan mürekkeptir. Bunların onu Hey’et-i Â’yân ve onu Şûrâ-yı
+            <div type="section" n="9" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_100.d2e1221">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_101.d2e1223">DÎVÂN-I ÂLÎ</head>
+            <div n="92" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_100.d2e1226">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_102.d2e1228">MADDE 92.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_110.d2e1231">Dîvân-ı Âlî otuz âzâdan mürekkeptir. Bunların onu Hey’et-i Â’yân ve onu Şûrâ-yı
                   Devlet ve onu Mahkeme-i Temyiz ve İstinaf rüesa ve âzâsından kur’a ile tefrik ve
                   tâyin olunarak Hey’et-i Â’yân dairesinde lüzum göründükçe bâ-irade-i seniye
                   akdolunur. Vazifesi Vükelâ ile Mahkeme-i Temyiz rüesa ve âzâsının ve zât ve
                   hukuk-ı Şâhâne aleyhinde harekete ve Devlet’i bir hal-i muhataraya ilkâya tasaddi
                   eyleyenlerin muhakemesidir. </p>
             </div>
-            <div n="93" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 93.</head>
-               <p xml:lang="ota-Latn-TR">Dîvân-ı Âlî ikiye münkasem olup biri Dâire-i İthamiye ve biri Divân-ı Hüküm’dür.
+            <div n="93" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_101.d2e1235">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_103.d2e1237">MADDE 93.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_111.d2e1240">Dîvân-ı Âlî ikiye münkasem olup biri Dâire-i İthamiye ve biri Divân-ı Hüküm’dür.
                   Dâire-i İthamiye dokuz âzâdan ibaret olup bunun üçü Hey’et-i Â’yân ve üçü Divân-ı
                   Temyiz ve İstinaf ve üçü Şûrâ-yı Devlet âzâsından Dîvân-ı Âlî’ye alınacak âzâ
                   içinden kur’a ile intihâb olunur. </p>
             </div>
-            <div n="94" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 94.</head>
-               <p xml:lang="ota-Latn-TR">Bu Daire şikâyet olunan zevâtın müttehem olup olmadığına sülüsân-ı ekseriyetile
+            <div n="94" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_102.d2e1244">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_104.d2e1246">MADDE 94.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_112.d2e1249">Bu Daire şikâyet olunan zevâtın müttehem olup olmadığına sülüsân-ı ekseriyetile
                   karar verir ve Dâire-i İthamiye’de bulunanlar Divân-ı Hüküm’de bulunamaz. </p>
             </div>
-            <div n="95" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 95.</head>
-               <p xml:lang="ota-Latn-TR">Divân-ı Hüküm, yedisi Hey’et-i Â’yân ve yedisi Divân-ı Temyiz ve İstinaf ve yedisi
+            <div n="95" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_103.d2e1253">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_105.d2e1255">MADDE 95.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_113.d2e1258">Divân-ı Hüküm, yedisi Hey’et-i Â’yân ve yedisi Divân-ı Temyiz ve İstinaf ve yedisi
                   Şûrâ-yı Devlet rüesa ve âzâsından olmak üzere Dîvân-ı Âlî âzâsının yirmibir
                   neferinden mürekkep olarak Dâire-i İthamiyye tarafından muhakemesi lâzım olduğuna
                   karar verilmiş dâvâlar hakkında âzâ-yı mürettebenin sülüsân-ı ekseriyetile
@@ -735,106 +738,106 @@
                   ve temyiz değildir.  </p>
             </div>
             </div>
-            <div type="section" n="10" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">UMÛR-I MÂLİYE</head>
-            <div n="96" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 96.</head>
-               <p xml:lang="ota-Latn-TR">Tekâlif-i Devletin hiçbiri bir kanûn ile tâyin olunmadıkça vaz’ ve tevzi ve
+            <div type="section" n="10" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_105.d2e1263">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_106.d2e1265">UMÛR-I MÂLİYE</head>
+            <div n="96" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_105.d2e1268">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_107.d2e1270">MADDE 96.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_114.d2e1273">Tekâlif-i Devletin hiçbiri bir kanûn ile tâyin olunmadıkça vaz’ ve tevzi ve
                   istihsal olunamaz. </p>
             </div>
-            <div n="97" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 97.</head>
-               <p xml:lang="ota-Latn-TR">Devlet’in bütçesi vâridât ve mesarifât-ı takribiyesini mübeyyin kanûndur.
+            <div n="97" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_106.d2e1277">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_108.d2e1279">MADDE 97.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_115.d2e1282">Devlet’in bütçesi vâridât ve mesarifât-ı takribiyesini mübeyyin kanûndur.
                   Tekâlif-i Devletin vaz’ ve tevzi ve tahsil emrinde müstenit olacağı kanûn budur.
                </p>
             </div>
-            <div n="98" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 98.</head>
-               <p xml:lang="ota-Latn-TR">Bütçe yani Muvazene-i Umûmîye Kanûnu Meclis-i Umûmî’de madde be madde tetkik ve
+            <div n="98" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_107.d2e1286">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_109.d2e1288">MADDE 98.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_116.d2e1291">Bütçe yani Muvazene-i Umûmîye Kanûnu Meclis-i Umûmî’de madde be madde tetkik ve
                   kabûl olunur. Vâridât ve mesarifât-ı muhammeninin müfredâtını câmi’ olmak üzere
                   ana merbut olan cedveller nizâmen tâyin olunan numûnesine tevfikan aksam ve fusûl
                   ve mevâdd-ı müteaddideye münkasem olarak bunların müzakeresi dahi fasıl fasıl icrâ
                   edilir. </p>
             </div>
-            <div n="99" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 99.</head>
-               <p xml:lang="ota-Latn-TR">Muvazene-i Umûmîye Kanûnu müteallik olduğu senenin duhûlünde mevki-i icrâya
+            <div n="99" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_108.d2e1295">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_110.d2e1297">MADDE 99.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_117.d2e1300">Muvazene-i Umûmîye Kanûnu müteallik olduğu senenin duhûlünde mevki-i icrâya
                   konulabilmek için lâyıhası Hey’et-i Meb’ûsân’a Meclis-i Umûmî’nin küşadı akabinde
                   itâ olunur. </p>
             </div>
-            <div n="100" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 100.</head>
-               <p xml:lang="ota-Latn-TR">Bir kanûn-ı mahsûs ile muayyen olmadıkça emvâl-i Devletten muvazene haricinde
+            <div n="100" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_109.d2e1305">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_111.d2e1307">MADDE 100.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_118.d2e1310">Bir kanûn-ı mahsûs ile muayyen olmadıkça emvâl-i Devletten muvazene haricinde
                   sarfiyat câiz olamaz. </p>
             </div>
-            <div n="101" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 101.</head>
-               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî’nin mün’akid bulunmadığı esnada esbâb-ı mücbire-yi fevk-al-âdeden
+            <div n="101" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_110.d2e1314">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_112.d2e1316">MADDE 101.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_119.d2e1319">Meclis-i Umûmî’nin mün’akid bulunmadığı esnada esbâb-ı mücbire-yi fevk-al-âdeden
                   dolayı muvazene haricinde masraf ihtiyarına lüzum-ı kavi tahakkuk eder ise
                   mes’ûliyeti Hey’et-i Vükelâ’ya ait olmak ve Meclis-i Umûmî’nin küşadı akabinde ona
                   dair kanûn lâyıhası Meclis-i Umûmî’ye verilmek üzere o masrafın tesviyesi için
                   iktiza eden mebaliğin Taraf-ı Hazret-i Pâdişâhî’ye arz ve istîzân ile sâdır olacak
                   irade-i seniye üzerine tedarik ve sarfı câiz olur. </p>
             </div>
-            <div n="102" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 102.</head>
-               <p xml:lang="ota-Latn-TR">Muvazene Kanûnunun hükmü bir seneye mahsûstur. O senenin haricinde hükmü câri
+            <div n="102" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_111.d2e1323">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_113.d2e1325">MADDE 102.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_120.d2e1328">Muvazene Kanûnunun hükmü bir seneye mahsûstur. O senenin haricinde hükmü câri
                   olamaz ancak bazı ahval-i fevk-al-âdeden dolayı Meclis-i Meb’ûsân muvazeneyi
                   kararlaştırmaksızın fesholunduğu halde hükmü bir seneyi tecavüz etmemek üzere bir
                   kararnâme ile Vükelâ-yı Devlet bâ-irade-i seniye sene-i sâbıka muvazenesinin
                   cereyan-ı ahkâmını Meclis-i Meb’ûsân’ın gelecek içtimaına kadar temdit ederler.
                </p>
             </div>
-            <div n="103" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 103.</head>
-               <p xml:lang="ota-Latn-TR">Muhasebe-i Kat’iyye Kanûnu müteallik olduğu senenin vâridâtından istihsal olunan
+            <div n="103" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_112.d2e1332">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_114.d2e1334">MADDE 103.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_121.d2e1337">Muhasebe-i Kat’iyye Kanûnu müteallik olduğu senenin vâridâtından istihsal olunan
                   mebaliğ ile yine o senenin mesarifâtına vukûbulan sarfiyatın mikdar-ı hakikîsini
                   mübeyyin olarak bunun şekil ve taksimâtı dahi Muvazene-i Umûmîye Kanûnuna tamamile
                   mutabık olacaktır. </p>
             </div>
-            <div n="104" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 104.</head>
-               <p xml:lang="ota-Latn-TR">Muhasebe-i Kat’iyye Kanûnunun lâyıhası müteallik olduğu senenin hitamından
+            <div n="104" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_113.d2e1341">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_115.d2e1343">MADDE 104.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_122.d2e1346">Muhasebe-i Kat’iyye Kanûnunun lâyıhası müteallik olduğu senenin hitamından
                   itibaren nihayet dört sene sonra Meclis-i Umûmî’ye itâ olunur. </p>
             </div>
-            <div n="105" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 105.</head>
-               <p xml:lang="ota-Latn-TR">Emval-i Devlet’in kabz ve sarfına memur olanların muhasebelerini rü’yet ve
+            <div n="105" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_114.d2e1350">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_116.d2e1352">MADDE 105.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_123.d2e1355">Emval-i Devlet’in kabz ve sarfına memur olanların muhasebelerini rü’yet ve
                   devairden tanzîm olunan sâl muhasebelerini tetkik ederek hulâsa-i tetkikat ve
                   netice-i mütalâatını her sene bir takrir-i mahsûs ile Hey’et-i Meb’ûsân’a
                   arzeylemek üzere bir Divân-ı Muhasebât teşkil olunacaktır. Bu Divân her üç ayda
                   bir kerre ahval-i mâliyeyi Riyaset-i Vükelâ vasıtasile bâ-takrir Taraf-ı Hazret-i
                   Pâdişâhî’ye dahi arzeder. </p>
             </div>
-            <div n="106" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 106.</head>
-               <p xml:lang="ota-Latn-TR">Divân-ı Muhasebât’ın âzâsı oniki kişiden mürettep olacak ve herbiri Hey’et-i
+            <div n="106" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_115.d2e1360">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_117.d2e1362">MADDE 106.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_124.d2e1365">Divân-ı Muhasebât’ın âzâsı oniki kişiden mürettep olacak ve herbiri Hey’et-i
                   Meb’ûsân’dan ekseriyetle azlinin lüzumu tasdik olunmadıkça memuriyetinde kayd-ı
                   hayat ile kalmak üzere bâ-irade-i seniye nasbolunacaktır. </p>
             </div>
-            <div n="107" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 107.</head>
-               <p xml:lang="ota-Latn-TR">Divân-ı Muhasebât âzâsının evsaf ve vezayifinin tafsilâtı ve sûret-i istifa ve
+            <div n="107" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_116.d2e1369">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_118.d2e1371">MADDE 107.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_125.d2e1374">Divân-ı Muhasebât âzâsının evsaf ve vezayifinin tafsilâtı ve sûret-i istifa ve
                   tebdîl ve terakki ve tekaüdü ve ahkâmının keyfiyet-i teşkili bir nizâm-ı mahsûs
                   ile tâyin olunacaktır.  </p>
             </div>
             </div>
-            <div type="section" n="11" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">VİLÂYÂT</head>
-            <div n="108" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 108.</head>
-               <p xml:lang="ota-Latn-TR">Vilâyâtın usûl-i idâresi, tevsi-i mezûniyet ve tefrik-i vezayif kaidesi üzerine
+            <div type="section" n="11" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_118.d2e1380">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_119.d2e1382">VİLÂYÂT</head>
+            <div n="108" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_118.d2e1385">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_120.d2e1387">MADDE 108.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_126.d2e1390">Vilâyâtın usûl-i idâresi, tevsi-i mezûniyet ve tefrik-i vezayif kaidesi üzerine
                   müesses olup derecâtı nizâm-ı mahsûs ile tâyin kılınacaktır. </p>
             </div>
-            <div n="109" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 109.</head>
-               <p xml:lang="ota-Latn-TR">Vilâyet ve livâ’ ve kazâ merkezlerinde olan idâre meclislerile senede bir defa
+            <div n="109" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_119.d2e1394">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_121.d2e1396">MADDE 109.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_127.d2e1399">Vilâyet ve livâ’ ve kazâ merkezlerinde olan idâre meclislerile senede bir defa
                   merkezî vilâyette içtima eden Meclis-i Umûmî âzâsının sûret-i intihâbı bir kanûn-ı
                   mahsûs ile tevsi olunacaktır. </p>
             </div>
-            <div n="110" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 110.</head>
-               <p xml:lang="ota-Latn-TR">Vilâyât Mecâlis-i Umûmîyesinin vezayifi yapılacak kanûn-ı mahsûsunda beyan
+            <div n="110" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_120.d2e1403">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_122.d2e1405">MADDE 110.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_128.d2e1408">Vilâyât Mecâlis-i Umûmîyesinin vezayifi yapılacak kanûn-ı mahsûsunda beyan
                   olunacağı vechile turuk u maâbir tanzîmi ve itibar sandıklarının teşkili ve sanayi
                   ve ticaret ve felâhatın teshili gibi umûr-ı nafiaya müteallik mevâd hakkında ve
                   umûma ait maârif ve terbiyenin intişarı yolunda müzakerâta şâmil olmakla beraber,
@@ -843,9 +846,9 @@
                   olduğu makam ve mevkilere tebliğ ile tashih ve ıslahı zımnında arz-ı iştikâ etmek
                   salâhiyetini dahi muhtevi olacaktır. </p>
             </div>
-            <div n="111" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 111.</head>
-               <p xml:lang="ota-Latn-TR">Müsakkafât ve müstagallât ve nukûd-ı mevkufe hâsılâtının şurût-ı vakfiyesi ve
+            <div n="111" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_121.d2e1412">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_123.d2e1414">MADDE 111.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_129.d2e1417">Müsakkafât ve müstagallât ve nukûd-ı mevkufe hâsılâtının şurût-ı vakfiyesi ve
                   teamül-i kadîmi vechile meşrûtunlehine ve hayrât ve müberrâta sarfolunmak üzere
                   vasiyet edilen emvalin vasiyetnâmelerde muharrer olduğu üzere mûsâlehine sarfına
                   ve emval-i eytamın nizâmnâme-i mahsûsu vechile sûret-i idâresine nezaret etmek
@@ -854,19 +857,19 @@
                   olacaktır. Ve mecâlis-i mezkûre mahalleri hükûmetlerini ve Vilâyât Mecâlis-i
                   Umûmîyesini kendilerine merci bilecektir. </p>
             </div>
-            <div n="112" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 112.</head>
-               <p xml:lang="ota-Latn-TR">Umûr-ı belediye Der-saâdet ve taşralarda bil-intihâb teşkil olunacak Devair-i
+            <div n="112" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_122.d2e1422">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_124.d2e1424">MADDE 112.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_130.d2e1427">Umûr-ı belediye Der-saâdet ve taşralarda bil-intihâb teşkil olunacak Devair-i
                   Belediye Meclislerile idâre olunacak ve bu dairelerin sûret-i teşkili ve vezaifi
                   ve âzâsının sûret-i intihâbı kanûn-ı mahsûs ile tâyin kılınacaktır. 
                </p>
             </div>
             </div>
-            <div type="section" n="12" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MEVÂDD-I ŞETTÂ</head>
-            <div n="113" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 113.</head>
-               <p xml:lang="ota-Latn-TR">Mülkün bir cihetinde ihtilâl zuhur edeceğini müeyyid âsâr ve emarât görüldüğü
+            <div type="section" n="12" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_124.d2e1432">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_125.d2e1434">MEVÂDD-I ŞETTÂ</head>
+            <div n="113" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_124.d2e1437">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_126.d2e1439">MADDE 113.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_131.d2e1442">Mülkün bir cihetinde ihtilâl zuhur edeceğini müeyyid âsâr ve emarât görüldüğü
                   halde Hükûmet-i seniyenin o mahalle mahsûs olmak üzere muvakkaten (idâre-i örfiye)
                   ilânına hakkı vardır. (idâre-i örfiye) kavânîn ve nizâmât-ı mülkiyenin muvakkaten
                   tatilinden ibaret olup (idâre-i örfiye) tahtında bulunan mahallin sûret-i idâresi
@@ -875,19 +878,19 @@
                   şâhâneden ihraç ve teb’îd etmek münhasıran Zât-ı Hazret-i Pâdişâhî’nin yed-i
                   iktidarındadır[, ]. </p>
             </div>
-            <div n="114" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 114.</head>
-               <p xml:lang="ota-Latn-TR">Osmanlı efradının kâffesince tahsil-i maârifin birinci mertebesi mecbûrî olacak ve
+            <div n="114" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_125.d2e1446">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_127.d2e1448">MADDE 114.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_132.d2e1451">Osmanlı efradının kâffesince tahsil-i maârifin birinci mertebesi mecbûrî olacak ve
                   bunun derecât ve teferrüâtı nizâm-ı mahsûs ile tâyin kılınacaktır. </p>
             </div>
-            <div n="115" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 115.</head>
-               <p xml:lang="ota-Latn-TR">Kanûn-ı Esâsî’nin bir maddesi bile hiçbir sebeb ve bahane ile tatil veya icrâdan
+            <div n="115" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_126.d2e1455">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_128.d2e1457">MADDE 115.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_133.d2e1460">Kanûn-ı Esâsî’nin bir maddesi bile hiçbir sebeb ve bahane ile tatil veya icrâdan
                   iskat edilemez. </p>
             </div>
-            <div n="116" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 116.</head>
-               <p xml:lang="ota-Latn-TR">Kanûn-ı Esâsî’nin mevâdd-ı mündericesinden bazılarının icab-ı hale ve vakte göre
+            <div n="116" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_127.d2e1464">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_129.d2e1466">MADDE 116.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_134.d2e1469">Kanûn-ı Esâsî’nin mevâdd-ı mündericesinden bazılarının icab-ı hale ve vakte göre
                   tağyir ve ta’dîline lüzum-ı sahih ve kat’î göründüğü halde zikr-i âti şerait ile
                   ta’dîli câiz olabilir. Şöyle ki, ya Hey’et-i Vükelâ veya Hey’et-i Â’yân veya
                   Hey’et-i Meb’ûsân tarafından işbu ta’dîle dair bir teklif vukûbulduğu halde evvelâ
@@ -898,28 +901,28 @@
                   ber-vech-i meşrûh müzakerât-ı lâzimesinin icrâsile irade-i seniyesinin sudûruna
                   kadar hüküm ve kuvvetini gaip etmeksizin mer’iyy-ül-icrâ tutulur. </p>
             </div>
-            <div n="117" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 117.</head>
-               <p xml:lang="ota-Latn-TR">Bir madde-i kanûniyenin tefsiri lâzım geldikte umûr-ı adliyeye müteallik ise
+            <div n="117" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_128.d2e1474">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_130.d2e1476">MADDE 117.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_135.d2e1479">Bir madde-i kanûniyenin tefsiri lâzım geldikte umûr-ı adliyeye müteallik ise
                   tâyin-i mânâsı Mahkeme-i Temyiz’e ve idâre-i mülkiyeye dair ise Şûrâ-yı Devlet’e
                   ve işbu Kanûn-ı Esâsî’den ise Hey’et-i Â’yân’a aittir. </p>
             </div>
-            <div n="118" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 118.</head>
-               <p xml:lang="ota-Latn-TR">Elyevm düstûr-ül-amel bulunan nizâmât ve teamül ve âdat ileride vaz’olunacak
+            <div n="118" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_129.d2e1483">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_131.d2e1485">MADDE 118.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_136.d2e1488">Elyevm düstûr-ül-amel bulunan nizâmât ve teamül ve âdat ileride vaz’olunacak
                   kavânîn ve nizâmât ile ta’dîl veya ilga olunmadıkça mer’iyy-ül-icrâ olacaktır.
                </p>
             </div>
-            <div n="119" type="article" xml:lang="ota-Latn-TR">
-               <head xml:lang="ota-Latn-TR">MADDE 119.</head>
-               <p xml:lang="ota-Latn-TR">Meclis-i Umûmî’ye dair olan fi 10 Şevval sene 93 tarihli Talimat-ı
+            <div n="119" type="article" xml:lang="ota-Latn-TR" change="#d2e325" xml:id="div_130.d2e1492">
+               <head xml:lang="ota-Latn-TR" change="#d2e325" xml:id="head_132.d2e1494">MADDE 119.</head>
+               <p xml:lang="ota-Latn-TR" change="#d2e325" xml:id="p_137.d2e1497">Meclis-i Umûmî’ye dair olan fi 10 Şevval sene 93 tarihli Talimat-ı
                   Muvakkate’nin cereyan-ı ahkâmı yalınız birinci defa içtima edecek Meclis-i
                   Umûmî’nin müddet-i in’ikadiyesi hitâmına kadar olup ondan sonra hükmü câri
                   değildir.</p>
             </div>
             </div>
 
-            <dateline xml:lang="ota-Latn-TR">Fi <date xml:lang="ota-Latn-TR">7 Zilhicce, sene 1293</date>.</dateline>
+            <dateline xml:lang="ota-Latn-TR" change="#d2e325" xml:id="dateline_1.d2e1502">Fi <date xml:lang="ota-Latn-TR" change="#d2e325" xml:id="date_10.d2e1504">7 Zilhicce, sene 1293</date>.</dateline>
          </div>
          <!--<div corresp="#law-ottoman-constitution-1876" type="bill" xml:lang="ota-Latn-TR">
             <head>Kanun-u Esasi</head>
