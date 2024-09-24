@@ -1,16 +1,17 @@
 ---
 title: "Read me: kanun-i-esasi"
 author: Till Grallert
-date: 2017-11-15 12:14:54 +0200
+date: 2024-09-24
 ORCID: orcid.org/0000-0002-5739-8094
 DOI: doi.org/
 licence: http://creativecommons.org/licenses/by-nd/4.0/
+lang: en
 markdown:
 - pandoc
 - CriticMarkup
 ---
 
-This repository contains editions of the Ottoman constitution of 1876/1908 in various languages (currently Ottoman, Arabic, and English).
+This repository contains partial editions of the Ottoman constitution of 1876/1908 in various languages (currently Ottoman, Arabic, and English). Digital texts were produced through manual transcription, OCR (Latin script), extraction from PDFs, and web scraping. All texts were marked-up following the TEI guidelines and serialised as XML. 
 
 
 # The Ottoman Constitution
