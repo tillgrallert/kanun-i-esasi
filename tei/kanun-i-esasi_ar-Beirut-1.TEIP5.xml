@@ -40,12 +40,12 @@
                          <title level="j" xml:lang="ar-Latn-x-ijmes" change="#d2e773" xml:id="title_7.d2e95">Thamarāt al-Funūn</title>
                          <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes" change="#d2e773" xml:id="title_8.d2e98">Inna hadhihi al-ṣaḥīfa ʿalā ḥawādith siyāsiyya wa-maḥalliyya wa-tijāra wa-funūn</title>
                          <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes" change="#d2e773" xml:id="title_9.d2e102">ṣudūruhā fī yawm al-khamīs min kull usbūʿ</title>
-                         <idno type="OCLC" xml:lang="en" change="#d2e773" xml:id="idno_1.d2e105">792755216</idno>
-                         <idno type="OCLC" xml:lang="en" change="#d2e773" xml:id="idno_2.d2e108">745202659</idno>
-                         <idno type="OCLC" xml:lang="en" change="#d2e773" xml:id="idno_3.d2e111">915538205</idno>
-                         <idno type="OCLC" xml:lang="en" change="#d2e773" xml:id="idno_4.d2e114">30431084</idno>
-                         <idno type="OCLC" xml:lang="en" change="#d2e773" xml:id="idno_5.d2e117">499946128</idno>
-                         <idno type="OCLC" xml:lang="en" change="#d2e773" xml:id="idno_6.d2e121">177646790</idno>
+                         <idno type="jaraid">t1r98</idno>
+                         <idno type="oape">62</idno>
+                         <idno type="wiki">Q124973713</idno>
+                         <idno source="oape:org:420" type="zdb">2804434-4</idno>
+                         <idno type="uri" subtype="self">https://github.com/OpenArabicPE/newspaper_thamarat-al-funun/tei/oclc_792755216-i_90.TEIP5.xml</idno>
+                         <idno type="url">https://libraries.aub.edu.lb/digital-collections/collection/thamarat-al-funun</idno>
                          <editor xml:lang="en" change="#d2e773" xml:id="editor_1.d2e124">
                              <persName xml:lang="ar" change="#d2e773" xml:id="persName_5.d2e126">
                                  <forename change="#d2e773 #d2e784" xml:id="forename_2.d2e128" xml:lang="ar">عبد القادر</forename>
